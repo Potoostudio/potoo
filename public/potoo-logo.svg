@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="117.233" height="154.438" viewBox="0 0 117.233 154.438">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.039" x2="0.5" y2="1.231" gradientUnits="objectBoundingBox">
+      <stop offset="0.282" stop-color="#654f2b"/>
+      <stop offset="0.483" stop-color="#e59a38"/>
+      <stop offset="0.772" stop-color="#f9c178"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.007" y1="0.991" x2="0.83" y2="-0.007" gradientUnits="objectBoundingBox">
+      <stop offset="0.055" stop-color="#00345e"/>
+      <stop offset="0.856" stop-color="#0068bc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.744" y1="-0.086" x2="0.047" y2="1.011" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0068bc"/>
+      <stop offset="0.056" stop-color="#0061af"/>
+      <stop offset="0.335" stop-color="#004274"/>
+      <stop offset="0.574" stop-color="#002b4a"/>
+      <stop offset="0.761" stop-color="#001e2f"/>
+      <stop offset="0.871" stop-color="#011926"/>
+    </linearGradient>
+  </defs>
+  <g id="potoo-logo" transform="translate(-2202.799 422.935)">
+    <circle id="Ellipse_56" data-name="Ellipse 56" cx="32.714" cy="32.714" r="32.714" transform="translate(2232.271 -401.014)" fill="url(#linear-gradient)"/>
+    <g id="Group_78" data-name="Group 78" transform="translate(2245.149 -389.921)">
+      <ellipse id="Ellipse_21" data-name="Ellipse 21" cx="20.552" cy="23.021" rx="20.552" ry="23.021" transform="translate(0)"/>
+      <circle id="Ellipse_22" data-name="Ellipse 22" cx="4.301" cy="4.301" r="4.301" transform="translate(29.546 20.41)" fill="#fff"/>
+      <circle id="Ellipse_23" data-name="Ellipse 23" cx="2.53" cy="2.53" r="2.53" transform="translate(14.828 34.739)" fill="#fff"/>
+      <circle id="Ellipse_24" data-name="Ellipse 24" cx="8.348" cy="8.348" r="8.348" transform="translate(0.579 3.876)" fill="#fff"/>
+    </g>
+    <path id="Path_166" data-name="Path 166" d="M2294.619,436.425q.454-.626.857-1.137A13.773,13.773,0,0,0,2294.619,436.425Z" transform="translate(-63.072 -737.422)" fill="#29abe2"/>
+    <path id="Path_167" data-name="Path 167" d="M2268.055,62.065a55.339,55.339,0,0,0-29.207,8.359,58.754,58.754,0,0,0-19.941,21.33c-.014.025-.028.048-.042.073-6.92,12.246-10.389,26.718-11.789,40.549-.028.272-.056.546-.082.818a155.005,155.005,0,0,0,1.135,38.664.057.057,0,0,1,0,.02,129.938,129.938,0,0,0,7.51,27.8q1.664,4.192,3.657,8.21c.221.445,1.19,2.739,2.123,4.766,0,0,0,0,0,.006,1.12,2.145,1.826,3.279,1.826,3.279h0c.661-15.5,6.373-25.592,9.929-30.515l.017-.025a13.959,13.959,0,0,1,.857-1.137.088.088,0,0,1,.014-.019c2.094-2.546,8.124-8.681,20.552-13.221a55.309,55.309,0,1,0,13.436-108.961Zm0,86.81a31.5,31.5,0,1,1,31.5-31.5A31.54,31.54,0,0,1,2268.055,148.875Z" transform="translate(-3.33 -485)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_168" data-name="Path 168" d="M2238.558,168.185s-1.68,5.041-1.96,6.441a46.279,46.279,0,0,0-.4,4.912s-22.848,30.932-13.327,99.82c0,0-.706-1.134-1.826-3.279,0,0,0,0,0-.005a120.666,120.666,0,0,1-5.78-12.977,145.6,145.6,0,0,1-7.51-27.8.053.053,0,0,0,0-.02,142.275,142.275,0,0,1-1.053-39.482s1.045-22.495,11.789-40.549c.014-.025-.018-.217,0-.242Z" transform="translate(-3 -547.855)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>

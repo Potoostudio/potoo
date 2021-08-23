@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125.858" height="125.861" viewBox="0 0 125.858 125.861">
+  <g id="Group_363" data-name="Group 363" transform="translate(-13 -13)">
+    <g id="Group_317" data-name="Group 317" transform="translate(-1868.717 -54.5)">
+      <g id="Ellipse_90" data-name="Ellipse 90" transform="translate(1920 103)" fill="none" stroke="#707070" stroke-width="3">
+        <circle cx="25" cy="25" r="25" stroke="none"/>
+        <circle cx="25" cy="25" r="23.5" fill="none"/>
+      </g>
+      <line id="Line_118" data-name="Line 118" y1="30.153" transform="translate(1944.646 67.5)" fill="none" stroke="#707070" stroke-width="3"/>
+      <line id="Line_119" data-name="Line 119" y1="30.153" transform="translate(1944.646 163.208)" fill="none" stroke="#707070" stroke-width="3"/>
+      <line id="Line_120" data-name="Line 120" y1="30.153" transform="matrix(0.574, -0.819, 0.819, 0.574, 1893.096, 92.627)" fill="none" stroke="#707070" stroke-width="3"/>
+      <line id="Line_121" data-name="Line 121" y1="30.153" transform="matrix(0.574, -0.819, 0.819, 0.574, 1971.497, 147.523)" fill="none" stroke="#707070" stroke-width="3"/>
+      <line id="Line_122" data-name="Line 122" y1="30.153" transform="matrix(0.574, -0.819, 0.819, 0.574, 1893.096, 92.627)" fill="none" stroke="#707070" stroke-width="3"/>
+      <line id="Line_123" data-name="Line 123" y1="30.153" transform="matrix(0.574, -0.819, 0.819, 0.574, 1971.497, 147.523)" fill="none" stroke="#707070" stroke-width="3"/>
+      <line id="Line_124" data-name="Line 124" y1="30.153" transform="translate(1881.717 130.43) rotate(-90)" fill="none" stroke="#707070" stroke-width="3"/>
+      <line id="Line_125" data-name="Line 125" y1="30.153" transform="translate(1977.423 130.43) rotate(-90)" fill="none" stroke="#707070" stroke-width="3"/>
+      <line id="Line_126" data-name="Line 126" y1="30.153" transform="translate(1900.147 174.929) rotate(-135)" fill="none" stroke="#707070" stroke-width="3"/>
+      <line id="Line_127" data-name="Line 127" y1="30.153" transform="translate(1967.823 107.253) rotate(-135)" fill="none" stroke="#707070" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

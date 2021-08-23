@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="354.75" height="611" viewBox="0 0 354.75 611">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.094" x2="0.5" y2="1.052" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c9fcff"/>
+      <stop offset="0.522" stop-color="#e7fee8"/>
+      <stop offset="1" stop-color="#ffffd6"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_391" data-name="Group 391" transform="translate(-234.377 -1317.68)">
+    <rect id="Rectangle_398" data-name="Rectangle 398" width="326" height="611" rx="46" transform="translate(263.127 1317.68)" fill="#645e5e"/>
+    <rect id="Rectangle_381" data-name="Rectangle 381" width="299.333" height="580" rx="34.493" transform="translate(276.46 1333.822)" stroke="#000" stroke-miterlimit="10" stroke-width="3" fill="url(#linear-gradient)"/>
+    <line id="Line_87" data-name="Line 87" x2="59" transform="translate(397.657 1902.107)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+    <text id="Be" transform="translate(340.066 1566.108)" font-size="32.551" font-family="SFPro-Semibold, SF Pro" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">Be</tspan></text>
+    <text id="Distinctive" transform="translate(340.066 1650.108)" font-size="32.551" font-family="SFPro-Semibold, SF Pro" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">Distinctive</tspan></text>
+    <text id="Visionary" transform="translate(340.066 1740.354)" font-size="32.551" font-family="SFPro-Semibold, SF Pro" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">Visionary</tspan></text>
+    <rect id="Rectangle_382" data-name="Rectangle 382" width="293" height="81" transform="translate(234.377 1427.322)" fill="#fff"/>
+    <text id="Stand_out" data-name="Stand out" transform="translate(340.066 1482.108)" font-size="32.551" font-family="SFPro-Semibold, SF Pro" font-weight="600" letter-spacing="0.075em"><tspan x="0" y="0">Stand out</tspan></text>
+    <g id="Group_177" data-name="Group 177" transform="translate(-100.623 1062.322)">
+      <path id="Path_10" data-name="Path 10" d="M418.49,301H416.5a9.521,9.521,0,0,0-9.5,9.5,9.333,9.333,0,0,0,.21,1.99A11,11,0,1,1,418.49,301Z" fill="#c12121"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="4" cy="4" r="4" transform="translate(410 304)" fill="#057f7f"/>
+    </g>
+    <line id="Line_88" data-name="Line 88" x1="13" transform="translate(543.877 1363.822)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_89" data-name="Line 89" x1="6" transform="translate(550.877 1367.822)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>
