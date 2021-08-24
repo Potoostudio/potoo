@@ -51,7 +51,7 @@ export default function Footer() {
                             </Link>
                         </div>
                         <div className="col-lg-1 col-4 text-center pt-5 pt-md-0">
-                            <Link href="/#">
+                            <Link href="https://www.instagram.com/potoo.studio/">
                                 <a  className="social-media-a">
                                     <Image
                                     src="/Instagram-icon.svg"
@@ -63,7 +63,7 @@ export default function Footer() {
                             </Link>
                         </div>
                         <div className="col-lg-1 col-4 text-center pt-5 pt-md-0">
-                            <Link href="/#">
+                            <Link href="https://dribbble.com/Potoo">
                                 <a  className="social-media-a">
                                     <Image
                                     src="/Dribbble-icon.svg"
