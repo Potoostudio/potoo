@@ -1048,16 +1048,16 @@ a {
       .shows-h1 {
         font-size: 9.1rem;
         display: block;
-        font-weight: 600;
+        font-weight: 500;
         padding-top: 13rem;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        background-image: -webkit-linear-gradient(180deg, #FFF, #51fff5);
-        background-image: -moz-linear-gradient(180deg, #FFF, #51fff5);
-        background-image: -webkit-gradient(linear, left top, right top, from(#FFF), to(#51fff5));
-        background-image: -webkit-linear-gradient(180deg, #FFF, #51fff5);
-        background-image: -moz-linear-gradient(180deg, #FFF, #51fff5);
-        background-image: linear-gradient(180deg, #FFF, #51fff5);
+        background-image: -webkit-linear-gradient(180deg, #FFF, #fff);
+        background-image: -moz-linear-gradient(180deg, #FFF, #fff);
+        background-image: -webkit-gradient(linear, left top, right top, from(#FFF), to(#fff));
+        background-image: -webkit-linear-gradient(180deg, #FFF, #fff);
+        background-image: -moz-linear-gradient(180deg, #FFF, #fff);
+        background-image: linear-gradient(180deg, #FFF, #fff);
 
       }
     }
@@ -1092,6 +1092,11 @@ a {
             font-size: 3rem;
             text-transform: uppercase;
             font-weight: 400;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(45deg, #fff, #e6e6e6, #FFF);
+            background-image: -moz-linear-gradient(45deg, #fff, #e6e6e6, #FFF);
+            background-image: linear-gradient(45deg, #fff, #e6e6e6, #FFF);
           }
         }
         .authenticity-li {
@@ -1104,6 +1109,11 @@ a {
             font-size: 3.1rem;
             font-weight: 200;
             text-transform: uppercase;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(45deg, #fff, #e6e6e6, #FFF);
+            background-image: -moz-linear-gradient(45deg, #fff, #e6e6e6, #FFF);
+            background-image: linear-gradient(45deg, #fff, #e6e6e6, #FFF);
           }
         }
         .Concept-li {
@@ -1116,6 +1126,11 @@ a {
             font-size: 2.5rem;
             font-weight: 200;
             text-transform: uppercase;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(45deg, #fff, #e6e6e6, #FFF);
+            background-image: -moz-linear-gradient(45deg, #fff, #e6e6e6, #FFF);
+            background-image: linear-gradient(45deg, #fff, #e6e6e6, #FFF);
           }
         }
         .vision-li {
@@ -1127,6 +1142,11 @@ a {
             font-size: 4.1rem;
             font-weight: 500;
             text-transform: uppercase;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(45deg, #fff, #e6e6e6, #FFF);
+            background-image: -moz-linear-gradient(45deg, #fff, #e6e6e6, #FFF);
+            background-image: linear-gradient(45deg, #fff, #e6e6e6, #FFF);
           }
         }
         .journey-li {
@@ -1139,6 +1159,11 @@ a {
             font-size: 2rem;
             font-weight: 200;
             text-transform: uppercase;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(45deg, #fff, #e6e6e6, #FFF);
+            background-image: -moz-linear-gradient(45deg, #fff, #e6e6e6, #FFF);
+            background-image: linear-gradient(45deg, #fff, #e6e6e6, #FFF);
           }
         }
         .transparency-li {
@@ -1150,6 +1175,11 @@ a {
             font-size: 2rem;
             font-weight: 400;
             text-transform: uppercase;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(45deg, #fff, #e6e6e6, #FFF);
+            background-image: -moz-linear-gradient(45deg, #fff, #e6e6e6, #FFF);
+            background-image: linear-gradient(45deg, #fff, #e6e6e6, #FFF);
           }
         }
       }
