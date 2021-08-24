@@ -134,7 +134,7 @@ export default function Home() {
                   Potoo is a visionary bird flying
                   over marvelous <span className="red-text">ideas</span> and 
                   <span className="red-text"> innovations</span> and host them on the 
-                  web nest 
+                  web 
                   </p>
                 </Parallax>
           </div>
@@ -196,7 +196,7 @@ export default function Home() {
        <div className="row justify-content-start pt-md-5">
          <div className="col-md-6 col-11 mb-md-4 mt-md-5 pl-md-5 ml-md-8r"> 
            <h2 className="create-impression-h2">
-             I create impression by
+             I create impressions by
            </h2>
          </div>
           <div className="col-md-7 col-10">
@@ -248,7 +248,7 @@ export default function Home() {
               {isShownPointOne && (
               <li className="item service-list-content-item">
                 Looking at branding 
-                as a puzzle. I put the 
+                as a puzzle. Putting the 
                 pieces together to make 
                 the big picture of your 
                 brand “it’s fun!”
@@ -272,7 +272,7 @@ export default function Home() {
               {isShownPointFour && (
               <li className="item service-list-content-item">
                 I have Nextjs, React, and 
-                Wordpress under our sleeves
+                Wordpress under my sleeves
                 to make perfect pixel websites
               </li>
               )}
@@ -293,7 +293,7 @@ export default function Home() {
            </h1>
            <p className="service-p">
               Look at branding 
-              as a puzzle. I put the 
+              as a puzzle. Putting the 
               pieces together to make 
               the big picture of your 
               brand “it’s fun!”
@@ -326,7 +326,7 @@ export default function Home() {
            </h1>
            <p className="service-p">
               I have Nextjs, React, and 
-              Wordpress under our sleeves
+              Wordpress under my sleeves
               to make perfect pixel applications
            </p>
          </div>
