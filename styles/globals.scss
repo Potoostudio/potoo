@@ -609,6 +609,10 @@ a {
     .waiting-for-projects {
       padding: 2rem;
       margin-top: 8rem;
+      border: 1px solid #fff;
+      border-radius: 100px;
+      width: 80%;
+      text-align: center;
     }
   }
   .text-right-mobile {
@@ -1822,6 +1826,12 @@ a {
     }
     .ml-md-8r {
       margin-left: 8rem;
+    }
+    .projects-container {
+
+      .waiting-for-projects {
+        width: 40%;
+      }
     }
   }
   

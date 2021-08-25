@@ -8,13 +8,13 @@ import Countdown from "react-countdown";
 
 const completedMsg = () => <span>Project is loading</span>
 
-const renderer = ({days, hours, minuts, seconds, completed}) => {
+const renderer = ({days, hours, minutes, seconds, completed}) => {
   if (completed) {
     return <completedMsg/>
   } else {
     return (
       <span>
-        {days} days and {hours} hours
+        {hours} : {minutes} : {seconds}
       </span>
     )
   }
@@ -41,9 +41,15 @@ export default function Projects() {
       <div className="container-fluid projects-container mw-1450 pt-lg-5 pb-lg-5 mt-md-5">
         <div className="row justify-content-around py-lg-5 my-lg-3">
           <h1 className="waiting-for-projects">
-            First project will be posted in <Countdown date={Date.now() + 1996070800} renderer={renderer}/>
+            <Countdown date={Date.now() + 19960708000000} renderer={renderer}/>
           </h1>
         </div>
+        <div className="row justify-content-around py-lg-5 my-lg-3">
+          <h1 className="finish-project-h1">
+              Until we finish our first project
+          </h1>
+        </div>
+
       </div>
     </>
   )
