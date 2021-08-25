@@ -128,7 +128,7 @@ export default function Home() {
       </div>
      <div className="container design-container mw-1450">
         <div className="row justify-content-md-start justify-content-end">
-          <div className="col-lg-6 col-md-7 col-11 homepage-design-col text-center pl-md-5 ml-md-5">
+          <div className="col-lg-6 col-md-7 col-11 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-5 mt-4">
                 <Parallax speed={2} > 
                   <p className="design-p text-left pl-md-2">
                   Potoo is a visionary bird flying
