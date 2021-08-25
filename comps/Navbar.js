@@ -76,14 +76,16 @@ function toggle() {
             {/* {isOpened && ( */}
             <div className={`menu-list ${isActive ? 'activeNav' : ''}`}>
               <ul className="list header-list">
-                <li className="item">
+                <li className="item"
+                onClick={toggle}>
                   <Link href="/design">
                     <a className="mobile-navBar-item design-a">
                     Design &amp; Code
                     </a>
                   </Link>
                 </li>
-                <li className="item">
+                <li className="item"
+                onClick={toggle}>
                   <Link href="/projects">
                     <a className="mobile-navBar-item code-a">
                       Projects

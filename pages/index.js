@@ -181,22 +181,22 @@ export default function Home() {
         <div className="row justify-content-end mw-1190">
             <div className="col-md-7 col-9 mr-md-5 pr-md-5">
                 <h1 className="impression-h1 text-right-mobile">
-                  impression
+                  impression<span>,</span>
                 </h1>
             </div>
         </div>
         <div className="row justify-content-center pt-md-5 mt-md-5 pt-3 mb-5">
           <div className="col-md-8 col-12">
             <h2 className="impression-is-h2">
-              is diverse and decidedly different
+              diverse and decidedly different
             </h2>
           </div>
         </div>
      <div className="container-fluid service-container mw-1450 pt-md-5 mt-md-5">
        <div className="row justify-content-start pt-md-5">
-         <div className="col-md-6 col-11 mb-md-4 mt-md-5 pl-md-5 ml-md-8r"> 
+         <div className="col-md-8 col-11 mb-md-4 mt-md-5 pl-md-5 ml-md-8r"> 
            <h2 className="create-impression-h2">
-             I create impressions by
+             We create impressions by
            </h2>
          </div>
           <div className="col-md-7 col-10">
@@ -248,16 +248,16 @@ export default function Home() {
               {isShownPointOne && (
               <li className="item service-list-content-item">
                 Looking at branding 
-                as a puzzle. Putting the 
+                as a puzzle; putting the 
                 pieces together to make 
                 the big picture of your 
-                brand “it’s fun!”
+                brand. “It’s fun!”
               </li>
               )}
               {isShownPointTwo && (
               <li className="item service-list-content-item">
-                I spend most of 
-                my time in Illustrator 
+                We spend most of 
+                our time in Illustrator 
                 making cool, bold designs
               </li>
               )}
@@ -271,8 +271,8 @@ export default function Home() {
               )}
               {isShownPointFour && (
               <li className="item service-list-content-item">
-                I have Nextjs, React, and 
-                Wordpress under my sleeves
+                We have Nextjs, React, and 
+                Wordpress under our sleeves
                 to make perfect pixel websites
               </li>
               )}
@@ -284,7 +284,7 @@ export default function Home() {
        <div className="row justify-content-start">
        <div className="col-md-6 col-12 mb-4 mt-5 pt-5"> 
            <h2 className="create-impression-h2">
-             I create impression by
+             We create impression by
            </h2>
          </div>
          <div className="col-11 service-1-col">
@@ -293,10 +293,10 @@ export default function Home() {
            </h1>
            <p className="service-p">
               Look at branding 
-              as a puzzle. Putting the 
+              as a puzzle; putting the 
               pieces together to make 
               the big picture of your 
-              brand “it’s fun!”
+              brand. “It’s fun!”
            </p>
          </div>
          <div className="col-11 service-2-col">
@@ -304,8 +304,8 @@ export default function Home() {
               Web design
            </h1>
            <p className="service-p">
-              I spend most of 
-              my time in Illustrator 
+              We spend most of 
+              our time in Illustrator 
               making cool, bold designs
            </p>
          </div>
@@ -325,7 +325,7 @@ export default function Home() {
               Web development
            </h1>
            <p className="service-p">
-              I have Nextjs, React, and 
+              We have Nextjs, React, and 
               Wordpress under my sleeves
               to make perfect pixel applications
            </p>
