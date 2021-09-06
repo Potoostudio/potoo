@@ -161,11 +161,11 @@ export default function Projects() {
             <Countdown date={Date.now() + 19960708000000} renderer={renderer}/>
           </h1> */}
         </div>
-        <div className="row justify-content-around py-lg-5 my-lg-3">
+        {/* <div className="row justify-content-around py-lg-5 my-lg-3">
           <h1 className="finish-project-h1">
               Until we finish our first project
           </h1>
-        </div>
+        </div> */}
 
       </div>
     </>
