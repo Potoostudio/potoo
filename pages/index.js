@@ -30,6 +30,7 @@ export default function Home() {
       <Head>
         <title>Potoo Studio</title>
         <link rel="icon" href="favicon.ico" />
+        <link rel="manifest" href="/manifest.json"/>
       </Head>
       <div className="container-fluid home-page-container mw-1450 pt-lg-5 pb-lg-5 mt-lg-5">
         <div className="row justify-content-around">
