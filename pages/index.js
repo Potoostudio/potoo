@@ -31,6 +31,11 @@ export default function Home() {
         <title>Potoo Studio</title>
         <link rel="icon" href="favicon.ico" />
         <link rel="manifest" href="/manifest.json"/>
+        <meta name="description" content="Potoo Studio | creative designs, branding, and website development"/>
+        <meta property="og:title" content="Potoo Studio" />
+        <meta property="og:description" content="Potoo Studio | creative designs, branding, and website development"/>
+        <meta property="og:url" content="https://potoo.studio" />
+        <meta property="og:type" content="website" />
       </Head>
       <div className="container-fluid home-page-container mw-1450 pt-lg-5 pb-lg-5 mt-lg-5">
         <div className="row justify-content-around">
@@ -134,7 +139,7 @@ export default function Home() {
                   <p className="design-p text-left pl-md-2">
                   Potoo is a visionary bird flying
                   over marvelous <span className="red-text">ideas</span> and 
-                  <span className="red-text"> innovations</span> and host them on the 
+                  <span className="red-text"> <span className="nnovation"></span>nnovations</span> and host them on the 
                   web 
                   </p>
                 </Parallax>

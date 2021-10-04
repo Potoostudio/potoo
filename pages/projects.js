@@ -35,8 +35,14 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Potoo</title>
-        <link rel="icon" href="/favicon.ico" />
+	  	<title>Potoo Studio | Projects</title>
+        <link rel="icon" href="favicon.ico" />
+        <link rel="manifest" href="/manifest.json"/>
+        <meta name="description" content="Potoo Studio | Branding, websites, and design projects"/>
+        <meta property="og:title" content="Potoo Studio | Projects, Denver" />
+        <meta property="og:description" content="Potoo Studio | Branding, websites, and design projects in Denver"/>
+        <meta property="og:url" content="https://potoo.studio/projects" />
+        <meta property="og:type" content="website" />
       </Head>
       <div className="container-fluid projects-container mw-1450 pt-lg-0 pb-lg-5 m0-md-5">
         <div className="row justify-content-around py-lg-5 my-lg-3">

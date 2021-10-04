@@ -262,7 +262,7 @@ a {
          padding-left: 4rem;
 
          .red-text {
-           color: #fc002a;
+           color: #ffd700;
          }
        }
       }
@@ -1481,7 +1481,21 @@ a {
       line-height: 58px;
       padding: 5rem 3rem;
       .red-text {
-        color: #fc002a;
+        color: #ffd700;
+        font-size: 5.6rem;
+      }
+      .nnovation {
+        position: relative;
+        padding-left: 1rem;
+        &::before {
+          content: "";
+          width: 7.5px;
+          height: 86px;
+          background-color: #ffd700;
+          position: absolute;
+          left: 7px;
+          top: 0px;
+        }
       }
     }
 

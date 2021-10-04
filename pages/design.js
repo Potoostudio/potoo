@@ -13,8 +13,14 @@ function Design() {
   return (
     <>
       <Head>
-        <title>Potoo | Design</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Potoo Studio | Design</title>
+        <link rel="icon" href="favicon.ico" />
+        <link rel="manifest" href="/manifest.json"/>
+        <meta name="description" content="Potoo Studio | creative logos, brand, webpages, and brochures"/>
+        <meta property="og:title" content="Potoo Studio | Design" />
+        <meta property="og:description" content="Potoo Studio | creative logos, brand, webpages, and brochures"/>
+        <meta property="og:url" content="https://potoo.studio/design" />
+        <meta property="og:type" content="website" />
       </Head>
       <div className="container-fluid design-first-container mw-1200px mt-md-5">
         <div className="row justify-content-center">
@@ -94,7 +100,7 @@ function Design() {
         <div className="row justify-content-end pt-lg-4 mt-lg-3 pt-5 pb-lg-4">
             <div className="col-md-5 col-12 pr-md-auto">
                 <h5 className="code-p custom-h5   ">
-                    and code rememberable <spam className="ls-15">pictures</spam>
+                    and code remarkable <span className="ls-15">pictures</span>
                 </h5>
             </div>
             <div className="col-md-6 col-12 pr-0 text-md-right">
