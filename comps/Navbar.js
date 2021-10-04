@@ -66,7 +66,7 @@ function toggle() {
                 </a>
               </Link>
             </div>
-            <div className="hamburger-menu col-3"
+            <div className="hamburger-menu col-3" aria-label="menu"
               onClick={toggle}>
               <div className={`menu-icon ${isActive ? 'activeNav' : ''}`}>
                 <span className="line-1"></span>

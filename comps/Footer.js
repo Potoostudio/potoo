@@ -43,7 +43,7 @@ export default function Footer() {
                     </h1>
                     <div className="row justify-content-md-around justify-content-center pb-4 pt-4 pt-lg-4 pb-lg-2 mt-lg-2 mt-3 phone-email-row">
                         <div className="col-lg-4 col-12 text-md-left text-center">
-                            <Link href="mailto:ideas@potoo.studio">
+                            <Link href="mailto:ideas@potoo.studio" aria-label="email">
                                 <a className="say-hello-a pb-lg-2">
                                     hello@potoo.studio
                                     <span className="bottom-line"></span>
@@ -51,7 +51,7 @@ export default function Footer() {
                             </Link>
                         </div>
                         <div className="col-lg-1 col-4 text-center pt-5 pt-md-0">
-                            <Link href="https://www.instagram.com/potoo.studio/">
+                            <Link href="https://www.instagram.com/potoo.studio/" aria-label="instagram">
                                 <a  className="social-media-a">
                                     <Image
                                     src="/Instagram-icon.svg"
@@ -63,7 +63,7 @@ export default function Footer() {
                             </Link>
                         </div>
                         <div className="col-lg-1 col-4 text-center pt-5 pt-md-0">
-                            <Link href="https://dribbble.com/Potoo">
+                            <Link href="https://dribbble.com/Potoo" aria-label="dribbble">
                                 <a  className="social-media-a">
                                     <Image
                                     src="/Dribbble-icon.svg"
@@ -75,7 +75,7 @@ export default function Footer() {
                             </Link>
                         </div>
                         <div className="col-lg-4 col-12 text-md-right pt-4 pt-md-0">
-                            <Link href="tel:3202604416">
+                            <Link href="tel:3202604416" aria-label="phone">
                                 <a className="say-hello-a pb-lg-2">
                                     +1 320 260 4416
                                     <span className="bottom-line"></span>
