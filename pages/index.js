@@ -342,7 +342,7 @@ export default function Home() {
          <div className="row justify-content-start">
           <div className="col-md-6 col-11 pt-md-5 mt-md-5 potoo-vision-col ml-md-5">
             <p className="potoo-vision-text">
-              Nesting impressions on the web
+              Nesting impression on the web
             </p>
           </div>
          </div>
