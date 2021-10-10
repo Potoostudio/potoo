@@ -51,7 +51,7 @@ export default function Footer() {
                             </Link>
                         </div>
                         <div className="col-lg-1 col-4 text-center pt-5 pt-md-0">
-                            <Link href="https://www.instagram.com/potoo.studio/" aria-label="instagram">
+                            <Link href="https://www.instagram.com/potoostudio/" aria-label="instagram">
                                 <a  className="social-media-a">
                                     <Image
                                     src="/Instagram-icon.svg"

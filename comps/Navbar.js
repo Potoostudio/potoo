@@ -45,7 +45,7 @@ function toggle() {
                   </Link>
                   <Link href="/projects">
                     <a className="bottom-menu-h5 code-a">
-                      Projects
+                      Work
                     </a>
                   </Link>
               </div>
