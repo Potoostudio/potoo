@@ -9,45 +9,47 @@ import { useRouter } from 'next/router'
 import * as ga from './api/ga'
 
 
-const MyApp = ({ Component, pageProps }) => {
-  const [isMounted, setIsMounted] = useState(false)
-  const darkMode = darkTheme(true)
-  const theme = darkMode.value ? darkTheme : lightTheme
+function MyApp({ Component, pageProps }) {
 
-  useEffect(() => {
-    setIsMounted(true)
-  }, [])
+  const router = useRouter()
 
+      useEffect(() => {
+    const handleRouteChange = (url) => {
+      ga.pageview(url)
+    }
+    //When the component is mounted, subscribe to router changes
+    //and log those page views
+    router.events.on('routeChangeComplete', handleRouteChange)
+
+    // If the component is unmounted, unsubscribe
+    // from the event with the `off` method
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [router.events])
+
+  const [isActive, setActive] = useState("false");
+  
+  const [theme, setTheme] = useState("dark");
+  
+  
+  const toggleTheme = () => {
+    theme == 'dark' ? setTheme('light') : setTheme('dark')
+    setActive(!isActive);
+}
+  
   return (
-    <ThemeProvider theme={theme}>
-      <button onClick={darkMode.enable}>DARK MODE</button>
-      <button onClick={darkMode.disable}>LIGHT MODE</button>
-      {isMounted && <Component {...pageProps} />}
+    <ThemeProvider theme={theme =='dark' ? darkTheme : lightTheme}>
+      <GlobalStyles/>
+        <Layout>
+          <button className={isActive ? "mode-btn dark" : "mode-btn light"} onClick={toggleTheme}><span className="mode-icon"></span></button>
+        <Component {...pageProps} />
+      </Layout>
     </ThemeProvider>
+    
   )
+    return <Component {...pageProps} />
 }
 
 
-// function MyApp({ Component, pageProps }) {
-//   const router = useRouter()
-
-//   useEffect(() => {
-//     const handleRouteChange = (url) => {
-//       ga.pageview(url)
-//     }
-//     //When the component is mounted, subscribe to router changes
-//     //and log those page views
-//     router.events.on('routeChangeComplete', handleRouteChange)
-
-//     // If the component is unmounted, unsubscribe
-//     // from the event with the `off` method
-//     return () => {
-//       router.events.off('routeChangeComplete', handleRouteChange)
-//     }
-//   }, [router.events])
-
-//   return <Component {...pageProps} />
-  
-// }
-
-export default MyApp
+export default MyApp;
