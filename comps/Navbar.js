@@ -15,6 +15,21 @@ function toggle() {
 
       return (
         <>
+        {/* script for google analytics */}
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}" >
+        </script>
+        <script dangerouslySetInnerHTML={
+            { __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){window.dataLayer.push(arguments)}
+                gtag("js", new Date());
+                gtag("config", ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS});
+            `}
+        }>
+
+        </script>
         <motion.div
         initial={{y:-100}}
         animate={{y: 0}}
