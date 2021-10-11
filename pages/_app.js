@@ -25,7 +25,9 @@ function MyApp({ Component, pageProps }) {
     // from the event with the `off` method
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange)
+      
     }
+    <Component {...pageProps} />
   }, [router.events])
 
   const [isActive, setActive] = useState("false");
@@ -48,7 +50,6 @@ function MyApp({ Component, pageProps }) {
     </ThemeProvider>
     
   )
-    return <Component {...pageProps} />
 }
 
 
