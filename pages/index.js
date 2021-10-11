@@ -139,7 +139,7 @@ export default function Home() {
                   <p className="design-p text-left pl-md-2">
                   Potoo is a visionary bird flying
                   over marvelous <span className="red-text">ideas</span> and 
-                  <span className="red-text"> <span className="nnovation"></span>nnovations</span> and host them on the 
+                  <span className="red-text"> <span className="nnovation"></span>nnovations</span>, hosting them on the 
                   web 
                   </p>
                 </Parallax>
