@@ -776,6 +776,21 @@ a {
       z-index: -1123;
     }
   }
+  .co-container {
+    .co-list {
+      list-style: none;
+      display: flex;
+      padding-left: 0;
+
+      .co-made-p {
+        line-height: 1.5rem;
+
+        .co-made {
+          font-size: .8rem;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 669px) {
