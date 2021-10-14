@@ -28,16 +28,17 @@ a {
     .mobile-header {
 
       .header-box {
+        max-height: 130px;
 
         .logo-box {
 
           .potoo-logo-a {
-            padding: 2vh 0 0 1vw;
+            padding: 1.9rem 1.9rem 0 1.9rem;
           }
         }
         .hamburger-menu {
           width: 45px!important;
-          height: 145px;
+          height: 125px;
           display: flex;
           align-items: right;
           justify-content: end;
@@ -48,12 +49,12 @@ a {
           .menu-icon {
             display: grid;
             place-items: center;
-            height: 35px;
-            width: 50px;
+            height: 22px;
+            width: 28px;
             cursor: pointer;
             z-index: 1111;
             position: absolute;
-            top: 32%;
+            top: 30%;
 
             &.activeNav span:nth-child(1) {
               justify-self: start;
@@ -66,11 +67,11 @@ a {
     
             & span {
               width: 80px;
-              height: 3px;
+              height: 1.6px;
               display: block;
             }
             .line-1 {
-              width: 30px;
+              width: 18px;
               justify-self: end;
               background-color: rgb(243, 52, 52);
               transition: background-color 0.6s, justify-self 0.8s linear;
@@ -78,7 +79,7 @@ a {
 
             }
             .line-2 {
-              width: 30px;
+              width: 18px;
               justify-self: start;
               background-color: rgb(245, 245, 245);
               transition: background-color 0.6s, justify-self 0.8s linear;
@@ -129,6 +130,10 @@ a {
                 padding: 1rem 0;
                 font-size: 1.8rem;
                 color: #222;
+
+                &:hover {
+                  text-decoration: none;
+                }
               }
             }
           }
@@ -265,11 +270,10 @@ a {
       }
     }
     .design-container {
-      margin-top: 2rem;
-      padding-top: 5rem;
-      padding-bottom: 8rem;
+      margin-top: 0rem;
+      padding-top: 0rem;
+      padding-bottom: 0rem;
       border-top: none;
-      overflow-x: hidden;
 
       .homepage-design-col {
 
@@ -364,8 +368,8 @@ a {
       }
     }
     .row-project-images {
-      margin-bottom: 8rem;
-      margin-top: 10rem;
+      margin-bottom: 1rem;
+      margin-top: 9rem;
 
       .work-p {
         text-align: left;

@@ -39,7 +39,7 @@ export default function Home() {
       </Head>
       <div className="container-fluid home-page-container mw-1450 pt-lg-5 pb-lg-5 mt-lg-5">
         <div className="row justify-content-around">
-          <div className="col-lg-4 col-12 pl-lg-4 pr-lg-0 pt-md-5 pb-md-3 pt-3 pb-5 text-center shows-h1-col">
+          <div className="col-lg-4 col-12 pl-lg-4 pr-lg-0 pt-md-5 pb-md-3 pt-3 pb-0 pt-4 text-center shows-h1-col">
             <motion.div
             initial={{opacity: 0}}
             animate={{opacity: 1}}
