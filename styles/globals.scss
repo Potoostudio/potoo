@@ -90,7 +90,7 @@ a {
           top: 0;
           width: 100%;
           height: 45vh;
-          background-color: #f5df4d;
+          background-color: #e2bd26;
           z-index: 111;
           transition: all 0.4s ease-in-out 0s, visibility 0s linear 0.4s, z-index 0s linear 0.01s;
           visibility: hidden;
@@ -279,16 +279,6 @@ a {
             color: #ffd700;
             font-size: 3.9rem;
           }
-          .nnovation {
-            position: relative;
-            padding-left: 1rem;
-            &::before {
-              content: "i";
-              position: absolute;
-              left: 0vw;
-              top: 2vh;
-            }
-          }
         }
       }
       .ideas-row {
@@ -297,24 +287,23 @@ a {
 
         .ideas-list {
           list-style: none;
+          padding-left: 0;
+          text-align: right;
           
           .item-one {
             font-size: 4rem;
             line-height: 4rem;
             cursor: default;
-            text-align: right;
           }
           .item-two {
-            font-size: 5rem;
+            font-size: 4rem;
             line-height: 5rem;
             letter-spacing: 2px;
             padding-left: 0;
-            text-align: right;
            }
            .item-three {
-            font-size: 3.7rem;
-            line-height: 5rem;
-             text-align: right;
+            font-size: 3.9rem;
+            line-height: 4.76rem;
              cursor: default;
              letter-spacing: 0px;
               display: inline-block;
@@ -373,7 +362,7 @@ a {
       }
     }
     .row-project-images {
-      margin-bottom: 12rem;
+      margin-bottom: 8rem;
       margin-top: 10rem;
 
       .work-p {
@@ -785,6 +774,18 @@ a {
 
 @media only screen and (min-width: 669px) {
 
+  .mobile-header {
+
+    .header-box {
+
+      .logo-box {
+
+        .potoo-logo-a {
+          padding: 2vh 0 0 8vw;
+        }
+      }
+    }
+  }
   .mode-btn {
     position: absolute;
     top: 7%;
@@ -1073,16 +1074,6 @@ a {
         .red-text {
           color: #ffd700;
           font-size: 4.32rem;
-        }
-        .nnovation {
-          position: relative;
-          padding-left: 1rem;
-          &::before {
-            content: "i";
-              position: absolute;
-              left: 0vw;
-              top: 1.3vh;
-          }
         }
       }
     }
@@ -1746,21 +1737,8 @@ a {
         padding: 5rem 3rem;
         .red-text {
           color: #ffd700;
-          font-size: 6.6rem;
+          font-size: 5.6rem;
           line-height: 6rem;
-        }
-        .nnovation {
-          position: relative;
-          padding-left: 1rem;
-          &::before {
-            content: "";
-            width: 0.58rem;
-            height: 6.4rem;
-            background-color: #ffd700;
-            position: absolute;
-            left: 0.62vw;
-            top: 0vh;
-          }
         }
       }
     }
