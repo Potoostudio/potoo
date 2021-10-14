@@ -39,7 +39,7 @@ export default function Home() {
       </Head>
       <div className="container-fluid home-page-container mw-1450 pt-lg-5 pb-lg-5 mt-lg-5">
         <div className="row justify-content-around">
-          <div className="col-lg-4 col-12 pl-lg-4 pr-lg-0 pt-lg-0 pb-lg-5 pt-3 pb-5 text-center shows-h1-col">
+          <div className="col-lg-4 col-12 pl-lg-4 pr-lg-0 pt-md-5 pb-md-3 pt-3 pb-5 text-center shows-h1-col">
             <motion.div
             initial={{opacity: 0}}
             animate={{opacity: 1}}
@@ -52,9 +52,15 @@ export default function Home() {
             </motion.div>
           </div>
           <div className="col-lg-7 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg">
-            <div className="row justify-content-center w-100 h-100">
-              <div className="col-lg-12">
-                <ul className="homepage-list list">
+            <div className="row justify-content-center">
+              <div className="col-12">
+                {/* <Image
+                src="/your-bg.jpg"
+                width="910px"
+                height="467px"
+                alt="show elements"
+                /> */}
+                {/* <ul className="homepage-list list">
                   <li className="homepage-item item innovation-li">
                    <motion.div
                     initial={{x : -25, y: 1}}
@@ -126,23 +132,21 @@ export default function Home() {
                       Transparency
                     </h2>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
         </div>
       </div>
      <div className="container design-container mw-1450">
-        <div className="row justify-content-md-start justify-content-end">
-          <div className="col-lg-6 col-md-7 col-11 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-5 mt-4">
-                <Parallax speed={2} > 
+        <div className="row justify-content-start">
+          <div className="col-md-7 col-11 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-2 mt-4">
                   <p className="design-p text-left pl-md-2">
                   Potoo is a visionary bird flying
                   over marvelous <span className="red-text">ideas</span> and 
                   <span className="red-text"> <span className="nnovation"></span>nnovations</span>, hosting them on the 
                   web 
                   </p>
-                </Parallax>
           </div>
         </div>
         <div className="row ideas-row justify-content-center">
@@ -161,25 +165,6 @@ export default function Home() {
               </ul>
         </div>
         </div>
-        {/* <div className="row row-wow justify-content-md-end justify-content-mobile-center mw-1190">
-          <div className="col-md-11 col-12 wow-col">
-            <p className="wow-imporession"><span className="a-in-wow">a</span>WOW</p>
-          </div>
-        </div>
-        <div className="row justify-content-end mw-1190">
-            <div className="col-md-11 col-9">
-                <h1 className="impression-h1 text-right-mobile">
-                  impression<span>,</span>
-                </h1>
-            </div>
-        </div>
-        <div className="row mw-1190 justify-content-end pt-md-3">
-          <div className="col-md-11 col-12">
-            <h2 className="impression-is-h2 text-right">
-              diverse and decidedly different
-            </h2>
-          </div>
-        </div> */}
         <div className="row row-project-images pt-md-5 mt-md-5 justify-content-center">
           <div className="col-10">
               <p className="work-p">Work</p>

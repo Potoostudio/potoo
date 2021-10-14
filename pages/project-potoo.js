@@ -54,18 +54,18 @@ export default function Projects() {
           </div>
           <div className="row justify-content-start row-project-info pt-5 mt-4">
            <div className="col-10 pt-4 pl-md-5">
-            <div className="project-statement pt-5">
+            <div className="project-statement pt-md-5">
               <p className="">
                 We are a creative design studio established in 2021.
               </p>
             </div>
-            <div className="project-concept pt-5">
+            <div className="project-concept pt-md-5 pt-3">
               <p className="concept">
                 Huge eyes are capable of spotting impressions and a wide and gaping mouth to
                 display extraordinary reactions.
               </p>
             </div>
-            <div className="project-more-info pt-5">
+            <div className="project-more-info pt-md-5 pt-3">
               <p className="more-info">
                 We like to break the law of the usual and go beyond the ordinary to create impressions.
               </p>
@@ -91,7 +91,7 @@ export default function Projects() {
            </div>
           </div>
           <div className="row justify-content-center we-do-it-row">
-            <div className="we-do-it-with-style-col col-4">
+            <div className="we-do-it-with-style-col col-md-4 col-11">
               <p className="we-do-it">we do it <span className="with"> with</span></p>
               <p className="style">style</p>
             </div>
