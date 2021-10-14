@@ -29,10 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/design": [
+    "/project-potoo": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/design.js"
+      "static/chunks/pages/project-potoo.js"
     ]
   },
   "ampFirstPages": []

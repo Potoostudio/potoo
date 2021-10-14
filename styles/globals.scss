@@ -74,6 +74,7 @@ a {
               justify-self: end;
               background-color: rgb(243, 52, 52);
               transition: background-color 0.6s, justify-self 0.8s linear;
+              border-radius: 50px;
 
             }
             .line-2 {
@@ -81,6 +82,7 @@ a {
               justify-self: start;
               background-color: rgb(245, 245, 245);
               transition: background-color 0.6s, justify-self 0.8s linear;
+              border-radius: 50px;
             }
           }
         }
@@ -1969,6 +1971,10 @@ a {
           right: 0;
           border-radius: 0;
         }
+        .footer-impression {
+          font-size: 10.1rem;
+          bottom: 0%;
+        }
       }
       .say-hello-a {
         text-decoration: none;
@@ -2213,8 +2219,8 @@ a {
           text-align: center;
 
           .we-do-it {
-            font-size: 24px;
-            letter-spacing: 33px;
+            font-size: 1.5rem;
+            letter-spacing: 2.057rem;
             
             .with {
               letter-spacing: 2px;
