@@ -1,38 +1,10 @@
 import Image from 'next/image'
 import React, {useState} from 'react'
 import Link from 'next/link'
-import { useForm } from 'react-hook-form';
-import axios from 'axios';
-import {useRouter} from 'next/router'
 
 
 export default function Footer() {
 
-    // const {register, handleSubmit, formState: {errors}, reset} = useForm();
-
-    // const router = useRouter()
-
-    // async function onSubmitForm(values) {
-    //     let config = {
-    //         method: 'post',
-    //         url: `${process.env.NEXT_PUBLIC_API_URL}/api/contact`,
-    //         headers: {
-    //             'Content-Type': 'application/json',
-    //         },
-    //         data: values,
-    //     };
-
-    //     try {
-    //         const response = await axios(config);
-    //         if(response.status == 200) {
-    //             reset()
-    //             router.push("/")
-    //         }
-    //     } catch (err) {
-    //         console.error(err);
-    //     }
-    // }
-    
       return (
           <>
         <div className="container-fluid footer-container">
