@@ -138,7 +138,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-     <div className="container design-container mw-1450">
+     <div className="container design-container mw-1450 pt-5 mt-5 pt-md-1 mt-md-1">
         <div className="row justify-content-start">
           <div className="col-md-7 col-11 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-2 mt-4">
                   <p className="design-p text-left pl-md-2">
@@ -165,7 +165,7 @@ export default function Home() {
               </ul>
         </div>
         </div>
-        <div className="row row-project-images pt-md-5 mt-md-5 justify-content-center">
+        <div className="row row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
           <div className="col-10">
               <p className="work-p">Work</p>
               <ul className="project-list-image-list">
