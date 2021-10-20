@@ -142,7 +142,7 @@ export default function Home() {
         <div className="row justify-content-start">
           <div className="col-md-7 col-11 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-2 mt-4">
                   <p className="design-p text-left pl-md-2">
-                  Potoo is a visionary bird flying
+                  Potoo, a visionary bird flying
                   over marvelous <span className="red-text">ideas</span> and 
                   <span className="red-text"> <span className="nnovation"></span>innovations</span>, hosting them on the 
                   web 
