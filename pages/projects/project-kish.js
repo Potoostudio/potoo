@@ -44,7 +44,7 @@ export default function Projects() {
           </div>
           <div className="row justify-content-center pt-0 mt-0">
            <div className="col-11 text-center">
-           <iframe width="1220" height="1176" src="https://xd.adobe.com/embed/166aa574-fe8a-4fce-a363-24797c445843-4339/?fullscreen" frameBorder="0" allowFullScreen></iframe>
+           <iframe width="1220" height="1176" src="https://xd.adobe.com/embed/fac1e2d1-bc47-4053-9313-d3049f0136e2-af92/" frameBorder="0" allowFullScreen></iframe>
            </div>
           </div>
       </div>
