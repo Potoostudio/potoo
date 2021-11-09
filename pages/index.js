@@ -138,7 +138,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-     <div className="container design-container mw-1450 pt-5 mt-5 pt-md-1 mt-md-1">
+     <div className="container design-container mw-1450 pt-5 mt-5 pt-md-5 mt-md-5">
         <div className="row justify-content-start">
           <div className="col-md-7 col-11 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-2 mt-4">
                   <p className="design-p text-left pl-md-2">
@@ -151,8 +151,16 @@ export default function Home() {
         </div>
         <div className="row ideas-row justify-content-center">
           <div className="col-md-11 col-12">
-            {/* <Parallax speed={1}>  */}
-              <ul className="list ideas-list">
+            {/* <h1 className="ideas-impressions-h1">
+              We convert ideas to impressions
+            </h1> */}
+            <Image 
+            src="/ideas-to-impressions.jpg"
+            height="750px"
+            width="1400px"
+            alt="ideas-to-impressions"
+            />
+              {/* <ul className="list ideas-list">
                 <li className="item idea-item item-one">
                   idea<span className="text-yellow">s</span>
                 </li>
@@ -162,11 +170,11 @@ export default function Home() {
                 <li className="item idea-item item-three">
                   impression<span className="text-yellow">s</span>
                 </li>
-              </ul>
+              </ul> */}
         </div>
         </div>
         <div className="row row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
-          <div className="col-10">
+          <div className="col-11">
               <p className="work-p">Work</p>
               <ul className="project-list-image-list">
                 <li className="item project-image-item">
@@ -196,7 +204,7 @@ export default function Home() {
         </div>
      <div className="container-fluid service-container mw-1450 pt-md-5 mt-md-5">
        <div className="row justify-content-start pt-md-5">
-         <div className="col-md-11 col-11 mb-md-4 mt-md-5 pl-md-5 ml-md-8r"> 
+         <div className="col-md-11 col-11 mb-md-4 mt-md-5 pl-md-5"> 
            <h2 className="create-impression-h2">
              We create impressions by
            </h2>
@@ -258,17 +266,17 @@ export default function Home() {
               )}
               {isShownPointTwo && (
               <li className="item service-list-content-item">
-                We spend most of 
-                our time in Illustrator 
-                making cool, bold designs
+                Think of web design
+                as writing your inspirational 
+                story on a board on the 
+                web
               </li>
               )}
               {isShownPointThree && (
               <li className="item service-list-content-item">
-                Think of web design
-                as writing a inspirational 
-                story on a board on the 
-                web
+                We spend most of 
+                our time in Illustrator 
+                making cool, bold designs
               </li>
               )}
               {isShownPointFour && (
@@ -306,9 +314,10 @@ export default function Home() {
               Web design
            </h1>
            <p className="service-p">
-              We spend most of 
-              our time in Illustrator 
-              making cool, bold designs
+              Think of web design
+              as writing a inspirational 
+              story on a board on the 
+              web
            </p>
          </div>
          <div className="col-11 service-3-col">
@@ -316,10 +325,9 @@ export default function Home() {
               Graphic design
            </h1>
            <p className="service-p">
-              Think of web design
-              as writing a inspirational 
-              story on a board on the 
-              web
+              We spend most of 
+              our time in Illustrator 
+              making cool, bold designs
            </p>
          </div>
          <div className="col-11 service-4-col">
@@ -328,7 +336,7 @@ export default function Home() {
            </h1>
            <p className="service-p">
               We have Nextjs, React, and 
-              Wordpress under my sleeves
+              Wordpress under our sleeves
               to make perfect pixel applications
            </p>
          </div>
@@ -338,7 +346,7 @@ export default function Home() {
          <div className="row justify-content-start">
           <div className="col-md-6 col-11 pt-md-5 mt-md-5 potoo-vision-col ml-md-5">
             <p className="potoo-vision-text">
-              Nesting impressions on the web
+              Articulated Impressions
             </p>
           </div>
          </div>

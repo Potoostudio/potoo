@@ -17,7 +17,7 @@ export default function Footer() {
                         <div className="col-lg-4 col-12 text-lg-left text-center pb-2 pb-md-0">
                             <Link href="mailto:ideas@potoo.studio" aria-label="email">
                                 <a className="say-hello-a pb-lg-2">
-                                    hello@potoo.studio
+                                    ideas@potoo.studio
                                     <span className="bottom-line"></span>
                                 </a>
                             </Link>
@@ -30,6 +30,18 @@ export default function Footer() {
                                     width={35}
                                     height={35}
                                     alt="Instagram Icon"
+                                    />
+                                </a>
+                            </Link>
+                        </div>
+                        <div className="col-lg-1 col-4 col-md-5 text-lg-center text-md-right pt-4 pt-md-4  mt-md-1 pb-md-3 pt-lg-0">
+                            <Link href="https://www.behance.net/potoostudio" aria-label="behance">
+                                <a  className="social-media-a">
+                                    <Image
+                                    src="/Behance-icon.svg"
+                                    width={35}
+                                    height={35}
+                                    alt="Behance Icon"
                                     />
                                 </a>
                             </Link>

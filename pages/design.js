@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react"
+import React, { useRef, useEffect,useState, Component } from "react"
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -9,118 +9,88 @@ import Parallax from 'react-rellax';
 
 function Design() {
 
+    const [selected, setSelected] = useState(0)
+    const [isActive, setActive] = useState(0);
 
-  return (
-    <>
-      <Head>
-        <title>Potoo Studio | Design</title>
-        <link rel="icon" href="favicon.ico" />
-        <link rel="manifest" href="/manifest.json"/>
-        <meta name="description" content="Potoo Studio | creative logos, brand, webpages, and brochures"/>
-        <meta property="og:title" content="Potoo Studio | Design" />
-        <meta property="og:description" content="Potoo Studio | creative logos, brand, webpages, and brochures"/>
-        <meta property="og:url" content="https://potoo.studio/design" />
-        <meta property="og:type" content="website" />
-      </Head>
-      <div className="container-fluid design-first-container mw-1200px mt-md-5">
-        <div className="row justify-content-center">
-            <div className="col-lg-10 col-md-10 col-11 pt-lg-0 ml-lg-0 text-center">
-                <Parallax speed={-2}>
-                    <ul className="design-list">
-                        <li className="design-list-item item">
-                            <p className="font-size-1-7r">
-                               <span className="design-letters">d</span> azzling
-                            </p>
+    const UpdateToggle = (index) => {
+      setSelected(index)
+      setActive(index)
+    } 
+     
+        return (
+          <>
+            <Head>
+              <title>Potoo Studio | Design</title>
+              <link rel="icon" href="favicon.ico" />
+              <link rel="manifest" href="/manifest.json"/>
+              <meta name="description" content="Potoo Studio | creative logos, brand, webpages, and brochures"/>
+              <meta property="og:title" content="Potoo Studio | Design" />
+              <meta property="og:description" content="Potoo Studio | creative logos, brand, webpages, and brochures"/>
+              <meta property="og:url" content="https://potoo.studio/design" />
+              <meta property="og:type" content="website" />
+            </Head>
+            <div className="container-fluid design-first-container mw-1200px mt-md-5">
+              <div className="row justify-content-center">
+                  <div className="col-md-8 col-10 pt-md-5 ml-md-0 text-center">
+                      <ul className="design-page-list-btns text-center">
+                          <li className={`item ${isActive === 0 ? "active" : ''}`}
+                            onClick={() => UpdateToggle(0)}>
+                              logos
+                          </li>
+                          <li className={`item ${isActive === 1 ? "active" : ''}`}
+                          onClick={() => UpdateToggle(1)}>
+                              graphics
+                          </li>
+                          <li className={`item ${isActive === 2 ? "active" : ''}`}
+                          onClick={() => UpdateToggle(2)}>
+                              websites
+                          </li>
+                      </ul>
+                  </div>
+                   
+                    {(selected === 0) && 
+                    <div className="col-8 pt-md-5 mt-md-5" >
+                      <ul className="project-list-image-list pl-0">
+                        <li className="item project-image-item">
+                          <Image
+                            src="/kish-logo-thumnail.jpg"
+                            width="470px"
+                            height="352px"
+                            alt="project kish"
+                          />
+                        <Link href="/projects/project-kish">
+                          <a className="project-li-link">
+                        <div className="project-item-overlay">
+                          <div className="project-item-title">
+                              Kish
+                          </div>
+                        <Link href="/projects/project-kish">
+                          <a className="project-item-link">
+                          <svg className="link-icon" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 125"><path className="cls-1" d="M42.2,21.2,78,56.9,24.4,110.4l35.7,35.8,53.6-53.6,35.7,35.7V21.2Z" transform="translate(-24.4 -21.2)"/></svg>
+                          </a>
+                        </Link>
+                        </div>
+                          </a>
+                        </Link>
                         </li>
-                        <li className="design-list-item item">
-                            <p className="font-size-1-7r">
-                                <span className="design-letters">e</span> ngaging
-                            </p>
-                        </li>
-                        <li className="design-list-item item">
-                            <p className="font-size-1-7r">
-                               <span className="design-letters">s</span> picy
-                            </p>
-                        </li>
-                        <li className="design-list-item item">
-                            <p className="font-size-1-7r">
-                               <span className="design-letters">i</span> nner
-                            </p>
-                        </li>
-                        <li className="design-list-item item">
-                            <p className="font-size-1-7r">
-                              <span className="design-letters">g</span>  lorious
-                            </p>
-                        </li>
-                        <li className="design-list-item item">
-                            <p className="font-size-1-7r">
-                              <span className="design-letters">n</span>  ew
-                            </p>
-                        </li>
-                    </ul>
-                </Parallax>
-            </div>
-        </div>
-    </div>
-        <div className="container-fluid design-page-container pr-md-0 pt-md-5 mt-md-5">        
-        <div className="row justify-content-start pt-lg-5">
-            <div className="col-lg-4 col-md-10 col-11 pl-lg-5 pl-0">
-                <Image
-                src="/y-b.jpg"
-                width={617}
-                height={823}
-                alt="desk picture"
-                />
-                <h5 className="custom-h5 pt-lg-2">
-                    Think the <span className="ls-15"> unthinkable</span>
-                </h5>
-            </div>
-            <div className="col-lg-5 col-md-10 col-10 py-5 mt-5 mb-4 pl-4 pl-lg-5 pt-lg-5 mb-md-0 pb-lg-0 mt-lg-5 text-center">
-               <h3 className="design-content justify-content-center">
-                Make it  
-                    <span className="design-content-list">
-                        <ul className="make-it-list">
-                            <li className="item">
-                                simple
-                            </li>
-                            <li className="item pt-4">
-                                relative 
-                            </li>
-                            <li className="item pt-4">
-                                effective
-                            </li>
-                            <li className="item pt-4">
-                                accessible
-                            </li>
-                        </ul>
-                    </span>    
-               </h3>
-            </div>
-        </div>
-        <div className="row justify-content-end pt-lg-4 mt-lg-3 pt-5 pb-lg-4">
-            <div className="col-md-5 col-12 pr-md-auto">
-                <h5 className="code-p custom-h5   ">
-                    and code remarkable <span className="ls-15">pictures</span>
-                </h5>
-            </div>
-            <div className="col-md-6 col-12 pr-0 text-md-right">
-                <Image
-                src="/mac-laptop-potoo.png"
-                height="752px"
-                width="964px"
-                alt="potoo macbook laptop"
-                />
-            </div>
-        </div>
-        <div className="row justify-content-center">
-            <div className="col-11">
-                
-            </div>
-        </div>
-        </div>
-    </>
-  );
-}
+                      </ul>
+                     </div>
+                    }
+                    {(selected === 1) && 
+                    <div className="col-8 pt-md-5 mt-md-5" >
+                      
+                     </div>
+                    }
+                    {(selected === 2) && 
+                    <div className="col-8 pt-md-5 mt-md-5" >
+                      
+                     </div>
+                    }
+              </div>
+          </div>
+          </>
+        );
+    }
 
 export default Design;
 

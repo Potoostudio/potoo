@@ -130,23 +130,13 @@ export default function Projects() {
             />
             </div>
           </div>
-          <div className="row justify-content-end p-0 bird-row-moved-up">
-            <div className="col-9 m-0 p-0">
+          <div className="row justify-content-end p-0">
+            <div className="col-12 m-0 p-0">
             <Image
-              src="/Potoo-logo-with-bird.jpg"
-              height="955px"
-              width="1311px"
+              src="/Potoo-brand-collection.jpg "
+              height="1463px"
+              width="1971px"
               alt="Potoo image"
-            />
-            </div>
-          </div>
-          <div className="row justify-content-start bird-row p-0">
-            <div className="col-9 m-0 p-0">
-            <Image
-               src="/Potoo-logo-bird-two.jpg"
-               height="920px"
-               width="1205"
-               alt="Potoo image"
             />
             </div>
           </div>

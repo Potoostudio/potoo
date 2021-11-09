@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap&family=Roboto:wght@100;300;400;500;700&display=swap&family=Playfair+Display:wght@900&display=swap');
 html,
 body {
   padding: 0;
@@ -302,7 +302,7 @@ a {
             cursor: default;
           }
           .item-two {
-            font-size: 2rem;
+            font-size: 4rem;
             line-height: 5rem;
             letter-spacing: 2px;
             padding-left: 0;
@@ -449,10 +449,6 @@ a {
         }
       }
     }
-    .bg-yellow {
-      background: url(../public//three-design-icon-bg.svg) center center no-repeat;
-
-    }
   }
 
   .code-container {
@@ -466,12 +462,13 @@ a {
       margin-bottom: 2rem;
 
       .potoo-vision-text {
-        font-size: 42px;
+        font-size: 3rem;
         line-height: 55px;
-        color: rgb(26, 24, 24);
+        color: #1a1818;
         z-index: 199;
-        padding: 7rem 2rem 2rem 2rem;
+        padding: 9rem 0rem 2rem 0rem;
         margin-top: 6.278rem;
+        font-family: "Playfair Display";
 
         &::before {
           content: '';
@@ -489,102 +486,121 @@ a {
     }
   }
   .design-first-container {
-    min-height: 660px;
-    padding-top: 3rem;
-    background: url(../public/design-page-bg.svg) no-repeat no-repeat center;
-    background-size: 100% 660px;
-
-    .design-list {
+    
+    .project-list-image-list {
       list-style: none;
-      display: flex;
-      margin-top: 4rem;
-      justify-content: center;
       padding-left: 0;
+      margin-left: 0;
 
-      .item {
-        padding: 0px auto;
-        writing-mode: vertical-rl;
-        text-orientation: upright;
-        text-align: center;
-        letter-spacing: 30px;
-        display: ruby;
-        text-align: left;
-        
-        p {
-          cursor: default;
-
-          .design-letters {
-            font-size: 1.45rem;
-            text-transform: uppercase;
-          }
-        }
-      }
-    }
-  }
-  .design-page-container {
-
-    .custom-h5 {
-      font-size: 1.05rem;
-    }
-    .design-content {
-      display: flex;
-      margin-left: 5rem;
-      font-weight: 200;
-      letter-spacing: 0.5rem;
-      line-height: 4rem;
-      padding-bottom: 4rem;
-      padding-top: 1rem;
-  
-      .design-content-list {
-        padding: 0 1rem 0 3rem;
-        margin-left: 2rem;
-        border-left: 1px solid #868585;
-  
-        .make-it-list {
-          list-style: none;
-          padding-left: 0;
-          text-align: left;
-          margin-bottom: 0;
-  
-          .item {
-            font-weight: 200;
-            text-transform: capitalize;
-            letter-spacing: 2px;
-          }
-        }
-      }
-    }
-    .code-p {
-      position: absolute;
-      bottom: 0.945vh;
-      left: 0px;
-      letter-spacing: 0.3rem;
-      line-height: 1.67rem;
-      padding-left: 0.56rem;
-      
-      .ls-15 {
-        letter-spacing: 16px;
+      .project-image-item {
         position: relative;
-        padding-left: 44vw;
+        width: 151px;
 
-        &::before {
-          content: '';
+        .project-item-overlay {
           position: absolute;
-          top: 50%;
+          top: 0;
           left: 0;
-          width: 94%;
-          height: 1px;
-          background-color: #f9d243;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.6);
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          opacity: 0;
+          transition: opacity 0.35s;
+          transform: translateY(0);
+
+          .project-item-title {
+            font-size: 1rem;
+          }
+          .project-item-link {
+
+            .link-icon {
+              width: 22px;
+              height: 22px;
+              fill: #fff;
+              margin-left: 7vw;
+              margin-top: 2vh;
+            }
+          }
+
+          &:hover {
+            opacity: 1;
+            transform: translateY(0);
+          }
         }
       }
     }
-    .design-list {
-      line-height: 50px;
-    }
-    .bg-yellow {
-      margin-top: 6rem!important;
-    }
+    .project-list-image-list {
+        list-style: none;
+        padding-left: 0;
+        margin-left: 0;
+
+        .project-image-item {
+          position: relative;
+          width: 151px;
+
+          .project-item-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.35s;
+            transform: translateY(0);
+
+            .project-item-title {
+              font-size: 1rem;
+            }
+            .project-item-link {
+
+              .link-icon {
+                width: 22px;
+                height: 22px;
+                fill: #fff;
+                margin-left: 7vw;
+                margin-top: 2vh;
+              }
+            }
+
+            &:hover {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+        }
+      }
+      .design-page-list-btns {
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+        border-bottom: 1px solid #7d7979;
+        padding-bottom: 20px;
+
+        .item {
+          width: 33%;
+          font-size: 0.96rem;
+          text-transform: capitalize;
+          opacity: 60%;
+          cursor: pointer;
+          transition: opacity 0.6s;
+
+          &.active {
+            opacity: 100%;
+          }
+        }
+      }
   }
+  
   .projects-container {
 
     .waiting-for-projects {
@@ -759,21 +775,9 @@ a {
     }
     .poster-row {
       padding-top: 4rem;
-      background-color: #fff;
+      background-color: #6b827c7d;
       padding-bottom: 4rem;
   
-      .poster-col {
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-      }
-    }
-    .bird-row {
-      position: relative;
-      bottom: 3rem;
-    }
-    .bird-row-moved-up {
-      position: relative;
-      margin-top: -1rem !important;
-      z-index: -1123;
     }
   }
   .co-container {
@@ -1044,42 +1048,55 @@ a {
     }
   }
   .design-first-container {
-    min-height: 660px;
-    background: url(../public/design-page-bg.svg) no-repeat no-repeat center;
-    background-size: 100% 660px;
-
-    .design-h1 {
-      padding-top: 5rem !important;
-      font-size: 8rem;
-      font-weight: 200;
-      letter-spacing: 87px;
-    }
-    .design-list {
-      margin-top: 5rem;
+    
+    .project-list-image-list {
       list-style: none;
-      display: flex;
       padding-left: 0;
+      margin-left: 0;
 
-      .item {
-        padding: 0px auto;
-        writing-mode: vertical-rl;
-        text-orientation: upright;
-        text-align: center;
-        letter-spacing: 22px;
-        display: ruby;
-      
+      .project-image-item {
+        position: relative;
+        width: 273px;
 
-        
-        p {
+        .project-item-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.6);
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          opacity: 0;
+          transition: opacity 0.35s;
+          transform: translateY(0);
 
-          .design-letters {
-            font-size: 3.2rem;
-            text-transform: uppercase;
-            font-weight: 200;
+          .project-item-title {
+            font-size: 2rem;
+          }
+          .project-item-link {
+
+            .link-icon {
+              width: 42px;
+              height: 42px;
+              fill: #fff;
+              margin-left: 7vw;
+              margin-top: 2vh;
+            }
+          }
+
+          &:hover {
+            opacity: 1;
+            transform: translateY(0);
           }
         }
       }
     }
+    
+    
   }
   .design-container {
     margin-top: 4rem;
@@ -1102,10 +1119,14 @@ a {
       color: inherit;
       font-size: 16px;
     }
-    .service-container-mobile {
+    .service-container {
       display: none;
     }
+    .service-container-mobile {
+      display: block;
+    }
     .ideas-row {
+
       .ideas-list {
         list-style: none;
         text-align: right;
@@ -1195,6 +1216,19 @@ a {
     margin-top: 4rem;
     padding-top: 7rem;
     padding-bottom: 7rem;
+
+    .potoo-vision-col {
+
+      .potoo-vision-text {
+        font-size: 3.8rem;
+        line-height: 63px;
+        color: #1a1818;
+        z-index: 199;
+        padding: 6rem 0rem 2rem 0rem;
+        margin-top: 6.278rem;
+        font-family: "Playfair Display";
+      }
+    }
 
    
   }
@@ -1809,6 +1843,11 @@ a {
       padding-top: 5rem;
     }
     .ideas-row {
+      margin-top: 7rem;
+      margin-bottom: 8rem;
+      .ideas-impressions-h1 {
+        font-size: 5.2rem;
+      }
       .ideas-list {
         list-style: none;
         text-align: right;
@@ -1908,6 +1947,9 @@ a {
           }
         }
       }
+      .service-container-mobile {
+        display: none;
+      }
     }
     .code-container {
       margin-top: 2rem;
@@ -1927,12 +1969,14 @@ a {
         margin-bottom: 12rem;
   
         .potoo-vision-text {
-          font-size: 50px;
-          line-height: 70px;
-          color: rgb(26, 24, 24);
+          font-size: 6.3rem;
+          line-height: 100px;
+          color: #1a1818;
           z-index: 199;
-          padding: 8rem 2rem 3rem 5rem;
+          padding: 5rem 2rem 3rem 3rem;
           margin-top: 0;
+          font-weight: 900;
+          font-family: "Playfair Display";
   
           &::before {
             content: '';
@@ -2025,7 +2069,7 @@ a {
     .service-container {
       padding-top: 4rem;
       padding-bottom: 5rem;
-      display: inline-block;
+      display: block!important;
 
       .create-impression-h2 {
         font-size: 4.4rem;
@@ -2035,7 +2079,6 @@ a {
       .service-list {
         // list-style: url('../public/item-icon.svg');
         list-style: none;
-        margin-left: 7rem;
         
         .item {
           font-size: 4rem;
@@ -2061,78 +2104,79 @@ a {
       }
     }
     .design-first-container {
-      min-height: 660px;
-      padding-top: 6rem;
-      background: url(../public/design-page-bg.svg) no-repeat no-repeat center;
-      background-size: 100% 660px;
-  
-      .design-list {
+      
+      .design-page-list-btns {
         list-style: none;
         display: flex;
-        margin-top: 4rem;
-        justify-content: center;
         padding-left: 0;
-  
+        border-bottom: 1px solid #7d7979;
+        padding-bottom: 20px;
+
         .item {
-          padding: 0px auto;
-          writing-mode: vertical-rl;
-          text-orientation: upright;
-          text-align: center;
-          letter-spacing: 22px;
-          display: ruby;
-          text-align: left;
-          
-          p {
-            cursor: default;
-            font-size: 1.7rem;
-            .design-letters {
-              font-size: 6.3rem;
-              text-transform: uppercase;
+          width: 33%;
+          font-size: 1.6rem;
+          text-transform: capitalize;
+          opacity: 60%;
+          cursor: pointer;
+          position: relative;
+          text-transform: capitalize;
+          transition: opacity 0.6s;
+
+          &.active {
+            opacity: 100%;
+          }
+        }
+      }
+      .project-list-image-list {
+        list-style: none;
+        padding-left: 0;
+        margin-left: 0;
+
+        .project-image-item {
+          position: relative;
+          width: 340px;
+
+          .project-item-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.35s;
+            transform: translateY(0);
+
+            .project-item-title {
+              font-size: 2rem;
+            }
+            .project-item-link {
+
+              .link-icon {
+                width: 42px;
+                height: 42px;
+                fill: #fff;
+                margin-left: 7vw;
+                margin-top: 2vh;
+              }
+            }
+
+            &:hover {
+              opacity: 1;
+              transform: translateY(0);
             }
           }
         }
       }
     }
-    .design-page-container {
-      .design-content {
-        display: flex;
-        margin-left: 5rem;
-        font-weight: 200;
     
-        .design-content-list {
-          padding: 0 1rem 0 3rem;
-          margin-left: 5rem;
-          border-left: 1px solid #868585;
-    
-          .make-it-list {
-            list-style: none;
-            padding-left: 0;
-            text-align: left;
-            margin-bottom: 0;
-    
-            .item {
-              font-weight: 500;
-              text-transform: capitalize;
-              letter-spacing: 2px;
-            }
-          }
-        }
-      }
-      .code-p {
-        position: absolute;
-        bottom: 8vh;
-        left: 49%;
-        
-        .ls-15 {
-          padding-left: 0px;
-        }
-      }
-      .design-list {
-        line-height: 50px;
-      }
-      .bg-yellow {
-        margin-top: 6rem!important;
-      }
+      
+      
     }
     .mw-1190 {
       max-width: 1190px;
@@ -2146,9 +2190,7 @@ a {
       font-size: 3rem;
       font-weight: 400;
     }
-    .service-container {
-      display: block;
-    }
+  
     .ml-md-8r {
       margin-left: 8rem;
     }
@@ -2260,24 +2302,11 @@ a {
       }
       .poster-row {
         padding-top: 8rem;
-        background-color: #fff;
+        background-color: #6b827c7d;
         padding-bottom: 8rem;
-
-        .poster-col {
-          box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-        }
-      }
-      .bird-row {
-        position: relative;
-        bottom: 10rem;
-      }
-      .bird-row-moved-up {
-        position: relative;
-        margin-top: -3rem !important;
-        z-index: -1123;
       }
     }
-  }
+  
   
   
   
