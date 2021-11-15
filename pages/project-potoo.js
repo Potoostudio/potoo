@@ -133,10 +133,10 @@ export default function Projects() {
           <div className="row justify-content-end p-0">
             <div className="col-12 m-0 p-0">
             <Image
-              src="/potoo-brand-collection.jpg"
+              src="/potoo-brand-package.jpg"
               height="1463px"
               width="1920px"
-              alt="Potoo image"
+              alt="Potoo brand package image"
             />
             </div>
           </div>
