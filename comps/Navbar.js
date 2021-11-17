@@ -12,7 +12,6 @@ function toggle() {
   setIsOpened(wasOpened => !wasOpened);
   setActive(!isActive);
 }
-
       return (
         <>
         
@@ -74,7 +73,6 @@ function toggle() {
                 <span className="line-2"></span>
               </div>
             </div>
-            {/* {isOpened && ( */}
             <div className={`menu-list ${isActive ? 'activeNav' : ''}`}>
               <ul className="list header-list">
                 <li className="item"
@@ -94,8 +92,65 @@ function toggle() {
                   </Link>
                 </li>
               </ul>
+              <div className="phone-menu-footer">
+                <div className="row justify-content-center">
+                  <div className="col-10 p-10-0">
+                     <Link href="mailto:ideas@potoo.studio" aria-label="email">
+                        <a className="say-hello-a pb-lg-2">
+                            ideas@potoo.studio
+                            <span className="bottom-line"></span>
+                        </a>
+                    </Link>
+                  </div>
+                  <div className="col-10 p-10-0">
+                    <Link href="tel:3202604416" aria-label="phone">
+                        <a className="say-hello-a pb-lg-2">
+                            +1 320 260 4416
+                            <span className="bottom-line"></span>
+                        </a>
+                    </Link>
+                  </div>
+                  <div className="row bg-white pt-2 mt-3 w-100 justify-content-around">
+                  <div className="col-2 p-1n25rem">
+                      <Link href="https://www.instagram.com/potoostudio/" aria-label="instagram">
+                          <a  className="social-media-a">
+                              <Image
+                              src="/Instagram-icon.svg"
+                              width={35}
+                              height={35}
+                              alt="Instagram Icon"
+                              />
+                          </a>
+                      </Link>
+                        </div>
+                  <div className="col-2 p-1n25rem">
+                      <Link href="https://www.behance.net/potoostudio" aria-label="behance">
+                          <a  className="social-media-a">
+                              <Image
+                              src="/Behance-icon.svg"
+                              width={35}
+                              height={35}
+                              alt="Behance Icon"
+                              />
+                          </a>
+                      </Link>
+                  </div>
+                  <div className="col-2 p-1n25rem">
+                      <Link href="https://dribbble.com/Potoo" aria-label="dribbble">
+                          <a  className="social-media-a">
+                              <Image
+                              src="/Dribbble-icon.svg"
+                              width={35}
+                              height={35}
+                              alt="Dribbbkle Icon"
+                              />
+                          </a>
+                      </Link>
+                  </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            {/* )} */}
           </div>
         </div>
       </>
