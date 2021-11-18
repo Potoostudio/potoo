@@ -292,7 +292,7 @@ export default function Home() {
      </div>
      <div className="container-fluid service-container-mobile">
        <div className="row justify-content-start">
-       <div className="col-md-6 col-12 mb-4 mt-5 pt-5"> 
+       <div className="col-md-10 col-12 mb-4 mt-5 pt-5"> 
            <h2 className="create-impression-h2">
              We create impressions by
            </h2>
@@ -343,8 +343,8 @@ export default function Home() {
        </div>
      </div>
      <div className="container-fluid code-container mw-1450">
-         <div className="row justify-content-start">
-          <div className="col-md-6 col-11 pt-md-5 mt-md-5 potoo-vision-col ml-md-5">
+         <div className="row justify-content-start justify-content-md-center">
+          <div className="col-md-10 col-11 pt-md-5 mt-md-5 potoo-vision-col ml-md-5">
             <p className="potoo-vision-text">
               Articulated Impressions
             </p>

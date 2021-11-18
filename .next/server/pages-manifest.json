@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/projects/project-kish": "pages/projects/project-kish.js",
-  "/project-potoo": "pages/project-potoo.js"
+  "/project-potoo": "pages/project-potoo.js",
+  "/design": "pages/design.js"
 }
