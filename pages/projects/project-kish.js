@@ -43,8 +43,8 @@ export default function Projects() {
               </div>
           </div>
           <div className="row justify-content-center pt-0 mt-0">
-           <div className="col-11 text-center">
-           <iframe width="1220" height="1176" src="https://xd.adobe.com/embed/fac1e2d1-bc47-4053-9313-d3049f0136e2-af92/" frameBorder="0" allowFullScreen></iframe>
+           <div className="col-12 col-md-12 px-0 px-md-3 text-center">
+           <iframe className="project-embeded" width="1220" height="1176" src="https://xd.adobe.com/embed/fac1e2d1-bc47-4053-9313-d3049f0136e2-af92/" frameBorder="0" allowFullScreen></iframe>
            </div>
           </div>
       </div>

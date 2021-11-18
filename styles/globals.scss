@@ -553,7 +553,7 @@ a {
 
         .project-image-item {
           position: relative;
-          width: 151px;
+          width: 80px;
 
           .project-item-overlay {
             position: absolute;
@@ -707,6 +707,7 @@ a {
             text-transform: uppercase;
             letter-spacing: 2vw;
             text-align: center;
+            padding-left: 0;
            } 
            &.project-year {
             padding-top: 0.5rem;
@@ -768,14 +769,14 @@ a {
   
         .we-do-it {
           font-size: .9rem;
-          letter-spacing: 28px;
+          letter-spacing: 23px;
           
           .with {
             letter-spacing: 2px;
           }
         }
         .style {
-          letter-spacing: 74px;
+          letter-spacing: 66px;
           font-size: 1rem;
           padding-top: 2rem;
           text-transform: uppercase;
@@ -807,6 +808,10 @@ a {
         }
       }
     }
+  }
+  .project-embeded {
+    width: 375px;
+    height: 362px;
   }
 }
 
@@ -1059,6 +1064,10 @@ a {
 
       }
     }
+  }
+  .project-embeded {
+    width: 720px;
+    height: 576px;
   }
   .design-first-container {
     
@@ -2186,9 +2195,116 @@ a {
           }
         }
       }
+      .project-showcase-container {
+        margin-top: 8rem!important;
+        .project-row {
+  
+          .project-col {
+  
+            .project-list {
+              text-align: center;
+              list-style: none;
+              padding-left: 0;
+  
+              .project-item  {
+  
+               &.project-title {
+                 font-size: 35px;
+                text-transform: uppercase;
+                letter-spacing: 2vw;
+                text-align: center;
+                padding-left: 2rem;
+               } 
+               &.project-year {
+                padding-top: 0.5rem;
+                font-size: 35px;
+                text-align: center;
+               } 
+               &.project-info {
+                padding-top: 1rem;
+                font-size: 16px;
+               } 
+               &.project-impression {
+                padding-top: 1.5rem;
+                font-size: 18px;
+                .project-impression-is {
+                  font-size: 16px;
+                  opacity: 85%;
+                }
+               } 
+              }
+            }
+          }
+        }
+        .row-project-info {
+          max-width: 1182px !important;
+          margin-left: auto;
+          margin-right: auto;
+          .project-statement {
+  
+            p {
+              font-size: 24px;
+            }
+          }
+          .project-concept {
+  
+            p {
+              font-size: 20px;
+            }
+          }
+          .project-more-info {
+  
+            p {
+              font-size: 20px;
+            }
+          }
+        }
+        .project-images-might-change-row {
+          padding-top: 8rem;
+          .potoo-business-card-col {
+            margin-top: 13rem;
+            padding: 0;
+            padding-left: 5rem;
+            left: 1.4vw;
+          }
+        }
+        .we-do-it-row {
+          padding-top: 12rem;
+          .we-do-it-with-style-col {
+            text-align: center;
+  
+            .we-do-it {
+              font-size: 1.3rem;
+              letter-spacing: 1.907rem;
+              text-align: left;
+              
+              .with {
+                letter-spacing: 2px;
+              }
+            }
+            .style {
+              letter-spacing: 81px;
+              font-size: 26px;
+              padding-top: 2rem;
+              text-transform: uppercase;
+              color: #f00;
+            }
+          }
+        }
+        .images-row {
+          padding-top: 8rem;
+        }
+        .poster-row {
+          padding-top: 8rem;
+          background-color: #6b827c7d;
+          padding-bottom: 8rem;
+        }
+      }
     }
-    
-      
+    .project-embeded {
+      width: 1220px;
+      height: 1176px;
+    }
       
     }
     .mw-1190 {
@@ -2214,111 +2330,7 @@ a {
       }
     }
 
-    .project-showcase-container {
-      margin-top: 8rem!important;
-      .project-row {
-
-        .project-col {
-
-          .project-list {
-            text-align: center;
-            list-style: none;
-            padding-left: 0;
-
-            .project-item  {
-
-             &.project-title {
-               font-size: 35px;
-              text-transform: uppercase;
-              letter-spacing: 2vw;
-              text-align: center;
-              padding-left: 2rem;
-             } 
-             &.project-year {
-              padding-top: 0.5rem;
-              font-size: 35px;
-              text-align: center;
-             } 
-             &.project-info {
-              padding-top: 1rem;
-              font-size: 16px;
-             } 
-             &.project-impression {
-              padding-top: 1.5rem;
-              font-size: 18px;
-              .project-impression-is {
-                font-size: 16px;
-                opacity: 85%;
-              }
-             } 
-            }
-          }
-        }
-      }
-      .row-project-info {
-        max-width: 1182px !important;
-        margin-left: auto;
-        margin-right: auto;
-        .project-statement {
-
-          p {
-            font-size: 24px;
-          }
-        }
-        .project-concept {
-
-          p {
-            font-size: 20px;
-          }
-        }
-        .project-more-info {
-
-          p {
-            font-size: 20px;
-          }
-        }
-      }
-      .project-images-might-change-row {
-        padding-top: 8rem;
-        .potoo-business-card-col {
-          margin-top: 13rem;
-          padding: 0;
-          padding-left: 5rem;
-          left: 1.4vw;
-        }
-      }
-      .we-do-it-row {
-        padding-top: 12rem;
-        .we-do-it-with-style-col {
-          text-align: center;
-
-          .we-do-it {
-            font-size: 1.3rem;
-            letter-spacing: 1.907rem;
-            text-align: left;
-            
-            .with {
-              letter-spacing: 2px;
-            }
-          }
-          .style {
-            letter-spacing: 81px;
-            font-size: 26px;
-            padding-top: 2rem;
-            text-transform: uppercase;
-            color: #f00;
-          }
-        }
-      }
-      .images-row {
-        padding-top: 8rem;
-      }
-      .poster-row {
-        padding-top: 8rem;
-        background-color: #6b827c7d;
-        padding-bottom: 8rem;
-      }
-    }
+    
   
   
   

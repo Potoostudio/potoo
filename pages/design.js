@@ -29,7 +29,7 @@ function Design() {
               <meta property="og:url" content="https://potoo.studio/design" />
               <meta property="og:type" content="website" />
             </Head>
-            <div className="container-fluid design-first-container mw-1200px mt-md-5">
+            <div className="container-fluid design-first-container mw-1200px mt-md-5 pt-5 pt-md-0">
               <div className="row justify-content-center">
                   <div className="col-md-8 col-10 pt-md-5 ml-md-0 text-center">
                       <ul className="design-page-list-btns text-center">
@@ -49,8 +49,8 @@ function Design() {
                   </div>
                    
                     {(selected === 0) && 
-                    <div className="col-8 pt-md-5 mt-md-5" >
-                      <ul className="project-list-image-list pl-0">
+                    <div className="col-md-8 col-10 pt-md-5 mt-md-5" >
+                      <ul className="project-list-image-list pl-0 px-0 ">
                         <li className="item project-image-item">
                           <Image
                             src="/kish-logo-thumnail.jpg"
