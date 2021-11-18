@@ -92,7 +92,7 @@ function toggle() {
                   </Link>
                 </li>
               </ul>
-              <div className="phone-menu-footer">
+              <div className="phone-menu-footer container-fluid">
                 <div className="row justify-content-center">
                   <div className="col-10 p-10-0">
                      <Link href="mailto:ideas@potoo.studio" aria-label="email">
