@@ -9,6 +9,7 @@ import Parallax from 'react-rellax';
 
 export default function Home() {
 
+
   const [isShownPointOne, setPointOneShown] = useState(false);
   const [isShownPointTwo, setPointTwoShown] = useState(false);
   const [isShownPointThree, setPointThreeShown] = useState(false);
@@ -26,7 +27,6 @@ export default function Home() {
 
 
   return (
-    
     <>
       <Head>
         <title>Potoo Studio</title>
