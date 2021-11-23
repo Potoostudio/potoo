@@ -34,10 +34,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/design.js"
     ],
-    "/projects/project-kish": [
+    "/project-potoo": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/projects/project-kish.js"
+      "static/chunks/pages/project-potoo.js"
+    ],
+    "/projects": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/projects.js"
     ]
   },
   "ampFirstPages": []

@@ -65,7 +65,7 @@ export default function Projects() {
                 display extraordinary reactions.
               </p>
             </div>
-            <div className="project-more-info pt-md-5 pt-3">
+            <div className="project-more-info pt-md-3 pt-3">
               <p className="more-info">
                 We like to break the law of the usual and go beyond the ordinary to create impressions.
               </p>
