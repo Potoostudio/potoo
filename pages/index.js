@@ -26,6 +26,7 @@ export default function Home() {
 
 
   return (
+    
     <>
       <Head>
         <title>Potoo Studio</title>
@@ -40,99 +41,20 @@ export default function Home() {
       <div className="container-fluid home-page-container mw-1450 pt-lg-5 pb-lg-5 mt-lg-5">
         <div className="row justify-content-around">
           <div className="col-lg-4 col-12 pl-lg-4 pr-lg-0 pt-md-5 pb-md-3 pt-3 pb-0 pt-4 text-center shows-h1-col">
-            <motion.div
-            initial={{opacity: 0}}
-            animate={{opacity: 1}}
+            {/* <motion.div
+            initial={{opacity: 0.7, x: -100}}
+            animate={{opacity: 1, x: 0}}
             transition={{
-              ease: [0.6, 0.01, -0.05, 0.95], duration: 0.7, delay: 0.4
-            }}>
+              ease: "easeInOut", duration: 0.5, delay: 0.4
+            }}> */}
             <h1 className="shows-h1">
               Show
             </h1>
-            </motion.div>
+            {/* </motion.div> */}
           </div>
           <div className="col-lg-7 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg">
             <div className="row justify-content-center">
               <div className="col-12">
-                {/* <Image
-                src="/your-bg.jpg"
-                width="910px"
-                height="467px"
-                alt="show elements"
-                /> */}
-                {/* <ul className="homepage-list list">
-                  <li className="homepage-item item innovation-li">
-                   <motion.div
-                    initial={{x : -25, y: 1}}
-                    animate={{x: 0, y: 0}}
-                   transition={{
-                     duration: 1.5,
-                     ease: "easeOut",
-                     delay: 0.4
-                   }}>
-                    <h1 className="innovation-h1">
-                      Innovation
-                    </h1>
-                   </motion.div>
-                   
-                  </li>
-                  <li className="homepage-item item authenticity-li">
-                    <motion.div
-                    initial={{x : 25, y: 1}}
-                    animate={{x: 0, y: 0}}
-                    transition={{
-                      duration: 1.5,
-                      ease: "easeOut",
-                      delay: 0.4
-                    }}
-                    >
-                    <h3 className="authenticity-h3">
-                      Authenticity
-                    </h3>
-                    </motion.div>
-                  </li>
-                  <li className="homepage-item item Concept-li">
-                    <motion.div
-                    initial={{rotate : '90deg'}}
-                    animate={{rotate : '0deg'}}
-                    transition={{
-                      duration: 1.5,
-                      ease: "easeOut",
-                      delay: 0.4
-                    }}
-                    >
-                    <h4 className="Concept-h4">
-                      Concept
-                    </h4>
-
-                    </motion.div>
-                  </li>
-                  <li className="homepage-item item vision-li">
-                    <h1 className="vision-h1">
-                      Vision
-                    </h1>
-                  </li>
-                  <li className="homepage-item item journey-li">
-                    <motion.div
-                      initial={{rotate : '-180deg'}}
-                      animate={{rotate : '0deg'}}
-                      transition={{
-                        duration: 1.5,
-                        ease: "easeOut",
-                        delay: 0.4
-                      }} 
-                      >
-                    <h4 className="journey-h4">
-                      Journey
-                    </h4>
-                    </motion.div>
-                  </li>
-                  <li className="homepage-item item transparency-li">
-                    <h2 className="transparency-h2">
-                      Transparency
-                    </h2>
-                  </li>
-                </ul> */}
               </div>
             </div>
           </div>
