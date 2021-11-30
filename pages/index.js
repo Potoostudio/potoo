@@ -41,7 +41,7 @@ export default function Home() {
       <div className="container-fluid home-page-container mw-1450 pt-lg-5 pb-lg-5 mt-lg-5">
         <div className="row justify-content-around">
           
-          <div className="col-lg-11 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg">
+          <div className="col-lg-11 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg pt-5 pt-md-0">
             <Image
             src="/home-page-bg.svg"
             height="932px"
@@ -51,9 +51,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-     <div className="container design-container mw-1450 pt-5 mt-5 pt-md-5 mt-md-5">
+     <div className="container design-container mw-1450 pt-4 mt-0 pt-md-5 mt-md-5">
         <div className="row justify-content-start">
-          <div className="col-md-7 col-11 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-2 mt-4">
+          <div className="col-md-7 col-9 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-2 mt-4">
                   <p className="design-p text-left pl-md-2">
                   Potoo, a visionary bird flying
                   over marvelous <span className="red-text">ideas</span> and 
