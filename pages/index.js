@@ -40,23 +40,14 @@ export default function Home() {
       </Head>
       <div className="container-fluid home-page-container mw-1450 pt-lg-5 pb-lg-5 mt-lg-5">
         <div className="row justify-content-around">
-          <div className="col-lg-4 col-12 pl-lg-4 pr-lg-0 pt-md-5 pb-md-3 pt-3 pb-0 pt-4 text-center shows-h1-col">
-            {/* <motion.div
-            initial={{opacity: 0.7, x: -100}}
-            animate={{opacity: 1, x: 0}}
-            transition={{
-              ease: "easeInOut", duration: 0.5, delay: 0.4
-            }}> */}
-            <h1 className="shows-h1">
-              Show
-            </h1>
-            {/* </motion.div> */}
-          </div>
-          <div className="col-lg-7 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg">
-            <div className="row justify-content-center">
-              <div className="col-12">
-              </div>
-            </div>
+          
+          <div className="col-lg-11 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg">
+            <Image
+            src="/home-page-bg.svg"
+            height="932px"
+            width="1920px"
+            alt="potoo home page background"
+            />
           </div>
         </div>
       </div>
@@ -77,7 +68,7 @@ export default function Home() {
               We convert ideas to impressions
             </h1> */}
             <Image 
-            src="/ideas-to-impressions.jpg"
+            src="/ideas-to-impressions.svg"
             height="750px"
             width="1400px"
             alt="ideas-to-impressions"
