@@ -203,13 +203,13 @@ export default function Home() {
           </div>
        </div>
      </div>
-     <div className="container service-container-mobile">
+     <div className="container service-container-mobile pt-5">
        <div className="row justify-content-center">
-       <div className="col-11 mb-4 mt-5 pt-5"> 
+        {/* <div className="col-11 mb-4 mt-5 pt-5"> 
            <h2 className="create-impression-h2">
              We create impressions by
            </h2>
-         </div>
+         </div> */}
          <div className="col-11 service-1-col">
            <h1 className="service-h1">
               Branding
