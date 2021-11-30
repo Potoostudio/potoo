@@ -63,7 +63,7 @@ export default function Home() {
           </div>
         </div>
         <div className="row ideas-row justify-content-center">
-          <div className="col-md-11 col-12">
+          <div className="col-md-10 col-9">
             {/* <h1 className="ideas-impressions-h1">
               We convert ideas to impressions
             </h1> */}
@@ -117,7 +117,7 @@ export default function Home() {
         </div>
      <div className="container-fluid service-container mw-1450 pt-md-5 mt-md-5">
        <div className="row justify-content-start pt-md-5">
-         <div className="col-md-11 col-11 mb-md-4 mt-md-5 pl-md-5"> 
+         <div className="col-md-10 col-10 mb-md-4 mt-md-5 pl-md-5"> 
            <h2 className="create-impression-h2">
              We create impressions by
            </h2>
@@ -205,12 +205,12 @@ export default function Home() {
      </div>
      <div className="container-fluid service-container-mobile">
        <div className="row justify-content-start">
-       <div className="col-md-10 col-12 mb-4 mt-5 pt-5"> 
+       <div className="col-md-10 col-10 mb-4 mt-5 pt-5"> 
            <h2 className="create-impression-h2">
              We create impressions by
            </h2>
          </div>
-         <div className="col-11 service-1-col">
+         <div className="col-10 service-1-col">
            <h1 className="service-h1">
               Branding
            </h1>
@@ -222,7 +222,7 @@ export default function Home() {
               brand. “It’s fun!”
            </p>
          </div>
-         <div className="col-11 service-2-col">
+         <div className="col-10 service-2-col">
            <h1 className="service-h1">
               Web design
            </h1>
@@ -233,7 +233,7 @@ export default function Home() {
               web
            </p>
          </div>
-         <div className="col-11 service-3-col">
+         <div className="col-10 service-3-col">
            <h1 className="service-h1">
               Graphic design
            </h1>
@@ -243,7 +243,7 @@ export default function Home() {
               making cool, bold designs
            </p>
          </div>
-         <div className="col-11 service-4-col">
+         <div className="col-10 service-4-col">
            <h1 className="service-h1">
               Web development
            </h1>
@@ -257,7 +257,7 @@ export default function Home() {
      </div>
      <div className="container-fluid code-container mw-1450">
          <div className="row justify-content-start justify-content-md-center">
-          <div className="col-md-10 col-11 pt-md-5 mt-md-5 potoo-vision-col ml-md-5">
+          <div className="col-md-10 col-10 pt-md-5 mt-md-5 potoo-vision-col ml-md-5">
             <p className="potoo-vision-text">
               Articulated Impressions
             </p>

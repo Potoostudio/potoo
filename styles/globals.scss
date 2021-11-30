@@ -336,7 +336,7 @@ a {
       }
       .service-container-mobile {
         padding: 0;
-        .col-11 {
+        .col-10 {
           padding: 15px 10px 0px 15px;
           margin-bottom: 30px;
 
@@ -344,14 +344,14 @@ a {
             -webkit-background-clip: text;
              -webkit-text-fill-color: transparent;
              background-color: #eef2ea;
-             font-size: 2.2rem;
+             font-size: 1.8rem!important;
              border-bottom: 1px solid rgb(104, 103, 103);
              padding-bottom: 10px;
           }
 
           .service-p {
             color: rgb(211, 211, 211);
-            padding-top: 10px;
+            padding-top: 0px;
           }
 
         }
@@ -359,7 +359,7 @@ a {
     }
     .row-project-images {
       margin-bottom: 1rem;
-      margin-top: 9rem;
+      margin-top: 7rem;
 
       .work-p {
         text-align: left;
