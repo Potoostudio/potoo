@@ -25,6 +25,15 @@ export default function Home() {
     }
   }, [controls, inView]);
 
+  const title = {
+    visible: {opacity: 1},
+    hidden: {opacity: 0},
+  }
+
+  const sec = {
+    visible: {opacity: 1, x: 0},
+    hidden: {opacity: 0, x: -100},
+  }
 
   return (
     <>
@@ -42,12 +51,18 @@ export default function Home() {
         <div className="row justify-content-around">
           
           <div className="col-lg-11 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg pt-5 pt-md-0">
-            <Image
-            src="/home-page-bg.svg"
-            height="932px"
-            width="1920px"
-            alt="potoo home page background"
-            />
+            <motion.image 
+            initial="hidden"
+            animate="visible"
+            variants={sec}
+            >
+              <Image
+              src="/home-page-bg.svg"
+              height="932px"
+              width="1920px"
+              alt="potoo home page background"
+              />
+            </motion.image>
           </div>
         </div>
       </div>
