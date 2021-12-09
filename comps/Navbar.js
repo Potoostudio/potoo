@@ -16,13 +16,13 @@ function toggle() {
         <>
         
         <motion.div
-        initial={{y:-100}}
-        animate={{y: 0}}
-        transition={{
-          duration: 0.5,
-          ease: "easeInOut",
-          delay: 0.4
-        }}
+        // initial={{y:-100}}
+        // animate={{y: 0}}
+        // transition={{
+        //   duration: 0.5,
+        //   ease: "easeInOut",
+        //   delay: 0.4
+        // }}
         >
           <header className="header">
             <div className="main-header">

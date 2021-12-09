@@ -3,8 +3,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useInView } from "react-intersection-observer"
-import { animate, motion, useAnimation } from "framer-motion"
+import { animate, motion, useAnimation, useTransform, useViewportScroll } from "framer-motion"
 import Parallax from 'react-rellax';
+
 
 
 export default function Home() {
@@ -21,20 +22,30 @@ export default function Home() {
 
   useEffect(() => {
     if (inView) {
-      controls.start("visible");
+      controls.start({
+        x: 0,
+        opacity: 1, 
+        transition: { duration: 1 }
+      });
+      console.log('visibile');
+    }
+    if (!inView) {
+      controls.start({
+        x: -200,
+        opacity: 0 
+      });
+      console.log('hidden');
     }
   }, [controls, inView]);
 
-  const title = {
-    visible: {opacity: 1},
-    hidden: {opacity: 0},
-  }
-
   const sec = {
-    visible: {opacity: 1, x: 0},
-    hidden: {opacity: 0, x: -100},
-  }
+    visible: {opacity: 1, x: 0, transition: { duration: 1, delay: 0.2}},
+    hidden: {opacity: 0, x: -200},
+  };
 
+  const {scrollYProgress} = useViewportScroll();
+  const scale = useTransform(scrollYProgress, [0, 1], [0.5, 1.8]);
+  const left = useTransform(scrollYProgress, [0, 1], [-140, 0])
   return (
     <>
       <Head>
@@ -51,10 +62,10 @@ export default function Home() {
         <div className="row justify-content-around">
           
           <div className="col-lg-11 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg pt-5 pt-md-0">
-            <motion.image 
-            initial="hidden"
-            animate="visible"
-            variants={sec}
+            <motion.div 
+            // initial="hidden"
+            // animate="visible"
+            // variants={sec}
             >
               <Image
               src="/home-page-bg.svg"
@@ -62,47 +73,37 @@ export default function Home() {
               width="1920px"
               alt="potoo home page background"
               />
-            </motion.image>
+            </motion.div>
           </div>
         </div>
       </div>
      <div className="container design-container mw-1450 pt-4 mt-0 pt-md-5 mt-md-5">
         <div className="row justify-content-start">
           <div className="col-md-7 col-9 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-2 mt-4">
-                  <p className="design-p text-left pl-md-2">
-                  Potoo, a visionary bird flying
-                  over marvelous <span className="red-text">ideas</span> and 
-                  <span className="red-text"> <span className="nnovation"></span>innovations</span>, hosting them on the 
-                  web 
-                  </p>
+              <p className="design-p text-left pl-md-2">
+              Potoo, a visionary bird flying
+              over marvelous <span className="red-text">ideas</span> and 
+              <span className="red-text"> <span className="nnovation"></span>innovations</span>, hosting them on the 
+              web 
+              </p>
           </div>
         </div>
         <div className="row ideas-row justify-content-center">
           <div className="col-md-10 col-9">
-            {/* <h1 className="ideas-impressions-h1">
-              We convert ideas to impressions
-            </h1> */}
-            <Image 
-            src="/ideas-to-impressions.svg"
-            height="750px"
-            width="1400px"
-            alt="ideas-to-impressions"
-            />
-              {/* <ul className="list ideas-list">
-                <li className="item idea-item item-one">
-                  idea<span className="text-yellow">s</span>
-                </li>
-                <li className="item idea-item item-two">
-                  picture<span className="text-yellow">s</span>
-                </li>
-                <li className="item idea-item item-three">
-                  impression<span className="text-yellow">s</span>
-                </li>
-              </ul> */}
+            <motion.div className="rellax" data-rellax-speed="4" data-rellax-mobile-speed="2" data-rellax-tablet-speed="2" data-speed-desktop-speed="4"
+            style={{left: left}}
+            >
+              <Image 
+              src="/ideas-to-impressions.svg"
+              height="750px"
+              width="1400px"
+              alt="ideas-to-impressions"
+              />
+            </motion.div>
         </div>
         </div>
         <div className="row row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
-          <div className="col-11">
+          <motion.div className="col-11">
               <p className="work-p">Work</p>
               <ul className="project-list-image-list">
                 <li className="item project-image-item">
@@ -128,8 +129,9 @@ export default function Home() {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </motion.div>
         </div>
+     </div>
      <div className="container-fluid service-container mw-1450 pt-md-5 mt-md-5">
        <div className="row justify-content-start pt-md-5">
          <div className="col-md-10 col-10 mb-md-4 mt-md-5 pl-md-5"> 
@@ -140,7 +142,7 @@ export default function Home() {
           <div className="col-md-7 col-10">
             <ul className="service-list list">
               <motion.div
-                whileHover={{scale: 1.06}}
+                whileHover={{scale: 1.04}}
               >
                   <li className="item service-item" 
                   onMouseEnter ={()=> setPointOneShown(true)}
@@ -150,7 +152,7 @@ export default function Home() {
                 </li>
               </motion.div>
               <motion.div
-                whileHover={{scale: 1.06}}
+                whileHover={{scale: 1.04}}
               >
                 <li className="item service-item"
                 onMouseEnter = {() => setPointTwoShown(true)}
@@ -160,7 +162,7 @@ export default function Home() {
                 </li>
               </motion.div>
               <motion.div
-                whileHover={{scale: 1.06}}
+                whileHover={{scale: 1.04}}
               >
                 <li className="item service-item"
                 onMouseEnter = {() => setPointThreeShown(true)}
@@ -170,7 +172,7 @@ export default function Home() {
                 </li>
               </motion.div>
               <motion.div
-                whileHover={{scale: 1.06}}
+                whileHover={{scale: 1.04}}
               >
                 <li className="item service-item"
                 onMouseEnter = {() => setPointFourShown(true)}
@@ -220,11 +222,6 @@ export default function Home() {
      </div>
      <div className="container service-container-mobile pt-5">
        <div className="row justify-content-center">
-        {/* <div className="col-11 mb-4 mt-5 pt-5"> 
-           <h2 className="create-impression-h2">
-             We create impressions by
-           </h2>
-         </div> */}
          <div className="col-11 service-1-col">
            <h1 className="service-h1">
               Branding
@@ -271,14 +268,13 @@ export default function Home() {
        </div>
      </div>
      <div className="container-fluid code-container mw-1450">
-         <div className="row justify-content-center justify-content-md-center">
+         <motion.div style={{scale: scale}} className="row justify-content-center justify-content-md-center">
           <div className="col-md-10 col-10 pt-md-5 mt-md-5 potoo-vision-col ml-md-5">
             <p className="potoo-vision-text">
               Articulated Impressions
             </p>
           </div>
-         </div>
-     </div>
+         </motion.div>
      </div>
     </>
   )

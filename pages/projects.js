@@ -4,21 +4,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useInView } from "react-intersection-observer"
 import { animate, motion, useAnimation } from "framer-motion"
-import Countdown from "react-countdown";
 
-const completedMsg = () => <span>Project is loading</span>
 
-const renderer = ({days, hours, minutes, seconds, completed}) => {
-  if (completed) {
-    return <completedMsg/>
-  } else {
-    return (
-      <span>
-        {hours} : {minutes} : {seconds}
-      </span>
-    )
-  }
-}
 
 export default function Projects() {
 
@@ -45,7 +32,7 @@ export default function Projects() {
         <meta property="og:type" content="website" />
       </Head>
       <div className="container-fluid design-container  mw-1450 pt-lg-5 pb-lg-5 mt-md-5">
-		<div className="row row-project-images pt-md-5 mt-md-5 justify-content-center">
+		<div className="row row-project-images pt-md-1 mt-md-5 justify-content-center">
 			<div className="col-10">
 				<p className="work-p">Work</p>
 				<ul className="project-list-image-list">

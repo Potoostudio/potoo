@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import Link from 'next/link'
-
+import Clock from 'react-digital-clock'
 
 export default function Footer() {
 
@@ -71,23 +71,26 @@ export default function Footer() {
             </div>
         </div>
         <div className="container-fluid pl-lg-0 co-container pt-lg-5 mt-lg-2">
-            <div className="row justify-content-md-start justify-content-center">
-                <div className="col-lg-12 col-12">
+            <div className="row justify-content-md-center justify-content-center">
+                <div className="col-lg-3 col-10">
                     <ul className="list co-list justify-content-center pl-md-5 pt-md-0 ml-md-0 pl-0">
                         <li className="item co-made-p item">
                             <p className="co-made">
-                                Made in the high altitude of 
+                                Made in the high altitude of Colorado
                             </p>
                         </li>
-                        <li className="item co-made-icon item pl-lg-2 pl-1">
+                        {/* <li className="item co-made-icon item pl-lg-2 pl-1">
                             <Image
                             src='/CO-Logo.png'
                             width={25}
                             height={25}
                             alt="Colorado Made"
                             />
-                        </li>
+                        </li> */}
                     </ul>
+                </div>
+                <div className="col-lg-3 col-10 text-center">
+                  <p className="clock">It's <Clock locale={'es-CO'} format={'hh-mm'}/> in the Rockies</p>
                 </div>
             </div>
         </div>

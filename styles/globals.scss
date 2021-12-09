@@ -1628,9 +1628,9 @@ a {
           }
         }
       }
-      .service-container-mobile {
-        display: none;
-      }
+    }
+    .service-container-mobile {
+      display: none;
     }
     .code-container {
       margin-top: 2rem;
@@ -1792,7 +1792,7 @@ a {
 
         .project-image-item {
           position: relative;
-          width: 340px;
+          width: 470px;
 
           .project-item-overlay {
             position: absolute;
@@ -1979,6 +1979,14 @@ a {
   .co-container {
     position: relative;
     margin-top: 6rem!important;
+
+    .clock {
+      font-size: .8rem;
+      display: inline-flex;
+      div {
+        width: fit-content;
+      }
+    }
   }
 
 
