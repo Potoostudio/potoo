@@ -91,7 +91,7 @@ export default function Home() {
         <div className="row ideas-row justify-content-center">
           <div className="col-md-10 col-9">
             <motion.div className="rellax" data-rellax-speed="4" data-rellax-mobile-speed="2" data-rellax-tablet-speed="2" data-speed-desktop-speed="4"
-            style={{left: left}}
+            style={{scale: scale}}
             >
               <Image 
               src="/ideas-to-impressions.svg"
