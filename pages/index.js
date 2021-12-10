@@ -44,7 +44,7 @@ export default function Home() {
   };
 
   const {scrollYProgress} = useViewportScroll();
-  const scale = useTransform(scrollYProgress, [0, 1], [0.5, 1.8]);
+  const scale = useTransform(scrollYProgress, [0, 1], [0.5, 1.3]);
   const left = useTransform(scrollYProgress, [0, 1], [-140, 0])
   return (
     <>
@@ -222,7 +222,7 @@ export default function Home() {
      </div>
      <div className="container service-container-mobile pt-5">
        <div className="row justify-content-center">
-         <div className="col-11 service-1-col">
+         <div className="col-11 service-1-col ">
            <h1 className="service-h1">
               Branding
            </h1>
@@ -234,7 +234,7 @@ export default function Home() {
               brand. “It’s fun!”
            </p>
          </div>
-         <div className="col-11 service-2-col">
+         <div className="col-11 service-2-col ">
            <h1 className="service-h1">
               Web design
            </h1>
@@ -245,7 +245,7 @@ export default function Home() {
               web
            </p>
          </div>
-         <div className="col-11 service-3-col">
+         <div className="col-11 service-3-col ">
            <h1 className="service-h1">
               Graphic design
            </h1>
@@ -255,7 +255,7 @@ export default function Home() {
               making cool, bold designs
            </p>
          </div>
-         <div className="col-11 service-4-col">
+         <div className="col-11 service-4-col ">
            <h1 className="service-h1">
               Web development
            </h1>
