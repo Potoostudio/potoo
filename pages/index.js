@@ -246,7 +246,7 @@ export default function Home() {
            </p>
          </div>
          <div className="col-11 service-3-col ">
-           <h1 className="service-h1">
+            <h1 className="service-h1">
               Graphic design
            </h1>
            <p className="service-p">

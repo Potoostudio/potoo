@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React, {useState, useEffect} from 'react'
 import Link from 'next/link'
-import Clock from 'react-digital-clock'
+import Clock from 'react-live-clock'
 
 export default function Footer() {
 
@@ -78,7 +78,7 @@ export default function Footer() {
                     </p>
                 </div>
                 <div className="col-lg-3 col-10 text-center ">
-                  <p className="clock mb-2 mb-md-3">It's <Clock locale={'es-CO'} format={'hh-mm'}/> in the Rockies</p>
+                  <p className="clock mb-2 mb-md-3">It's <Clock className="digital-clock" format={'HH:mm'} ticking={true} timezone={'US/Mountain'}/> in the Rockies</p>
                 </div>
             </div>
         </div>

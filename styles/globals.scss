@@ -1139,7 +1139,7 @@ a {
   }
   .w-md-75 {
     width: 75%!important;
-  } 
+  }
 }
 
 
@@ -1684,7 +1684,6 @@ a {
         .footer-impression {
           font-size: 10.1rem;
           bottom: 0%;
-          font-style: italic;
         }
       }
       .say-hello-a {
@@ -1741,12 +1740,12 @@ a {
   
         .item {
           position: absolute;
-          top: 25%;
+          top: 16%;
           left: 2vw;
           font-size: 28px;
           color: #363537;
           background-color: #ffffff;
-          padding: 3rem;
+          padding: 3.5rem;
           
         }
       }
@@ -2046,4 +2045,7 @@ a {
 }
 .text-yellow {
   color: #ffd700;
+}
+.digital-clock {
+  padding: 0px 5px;
 }
