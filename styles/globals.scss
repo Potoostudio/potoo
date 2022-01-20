@@ -432,6 +432,31 @@ a {
           }
         }
       }
+      .project-graphics-item {
+        margin-top: 3.5rem;
+        display: grid;
+
+        .project-title-year {
+          margin: 1rem 0;
+          text-align: right;
+
+          .title {
+            font-size: 12px;
+            font-weight: 600;
+            position: relative;
+
+            &::after {
+              content: "-";
+              padding: 0px 8px 0px 10px;
+              font-weight: 500;
+            }
+          }
+          .year {
+            font-size: 10px;
+            font-weight: 400;
+          }
+        }
+      }
     }
     .project-list-image-list {
         list-style: none;
@@ -440,7 +465,7 @@ a {
 
         .project-image-item {
           position: relative;
-          width: 80px;
+          width: 100%;
 
           .project-item-overlay {
             position: absolute;
@@ -844,10 +869,11 @@ a {
       list-style: none;
       padding-left: 0;
       margin-left: 0;
+      padding-top: 4rem;
 
       .project-image-item {
         position: relative;
-        width: 273px;
+        width: 100%;
 
         .project-item-overlay {
           position: absolute;
@@ -885,8 +911,32 @@ a {
           }
         }
       }
+      .project-graphics-item {
+        margin-top: 5rem;
+        display: grid;
+
+        .project-title-year {
+          margin: 3rem 0;
+          text-align: right;
+
+          .title {
+            font-size: 14px;
+            font-weight: 600;
+            position: relative;
+
+            &::after {
+              content: "-";
+              padding: 0px 8px 0px 10px;
+              font-weight: 500;
+            }
+          }
+          .year {
+            font-size: 12px;
+            font-weight: 400;
+          }
+        }
+      }
     }
-    
     
   }
   .design-container {
@@ -1616,6 +1666,14 @@ a {
               }
             }
           }
+          .project-graphics-item {
+            margin-top: 7rem;
+            display: grid;
+
+            .project-title-year {
+              margin: 3rem 0;
+            }
+          }
         }
       }
     }
@@ -1816,6 +1874,31 @@ a {
             &:hover {
               opacity: 1;
               transform: translateY(0);
+            }
+          }
+        }
+        .project-graphics-item {
+          margin-top: 7rem;
+          display: grid;
+
+          .project-title-year {
+            margin: 3rem 0;
+            text-align: right;
+
+            .title {
+              font-size: 18px;
+              font-weight: 700;
+              position: relative;
+  
+              &::after {
+                content: "-";
+                padding: 0px 10px 0px 14px;
+                font-weight: 500;
+              }
+            }
+            .year {
+              font-size: 14px;
+              font-weight: 400;
             }
           }
         }

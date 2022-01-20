@@ -77,9 +77,32 @@ function Design() {
                      </div>
                     }
                     {(selected === 1) && 
-                    <div className="col-8 pt-md-5 mt-md-5" >
-                      
-                     </div>
+                    <div className="col-md-10 col-10 pt-md-1 mt-md-2" >
+                    <ul className="project-list-image-list pl-0 px-0 ">
+                      <li className="item project-graphics-item">
+                        <Image
+                          src="/prosthesis.jpg"
+                          width="1091px"
+                          height="650px"
+                          alt="Prosthesis poster"
+                        />
+                        <span className="project-title-year">
+                            <span className="title">Prosthesis</span>  <span className="year">2022</span>
+                        </span>
+                      </li>
+                      <li className="item project-graphics-item">
+                        <Image
+                          src="/airport-poster.jpg"
+                          width="1091px"
+                          height="743px"
+                          alt="Airport Poster"
+                        />
+                        <span className="project-title-year">
+                           <span className="title">Airport</span>  <span className="year">2021</span>
+                        </span>
+                      </li>
+                    </ul>
+                   </div>
                     }
                     {(selected === 2) && 
                     <div className="col-8 pt-md-5 mt-md-5" >
