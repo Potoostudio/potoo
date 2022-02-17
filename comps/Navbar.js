@@ -15,71 +15,36 @@ function toggle() {
       return (
         <>
         
-        <motion.div
-        // initial={{y:-100}}
-        // animate={{y: 0}}
-        // transition={{
-        //   duration: 0.5,
-        //   ease: "easeInOut",
-        //   delay: 0.4
-        // }}
-        >
-          <header className="header">
-            <div className="main-header">
-              <div className="logo-box">
-                  <Link href="/design">
-                    <a className="bottom-menu-h5 design-a">
-
-                     Design &amp; Code
-                    </a>
-                  </Link>
+        <div className="nav">
+          <div className="logo-box">
                 <Link href="/">
-                    <a className="potoo-logo-a d-block">
-                      <Image 
-                          src="/new-potoo-logo.svg"
-                          width="100%"
-                          height="100"
-                          alt="Potoo logo"
-                          />
-                    </a>
-                  </Link>
-                  <Link href="/projects">
-                    <a className="bottom-menu-h5 code-a">
-                      Work
-                    </a>
-                  </Link>
+                  <a className="potoo-logo-a d-block">
+                    <Image 
+                        src="/new-potoo-logo.svg"
+                        width="100%"
+                        height="140px"
+                        alt="Potoo logo"
+                        />
+                  </a>
+                </Link>
               </div>
+          <div className="hamburger-menu" aria-label="menu"
+            onClick={toggle}>
+            <div className={`menu-icon ${isActive ? 'activeNav' : ''}`}>
+              <p className={`menu ${isActive ? `menu-active` : ''}`}>Menu</p>
             </div>
-          </header>
-        </motion.div>
+          </div>
+        </div>
         <div className="mobile-header container">
-          <div className="header-box row justify-content-end">
-            <div className="logo-box col-5">
-              <Link href="/">
-                <a className="potoo-logo-a d-block">
-                  <Image 
-                      src="/new-potoo-logo.svg"
-                      width="100%"
-                      height="140px"
-                      alt="Potoo logo"
-                      />
-                </a>
-              </Link>
-            </div>
-            <div className="hamburger-menu col-3 justify-content-end" aria-label="menu"
-              onClick={toggle}>
-              <div className={`menu-icon ${isActive ? 'activeNav' : ''}`}>
-                <span className="line-1"></span>
-                <span className="line-2"></span>
-              </div>
-            </div>
+          <div className="header-box">
+            
             <div className={`menu-list ${isActive ? 'activeNav' : ''}`}>
               <ul className="list header-list">
                 <li className="item"
                 onClick={toggle}>
                   <Link href="/design">
                     <a className="mobile-navBar-item design-a">
-                    Design &amp; Code
+                    About
                     </a>
                   </Link>
                 </li>
@@ -111,7 +76,7 @@ function toggle() {
                     </Link>
                   </div>
                   <div className="row bg-white pt-2 mt-3 w-100 justify-content-around">
-                  <div className="col-2 p-1n25rem">
+                  <div className="col-2 p-1n25rem text-center">
                       <Link href="https://www.instagram.com/potoostudio/" aria-label="instagram">
                           <a  className="social-media-a">
                               <Image
@@ -123,7 +88,7 @@ function toggle() {
                           </a>
                       </Link>
                         </div>
-                  <div className="col-2 p-1n25rem">
+                  <div className="col-2 p-1n25rem text-center">
                       <Link href="https://www.behance.net/potoostudio" aria-label="behance">
                           <a  className="social-media-a">
                               <Image
@@ -135,7 +100,7 @@ function toggle() {
                           </a>
                       </Link>
                   </div>
-                  <div className="col-2 p-1n25rem">
+                  <div className="col-2 p-1n25rem text-center">
                       <Link href="https://dribbble.com/Potoo" aria-label="dribbble">
                           <a  className="social-media-a">
                               <Image
