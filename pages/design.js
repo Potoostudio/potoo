@@ -29,7 +29,7 @@ function Design() {
               <meta property="og:url" content="https://potoo.studio/design" />
               <meta property="og:type" content="website" />
             </Head>
-            <div className="container-fluid design-first-container mw-1450 pt-5">
+            <div className="container-fluid design-first-container mw-1450 pt-5 pt-md-0">
               <div className="row justify-content-center pt-md-5 mt-md-5">
                   <div className="col-md-10 col-10 pt-md-1 ml-md-0 text-center">
                       <ul className="design-page-list-btns text-center">

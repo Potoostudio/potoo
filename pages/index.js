@@ -1,22 +1,22 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useInView } from "react-intersection-observer"
-import { animate, motion, useAnimation, useTransform, useViewportScroll } from "framer-motion"
-import Parallax from 'react-rellax';
+import { animate, motion, useAnimation, useTransform, useViewportScroll} from "framer-motion"
 
 
 
 export default function Home() {
 
+  // const scrollRef = useRef(null);
 
   const [isShownPointOne, setPointOneShown] = useState(false);
   const [isShownPointTwo, setPointTwoShown] = useState(false);
   const [isShownPointThree, setPointThreeShown] = useState(false);
   const [isShownPointFour, setPointFourShown] = useState(false);
 
-
+// Delete this code if it doesn't work on animation
   const controls = useAnimation();
   const [ref, inView] = useInView();
 
@@ -61,19 +61,18 @@ export default function Home() {
       <div className="container-fluid home-page-container mw-1450 pb-lg-5">
         <div className="row justify-content-around">
           
-          <div className="col-lg-11 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg pt-5 pt-md-0">
-            <motion.div 
-            // initial="hidden"
-            // animate="visible"
-            // variants={sec}
-            >
-              <Image
-              src="/home-page-bg.svg"
-              height="932px"
-              width="1920px"
-              alt="potoo home page background"
-              />
-            </motion.div>
+          <div className="col-lg-7 col-10 pl-lg-0 pr-lg-0 mr-lg-0 your-bg pt-4 pt-md-0 pr-0">
+            <div className="main-page-impression-text-box">
+                <h1 className="main-page-impression-text-large">
+                  Nesting Impressions
+                </h1>
+            </div>
+          </div>
+          <div className="col-lg-1 col-2 p-0">
+            <span className="main-page-impression-text-on">on</span>
+          </div>
+          <div className="col-md-4 col-12 pt-2 pt-md-0">
+          <iframe src="/main-potoo-animtaion-360.gif" width="360" height="360" frameBorder="0" className='video-sec' allowFullScreen></iframe>
           </div>
         </div>
       </div>
@@ -82,7 +81,7 @@ export default function Home() {
           <div className="col-md-7 col-9 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-2 mt-4">
               <p className="design-p text-left pl-md-2">
               Potoo, a visionary bird flying
-              over marvelous <span className="red-text">ideas</span> and 
+              over extraordinary <span className="red-text">ideas</span> and 
               <span className="red-text"> <span className="nnovation"></span>innovations</span>, hosting them on the 
               web 
               </p>
@@ -102,9 +101,9 @@ export default function Home() {
             </motion.div>
         </div>
         </div>
-        <div className="row row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
+        <div className="row home-page-row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
           <motion.div className="col-11">
-              <p className="work-p">Work</p>
+              <p className="work-p">Projects</p>
               <ul className="project-list-image-list">
                 <li className="item project-image-item">
                       <Image
@@ -113,7 +112,7 @@ export default function Home() {
                         height="352px"
                         alt="project potoo"
                       />
-                  <Link href="/project-potoo">
+                  <Link href="/projects/project-potoo">
                     <a className="project-li-link">
                   <div className="project-item-overlay">
                     <div className="project-item-title">
@@ -136,7 +135,7 @@ export default function Home() {
        <div className="row justify-content-start pt-md-5">
          <div className="col-md-10 col-10 mb-md-4 mt-md-5 pl-md-5"> 
            <h2 className="create-impression-h2">
-             We create impressions by
+             We do:
            </h2>
          </div>
           <div className="col-md-7 col-10">
@@ -267,6 +266,13 @@ export default function Home() {
          </div>
        </div>
      </div>
+      {/* <div ref={scrollRef} className="box" style={{ overflow: "scroll"}}>
+        <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ root: scrollRef }}
+        />
+      </div> */}
      <div className="container-fluid code-container mw-1450">
          <motion.div style={{scale: scale}} className="row justify-content-center justify-content-md-center">
           <div className="col-md-10 col-10 pt-md-5 mt-md-5 potoo-vision-col ml-md-5">
