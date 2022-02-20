@@ -306,7 +306,6 @@ a {
               bottom: 0;
               width: 100px;
               height: 93px;
-              max-width: 105px;
             }
           }
         }
@@ -1526,7 +1525,7 @@ a {
           }
           .phone-menu-footer {
             position: absolute;
-            bottom: 14%;
+            bottom: 0;
             width: 100%;
 
             .p-10-0 {
@@ -1951,7 +1950,7 @@ a {
         }
         .row-project-images {
           margin-bottom: 12rem;
-          margin-top: 10rem;
+          margin-top: 2rem;
 
           .projects-list {
             padding-left: 0;
