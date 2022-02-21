@@ -51,7 +51,9 @@ export default function Projects() {
 								<span className="project-item-number">01</span> <p className="project-item-name">Potoo Studio</p>
 							</a>
 						</Link>
-						<iframe src="/Potoo-animation.mp4" width="480" height="446" frameBorder="0" className={`project-item-picture ${isActive === 0? "active" : ''}`} allowFullScreen></iframe>
+						<video autoplay loop  className={`project-item-picture ${isActive === 0? "active" : ''}`}> 
+							<source src="/Potoo-animation.mp4" type="video/mp4"/>
+						</video>
 					</li>
 					<li className="item projects-list-item">
 						<Link href="/projects/project-kish" >
