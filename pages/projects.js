@@ -51,9 +51,12 @@ export default function Projects() {
 								<span className="project-item-number">01</span> <p className="project-item-name">Potoo Studio</p>
 							</a>
 						</Link>
-						<video autoplay loop  className={`project-item-picture ${isActive === 0? "active" : ''}`}> 
-							<source src="/Potoo-animation.mp4" type="video/mp4"/>
-						</video>
+						<Image
+							src="/Potoo-animation.gif"
+							width="480px"
+							height="446px"
+							className={`project-item-picture ${isActive === 0? "active" : ''}`}
+						/>
 					</li>
 					<li className="item projects-list-item">
 						<Link href="/projects/project-kish" >
@@ -63,7 +66,12 @@ export default function Projects() {
 								<span className="project-item-number">02</span> <p className="project-item-name">Kish</p>
 							</a>
 						</Link>
-						<iframe src="/Kish-animation.gif" frameBorder="0" className={`project-item-picture ${isActive === 1? "active" : ''}`} allowFullScreen></iframe>
+						<Image
+							src="/Kish-animation.gif"
+							width="480px"
+							height="446px"
+							className={`project-item-picture ${isActive === 0? "active" : ''}`}
+						/>
 					</li>
 				</ul>
 				
