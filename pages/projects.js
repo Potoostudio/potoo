@@ -61,7 +61,7 @@ export default function Projects() {
 								<span className="project-item-number">02</span> <p className="project-item-name">Kish</p>
 							</a>
 						</Link>
-						<iframe src="/Kish-animation.gif" width="100%" frameBorder="0" className={`project-item-picture ${isActive === 1? "active" : ''}`} allowFullScreen></iframe>
+						<iframe src="/Kish-animation.gif" frameBorder="0" className={`project-item-picture ${isActive === 1? "active" : ''}`} allowFullScreen></iframe>
 					</li>
 				</ul>
 				
