@@ -51,7 +51,7 @@ export default function Projects() {
 								<span className="project-item-number">01</span> <p className="project-item-name">Potoo Studio</p>
 							</a>
 						</Link>
-						<iframe src="/Potoo-animation.gif" width="480" height="446" frameBorder="0" className={`project-item-picture ${isActive === 0? "active" : ''}`} allowFullScreen></iframe>
+						<iframe src="/Potoo-animation.mp4" width="480" height="446" frameBorder="0" className={`project-item-picture ${isActive === 0? "active" : ''}`} allowFullScreen></iframe>
 					</li>
 					<li className="item projects-list-item">
 						<Link href="/projects/project-kish" >
