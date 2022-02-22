@@ -54,6 +54,7 @@ export default function Projects() {
 							src="/Potoo-animation.gif"
 							width="480px"
 							height="446px"
+							frameBorder="0"
 							className={`project-item-picture ${selected === 1 ? "active" : ''}`}
 						/>
 					</li>
@@ -69,6 +70,7 @@ export default function Projects() {
 							src="/Kish-animation.gif"
 							width="480px"
 							height="446px"
+							frameBorder="0"
 							className={`project-item-picture ${selected === 2 ? "active" : ''}`}
 						/>
 					</li>
