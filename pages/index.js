@@ -73,7 +73,7 @@ export default function Home() {
             <span className="main-page-impression-text-on">on</span>
           </div>
           <div className="col-md-4 col-12 pt-2 pt-md-0">
-          <video src="/main-potoo-animtaion-vid.mp4" loop autoPlay width="365" height="365"  className='video-sec'/>
+          <iframe src="/main-potoo-animtaion.gif" frameBorder="0" width="385" height="385"  className='video-sec'/>
           </div>
         </div>
       </div>
