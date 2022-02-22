@@ -10,13 +10,12 @@ import { animate, motion, useAnimation } from "framer-motion"
 export default function Projects() {
 
 	const [selected, setSelected] = useState(0)
-    const [isActive, setActive] = useState(0);
+    // const [isActive, setActive] = useState(0);
 
     const UpdateToggle = (index) => {
       setSelected(index)
-      setActive(index)
+    //   setActive(index)
     } 
-
   const controls = useAnimation();
   const [ref, inView] = useInView();
 
@@ -46,31 +45,31 @@ export default function Projects() {
 					<li className="item projects-list-item">
 						<Link href="/projects/project-potoo" >
 							<a className="project-item-link" 
-								onMouseEnter ={()=> UpdateToggle(0)}
-								onMouseLeave ={()=> UpdateToggle("")}>
+								onMouseEnter ={()=> UpdateToggle(1)}
+								onMouseLeave ={()=> UpdateToggle(0)}>
 								<span className="project-item-number">01</span> <p className="project-item-name">Potoo Studio</p>
 							</a>
 						</Link>
-						<Image
+						<iframe
 							src="/Potoo-animation.gif"
 							width="480px"
 							height="446px"
-							className={`project-item-picture ${isActive === 0? "active" : ''}`}
+							className={`project-item-picture ${selected === 1 ? "active" : ''}`}
 						/>
 					</li>
 					<li className="item projects-list-item">
 						<Link href="/projects/project-kish" >
 							<a className="project-item-link" 
-								onMouseEnter ={()=> UpdateToggle(1)}
-								onMouseLeave ={()=> UpdateToggle("")}>
+								onMouseEnter ={()=> UpdateToggle(2)}
+								onMouseLeave ={()=> UpdateToggle(0)}>
 								<span className="project-item-number">02</span> <p className="project-item-name">Kish</p>
 							</a>
 						</Link>
-						<Image
+						<iframe
 							src="/Kish-animation.gif"
 							width="480px"
 							height="446px"
-							className={`project-item-picture ${isActive === 0? "active" : ''}`}
+							className={`project-item-picture ${selected === 2 ? "active" : ''}`}
 						/>
 					</li>
 				</ul>

@@ -1988,17 +1988,19 @@ a {
               }
 
               .project-item-picture {
-                opacity: 0;
+                // opacity: 0;
+                display: none;
                 position: absolute;
                 left: 12%;
                 bottom: 0;
                 width: 480px;
                 height: 446px;
                 z-index: 111;
-                transition: opacity 0.4s linear;
+                transition: display 0.4s linear;
 
                 &.active {
-                  opacity: 1;
+                  display: inline-block;
+                  // opacity: 1;
                 }
 
               }
