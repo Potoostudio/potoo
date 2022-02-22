@@ -38,7 +38,7 @@ a {
       z-index: 11111111;
       background: #fff;
       right: 2%;
-      top: 16%;
+      top: 1rem;
       cursor: pointer;
   
       .menu {
@@ -128,11 +128,11 @@ a {
                 color: #FAFAFA;
                 font-weight: 700;
                 font-family:Abril Fatface;
+                width: 100%;
 
                 &.design-a {
                   position: relative;
                   display: inline-block;
-                  width: 100%;
 
                   &::before {
                     content: "01";
@@ -149,7 +149,6 @@ a {
                 &.code-a {
                   position: relative;
                   display: inline-block;
-                  width: 100%;
 
                   &::before {
                     content: "02";
@@ -306,7 +305,6 @@ a {
               position: relative;
               left: 0%;
               bottom: 0;
-              width: 100%;
               height: 365px;
               z-index: 111;
             }
@@ -794,7 +792,7 @@ a {
       z-index: 11111111;
       background: #fff;
       right: 2%;
-      top: 22%;
+      top: 2rem;
       cursor: pointer;
   
       .menu {
@@ -1162,8 +1160,7 @@ a {
               position: absolute;
               left: 12%;
               bottom: 0;
-              width: 100%;
-              height: 365px;
+              height: 200px;
               z-index: 111;
             }
           }
@@ -1475,11 +1472,11 @@ a {
                 font-weight: 600;
                 font-family:Abril Fatface;
                 color: #FAFAFA;
+                width: 100%;
 
                 &.design-a {
                   position: relative;
                   display: inline-block;
-                  width: 50%;
                   margin-left: 2.8rem;
                   transition: all 0.4s ease-in-out;
 
@@ -1504,7 +1501,6 @@ a {
                 &.code-a {
                   position: relative;
                   display: inline-block;
-                  width: 50%;
                   margin-left: 2.8rem;
                   transition: all 0.4s ease-in-out;
 
@@ -1969,6 +1965,7 @@ a {
               border-bottom: 1px solid #bbbbbb;
               margin-top: 7rem;
               position: relative;
+              cursor: pointer;
 
               .project-item-link {
                 display: flex;
@@ -2000,7 +1997,6 @@ a {
                 position: absolute;
                 left: 12%;
                 bottom: 0;
-                width: 100%;
                 height: 365px;
                 z-index: 111;
                 transition: display 0.4s linear;
