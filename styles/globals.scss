@@ -202,14 +202,15 @@ a {
       .main-page-impression-text-box {
   
         .main-page-impression-text-large {
-          font-size: 13.4vw;
-          line-height: 3rem;
+          font-size: 13vw;
+          line-height: 3.5rem;
+          font-weight: 700;
         }
       }
       .main-page-impression-text-on {
         font-size: 8vw;
         position: absolute;
-        bottom: 0;
+        bottom: 4px;
       }
       .video-sec {
         width: 100%;
