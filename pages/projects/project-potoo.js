@@ -53,7 +53,7 @@ export default function Projects() {
            </div>
           </div>
           <div className="row justify-content-start row-project-info pt-5 mt-4">
-           <div className="col-10 col-md-12 pt-4 pl-md-5">
+           <div className="col-11 col-md-12 pt-4 pl-md-5">
             <div className="project-statement pt-md-5">
               <p className="">
                 We are a creative design studio established in 2021.
