@@ -45,6 +45,7 @@ export default function Home() {
 
   const {scrollYProgress} = useViewportScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [0.5, 1.3]);
+  const color = useTransform(scrollYProgress, [0.64, 1], ['#0A100D', '#EBEBEB'])
   const left = useTransform(scrollYProgress, [0, 1], [-140, 0])
   return (
     <>
@@ -221,7 +222,7 @@ export default function Home() {
      </div>
      <div className="container service-container-mobile pt-5">
        <div className="row justify-content-center">
-         <div className="col-11 service-1-col ">
+         <div className="col-11 service-1-col service-mobile-col">
            <h1 className="service-h1">
               Branding
            </h1>
@@ -233,7 +234,7 @@ export default function Home() {
               brand. “It’s fun!”
            </p>
          </div>
-         <div className="col-11 service-2-col ">
+         <div className="col-11 service-2-col service-mobile-col">
            <h1 className="service-h1">
               Web design
            </h1>
@@ -244,7 +245,7 @@ export default function Home() {
               web
            </p>
          </div>
-         <div className="col-11 service-3-col ">
+         <div className="col-11 service-3-col service-mobile-col">
             <h1 className="service-h1">
               Graphic design
            </h1>
@@ -254,7 +255,7 @@ export default function Home() {
               making cool, bold designs
            </p>
          </div>
-         <div className="col-11 service-4-col ">
+         <div className="col-11 service-4-col service-mobile-col">
            <h1 className="service-h1">
               Web development
            </h1>
@@ -266,19 +267,12 @@ export default function Home() {
          </div>
        </div>
      </div>
-      {/* <div ref={scrollRef} className="box" style={{ overflow: "scroll"}}>
-        <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ root: scrollRef }}
-        />
-      </div> */}
      <div className="container-fluid code-container mw-1450">
          <motion.div style={{scale: scale}} className="row justify-content-center justify-content-md-center">
           <div className="col-md-10 col-10 pt-md-5 mt-md-5 potoo-vision-col ml-md-5">
-            <p className="potoo-vision-text">
+            <motion.p style={{ color }} className="potoo-vision-text">
               Articulated Impressions
-            </p>
+            </motion.p>
           </div>
          </motion.div>
      </div>

@@ -315,10 +315,11 @@ a {
   
         .work-p {
           text-align: left;
-          font-size: 1.32rem;
-          padding-bottom: 0.5rem;
+          font-size: 2rem;
+          padding-bottom: 0.2rem;
           border-bottom: 1px solid #f0ecec;
           margin-bottom: 2rem;
+          font-weight: 700;
         }
         .project-list-image-list {
           list-style: none;
@@ -370,22 +371,25 @@ a {
     }
     .service-container-mobile {
       padding: 0;
-      .col-11 {
+      .service-mobile-col {
         padding: 15px 10px 0px 15px;
         margin-bottom: 30px;
 
         .service-h1 {
           -webkit-background-clip: text;
            -webkit-text-fill-color: transparent;
-           background-color: #eef2ea;
-           font-size: 1.6rem!important;
+           background-color: #fafafa;
+           font-size: 2.3rem!important;
            border-bottom: 1px solid rgb(177, 177, 177);
-           padding-bottom: 10px;
+           padding-bottom: 5px;
+           font-family: 'Inter';
+           text-transform: uppercase;
+           font-weight: 800;
         }
 
         .service-p {
-          color: rgb(211, 211, 211);
-          padding-top: 0px;
+          color: rgb(179, 179, 179);
+          padding-top: 10px;
         }
 
       }
@@ -429,7 +433,7 @@ a {
       .potoo-vision-text {
         font-size: 3rem;
         line-height: 55px;
-        color: #c6c4c4;
+        // color: #ebebeb;
         z-index: 199;
         padding: 0;
         margin-top: 1.278rem;
@@ -2165,12 +2169,11 @@ a {
       .create-impression-h2 {
         font-size: 5.4rem;
         font-weight: 600;
-        border-bottom: 1px solid #fff;
+        border-bottom: 3px solid #fff;
         padding-bottom: 2rem;
       }
   
       .service-list {
-        // list-style: url('../public/item-icon.svg');
         list-style: none;
         
         .item {
