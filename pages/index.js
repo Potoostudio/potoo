@@ -53,9 +53,9 @@ export default function Home() {
         <title>Potoo Studio</title>
         <link rel="icon" href="favicon.ico" />
         <link rel="manifest" href="/manifest.json"/>
-        <meta name="description" content="Potoo Studio | creative designs, branding, and website development"/>
-        <meta property="og:title" content="Potoo Studio" />
-        <meta property="og:description" content="Potoo Studio | creative designs, branding, and website development"/>
+        <meta name="description" content="POTOO STUDIO | creative designs, branding, and website development"/>
+        <meta property="og:title" content="POTOO STUDIO" />
+        <meta property="og:description" content="POTOO STUDIO | creative designs, branding, and website development"/>
         <meta property="og:url" content="https://potoo.studio" />
         <meta property="og:type" content="website" />
       </Head>
