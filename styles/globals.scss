@@ -444,147 +444,6 @@ a {
       }
     }
   }
-  .design-first-container {
-    
-    .project-list-image-list {
-      list-style: none;
-      padding-left: 0;
-      margin-left: 0;
-
-      .project-image-item {
-        position: relative;
-        width: 151px;
-
-        .project-item-overlay {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background: rgba(0, 0, 0, 0.6);
-          color: #fff;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          opacity: 0;
-          transition: opacity 0.35s;
-          transform: translateY(0);
-
-          .project-item-title {
-            font-size: 1rem;
-          }
-          .project-item-link {
-
-            .link-icon {
-              width: 22px;
-              height: 22px;
-              fill: #fff;
-              margin-left: 7vw;
-              margin-top: 2vh;
-            }
-          }
-
-          &:hover {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-      }
-      .project-graphics-item {
-        margin-top: 3.5rem;
-        display: grid;
-
-        .project-title-year {
-          margin: 1rem 0;
-          text-align: right;
-
-          .title {
-            font-size: 12px;
-            font-weight: 600;
-            position: relative;
-
-            &::after {
-              content: "-";
-              padding: 0px 8px 0px 10px;
-              font-weight: 500;
-            }
-          }
-          .year {
-            font-size: 10px;
-            font-weight: 400;
-          }
-        }
-      }
-    }
-    .project-list-image-list {
-        list-style: none;
-        padding-left: 0;
-        margin-left: 0;
-
-        .project-image-item {
-          position: relative;
-          width: 100%;
-
-          .project-item-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.6);
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity 0.35s;
-            transform: translateY(0);
-
-            .project-item-title {
-              font-size: 1rem;
-            }
-            .project-item-link {
-
-              .link-icon {
-                width: 22px;
-                height: 22px;
-                fill: #fff;
-                margin-left: 7vw;
-                margin-top: 2vh;
-              }
-            }
-
-            &:hover {
-              opacity: 1;
-              transform: translateY(0);
-            }
-          }
-        }
-      }
-      .design-page-list-btns {
-        list-style: none;
-        display: flex;
-        padding-left: 0;
-        border-bottom: 1px solid #7d7979;
-        padding-bottom: 20px;
-
-        .item {
-          width: 33%;
-          font-size: 0.96rem;
-          text-transform: capitalize;
-          opacity: 60%;
-          cursor: pointer;
-          transition: opacity 0.6s;
-
-          &.active {
-            opacity: 100%;
-          }
-        }
-      }
-  }
-  
   .projects-container {
 
     .waiting-for-projects {
@@ -770,7 +629,114 @@ a {
     height: 362px;
   }
 }
+.about-container {
+  margin-top: 0rem;
 
+  .we-are-potoo-h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ececec;
+
+    .we-are-potoo-h1-are {
+      font-size: 3.2rem;
+    }
+
+    .we-are-potoo-h1-potoo {
+      font-weight: 800;
+    }
+  }
+  .logo-concept-row {
+    margin-top: 10rem;
+
+    .logo-concept-h1 {
+      padding-bottom: 0.5rem;
+      padding-left: 2.6rem;
+      font-size: 1.5rem;
+      position: relative;
+
+      &::before {
+        content: '';
+        width: 77%;
+        height: 1.5px;
+        background-color: #ececec;
+        position: absolute;
+        bottom: 0;
+        left: 13%;
+      }
+    }
+
+    .logo-concept-box {
+      display: inline-flex;
+      width: 100%;
+
+      .logo-concept-box-image {
+        width: 13%;
+        max-width: 13%;
+      }
+      .logo-concept-box-content {
+        padding-left: auto;
+        width: 80%;
+
+        .list {
+          list-style: none;
+          padding-left: 0;
+
+          .item {
+            padding: 0.4rem 0 ;
+            font-size: 0.95rem;
+
+            .logo-concept-box-pic-link {
+              color: #868585;
+              text-decoration: none;
+              cursor: pointer;
+
+              &:hover {
+                color: #adadad;
+                text-decoration: none;
+              }
+            }
+            &.potoo-bird {
+              display: none;
+              transition: all 0.3s ease-in-out;
+
+              &.active {
+                display: inline-block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .we-are-row {
+    margin-top: 3rem;
+    
+    .we-are-h3 {
+      font-size: 4rem;
+      font-weight: 600;
+    }
+  }
+  .content-row {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+
+    .normal-p {
+      font-size: 1.2rem;
+      padding-top: 3rem;
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        width: 30%;
+        height: 1px;
+        right: 3%;
+        bottom: 7px;
+        background-color: #ececec;
+      }
+    }
+  }
+}
 @media only screen and (min-width: 669px) {
 
   .nav {
@@ -981,82 +947,6 @@ a {
     width: 720px;
     height: 576px;
   }
-  .design-first-container {
-    
-    .project-list-image-list {
-      list-style: none;
-      padding-left: 0;
-      margin-left: 0;
-      padding-top: 4rem;
-
-      .project-image-item {
-        position: relative;
-        width: 100%;
-
-        .project-item-overlay {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 98%;
-          background: rgba(0, 0, 0, 0.6);
-          color: #fff;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          opacity: 0;
-          transition: opacity 0.35s;
-          transform: translateY(0);
-
-          .project-item-title {
-            font-size: 2rem;
-          }
-          .project-item-link {
-
-            .link-icon {
-              width: 42px;
-              height: 42px;
-              fill: #fff;
-              margin-left: 7vw;
-              margin-top: 2vh;
-            }
-          }
-
-          &:hover {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-      }
-      .project-graphics-item {
-        margin-top: 5rem;
-        display: grid;
-
-        .project-title-year {
-          margin: 3rem 0;
-          text-align: right;
-
-          .title {
-            font-size: 14px;
-            font-weight: 600;
-            position: relative;
-
-            &::after {
-              content: "-";
-              padding: 0px 8px 0px 10px;
-              font-weight: 500;
-            }
-          }
-          .year {
-            font-size: 12px;
-            font-weight: 400;
-          }
-        }
-      }
-    }
-    
-  }
   .design-container {
     margin-top: 4rem;
     padding-top: 7rem;
@@ -1245,8 +1135,114 @@ a {
         font-family: "Playfair Display";
       }
     }
-
    
+  }
+  .about-container {
+    margin-top: 6rem;
+
+    .we-are-potoo-h1 {
+      font-size: 5rem;
+      text-transform: uppercase;
+      border-bottom: 2px solid #ececec;
+
+      .we-are-potoo-h1-are {
+        font-size: 3.2rem;
+      }
+
+      .we-are-potoo-h1-potoo {
+        font-weight: 800;
+      }
+    }
+    .logo-concept-row {
+      margin-top: 10rem;
+
+      .logo-concept-h1 {
+        padding-bottom: 0.5rem;
+        padding-left: 4.2rem;
+        position: relative;
+
+        &::before {
+          content: '';
+          width: 77%;
+          height: 1.5px;
+          background-color: #ececec;
+          position: absolute;
+          bottom: 0;
+          left: 13%;
+        }
+      }
+
+      .logo-concept-box {
+        display: inline-flex;
+        width: 100%;
+
+        .logo-concept-box-image {
+          width: 13%;
+          max-width: 13%;
+        }
+        .logo-concept-box-content {
+          padding-left: auto;
+          width: 80%;
+
+          .list {
+            list-style: none;
+            padding-left: 0;
+
+            .item {
+              padding-top: 0.4rem;
+              font-size: 1rem;
+
+              .logo-concept-box-pic-link {
+                color: #868585;
+                text-decoration: none;
+                cursor: pointer;
+
+                &:hover {
+                  color: #adadad;
+                  text-decoration: none;
+                }
+              }
+              &.potoo-bird {
+                display: none;
+                transition: all 0.3s ease-in-out;
+
+                &.active {
+                  display: inline-block;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .we-are-row {
+      margin-top: 5rem;
+      
+      .we-are-h3 {
+        font-size: 4rem;
+        font-weight: 600;
+      }
+    }
+    .content-row {
+      margin-top: 12rem;
+      margin-bottom: 10rem;
+
+      .normal-p {
+        font-size: 1.2rem;
+        padding-top: 3rem;
+        position: relative;
+
+        &::after {
+          content: '';
+          position: absolute;
+          width: 30%;
+          height: 1px;
+          right: 3%;
+          bottom: 7px;
+          background-color: #ececec;
+        }
+      }
+    }
   }
   .footer-container {
     padding-top: 3rem;
@@ -1607,7 +1603,112 @@ a {
       }
     }
   }
-  
+  .about-container {
+    margin-top: 6rem;
+    .we-are-potoo-h1 {
+      font-size: 8rem;
+      text-transform: uppercase;
+      border-bottom: 2px solid #ececec;
+
+      .we-are-potoo-h1-are {
+        font-size: 5.2rem;
+      }
+
+      .we-are-potoo-h1-potoo {
+        font-weight: 800;
+      }
+    }
+    .logo-concept-row {
+      margin-top: 10rem;
+
+      .logo-concept-h1 {
+        padding-bottom: 0.5rem;
+        padding-left: 6.7rem;
+        position: relative;
+
+        &::before {
+          content: '';
+          width: 77%;
+          height: 1.5px;
+          background-color: #ececec;
+          position: absolute;
+          bottom: 0;
+          left: 13%;
+        }
+      }
+
+      .logo-concept-box {
+        display: inline-flex;
+        width: 100%;
+
+        .logo-concept-box-image {
+          width: 13%;
+          max-width: 13%;
+        }
+        .logo-concept-box-content {
+          padding-left: auto;
+          width: 80%;
+
+          .list {
+            list-style: none;
+            padding-left: 0;
+
+            .item {
+              padding-top: 0.4rem;
+              font-size: 1.2rem;
+
+              .logo-concept-box-pic-link {
+                color: #868585;
+                text-decoration: none;
+                cursor: pointer;
+
+                &:hover {
+                  color: #adadad;
+                  text-decoration: none;
+                }
+              }
+              &.potoo-bird {
+                display: none;
+                transition: all 0.3s ease-in-out;
+
+                &.active {
+                  display: inline-block;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .we-are-row {
+      margin-top: 5rem;
+      
+      .we-are-h3 {
+        font-size: 5rem;
+        font-weight: 600;
+      }
+    }
+    .content-row {
+      margin-top: 12rem;
+      margin-bottom: 10rem;
+
+      .normal-p {
+        font-size: 1.2rem;
+        padding-top: 3rem;
+        position: relative;
+
+        &::after {
+          content: '';
+          position: absolute;
+          width: 30%;
+          height: 1px;
+          right: 3%;
+          bottom: 7px;
+          background-color: #ececec;
+        }
+      }
+    }
+  }
   .contact-container {
     border-top: none;
     padding-top: 5rem;
@@ -2205,103 +2306,6 @@ a {
         }
       }
     }
-    .design-first-container {
-      
-      .design-page-list-btns {
-        list-style: none;
-        display: flex;
-        padding-left: 0;
-        border-bottom: 1px solid #7d7979;
-        padding-bottom: 20px;
-
-        .item {
-          width: 33%;
-          font-size: 1.6rem;
-          text-transform: capitalize;
-          opacity: 60%;
-          cursor: pointer;
-          position: relative;
-          text-transform: capitalize;
-          transition: opacity 0.6s;
-
-          &.active {
-            opacity: 100%;
-          }
-        }
-      }
-      .project-list-image-list {
-        list-style: none;
-        padding-left: 0;
-        margin-left: 0;
-
-        .project-image-item {
-          position: relative;
-          width: 470px;
-
-          .project-item-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 98%;
-            background: rgba(0, 0, 0, 0.6);
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity 0.35s;
-            transform: translateY(0);
-
-            .project-item-title {
-              font-size: 2rem;
-            }
-            .project-item-link {
-
-              .link-icon {
-                width: 42px;
-                height: 42px;
-                fill: #fff;
-                margin-left: 7vw;
-                margin-top: 2vh;
-              }
-            }
-
-            &:hover {
-              opacity: 1;
-              transform: translateY(0);
-            }
-          }
-        }
-        .project-graphics-item {
-          margin-top: 7rem;
-          display: grid;
-
-          .project-title-year {
-            margin: 3rem 0;
-            text-align: right;
-
-            .title {
-              font-size: 18px;
-              font-weight: 700;
-              position: relative;
-  
-              &::after {
-                content: "-";
-                padding: 0px 10px 0px 14px;
-                font-weight: 500;
-              }
-            }
-            .year {
-              font-size: 14px;
-              font-weight: 400;
-            }
-          }
-        }
-      }
-      
-    }
     .project-showcase-container {
       margin-top: 8rem!important;
       .project-row {
@@ -2437,10 +2441,6 @@ a {
       }
     }
 
-    
-  
-  
-  
   
   .w-lg-100 {
     width: 100%!important;
@@ -2487,21 +2487,6 @@ a {
 .mw-1450 {
   max-width: 1450px!important;
 }
-// .arrow {
-//   width: 75px;
-//   height: 75px;
-//   background: #f1502b url("../public/arrow-bottom.svg") center center no-repeat;
-//   position: absolute;
-//   bottom: 40%;
-//   left: 50%;
-//   transform: translate(-50%, 0);
-//   z-index: 5;
-//   transition: all .25s ease-in-out;
-
-//   &:hover {
-//     background: #e84824 url("../public/arrow-bottom.svg") center 36px no-repeat;
-//   }
-// }
 .bg-green-col {
   background-color: #72816896;
 }

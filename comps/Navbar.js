@@ -42,7 +42,7 @@ function toggle() {
               <ul className="list header-list">
                 <li className="item"
                 onClick={toggle}>
-                  <Link href="/design">
+                  <Link href="/about">
                     <a className="mobile-navBar-item design-a">
                     About
                     </a>
