@@ -635,14 +635,28 @@ a {
   .we-are-potoo-h1 {
     font-size: 6rem;
     text-transform: uppercase;
-    border-bottom: 2px solid #ececec;
+    font-weight: 600;
+    line-height: 5.5rem;
+    position: relative;
+    padding-bottom: 1rem;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 2px;
+      background-color: #cecece;
+    }
 
     .we-are-potoo-h1-are {
       font-size: 3.2rem;
+      font-weight: 500;
     }
 
     .we-are-potoo-h1-potoo {
-      font-weight: 800;
+      font-weight: 900;
     }
   }
   .logo-concept-row {
