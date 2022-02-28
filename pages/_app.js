@@ -4,10 +4,7 @@ import Layout from '../comps/Layout'
 import {ThemeProvider} from 'styled-components'
 import {useState} from 'react'
 import { darkTheme, lightTheme, GlobalStyles } from '../ThemeConfig'
-import { useEffect } from 'react'
-import { useRouter } from 'next/router'
 import * as ga from './api/ga'
-import Script from 'next/script'
 import { AnimatePresence, motion } from 'framer-motion'
 
 

@@ -1,20 +1,11 @@
-import React, { useRef, useEffect,useState, Component } from "react"
+import React from "react"
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
-import { useInView } from "react-intersection-observer"
-import { animate, motion, useAnimation } from "framer-motion"
-import Parallax from 'react-rellax';
-import PototImage from "../public/potoo-bird.jpg";
+
 
 
 function Design() {
 
-    const [isActive, setActive] = useState(false);
-
-    const toggleClass = () => {
-      setActive(!isActive);
-    };
         return (
           <>
             <Head>
@@ -65,18 +56,6 @@ function Design() {
                         </li>
                         <li className="item">
                           A wide and gaping mouth to display extraordinary reactions
-                        </li>
-                        <li className="item">
-                            Original picture <span className="logo-concept-box-pic-link" onClick={toggleClass}> Here</span> 
-                        </li>
-                        <li className={isActive ? 'item potoo-bird active': 'item potoo-bird'}>
-                          <Image 
-                            src="/potoo-bird.jpg"
-                            height="700px"
-                            width="500px"
-                            alt= "potoo bird"
-                            className="potoo-bird-picture"
-                          />
                         </li>
                       </ul>
                     </div>

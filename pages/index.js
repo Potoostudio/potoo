@@ -1,9 +1,9 @@
-import React, { useEffect, useRef, useState } from "react"
+import React, { useEffect, useState } from "react"
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useInView } from "react-intersection-observer"
-import { animate, motion, useAnimation, useTransform, useViewportScroll} from "framer-motion"
+import { motion, useAnimation, useTransform, useViewportScroll} from "framer-motion"
 
 
 
