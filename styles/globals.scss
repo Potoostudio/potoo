@@ -222,13 +222,17 @@ a {
       border-top: none;
 
       .homepage-design-col {
-        background-color: #fff;
         .design-p {
           font-size : 1.24rem!important;
           padding: 1rem 0rem;
-          color: #000;
+          color: #FAFAFA;
           .red-text {
             font-weight: 700;
+          }
+          .potoo-cap {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-family: "raleway";
           }
         }
       }
@@ -1376,14 +1380,14 @@ a {
 
 @media only screen and  (min-width: 996px) {
   .nav {
-    padding: 2rem;
+    padding: 3rem 2rem 2rem 2rem;
 
     .logo-box {
       margin-right: auto;
       position: relative;
       left: 3%;
       top: 0;
-      max-width: 65px;
+      max-width: 85px;
     }
 
     .hamburger-menu {
@@ -1899,7 +1903,7 @@ a {
       }
     }
     .design-container {
-    margin-top: 7rem;
+    margin-top: 7rem!important;
     padding-top: 5rem!important;
     padding-bottom: 8rem;
     border-top: none;
@@ -2430,6 +2434,9 @@ a {
           position: absolute;
           top: 30vh;
           left: 36vw;
+        }
+        .mx-1600 {
+          max-width: 1600px;
         }
     }
     .mw-1190 {

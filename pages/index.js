@@ -77,11 +77,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-     <div className="container design-container mw-1450 pt-4 mt-0 pt-md-5 mt-md-5">
+     <div className="container-fluid design-container mx-1600">
         <div className="row justify-content-start">
           <div className="col-md-7 col-9 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-2 mt-4">
               <p className="design-p text-left pl-md-2">
-              Potoo, a visionary bird flying
+              <span className="potoo-cap">Potoo</span>, a visionary bird flying
               over extraordinary <span className="red-text">ideas</span> and 
               <span className="red-text"> <span className="nnovation"></span>innovations</span>, hosting them on the 
               web 
@@ -90,7 +90,7 @@ export default function Home() {
         </div>
         <div className="row ideas-row justify-content-center">
           <div className="col-md-10 col-9">
-            <motion.div className="rellax" data-rellax-speed="4" data-rellax-mobile-speed="2" data-rellax-tablet-speed="2" data-speed-desktop-speed="4"
+            <motion.div className="rellax text-center" data-rellax-speed="4" data-rellax-mobile-speed="2" data-rellax-tablet-speed="2" data-speed-desktop-speed="4"
             style={{scale: scale}}
             >
               <Image 
@@ -132,15 +132,15 @@ export default function Home() {
             </motion.div>
         </div>
      </div>
-     <div className="container-fluid service-container mw-1450 pt-md-5 mt-md-5">
-       <div className="row justify-content-start pt-md-5">
-         <div className="col-md-10 col-10 mb-md-4 mt-md-5 pl-md-5"> 
+     <div className="container-fluid service-container mx-1600 pt-md-5 mt-md-5">
+       <div className="row justify-content-center pt-md-5">
+         <div className="col-md-11 col-10 mb-md-4 mt-md-5 pl-md-5 pl-lg-0"> 
            <h2 className="create-impression-h2">
              We do:
            </h2>
          </div>
-          <div className="col-md-7 col-10">
-            <ul className="service-list list">
+          <div className="col-md-7 col-10 pl-lg-0">
+            <ul className="service-list list pl-lg-0">
               <motion.div
                 whileHover={{scale: 1.04}}
               >
