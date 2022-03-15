@@ -10,8 +10,8 @@ export const lightTheme = {
 
 export const darkTheme = {
   body: '#0D0E0E',
-  text: '#FAFAFA',
-  a: '#FAFAFA',
+  text: '#eee',
+  a: '#eee',
   toggleBorder: '#6B8096',
   background: '#999',
 }
