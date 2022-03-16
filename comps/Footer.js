@@ -25,12 +25,6 @@ export default function Footer() {
                         <div className="col-lg-1 col-4 col-md-2 text-md-center text-md-right pt-4 pt-md-4  mt-md-1 pb-md-3 pt-lg-0">
                             <Link href="https://www.instagram.com/potoostudio/" aria-label="instagram">
                                 <a  className="social-media-a">
-                                    {/* <Image
-                                    src="/Instagram-icon.svg"
-                                    width={35}
-                                    height={35}
-                                    alt="Instagram Icon"
-                                    /> */}
                                     IG
                                 </a>
                             </Link>
@@ -38,12 +32,6 @@ export default function Footer() {
                         <div className="col-lg-1 col-4 col-md-2 text-md-center text-md-right pt-4 pt-md-4  mt-md-1 pb-md-3 pt-lg-0">
                             <Link href="https://www.behance.net/potoostudio" aria-label="behance">
                                 <a  className="social-media-a">
-                                    {/* <Image
-                                    src="/Behance-icon.svg"
-                                    width={35}
-                                    height={35}
-                                    alt="Behance Icon"
-                                    /> */}
                                     BE
                                 </a>
                             </Link>
@@ -51,12 +39,6 @@ export default function Footer() {
                         <div className="col-lg-1 col-4 col-md-2 text-md-center text-md-left pt-4 pt-md-4 mt-md-1 pb-md-3 pt-lg-0">
                             <Link href="https://dribbble.com/Potoo" aria-label="dribbble">
                                 <a  className="social-media-a">
-                                    {/* <Image
-                                    src="/Dribbble-icon.svg"
-                                    width={35}
-                                    height={35}
-                                    alt="Dribbbkle Icon"
-                                    /> */}
                                     DB
                                 </a>
                             </Link>
