@@ -108,9 +108,9 @@ export default function Home() {
               <ul className="project-list-image-list">
                 <li className="item project-image-item">
                       <Image
-                        src="/Potoo-word-logo-no-space.jpg"
-                        width="470px"
-                        height="352px"
+                        src="/Potoo-animation.gif"
+                        width="480px"
+                        height="446px"
                         alt="project potoo"
                       />
                   <Link href="/projects/project-potoo">

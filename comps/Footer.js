@@ -43,7 +43,7 @@ export default function Footer() {
                                 </a>
                             </Link>
                         </div>
-                        <div className="col-lg-4 col-12 text-lg-right pt-3 pt-md-0">
+                        <div className="col-lg-4 col-12 text-lg-right pt-3 pb-4 pb-md-4 pb-lg-0 pt-md-4 pt-lg-0 ">
                             <Link href="tel:3202604416" aria-label="phone">
                                 <a className="say-hello-a pb-lg-2">
                                     +1 320 260 4416

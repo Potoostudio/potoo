@@ -480,7 +480,45 @@ a {
     border-top-left-radius: 1px solid #222;
     
     .phone-email-row {
-      background-color: #fff;
+      background-color: inherit;
+      position: relative;
+      
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #ccc;
+      }
+
+      .social-media-a {
+        color: #ccc;
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          height: 1px;
+          width: 25%;
+          background-color: #ccc;
+          left: 0;
+          bottom: -4px;
+          transition: all .4s ease-in-out;
+        }
+
+        &:hover {
+          text-decoration: none;
+        }
+
+        &:hover::after {
+          width: 100%;
+        }
+      }
+      .say-hello-a {
+        color: #ccc;
+      }
     }
 
     .say-hello-h1 {
@@ -1267,7 +1305,7 @@ a {
     border-top-left-radius: 1px solid #222;
     
     .phone-email-row {
-      background-color: #fff;
+      background-color: inherit;
       
     }
 
@@ -2239,9 +2277,25 @@ a {
         }
         .social-media-a {
           color: #ccc;
+          position: relative;
+
+          &::after {
+            content: "";
+            position: absolute;
+            height: 2px;
+            width: 25%;
+            background-color: #ccc;
+            left: 0;
+            bottom: -4px;
+            transition: all .4s ease-in-out;
+          }
 
           &:hover {
             text-decoration: none;
+          }
+
+          &:hover::after {
+            width: 100%;
           }
         }
       }
