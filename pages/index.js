@@ -62,17 +62,14 @@ export default function Home() {
       <div className="container-fluid home-page-container mw-1450 pb-lg-5">
         <div className="row justify-content-around">
           
-          <div className="col-lg-7 col-10 pl-lg-0 pr-lg-0 mr-lg-0 your-bg pt-4 pt-md-0 pr-0">
+          <div className="col-md-8 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg pt-4 pt-md-0 pr-0">
             <div className="main-page-impression-text-box">
                 <h1 className="main-page-impression-text-large">
-                  Nesting Impressions
+                  Nesting Impressions <span className="">on</span>
                 </h1>
             </div>
           </div>
-          <div className="col-lg-1 col-2 p-0">
-            <span className="main-page-impression-text-on">on</span>
-          </div>
-          <div className="col-md-4 col-12 pt-2 pt-md-0">
+          <div className=" col-md-3-custom-30p col-12 pt-2 pt-md-0">
           <iframe src="/main-potoo-animtaion.gif" frameBorder="0" width="385" height="385"  className='video-sec'/>
           </div>
         </div>

@@ -200,13 +200,13 @@ a {
       .main-page-impression-text-box {
   
         .main-page-impression-text-large {
-          font-size: 13vw;
+          font-size: 2.9rem;
           line-height: 3.5rem;
           font-weight: 700;
         }
       }
       .main-page-impression-text-on {
-        font-size: 8vw;
+        font-size: 8rem;
         position: absolute;
         bottom: 4px;
       }
@@ -917,6 +917,18 @@ a {
         font-weight: 400;
       }
     }
+    .main-page-impression-text-box {
+  
+      .main-page-impression-text-large {
+        font-size: 5.5rem;
+        line-height: 5rem;
+      }
+    }
+    .col-md-3-custom-30p {
+      -webkit-flex: 0 0 30%;
+      flex: 0 0 30%;
+      max-width: 30%;
+    }
   }
   .menu-bar {
     position: fixed;
@@ -1613,20 +1625,23 @@ a {
       bottom: 0;
 
       .main-page-impression-text-large {
-        font-size: 8rem;
+        font-size: 7rem;
         font-family: inherit;
         font-weight: 700;
         margin-left: auto;
-        padding: 0 0 0 3rem;
+        padding: 0;
         line-height: 7.5rem;
+
+        // .main-page-impression-text-on {
+        //   font-size: 4.5rem;
+        //   font-weight: 400;
+        // }
       }
     }
-    .main-page-impression-text-on {
-      font-size: 4.5rem;
-      font-weight: 400;
-      position: absolute;
-      bottom: 0;
-    }
+    // .main-page-impression-text-on {
+    //   position: absolute;
+    //   bottom: 0;
+    // }
   }
   .nav-container {
     .row {
