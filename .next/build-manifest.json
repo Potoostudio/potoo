@@ -28,6 +28,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/projects/project-potoo": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/projects/project-potoo.js"
     ]
   },
   "ampFirstPages": []

@@ -134,8 +134,8 @@ export default function Projects() {
             <div className="col-12 m-0 p-0">
             <Image
               src="/potoo-brand-package.jpg"
-              height="1463px"
-              width="1920px"
+              height="1106px"
+              width="1450px"
               alt="Potoo brand package image"
             />
             </div>
