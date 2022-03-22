@@ -107,7 +107,7 @@ export default function Home() {
               <p className="work-p">Projects</p>
               <ul className="project-list-image-list">
                 <li className="item project-image-item">
-                  <video className="video" playsiInLine="" webkit-playsinline="" autoplay="" Loop="" Muted="" width="100%" height="100%">
+                  <video className="video" playsinline="" webkit-playsinline="" autoPlay loop="" muted="" width="100%" height="100%">
                     <source src="/Potoo-animation.mp4" type="video/mp4"/>
                   </video>
                   <Link href="/projects/project-potoo">
