@@ -47,7 +47,7 @@ export default function Projects() {
 								<span className="project-item-number">01</span> <p className="project-item-name">Potoo Studio</p>
 							</a>
 						</Link>
-						<video className={`project-item-picture ${selected === 1 ? "active" : ''}`} playsiInLine="" webkit-playsinline="" autoplay="" Loop="" Muted="" width="100%" height="100%">
+						<video className={`project-item-picture ${selected === 1 ? "active" : ''}`} playsinline="" webkit-playsinline="" autoPlay loop="" muted="" width="100%" height="100%">
 							<source src="/Potoo-animation.mp4" type="video/mp4"/>
 						</video>
 						{/* <iframe
@@ -66,7 +66,7 @@ export default function Projects() {
 								<span className="project-item-number">02</span> <p className="project-item-name">Kish</p>
 							</a>
 						</Link>
-						<video className={`project-item-picture ${selected === 2 ? "active" : ''}`} playsiInLine="" webkit-playsinline="" autoplay="" Loop="" Muted="" width="100%" height="100%">
+						<video className={`project-item-picture ${selected === 2 ? "active" : ''}`} playsinline="" webkit-playsinline="" autoPlay loop="" muted="" width="100%" height="100%">
 							<source src="/kish-animation.mp4" type="video/mp4"/>
 						</video>
 						{/* <iframe
