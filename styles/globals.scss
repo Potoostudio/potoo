@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap&family=Roboto:wght@100;300;400;500;700&display=swap&family=Playfair+Display:wght@900&display=swap&family=Abril+Fatface&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Inter', 'Open Sans', 'Roboto', sans-serif, 'Helvetica Neue';
+  font-family: 'Inter', 'Open Sans';
 }
 #__next {
   overflow-y: hidden;
@@ -127,7 +127,7 @@ a {
                 font-size: 2.4rem;
                 color: #FAFAFA;
                 font-weight: 700;
-                font-family:Abril Fatface;
+                font-family:inherit;
                 width: 100%;
 
                 &.design-a {
@@ -142,7 +142,7 @@ a {
                     color: #fff;
                     left: 2%;
                     top: 14%;
-                    font-family: Abril Fatface;
+                    font-family: inherit;
                   }
                 }
 
@@ -158,7 +158,7 @@ a {
                     color: #fff;
                     left: 2%;
                     top: 14%;
-                    font-family: Abril Fatface;
+                    font-family: inherit;
                   }
                 }
 
@@ -170,7 +170,7 @@ a {
           }
           .phone-menu-footer {
             position: relative;
-            top: 70%;
+            top: 52%;
 
             .p-10-0 {
               padding: 10px 0;
@@ -289,7 +289,7 @@ a {
               .project-item-number {
                 width: 20%;
                 position: relative;
-                font-family: Abril Fatface;
+                font-family: inherit;
                 font-size: 1.5rem;
                 color: #fafafa;
               }
@@ -298,8 +298,9 @@ a {
                 width: 80%;
                 text-align: right;
                 font-size: 2rem;
-                font-family: Abril Fatface;
+                font-family: inherit;
                 color: #FAFAFA;
+                font-weight: 800;
               }
             }
   
@@ -387,7 +388,7 @@ a {
            font-size: 2.3rem!important;
            border-bottom: 1px solid rgb(177, 177, 177);
            padding-bottom: 5px;
-           font-family: 'Inter';
+           font-family: inherit;
            text-transform: uppercase;
            font-weight: 800;
         }
@@ -442,7 +443,7 @@ a {
         z-index: 199;
         padding: 0;
         margin-top: 1.278rem;
-        font-family: "Playfair Display";
+        font-family: inherit;
         text-align: center;
       }
     }
@@ -483,6 +484,15 @@ a {
       background-color: inherit;
       position: relative;
       
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #ccc;
+      }
       &::after {
         content: '';
         position: absolute;
@@ -542,7 +552,7 @@ a {
         content: '';
           width: 35%;
           height: 2px;
-          background-color: #222;
+          background-color: #ccc;
           display: inline;
           position: absolute;
           top: 25px;
@@ -1098,7 +1108,7 @@ a {
               .project-item-number {
                 width: 20%;
                 position: relative;
-                font-family: Abril Fatface;
+                font-family: inherit;
                 font-size: 1.5rem;
                 color: #fafafa;
               }
@@ -1107,7 +1117,7 @@ a {
                 width: 80%;
                 text-align: right;
                 font-size: 2rem;
-                font-family: Abril Fatface;
+                font-family: inherit;
                 color: #FAFAFA;
               }
             }
@@ -1161,7 +1171,7 @@ a {
   
               .project-item-title {
                 font-size: 2rem;
-                font-family: Abril Fatface;
+                font-family: inherit;
                 letter-spacing: 2px;
               }
               .project-item-link {
@@ -1199,7 +1209,7 @@ a {
         z-index: 199;
         padding: 0rem 0rem 0rem 0rem;
         margin-top: -0.722rem;
-        font-family: "Playfair Display";
+        font-family: inherit;
       }
     }
    
@@ -1534,7 +1544,7 @@ a {
                 padding: 1rem 0;
                 font-size: 4rem;
                 font-weight: 600;
-                font-family:Abril Fatface;
+                font-family: inherit;
                 color: #FAFAFA;
                 width: 100%;
 
@@ -1556,7 +1566,7 @@ a {
                     color: #fff;
                     left: 2%;
                     top: 12%;
-                    font-family: Abril Fatface;
+                    font-family: inherit;
                     letter-spacing: 0px;
                   }
 
@@ -1580,7 +1590,7 @@ a {
                     color: #fff;
                     left: 2%;
                     top: 12%;
-                    font-family: Abril Fatface;
+                    font-family: inherit;
                     letter-spacing: 0px;
                   }
                 }
@@ -2148,7 +2158,7 @@ a {
                 .project-item-number {
                   width: 20%;
                   position: relative;
-                  font-family: Abril Fatface;
+                  font-family: inherit;
                   font-size: 3rem;
                   color: #fafafa;
                 }
@@ -2157,7 +2167,7 @@ a {
                   width: 80%;
                   text-align: right;
                   font-size: 3rem;
-                  font-family: Abril Fatface;
+                  font-family: inherit;
                   color: #FAFAFA;
                 }
               }
@@ -2220,7 +2230,7 @@ a {
     
                 .project-item-title {
                   font-size: 2rem;
-                  font-family: Abril Fatface;
+                  font-family: inherit;
                   letter-spacing: 2px;
                 }
                 .project-item-link {
@@ -2271,7 +2281,7 @@ a {
           padding: 5rem 2rem 3rem 3rem;
           margin-top: 0;
           font-weight: 900;
-          font-family: "Playfair Display";
+          font-family: inherit;
         }
       }
   

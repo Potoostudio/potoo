@@ -70,7 +70,10 @@ export default function Home() {
             </div>
           </div>
           <div className=" col-md-3-custom-30p col-12 pt-2 pt-md-0">
-          <iframe src="/main-potoo-animtaion.gif" frameBorder="0" width="385" height="385"  className='video-sec'/>
+            <video className="video" playsiInLine="" webkit-playsinline="" autoplay="" Loop="" Muted="" width="100%" height="100%">
+              <source src="/main-potoo-animtaion.mp4" type="video/mp4"/>
+             </video>
+          {/* <iframe src="/main-potoo-animtaion.gif" frameBorder="0" width="385" height="385"  className='video-sec'/> */}
           </div>
         </div>
       </div>
@@ -104,12 +107,9 @@ export default function Home() {
               <p className="work-p">Projects</p>
               <ul className="project-list-image-list">
                 <li className="item project-image-item">
-                      <Image
-                        src="/Potoo-animation.gif"
-                        width="480px"
-                        height="446px"
-                        alt="project potoo"
-                      />
+                  <video className="video" playsiInLine="" webkit-playsinline="" autoplay="" Loop="" Muted="" width="100%" height="100%">
+                    <source src="/Potoo-animation.mp4" type="video/mp4"/>
+                  </video>
                   <Link href="/projects/project-potoo">
                     <a className="project-li-link">
                   <div className="project-item-overlay">
