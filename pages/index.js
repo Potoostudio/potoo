@@ -60,7 +60,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
       </Head>
       <div className="container-fluid home-page-container mw-1450 pb-lg-5">
-        <div className="row justify-content-around">
+        <div className="row justify-content-center">
           
           <div className="col-md-8 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg pt-4 pt-md-0 pr-0">
             <div className="main-page-impression-text-box">
