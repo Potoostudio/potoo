@@ -43,7 +43,7 @@ export default function Footer() {
                                 </a>
                             </Link>
                         </div>
-                        <div className="col-lg-4 col-12 text-lg-right pt-3 pb-4 pb-md-4 pb-lg-0 pt-md-4 pt-lg-0 ">
+                        <div className="col-lg-4 col-12 text-lg-right pt-3 pb-4 pb-md-4 pb-lg-0 pt-md-4 pt-lg-0">
                             <Link href="tel:3202604416" aria-label="phone">
                                 <a className="say-hello-a pb-lg-2">
                                     +1 320 260 4416
@@ -55,7 +55,7 @@ export default function Footer() {
                 </div>
             </div>
         </div>
-        <div className="container-fluid pl-lg-0 co-container pt-lg-5 mt-lg-2">
+        <div className="container-fluid pl-lg-0 co-container pt-lg-2 mt-lg-2 pb-lg-2 mt-5 mb-4 mb-md-0">
             <div className="row justify-content-md-center justify-content-center">
                 <div className="col-lg-3 col-10">
                     <p className="co-made text-center mb-2 mb-md-3">

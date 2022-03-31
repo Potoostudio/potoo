@@ -29,7 +29,7 @@ function Design() {
                   </div>
               </div>  
               <div className="row we-are-row justify-content-start">
-                <div className="col-md-7 col-10">
+                <div className="col-md-9 col-11">
                   <h3 className="we-are-h3">
                     We are a creative design studio established in 2021
                   </h3>
@@ -50,7 +50,7 @@ function Design() {
                       />
                     </div>
                     <div className="logo-concept-box-content">
-                      <ul className="list">
+                      <ul className="list pt-md-2 pt-0">
                         <li className="item">
                           Huge eyes are capable of spotting impressions 
                         </li>
@@ -63,12 +63,12 @@ function Design() {
                 </div>
               </div>
               <div className="row justify-content-start content-row">
-                <div className="col-11 col-md-4">
+                <div className="col-11 col-md-11 d-lg-flex">
                   <p className="normal-p">
                     We like to break the law of the usual and go beyond the ordinary to create impressions
                   </p>
                   <p className="normal-p">
-                    Impressions over job done, we remember the concept of our logo and consider impressions with every project we take
+                    We remember the concept of our logo and consider impressions with every project we take
                   </p>
                 </div>
               </div>

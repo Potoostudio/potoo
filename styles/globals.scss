@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Inter', 'Open Sans';
+  font-family: 'Inter', 'Open Sans', 'sans-serif'!important;
 }
 #__next {
   overflow-y: hidden;
@@ -27,18 +27,19 @@ a {
       position: relative;
       left: 3%;
       top: 0;
-      max-width: 15%;
+      max-width: 12%;
     }
 
     .hamburger-menu {
       display: inline;
       width: 100px;
       position: relative;
-      height: 55px;
+      height: 44px;
       z-index: 11111111;
       background: #fff;
       right: 2%;
-      top: 1rem;
+      top: 0rem;
+      margin-top: 0.5rem;
       cursor: pointer;
   
       .menu {
@@ -93,7 +94,7 @@ a {
           top: 0;
           width: 100%;
           height: 100vh;
-          background-color: #353a46;
+          background-color: #020202;
           z-index: 111;
           transition: all 0.4s ease-in-out 0s, visibility 0.3s linear 0.4s, z-index 0s linear 0.2s;
           visibility: hidden;
@@ -225,9 +226,7 @@ a {
           font-size : 1.24rem!important;
           padding: 1rem 0rem;
           color: #FAFAFA;
-          .red-text {
-            font-weight: 700;
-          }
+
           .potoo-cap {
             text-transform: uppercase;
             font-weight: 700;
@@ -533,11 +532,11 @@ a {
 
     .say-hello-h1 {
       font-size: 3.021rem;
-      font-weight: 600;
+      font-weight: 400;
 
       .footer-impression {
-        font-size: 3.95rem;
-        font-weight: 700;
+        font-size: 3.75rem;
+        font-weight: 900;
         position: relative;
         bottom: 0rem;
       }
@@ -568,6 +567,12 @@ a {
       list-style: none;
       padding-left: 0;
       display: block;
+    }
+    .order-one {
+      order: 1;
+    }
+    .order-two {
+      order: 2;
     }
   }
   .project-showcase-container {
@@ -684,9 +689,9 @@ a {
   margin-top: 0rem;
 
   .we-are-potoo-h1 {
-    font-size: 6rem;
+    font-size: 5.3rem;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 5.5rem;
     position: relative;
     padding-bottom: 1rem;
@@ -703,7 +708,7 @@ a {
 
     .we-are-potoo-h1-are {
       font-size: 3.2rem;
-      font-weight: 500;
+      font-weight: 400;
     }
 
     .we-are-potoo-h1-potoo {
@@ -777,7 +782,7 @@ a {
     margin-top: 3rem;
     
     .we-are-h3 {
-      font-size: 4rem;
+      font-size: 3.5rem;
       font-weight: 600;
     }
   }
@@ -1024,9 +1029,6 @@ a {
         font-size: 2.9rem!important;
         line-height: 58px;
         padding: 5rem 0rem;
-        .red-text {
-          font-weight: 700;
-        }
       }
     }
     .design-btn {
@@ -1217,7 +1219,7 @@ a {
       }
 
       .we-are-potoo-h1-potoo {
-        font-weight: 800;
+        font-weight: 900;
       }
     }
     .logo-concept-row {
@@ -1314,7 +1316,7 @@ a {
 
     .say-hello-h1 {
       font-size: 4.7rem;
-      font-weight: 500;
+      font-weight: 400;
 
       .footer-impression {
         font-size: 6.1rem;
@@ -1323,15 +1325,15 @@ a {
     }
     .say-hello-a {
       text-decoration: none;
-      color: #222;
+      color: #ccc;
       position: relative;
       
 
       &::after {
         content: '';
           width: 35%;
-          height: 2px;
-          background-color: #222;
+          height: 1px;
+          background-color: #ccc;
           display: inline;
           position: absolute;
           bottom: 0;
@@ -1492,7 +1494,7 @@ a {
           top: 0;
           width: 100%;
           height: 100vh;
-          background-color: #353a46;
+          background-color: #020202;
           z-index: 111;
           transition: all 0.4s ease-in-out 0s, visibility 0.3s linear 0.4s, z-index 0s linear 0.2s;
           visibility: hidden;
@@ -1533,10 +1535,11 @@ a {
                   position: relative;
                   display: inline-block;
                   margin-left: 2.8rem;
+                  letter-spacing: -2px;
                   transition: all 0.4s ease-in-out;
 
                   &:hover {
-                    letter-spacing: 3px;
+                    letter-spacing: 1px;
                   }
 
                   &::before {
@@ -1544,7 +1547,7 @@ a {
                     position: absolute;
                     width: 20%;
                     height: 110px;
-                    color: #fff;
+                    color: #ccc;
                     left: 2%;
                     top: 12%;
                     font-family: inherit;
@@ -1557,10 +1560,11 @@ a {
                   position: relative;
                   display: inline-block;
                   margin-left: 2.8rem;
+                  letter-spacing: -2px;
                   transition: all 0.4s ease-in-out;
 
                   &:hover {
-                    letter-spacing: 3px;
+                    letter-spacing: 1px;
                   }
 
                   &::before {
@@ -1568,7 +1572,7 @@ a {
                     position: absolute;
                     width: 20%;
                     height: 110px;
-                    color: #fff;
+                    color: #ccc;
                     left: 2%;
                     top: 12%;
                     font-family: inherit;
@@ -1676,7 +1680,7 @@ a {
       }
 
       .we-are-potoo-h1-potoo {
-        font-weight: 800;
+        font-weight: 900;
       }
     }
     .logo-concept-row {
@@ -1755,7 +1759,7 @@ a {
 
       .normal-p {
         font-size: 1.2rem;
-        padding-top: 3rem;
+        padding: 0 2rem;
         position: relative;
 
       }
@@ -2022,9 +2026,6 @@ a {
           font-size: 3.125rem!important;
           line-height: 58px;
           padding: 5rem 3rem;
-          .red-text {
-            font-weight: 700;
-          }
         }
       }
 
@@ -2299,10 +2300,10 @@ a {
   
       .say-hello-h1 {
         font-size: 7.7rem;
-        font-weight: 600;
+        font-weight: 400;
 
         .footer-impression {
-          font-size: 10.1rem;
+          font-size: 8.1rem;
           bottom: 0%;
         }
       }
@@ -2314,7 +2315,7 @@ a {
         &::after {
             content: '';
             width: 35%;
-            height: 2px;
+            height: 1px;
             background-color: #ccc;
             display: inline;
             position: absolute;

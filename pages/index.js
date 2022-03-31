@@ -82,8 +82,8 @@ export default function Home() {
           <div className="col-md-7 col-9 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-2 mt-4">
               <p className="design-p text-left pl-md-2">
               <span className="potoo-cap">Potoo</span>, a visionary bird flying
-              over extraordinary <span className="red-text">ideas</span> and 
-              <span className="red-text"> <span className="nnovation"></span>innovations</span>, hosting them on the 
+              over extraordinary <strong>ideas</strong> and 
+              <strong>innovations</strong>, hosting them on the 
               web 
               </p>
           </div>
