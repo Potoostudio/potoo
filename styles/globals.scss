@@ -320,7 +320,7 @@ a {
   
         .work-p {
           text-align: left;
-          font-size: 2rem;
+          font-size: 45pt;
           padding-bottom: 0.2rem;
           border-bottom: 1px solid #f0ecec;
           margin-bottom: 2rem;
@@ -374,31 +374,7 @@ a {
         }
       }
     }
-    .service-container-mobile {
-      padding: 0;
-      .service-mobile-col {
-        padding: 15px 10px 0px 15px;
-        margin-bottom: 30px;
-
-        .service-h1 {
-          -webkit-background-clip: text;
-           -webkit-text-fill-color: transparent;
-           background-color: #fafafa;
-           font-size: 2.3rem!important;
-           border-bottom: 1px solid rgb(177, 177, 177);
-           padding-bottom: 5px;
-           font-family: inherit;
-           text-transform: uppercase;
-           font-weight: 800;
-        }
-
-        .service-p {
-          color: rgb(179, 179, 179);
-          padding-top: 10px;
-        }
-
-      }
-    }
+    
   .design-page-container {
     padding-top: 4rem;
 
@@ -460,9 +436,6 @@ a {
   }
   .text-right-mobile {
     text-align: right!important;
-  }
-  .service-container {
-    display: none;
   }
   .mw-1190 {
     .impression-h1 {
@@ -573,6 +546,98 @@ a {
     }
     .order-two {
       order: 2;
+    }
+  }
+  // Service container styling
+  .service-container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .col-h {
+      height: 570px;
+      max-height: 580px;
+      margin: 6rem 0;
+    }
+
+    .service-custom-h1 {
+      font-size: 34pt;
+      letter-spacing: -1px;
+      line-height: 38pt;
+      font-weight: 900;
+      padding: 2.5rem 0;
+      text-transform: capitalize;
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 2px;
+        background-color: #ccc;
+      }
+    }
+    .service-item-ul {
+      padding-left: 0;
+      list-style: inside;
+      display: flex;
+      width: 100%;
+      max-width: 400px;
+      flex-wrap: wrap;
+
+      .item {
+        font-size: 10pt;
+        color: #ccc;
+        flex: 0 0 48%;
+        max-width: 48%;
+        line-height: 18pt;
+      }
+    }
+    .service-p {
+      max-width: 335px;
+      font-size: 14pt;
+      line-height: 22pt;
+      padding-top: 1rem;
+    }
+    .service-a-link {
+      position: absolute;
+      bottom: 0;
+      padding: 1rem 3rem;
+      text-transform: uppercase;
+      font-size: 14pt;
+      color: #fff;
+
+      &:hover {
+        text-decoration: none;
+        color: #000;
+        transition: all .4s ease-in-out;
+      }
+
+      &::before {
+        content: '';
+        width: 7%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #fff;
+        transition: all .4s ease-in-out;
+        z-index: -111;
+      }
+      &::after {
+        content: '';
+        width: 7%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #fff;
+      }
+
+      &:hover::before {
+        width: 100%;
+      }
     }
   }
   .project-showcase-container {
@@ -1034,17 +1099,6 @@ a {
     .design-btn {
       color: inherit;
       font-size: 16px;
-    }
-    .service-container {
-      display: none;
-    }
-    .service-container-mobile {
-      display: block;
-      padding-top: 2rem;
-
-      .create-impression-h2 {
-        font-size: 3rem;
-      }
     }
     .ideas-row {
 
@@ -1627,16 +1681,8 @@ a {
         padding: 0 0 0 3.3rem;
         line-height: 7.5rem;
 
-        // .main-page-impression-text-on {
-        //   font-size: 4.5rem;
-        //   font-weight: 400;
-        // }
       }
     }
-    // .main-page-impression-text-on {
-    //   position: absolute;
-    //   bottom: 0;
-    // }
   }
   .nav-container {
     .row {
@@ -2226,9 +2272,6 @@ a {
           }
         }
     }
-    .service-container-mobile {
-      display: none;
-    }
     .code-container {
       margin-top: 2rem;
       padding-top: 7rem;
@@ -2335,41 +2378,92 @@ a {
       }
     }
     .service-container {
-      padding-top: 4rem;
+      padding-top: 8rem;
       padding-bottom: 5rem;
-      display: block!important;
 
-      .create-impression-h2 {
-        font-size: 5.4rem;
-        font-weight: 600;
-        border-bottom: 3px solid #fff;
-        padding-bottom: 2rem;
+      .col-h {
+        height: 600px;
+        max-height: 610px;
       }
-  
-      .service-list {
-        list-style: none;
-        
-        .item {
-          font-size: 5.3rem;
-          color: inherit;
-          padding-top: 2rem;
-          cursor: pointer;
-          text-decoration: underline;
-          font-weight: 600;
+
+      .service-custom-h1 {
+        font-size: 50pt;
+        letter-spacing: -1px;
+        line-height: 56pt;
+        font-weight: 900;
+        padding: 2.5rem 0;
+        text-transform: capitalize;
+        position: relative;
+
+        &::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 50%;
+          height: 2px;
+          background-color: #ccc;
         }
       }
-      .service-list-content {
-        list-style: none;
-  
+      .service-item-ul {
+        padding-left: 0;
+        list-style: inside;
+        display: flex;
+        width: 100%;
+        max-width: 400px;
+        flex-wrap: wrap;
+
         .item {
+          font-size: 10pt;
+          color: #ccc;
+          flex: 0 0 33%;
+          max-width: 33%;
+          line-height: 18pt;
+        }
+      }
+      .service-p {
+        max-width: 335px;
+        font-size: 14pt;
+        line-height: 22pt;
+        padding-top: 1rem;
+      }
+      .service-a-link {
+        position: absolute;
+        bottom: 0;
+        padding: 1rem 3rem;
+        text-transform: uppercase;
+        font-size: 14pt;
+        color: #fff;
+
+        &:hover {
+          text-decoration: none;
+          color: #000;
+          transition: all .4s ease-in-out;
+        }
+
+        &::before {
+          content: '';
+          width: 7%;
+          height: 100%;
           position: absolute;
-          top: 16%;
-          left: 2vw;
-          font-size: 28px;
-          color: #363537;
-          background-color: #ffffff;
-          padding: 3.5rem;
-          
+          left: 0;
+          top: 0;
+          background-color: #fff;
+          transition: all .4s ease-in-out;
+          z-index: -111;
+        }
+        &::after {
+          content: '';
+          width: 7%;
+          height: 100%;
+          position: absolute;
+          right: 0;
+          top: 0;
+          background-color: #fff;
+        }
+
+        &:hover::before {
+          width: 100%;
         }
       }
     }

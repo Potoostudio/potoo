@@ -9,12 +9,6 @@ import { motion, useAnimation, useTransform, useViewportScroll} from "framer-mot
 
 export default function Home() {
 
-  // const scrollRef = useRef(null);
-
-  const [isShownPointOne, setPointOneShown] = useState(false);
-  const [isShownPointTwo, setPointTwoShown] = useState(false);
-  const [isShownPointThree, setPointThreeShown] = useState(false);
-  const [isShownPointFour, setPointFourShown] = useState(false);
 
 // Delete this code if it doesn't work on animation
   const controls = useAnimation();
@@ -129,139 +123,113 @@ export default function Home() {
             </motion.div>
         </div>
      </div>
-     <div className="container-fluid service-container mx-1600 pt-md-5 mt-md-5">
-       <div className="row justify-content-center pt-md-5">
-         <div className="col-md-11 col-10 mb-md-4 mt-md-5 pl-md-5 pl-lg-0"> 
-           <h2 className="create-impression-h2">
-             We do:
-           </h2>
-         </div>
-          <div className="col-md-7 col-10 pl-lg-0">
-            <ul className="service-list list pl-lg-0">
-              <motion.div
-                whileHover={{scale: 1.04}}
-              >
-                  <li className="item service-item" 
-                  onMouseEnter ={()=> setPointOneShown(true)}
-                  onMouseLeave = {() => setPointOneShown(false)}
-                  >
-                   <span className="list-icon"></span> Branding
-                </li>
-              </motion.div>
-              <motion.div
-                whileHover={{scale: 1.04}}
-              >
-                <li className="item service-item"
-                onMouseEnter = {() => setPointTwoShown(true)}
-                onMouseLeave = {() => setPointTwoShown(false)}
-                >
-                  <span className="list-icon"></span> Web design
-                </li>
-              </motion.div>
-              <motion.div
-                whileHover={{scale: 1.04}}
-              >
-                <li className="item service-item"
-                onMouseEnter = {() => setPointThreeShown(true)}
-                onMouseLeave = {() => setPointThreeShown(false)}
-                >
-                  <span className="list-icon"></span> Graphic design
-                </li>
-              </motion.div>
-              <motion.div
-                whileHover={{scale: 1.04}}
-              >
-                <li className="item service-item"
-                onMouseEnter = {() => setPointFourShown(true)}
-                onMouseLeave = {() => setPointFourShown(false)}
-                >
-                 <span className="list-icon"></span> Web development
-                </li>
-              </motion.div>
+     <div className="container-fluid service-container mx-1600 mt-md-5">
+       <div className="row justify-content-around pt-md-5 px-lg-5">
+          <div className="col-lg-5 col-md-5 col-10 px-lg-5 pb-lg-5 mb-lg-5 col-h">
+            <h1 className="service-custom-h1">
+              branding
+            </h1>
+            <ul className="service-item-ul">
+              <li className="item">
+                Brand Strategy
+              </li>
+              <li className="item">
+                Typography
+              </li>
+              <li className="item">
+                Logo
+              </li>
+              <li className="item">
+                Color Scheme
+              </li>
             </ul>
+            <p className="service-p">
+              Branding to us, is the art of
+              making an impression of an
+              idea or a product. Starting
+              with the brand strategy and
+              identity, we delicately choose
+              what characterize your brand
+              from a custom logo, colors
+              and typefaces.
+            </p>
+            <Link href="mailto:ideas@potoo.studio?subject=I Need a Brand">
+              <a className="service-a-link"> work with us</a>
+            </Link>
           </div>
-          <div className="col-md-4 col-2">
-            <ul className="list service-list-content">
-              {isShownPointOne && (
-              <li className="item service-list-content-item">
-                Looking at branding 
-                as a puzzle; putting the 
-                pieces together to make 
-                the big picture of your 
-                brand. “It’s fun!”
+          <div className="col-lg-5 col-md-5 col-10 px-lg-5 pb-lg-5 mb-lg-5 col-h">
+            <h1 className="service-custom-h1">
+              Web Design
+            </h1>
+            <ul className="service-item-ul">
+              <li className="item">
+                Responsive
               </li>
-              )}
-              {isShownPointTwo && (
-              <li className="item service-list-content-item">
-                Think of web design
-                as writing your inspirational 
-                story on a board on the 
-                web
+              <li className="item">
+                Prototypes
               </li>
-              )}
-              {isShownPointThree && (
-              <li className="item service-list-content-item">
-                We spend most of 
-                our time in Illustrator 
-                making cool, bold designs
-              </li>
-              )}
-              {isShownPointFour && (
-              <li className="item service-list-content-item">
-                We have Nextjs, React, and 
-                Wordpress under our sleeves
-                to make perfect pixel websites
-              </li>
-              )}
             </ul>
+            <p className="service-p">
+              Design your website to translate 
+              your brand identity seamlessly 
+              through different screen sizes.
+              We create prototypes to show
+              how your website will look on 
+              the web before we get to the 
+              development stage.
+            </p>
+            <Link href="mailto:ideas@potoo.studio?subject=I Need a Web Design">
+              <a className="service-a-link"> work with us</a>
+            </Link>
           </div>
-       </div>
-     </div>
-     <div className="container service-container-mobile pt-5">
-       <div className="row justify-content-center">
-         <div className="col-11 service-1-col service-mobile-col">
-           <h1 className="service-h1">
-              Branding
-           </h1>
-           <p className="service-p">
-              Look at branding 
-              as a puzzle; putting the 
-              pieces together to make 
-              the big picture of your 
-              brand. “It’s fun!”
-           </p>
-         </div>
-         <div className="col-11 service-2-col service-mobile-col">
-           <h1 className="service-h1">
-              Web design
-           </h1>
-           <p className="service-p">
-              Think of web design
-              as writing a inspirational 
-              story on a board on the 
-              web
-           </p>
-         </div>
-         <div className="col-11 service-3-col service-mobile-col">
-            <h1 className="service-h1">
-              Graphic design
-           </h1>
-           <p className="service-p">
-              We spend most of 
-              our time in Illustrator 
-              making cool, bold designs
-           </p>
-         </div>
-         <div className="col-11 service-4-col service-mobile-col">
-           <h1 className="service-h1">
+          <div className="col-lg-5 col-md-5 col-10 px-lg-5 pt-lg-5 mt-lg-5 col-h">
+            <h1 className="service-custom-h1">
+              Graphic Design
+            </h1>
+            <ul className="service-item-ul">
+              <li className="item">
+                Social Media
+              </li>
+              <li className="item">
+               Posters
+              </li>
+              <li className="item">
+               Banners
+              </li>
+            </ul>
+            <p className="service-p">
+              Personalize your brand with custom 
+              graphics for your social media
+              accounts and paper prints. Show 
+              your brand on exhibitions and 
+              conference with custom graphics.
+            </p>
+            <Link href="mailto:ideas@potoo.studio?subject=I Need a Some Graphics">
+              <a className="service-a-link"> work with us</a>
+            </Link>
+          </div>
+          <div className="col-lg-5 col-md-5 col-10 px-lg-5 pt-lg-5 mt-lg-5 col-h">
+            <h1 className="service-custom-h1">
               Web development
-           </h1>
-           <p className="service-p">
-              We have Nextjs, React, and 
-              Wordpress under our sleeves
-              to make perfect pixel applications
-           </p>
-         </div>
+            </h1>
+            <ul className="service-item-ul">
+              <li className="item">
+                Mobile responsive
+              </li>
+              <li className="item">
+               SEO
+              </li>
+            </ul>
+            <p className="service-p">
+              We start with an espresso, then
+              code your website pixel by pixel
+              to fit on all screens and operate
+              on all browsers.
+            </p>
+            <Link href="mailto:ideas@potoo.studio?subject=I Need a Website">
+              <a className="service-a-link"> work with us</a>
+            </Link>
+          </div>
        </div>
      </div>
      <div className="container-fluid code-container mw-1450">
