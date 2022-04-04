@@ -153,7 +153,7 @@ export default function Home() {
               from a custom logo, colors
               and typefaces.
             </p>
-            <Link href="mailto:ideas@potoo.studio?subject=I Need a Brand">
+            <Link href="mailto:ideas@potoo.studio?subject=Brand Strategy">
               <a className="service-a-link"> work with us</a>
             </Link>
           </div>
@@ -178,7 +178,7 @@ export default function Home() {
               the web before we get to the 
               development stage.
             </p>
-            <Link href="mailto:ideas@potoo.studio?subject=I Need a Web Design">
+            <Link href="mailto:ideas@potoo.studio?subject=Web Design">
               <a className="service-a-link"> work with us</a>
             </Link>
           </div>
@@ -204,7 +204,7 @@ export default function Home() {
               your brand on exhibitions and 
               conference with custom graphics.
             </p>
-            <Link href="mailto:ideas@potoo.studio?subject=I Need a Some Graphics">
+            <Link href="mailto:ideas@potoo.studio?subject=Graphics">
               <a className="service-a-link"> work with us</a>
             </Link>
           </div>
@@ -214,10 +214,13 @@ export default function Home() {
             </h1>
             <ul className="service-item-ul">
               <li className="item">
-                Mobile responsive
+               SEO
               </li>
               <li className="item">
-               SEO
+                Accessibility
+              </li>
+              <li className="item">
+                Mobile Responsive
               </li>
             </ul>
             <p className="service-p">
@@ -226,7 +229,7 @@ export default function Home() {
               to fit on all screens and operate
               on all browsers.
             </p>
-            <Link href="mailto:ideas@potoo.studio?subject=I Need a Website">
+            <Link href="mailto:ideas@potoo.studio?subject=Website Development">
               <a className="service-a-link"> work with us</a>
             </Link>
           </div>
