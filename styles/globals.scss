@@ -782,18 +782,18 @@ a {
 
     .logo-concept-h1 {
       padding-bottom: 0.5rem;
-      padding-left: 2.6rem;
-      font-size: 1.5rem;
+      font-size: 2rem;
+      font-weight: 600;
       position: relative;
 
       &::after {
         content: '';
-        width: 77%;
+        width: 65%;
         height: 1.5px;
         background-color: #ececec;
         position: absolute;
-        bottom: 0;
-        left: 13%;
+        bottom: -6px;
+        left: 0;
       }
     }
 
@@ -1273,18 +1273,12 @@ a {
 
       .logo-concept-h1 {
         padding-bottom: 0.5rem;
-        padding-left: 4.2rem;
         position: relative;
       }
 
       .logo-concept-box {
         display: inline-flex;
         width: 100%;
-
-        .logo-concept-box-image {
-          width: 13%;
-          max-width: 13%;
-        }
         .logo-concept-box-content {
           padding-left: auto;
           width: 80%;
@@ -1714,7 +1708,6 @@ a {
 
       .logo-concept-h1 {
         padding-bottom: 0.5rem;
-        padding-left: 6.7rem;
         position: relative;
 
       }
@@ -1778,7 +1771,18 @@ a {
         font-size: 1.2rem;
         padding: 0 2rem;
         position: relative;
+        margin-left: 1rem;
 
+        &::before {
+          content: '*';
+          position: absolute;
+          left: -18px;
+          top: 4px;
+          width: 8px;
+          height: 3px;
+          color: #fff;
+          font-size: 15pt;
+        }
       }
     }
   }
