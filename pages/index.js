@@ -131,16 +131,16 @@ export default function Home() {
             </h1>
             <ul className="service-item-ul">
               <li className="item">
-                Brand Strategy
+                Strategy
               </li>
               <li className="item">
-                Typography
+                Identity
+              </li>
+              <li className="item">
+                Guidelines
               </li>
               <li className="item">
                 Logo
-              </li>
-              <li className="item">
-                Color Scheme
               </li>
             </ul>
             <p className="service-p">
@@ -191,10 +191,10 @@ export default function Home() {
                 Social Media
               </li>
               <li className="item">
-               Posters
+                Posters
               </li>
               <li className="item">
-               Banners
+                Banners
               </li>
             </ul>
             <p className="service-p">
