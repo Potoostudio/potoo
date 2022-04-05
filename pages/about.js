@@ -20,7 +20,7 @@ function Design() {
             </Head>
             
             
-            <div className="container about-container pt-5 pt-md-0">
+            <div className="container about-container pt-5 pt-md-5">
               <div className="row justify-content-start">
                   <div className="col-md-12 col-11">
                     <h1 className="we-are-potoo-h1">
@@ -29,7 +29,7 @@ function Design() {
                   </div>
               </div>  
               <div className="row we-are-row justify-content-start">
-                <div className="col-md-9 col-11">
+                <div className="col-md-11 col-11">
                   <h3 className="we-are-h3">
                     We are a creative design studio established in 2021
                   </h3>
@@ -65,7 +65,7 @@ function Design() {
               <div className="row justify-content-start content-row">
                 <div className="col-11 col-md-11 d-lg-flex">
                   <p className="normal-p">
-                    We like to break the law of the usual and go beyond the ordinary to create impressions
+                    We have no interest in rubbish work. We personalize brands to create unique images.
                   </p>
                   <p className="normal-p">
                     We remember the concept of our logo and consider impressions with every project we take

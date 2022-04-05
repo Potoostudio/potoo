@@ -150,7 +150,7 @@ export default function Home() {
               with the brand strategy and
               identity, we delicately choose
               what characterize your brand
-              from a custom logo, colors
+              from a custom logo to colors
               and typefaces.
             </p>
             <Link href="mailto:ideas@potoo.studio?subject=Brand Strategy">
@@ -201,8 +201,8 @@ export default function Home() {
               Personalize your brand with custom 
               graphics for your social media
               accounts and paper prints. Show 
-              your brand on exhibitions and 
-              conference with custom graphics.
+              your brand on events and 
+              conferences with custom graphics.
             </p>
             <Link href="mailto:ideas@potoo.studio?subject=Graphics">
               <a className="service-a-link"> work with us</a>
@@ -226,7 +226,7 @@ export default function Home() {
             <p className="service-p">
               We start with an espresso, then
               code your website pixel by pixel
-              to fit on all screens and operate
+              to fit on all screens and operate seamlessly
               on all browsers.
             </p>
             <Link href="mailto:ideas@potoo.studio?subject=Website Development">
@@ -238,9 +238,9 @@ export default function Home() {
      <div className="container-fluid code-container mw-1450">
          <motion.div style={{scale: scale}} className="row justify-content-center justify-content-md-center">
           <div className="col-md-10 col-10 pt-md-5 mt-md-5 potoo-vision-col ml-md-5">
-            <motion.p style={{ color }} className="potoo-vision-text">
+            {/* <motion.p style={{ color }} className="potoo-vision-text">
               Articulated Impressions
-            </motion.p>
+            </motion.p> */}
           </div>
          </motion.div>
      </div>
