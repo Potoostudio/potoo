@@ -50,13 +50,6 @@ export default function Projects() {
 						<video className={`project-item-picture ${selected === 1 ? "active" : ''}`} playsinline="" webkit-playsinline="" autoPlay  loop muted width="100%" height="100%">
 							<source src="/Potoo-animation.mp4" type="video/mp4"/>
 						</video>
-						{/* <iframe
-							src="/Potoo-animation.gif"
-							width="480px"
-							height="446px"
-							frameBorder="0"
-							className={`project-item-picture ${selected === 1 ? "active" : ''}`}
-						/> */}
 					</li>
 					<li className="item projects-list-item"
 						onMouseEnter ={()=> UpdateToggle(2)}
@@ -69,16 +62,8 @@ export default function Projects() {
 						<video className={`project-item-picture ${selected === 2 ? "active" : ''}`} playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%">
 							<source src="/kish-animation.mp4" type="video/mp4"/>
 						</video>
-						{/* <iframe
-							src="/Kish-animation.gif"
-							width="480px"
-							height="446px"
-							frameBorder="0"
-							className={`project-item-picture ${selected === 2 ? "active" : ''}`}
-						/> */}
 					</li>
 				</ul>
-				
 				</div>
 			</div>
       </div>

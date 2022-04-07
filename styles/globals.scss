@@ -1168,7 +1168,7 @@ a {
             .project-item-picture {
               display: inline;
               position: absolute;
-              left: 12%;
+              right: 22%;
               bottom: 0;
               height: 200px;
               z-index: 111;
@@ -2167,10 +2167,9 @@ a {
               }
 
               .project-item-picture {
-                // opacity: 0;
                 display: none;
                 position: absolute;
-                left: 12%;
+                right: 22%;
                 bottom: 0;
                 height: 365px;
                 z-index: 111;
@@ -2178,7 +2177,6 @@ a {
 
                 &.active {
                   display: inline-block;
-                  // opacity: 1;
                 }
 
               }

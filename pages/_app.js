@@ -4,17 +4,15 @@ import Layout from '../comps/Layout'
 import {ThemeProvider} from 'styled-components'
 import {useState} from 'react'
 import { darkTheme, lightTheme, GlobalStyles } from '../ThemeConfig'
-import * as ga from './api/ga'
 import { AnimatePresence, motion } from 'framer-motion'
 
 
 function MyApp({ Component, pageProps, router }) {
-  
+
   const [isActive, setActive] = useState("false");
-  
+
   const [theme, setTheme] = useState("dark");
-  
-  
+
   const toggleTheme = () => {
     theme == 'dark' ? setTheme('light') : setTheme('dark')
     setActive(!isActive);
@@ -27,13 +25,12 @@ function MyApp({ Component, pageProps, router }) {
     // when: "afterChildren",
     delay: 0.2
   };
-  
   return (
   <>
   <AnimatePresence exitBeforeEnter>
     <ThemeProvider theme={theme =='dark' ? darkTheme : lightTheme}>
       <GlobalStyles/>
-      <motion.div 
+      <motion.div
       transition={spring}
       key={router.pathname}
       initial={{opacity: 0.3, y: "100vh"}}
@@ -46,7 +43,6 @@ function MyApp({ Component, pageProps, router }) {
       </motion.div>
     </ThemeProvider>
   </AnimatePresence>
-  
     </>
   )
 }
