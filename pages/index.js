@@ -40,7 +40,7 @@ export default function Home() {
   const {scrollYProgress} = useViewportScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [0.5, 1.3]);
   const color = useTransform(scrollYProgress, [0.64, 1], ['#0A100D', '#EBEBEB'])
-  const left = useTransform(scrollYProgress, [0, 1], [-140, 0])
+  const left = useTransform(scrollYProgress, [0, 1], ["-180px", "0"])
   return (
     <>
       <Head>
@@ -124,126 +124,126 @@ export default function Home() {
         </div>
      </div>
      <div className="container-fluid service-container mx-1600 mt-md-5">
-       <div className="row justify-content-around pt-md-5 px-lg-5">
-          <div className="col-lg-5 col-md-5 col-10 px-lg-5 pb-lg-5 mb-lg-5 col-h">
-            <h1 className="service-custom-h1">
-              branding
-            </h1>
-            <ul className="service-item-ul">
-              <li className="item">
-                Strategy
-              </li>
-              <li className="item">
-                Identity
-              </li>
-              <li className="item">
-                Guidelines
-              </li>
-              <li className="item">
-                Logo
-              </li>
-            </ul>
-            <p className="service-p">
-              Branding to us, is the art of
-              making an impression of an
-              idea or a product. Starting
-              with the brand strategy and
-              identity, we delicately choose
-              what characterize your brand
-              from a custom logo to colors
-              and typefaces.
-            </p>
-            <Link href="mailto:ideas@potoo.studio?subject=Brand Strategy">
-              <a className="service-a-link"> work with us</a>
-            </Link>
-          </div>
-          <div className="col-lg-5 col-md-5 col-10 px-lg-5 pb-lg-5 mb-lg-5 col-h">
-            <h1 className="service-custom-h1">
-              Web Design
-            </h1>
-            <ul className="service-item-ul">
-              <li className="item">
-                Responsive
-              </li>
-              <li className="item">
-                Prototypes
-              </li>
-            </ul>
-            <p className="service-p">
-              Design your website to translate 
-              your brand identity seamlessly 
-              through different screen sizes.
-              We create prototypes to show
-              how your website will look on 
-              the web before we get to the 
-              development stage.
-            </p>
-            <Link href="mailto:ideas@potoo.studio?subject=Web Design">
-              <a className="service-a-link"> work with us</a>
-            </Link>
-          </div>
-          <div className="col-lg-5 col-md-5 col-10 px-lg-5 pt-lg-5 mt-lg-5 col-h">
-            <h1 className="service-custom-h1">
-              Graphic Design
-            </h1>
-            <ul className="service-item-ul">
-              <li className="item">
-                Social Media
-              </li>
-              <li className="item">
-                Posters
-              </li>
-              <li className="item">
-                Banners
-              </li>
-            </ul>
-            <p className="service-p">
-              Personalize your brand with custom 
-              graphics for your social media
-              accounts and paper prints. Show 
-              your brand on events and 
-              conferences with custom graphics.
-            </p>
-            <Link href="mailto:ideas@potoo.studio?subject=Graphics">
-              <a className="service-a-link"> work with us</a>
-            </Link>
-          </div>
-          <div className="col-lg-5 col-md-5 col-10 px-lg-5 pt-lg-5 mt-lg-5 col-h">
-            <h1 className="service-custom-h1">
-              Web development
-            </h1>
-            <ul className="service-item-ul">
-              <li className="item">
-               SEO
-              </li>
-              <li className="item">
-                Accessibility
-              </li>
-              <li className="item">
-                Mobile Responsive
-              </li>
-            </ul>
-            <p className="service-p">
-              We start with an espresso, then
-              code your website pixel by pixel
-              to fit on all screens and operate seamlessly
-              on all browsers.
-            </p>
-            <Link href="mailto:ideas@potoo.studio?subject=Website Development">
-              <a className="service-a-link"> work with us</a>
-            </Link>
-          </div>
-       </div>
-     </div>
-     <div className="container-fluid code-container mw-1450">
+        <div className="row justify-content-around pt-md-5 px-lg-5">
+            <div className="col-lg-5 col-md-5 col-10 px-lg-5 pb-lg-5 mb-lg-5 col-h">
+              <h1 className="service-custom-h1">
+                branding
+              </h1>
+              <ul className="service-item-ul">
+                <li className="item">
+                  Strategy
+                </li>
+                <li className="item">
+                  Identity
+                </li>
+                <li className="item">
+                  Guidelines
+                </li>
+                <li className="item">
+                  Logo
+                </li>
+              </ul>
+              <p className="service-p">
+                Branding to us, is the art of
+                making an impression of an
+                idea or a product. Starting
+                with the brand strategy and
+                identity, we delicately choose
+                what characterize your brand
+                from a custom logo to colors
+                and typefaces.
+              </p>
+              <Link href="mailto:ideas@potoo.studio?subject=Brand Strategy">
+                <a className="service-a-link"> work with us</a>
+              </Link>
+            </div>
+            <div className="col-lg-5 col-md-5 col-10 px-lg-5 pb-lg-5 mb-lg-5 col-h">
+              <h1 className="service-custom-h1">
+                Web Design
+              </h1>
+              <ul className="service-item-ul">
+                <li className="item">
+                  Responsive
+                </li>
+                <li className="item">
+                  Prototypes
+                </li>
+              </ul>
+              <p className="service-p">
+                Design your website to translate 
+                your brand identity seamlessly 
+                through different screen sizes.
+                We create prototypes to show
+                how your website will look on 
+                the web before we get to the 
+                development stage.
+              </p>
+              <Link href="mailto:ideas@potoo.studio?subject=Web Design">
+                <a className="service-a-link"> work with us</a>
+              </Link>
+            </div>
+            <div className="col-lg-5 col-md-5 col-10 px-lg-5 pt-lg-5 mt-lg-5 col-h">
+              <h1 className="service-custom-h1">
+                Graphic Design
+              </h1>
+              <ul className="service-item-ul">
+                <li className="item">
+                  Social Media
+                </li>
+                <li className="item">
+                  Posters
+                </li>
+                <li className="item">
+                  Banners
+                </li>
+              </ul>
+              <p className="service-p">
+                Personalize your brand with custom 
+                graphics for your social media
+                accounts and paper prints. Show 
+                your brand on events and 
+                conferences with custom graphics.
+              </p>
+              <Link href="mailto:ideas@potoo.studio?subject=Graphics">
+                <a className="service-a-link"> work with us</a>
+              </Link>
+            </div>
+            <div className="col-lg-5 col-md-5 col-10 px-lg-5 pt-lg-5 mt-lg-5 col-h">
+              <h1 className="service-custom-h1">
+                Web development
+              </h1>
+              <ul className="service-item-ul">
+                <li className="item">
+                SEO
+                </li>
+                <li className="item">
+                  Accessibility
+                </li>
+                <li className="item">
+                  Mobile Responsive
+                </li>
+              </ul>
+              <p className="service-p">
+                We start with an espresso, then
+                code your website pixel by pixel
+                to fit on all screens and operate seamlessly
+                on all browsers.
+              </p>
+              <Link href="mailto:ideas@potoo.studio?subject=Website Development">
+                <a className="service-a-link"> work with us</a>
+              </Link>
+            </div>
+        </div>
+      </div>
+     {/* <div className="container-fluid code-container mw-1450">
          <motion.div style={{scale: scale}} className="row justify-content-center justify-content-md-center">
           <div className="col-md-10 col-10 pt-md-5 mt-md-5 potoo-vision-col ml-md-5">
-            {/* <motion.p style={{ color }} className="potoo-vision-text">
+            <motion.p style={{ color }} className="potoo-vision-text">
               Articulated Impressions
-            </motion.p> */}
+            </motion.p>
           </div>
          </motion.div>
-     </div>
+     </div> */}
     </>
   )
 }

@@ -23,7 +23,7 @@ export default function Footer() {
                             </Link>
                         </div>
                         <div className="col-lg-1 col-4 col-md-2 text-md-center text-md-right pt-4 pt-md-4  mt-md-1 pb-md-3 pt-lg-0">
-                            <Link href="https://www.instagram.com/potoostudio/" aria-label="instagram">
+                            <Link href="https://www.instagram.com/potoostudio" aria-label="instagram">
                                 <a  className="social-media-a">
                                     IG
                                 </a>

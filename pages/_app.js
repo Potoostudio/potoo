@@ -22,10 +22,10 @@ function MyApp({ Component, pageProps, router }) {
 
   const spring = {
     type: "spring",
-    damping: 60,
-    stiffness: 274,
-    when: "afterChildren",
-    delay: 0.1
+    damping: 29,
+    stiffness: 90,
+    // when: "afterChildren",
+    delay: 0.2
   };
   
   return (
@@ -36,8 +36,8 @@ function MyApp({ Component, pageProps, router }) {
       <motion.div 
       transition={spring}
       key={router.pathname}
-      initial={{opacity: 0, y: 180}}
-      animate={{opacity: 1, y: 0}}
+      initial={{opacity: 0.3, y: "100vh"}}
+      animate={{opacity: 1, y: "0vh"}}
       >
         <Layout>
           <button className={isActive ? "mode-btn dark" : "mode-btn light"} onClick={toggleTheme}><span className="mode-icon"></span></button>
