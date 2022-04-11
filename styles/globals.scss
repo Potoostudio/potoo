@@ -1211,14 +1211,14 @@ a {
               opacity: 0;
               transition: opacity 0.35s;
               transform: translateY(0);
-  
+
               .project-item-title {
                 font-size: 2rem;
                 font-family: inherit;
                 letter-spacing: 2px;
               }
               .project-item-link {
-  
+
                 .link-icon {
                   width: 35px;
                   height: 35px;
@@ -1227,7 +1227,7 @@ a {
                   margin-top: 2vh;
                 }
               }
-  
+
               &:hover {
                 opacity: 1;
                 transform: translateY(0);

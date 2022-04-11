@@ -22,8 +22,8 @@ function MyApp({ Component, pageProps, router }) {
     type: "spring",
     damping: 29,
     stiffness: 90,
-    // when: "afterChildren",
-    delay: 0.2
+    when: "afterChildren",
+    delay: 0.5
   };
   return (
   <>
