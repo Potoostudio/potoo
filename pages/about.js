@@ -11,9 +11,9 @@ function Design() {
           <title>Potoo Studio | Design</title>
           <link rel="icon" href="favicon.ico" />
           <link rel="manifest" href="/manifest.json"/>
-          <meta name="description" content="POTOO STUDIO | creative logos, brand, webpages, and brochures"/>
+          <meta name="description" content="POTOO STUDIO | We are a creative web studio in Denver Colorado"/>
           <meta property="og:title" content="POTOO STUDIO | About" />
-          <meta property="og:description" content="POTOO STUDIO | creative logos, brand, webpages, and brochures"/>
+          <meta property="og:description" content="POTOO STUDIO | We are a creative web studio in Denver Colorado"/>
           <meta property="og:url" content="https://potoo.studio/about" />
           <meta property="og:type" content="website" />
         </Head>

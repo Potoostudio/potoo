@@ -11,9 +11,9 @@ export default function Projects() {
 	  	<title>Potoo Studio | Projects</title>
         <link rel="icon" href="favicon.ico" />
         <link rel="manifest" href="/manifest.json"/>
-        <meta name="description" content="POTOO Project | Branding, websites, and design projects"/>
+        <meta name="description" content="POTOO Project | Branding project, logo and marketing material"/>
         <meta property="og:title" content="POTOO STUDIO | Projects, Denver" />
-        <meta property="og:description" content="POTOO STUDIO project | Branding, websites, and design projects in Denver"/>
+        <meta property="og:description" content="POTOO STUDIO project | Branding project, logo and marketing material"/>
         <meta property="og:url" content="https://potoo.studio/potoo-project" />
         <meta property="og:type" content="website" />
       </Head>
