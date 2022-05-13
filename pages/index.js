@@ -53,22 +53,36 @@ export default function Home() {
         <meta property="og:url" content="https://potoo.studio" />
         <meta property="og:type" content="website" />
       </Head>
-      <div className="container-fluid home-page-container mw-1450 pb-lg-5">
+      <div className="container-fluid home-page-container mx-0 pb-lg-5">
         <div className="row justify-content-center">
-          
-          <div className="col-md-8 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg pt-4 pt-md-0 pr-0">
+          <div className="col-md-12 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg pt-4 pt-md-0 pt-5 pr-0 pl-0">
+            <ul className="fixed-menu">
+              <li className="item">
+                <Link href="/about">
+                  <a className="nav-a">
+                    About
+                  </a>
+                </Link>
+              </li>
+              <li className="item">
+                <Link href="/projects">
+                  <a className="nav-a">
+                    Work
+                  </a>
+                </Link>
+              </li>
+            </ul>
             <div className="main-page-impression-text-box">
-                <h1 className="main-page-impression-text-large">
-                  Nesting Impressions <span className="">on</span>
+                <h1 className="main-page-impression-text-large mt-lg-5 pt-lg-4">
+                  Nesting Impressions on <strong className="color">Paper</strong> and <strong className="color">Technology</strong>
                 </h1>
             </div>
           </div>
-          <div className=" col-md-3-custom-30p col-12 pt-2 pt-md-0">
+          {/* <div className=" col-md-3-custom-30p col-12 pt-2 pt-md-0">
             <video className="video" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%">
               <source src="/main-potoo-animtaion.mp4" type="video/mp4"/>
              </video>
-          {/* <iframe src="/main-potoo-animtaion.gif" frameBorder="0" width="385" height="385"  className='video-sec'/> */}
-          </div>
+          </div> */}
         </div>
       </div>
      <div className="container-fluid design-container mx-1600">
@@ -77,8 +91,7 @@ export default function Home() {
               <p className="design-p text-left pl-md-2">
               <span className="potoo-cap">Potoo</span>, a visionary bird flying
               over extraordinary <strong>ideas</strong> and
-              <strong> innovations</strong>, hosting them on the 
-              web 
+              <strong> innovations</strong>, hosting them on the web
               </p>
           </div>
         </div>
@@ -87,14 +100,14 @@ export default function Home() {
             <motion.div className="rellax text-center" data-rellax-speed="4" data-rellax-mobile-speed="2" data-rellax-tablet-speed="2" data-speed-desktop-speed="4"
             style={{scale: scale}}
             >
-              <Image 
+              <Image
               src="/ideas-to-impressions.svg"
               height="750px"
               width="1400px"
               alt="ideas-to-impressions"
               />
             </motion.div>
-        </div>
+          </div>
         </div>
         <div className="row home-page-row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
           <motion.div className="col-11">

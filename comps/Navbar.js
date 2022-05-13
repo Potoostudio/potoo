@@ -27,7 +27,7 @@ function toggle() {
                         />
                   </a>
                 </Link>
-              </div>
+          </div>
           <div className="hamburger-menu" aria-label="menu"
             onClick={toggle}>
             <div className={`menu-icon ${isActive ? 'activeNav' : ''}`}>
@@ -37,7 +37,6 @@ function toggle() {
         </div>
         <div className="mobile-header container">
           <div className="header-box">
-            
             <div className={`menu-list ${isActive ? 'activeNav' : ''}`}>
               <ul className="list header-list">
                 <li className="item"

@@ -28,6 +28,9 @@ a {
       top: 0;
       max-width: 12%;
     }
+    .fixed-menu {
+      display: none;
+    }
 
     .hamburger-menu {
       display: inline;
@@ -189,18 +192,16 @@ a {
     .home-page-container {
       padding-top: 1.4rem;
 
-      // .shows-h1-col {
+      .fixed-menu {
+        display: none;
+      }
 
-      //   .shows-h1 {
-      //     font-size: 4rem;
-      //     font-weight: 300;
-      //   }
-      // }
       .main-page-impression-text-box {
+        text-align: center;
   
         .main-page-impression-text-large {
-          font-size: 2.9rem;
-          line-height: 3.5rem;
+          font-size: 1.8rem;
+          line-height: 2.8rem;
           font-weight: 700;
         }
       }
@@ -752,41 +753,30 @@ a {
   margin-top: 0rem;
 
   .we-are-potoo-h1 {
-    font-size: 5rem;
-    text-transform: capitalize;
+    font-size: 4.8rem;
     font-weight: 400;
-    line-height: 5.5rem;
+    line-height: 4.8rem;
     position: relative;
     padding-bottom: 1rem;
 
-    &::after {
-      content: '';
-      position: absolute;
-      left: 0;
-      bottom: -14px;
-      width: 100%;
-      height: 2px;
-      background-color: #cecece;
-    }
-
 
     .we-are-potoo-h1-potoo {
-      font-weight: 900;
+      font-weight: 700;
       text-transform: uppercase;
     }
   }
   .logo-concept-row {
-    margin-top: 10rem;
+    margin-top: 5rem;
 
     .logo-concept-h1 {
       padding-bottom: 0.5rem;
-      font-size: 2rem;
+      font-size: 1.8rem;
       font-weight: 600;
       position: relative;
 
       &::after {
         content: '';
-        width: 65%;
+        width: 100%;
         height: 1.5px;
         background-color: #ececec;
         position: absolute;
@@ -805,7 +795,7 @@ a {
       }
       .logo-concept-box-content {
         padding-left: auto;
-        width: 80%;
+        width: 100%;
 
         .list {
           list-style: none;
@@ -813,7 +803,7 @@ a {
 
           .item {
             padding: 0.4rem 0 ;
-            font-size: 0.95rem;
+            font-size: 1.05rem;
 
             .logo-concept-box-pic-link {
               color: #868585;
@@ -839,20 +829,20 @@ a {
     }
   }
   .we-are-row {
-    margin-top: 3rem;
+    margin-top: 1rem;
     
     .we-are-h3 {
-      font-size: 3.5rem;
+      font-size: 1.8rem;
       font-weight: 600;
     }
   }
   .content-row {
     margin-top: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 
     .normal-p {
-      font-size: 1.2rem;
-      padding-top: 3rem;
+      font-size: 1rem;
+      padding-top: 0.7rem;
       position: relative;
     }
   }
@@ -868,6 +858,9 @@ a {
       left: 3%;
       top: 0;
       max-width: 45px;
+    }
+    .fixed-menu {
+      display: none;
     }
 
     .hamburger-menu {
@@ -970,22 +963,14 @@ a {
   .home-page-container {
     overflow-x: hidden;
 
-    &.mw-1450 {
-      max-width: 1450px!important;
-      margin-top: 7rem;
-    }
-    .shows-h1-col {
-      z-index: 11;
-      
-      .shows-h1 {
-        font-size: 4rem;
-        font-weight: 400;
-      }
+    .fixed-menu {
+      display: none;
     }
     .main-page-impression-text-box {
+      text-align: center;
   
       .main-page-impression-text-large {
-        font-size: 5.5rem;
+        font-size: 1.8rem;
         line-height: 5rem;
       }
     }
@@ -1086,7 +1071,7 @@ a {
 
     .homepage-design-col {
       .design-p {
-        font-size: 2.9rem!important;
+        font-size: 2.1rem!important;
         line-height: 58px;
         padding: 5rem 0rem;
       }
@@ -1256,18 +1241,17 @@ a {
    
   }
   .about-container {
-    margin-top: 6rem;
+    margin-top: 4rem;
 
     .we-are-potoo-h1 {
-      font-size: 7rem;
-      text-transform: uppercase;
+      font-size: 5rem;
 
       .we-are-potoo-h1-potoo {
-        font-weight: 900;
+        font-weight: 500;
       }
     }
     .logo-concept-row {
-      margin-top: 10rem;
+      margin-top: 8rem;
 
       .logo-concept-h1 {
         padding-bottom: 0.5rem;
@@ -1313,15 +1297,15 @@ a {
       }
     }
     .we-are-row {
-      margin-top: 5rem;
+      margin-top: 1rem;
       
       .we-are-h3 {
-        font-size: 4rem;
+        font-size: 2rem;
         font-weight: 600;
       }
     }
     .content-row {
-      margin-top: 12rem;
+      margin-top: 6rem;
       margin-bottom: 10rem;
 
       .normal-p {
@@ -1471,7 +1455,7 @@ a {
       right: 1%;
       top: 1rem;
       cursor: pointer;
-  
+
       .menu-icon {
         height: 100%;
         width: 100%;
@@ -1483,7 +1467,7 @@ a {
           left: 15%;
           font-size: 18px;
           font-weight: 600;
-    
+
           &::before {
             content: '';
             position: absolute;
@@ -1495,8 +1479,7 @@ a {
             transition: all 0.3s ease-in-out ;
           }
           &.menu-active {
-    
-    
+
             &::before {
               content: '';
               position: absolute;
@@ -1633,36 +1616,85 @@ a {
           }
         }
       }
-
   }
   .home-page-container {
     border-top: none;
+    margin-top: 5rem!important;
 
-    &.mw-1450 {
-      max-width: 1450px!important;
-      margin-top: 4rem!important;
+    .fixed-menu {
+      display: inline;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 8.2%;
+      z-index: 1111;
+      list-style: none;
+        width: 100%;
+        padding: 0;
+        height: 25px;
+
+        .item {
+          width: 10%;
+          text-align: center;
+
+          .nav-a {
+            color: #ccc;
+            transition: all 0.6s ease;
+
+            &:hover {
+              text-decoration: none;
+              color: #fff;
+            }
+          }
+        }
+        .item:nth-child(1) {
+          float: left;
+        }
+        .item:nth-child(2) {
+          float: right;
+        }
     }
 
     .main-page-impression-text-box {
-      position: absolute;
-      bottom: 0;
+     text-align: center;
 
       .main-page-impression-text-large {
-        font-size: 7rem;
+        font-size: 2rem;
         font-family: inherit;
-        font-weight: 700;
         margin-left: auto;
-        padding: 0 0 0 3.3rem;
-        line-height: 7.5rem;
+        position: relative;
 
+        &::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 62%;
+          height: 3px;
+          width: 11%;
+          background-color: #646464;
+        }
+        &::after {
+          content: '';
+          position: absolute;
+          right: 0;
+          top: 62%;
+          height: 3px;
+          width: 11%;
+          background-color: #646464;
+        }
+        // .color  {
+        //   animation: border 2s;
+        //   transition: all 1s ease-in-out;
+        // }
+        .color {
+          position: relative;
+        }
       }
     }
   }
   .nav-container {
     .row {
-      
       .mode-col {
-
         .list {
           display: initial;
           list-style: none;
@@ -1689,20 +1721,19 @@ a {
     }
   }
   .about-container {
-    margin-top: 6rem;
+    margin-top: 4rem;
 
     .we-are-potoo-h1 {
-      font-size: 8rem;
-      text-transform: capitalize;
-
+      font-size: 5rem;
 
       .we-are-potoo-h1-potoo {
-        font-weight: 900;
+        font-weight: 800;
         text-transform: uppercase;
+        letter-spacing: 2px;
       }
     }
     .logo-concept-row {
-      margin-top: 10rem;
+      margin-top: 8rem;
 
       .logo-concept-h1 {
         padding-bottom: 0.5rem;
@@ -1754,16 +1785,16 @@ a {
       }
     }
     .we-are-row {
-      margin-top: 4rem;
+      margin-top: 0.5rem;
       
       .we-are-h3 {
-        font-size: 4rem;
+        font-size: 2rem;
         font-weight: 600;
       }
     }
     .content-row {
-      margin-top: 12rem;
-      margin-bottom: 10rem;
+      margin-top: 6rem;
+      margin-bottom: 8rem;
 
       .normal-p {
         font-size: 1.2rem;
