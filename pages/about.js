@@ -30,7 +30,7 @@ function Design() {
           <div className="row we-are-row justify-content-start">
             <div className="col-md-11 col-11">
               <h3 className="we-are-h3">
-                We are a creative design studio established in 2021
+                We are a Denver based creative design studio
               </h3>
             </div>
           </div>
@@ -56,7 +56,7 @@ function Design() {
           <div className="row justify-content-start content-row">
             <div className="col-11 col-md-11 d-lg-flex">
               <p className="normal-p pl-0">
-                We have no interest in rubbish work. We personalize brands to create unique images.
+                We have no interest in rubbish work. We create unique images for brands
               </p>
               <p className="normal-p pl-0">
                 We remember the concept of our logo and consider impressions with every project we take

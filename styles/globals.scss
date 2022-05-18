@@ -2201,7 +2201,7 @@ a {
                 right: 22%;
                 bottom: 0;
                 height: 365px;
-                z-index: 111;
+                z-index: -111;
                 transition: display 0.4s linear;
 
                 &.active {
