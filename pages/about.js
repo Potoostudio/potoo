@@ -23,7 +23,7 @@ function Design() {
           <div className="row justify-content-start">
               <div className="col-md-12 col-11">
                 <h1 className="we-are-potoo-h1">
-                  we <span className="we-are-potoo-h1-are">are</span> <span className="we-are-potoo-h1-potoo">potoo</span>
+                  We <span className="we-are-potoo-h1-are">are</span> <span className="we-are-potoo-h1-potoo">potoo</span>
                 </h1>
               </div>
           </div>

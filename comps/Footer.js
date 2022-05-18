@@ -8,7 +8,7 @@ export default function Footer() {
       return (
           <>
         <div className="container-fluid footer-container">
-            <div className="row justify-content-center pl-md-5 pb-md-3 mx-md-5 pt-md-4">
+            <div className="row justify-content-center pb-md-3 mx-md-5 pt-md-4">
                 <div className="col-lg-9 col-12 text-center">
                     <h1 className="say-hello-h1 pb-5">
                         Let's create an <span className="footer-impression">impression</span> 
