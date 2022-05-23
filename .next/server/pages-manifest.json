@@ -2,10 +2,5 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/404": "pages/404.js",
-  "/about": "pages/about.js",
-  "/projects": "pages/projects.js",
-  "/projects/project-potoo": "pages/projects/project-potoo.js",
-  "/projects/project-kish": "pages/projects/project-kish.js",
   "/": "pages/index.js"
 }

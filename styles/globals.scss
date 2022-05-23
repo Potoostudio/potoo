@@ -503,16 +503,25 @@ a {
     }
 
     .say-hello-h1 {
-      font-size: 3.021rem;
+
+      display: flex;
+      justify-content: center;
+
+      font-size: 1.021rem;
       font-weight: 400;
 
-      .footer-impression {
-        font-size: 3.75rem;
-        font-weight: 900;
-        position: relative;
-        bottom: 0rem;
+      :nth-child(1) {
+        width: 25%;
+        text-align: right;
       }
-      
+      :nth-child(2) {
+        width: 22%;
+      }
+      :nth-child(3) {
+        width: 28%;
+        text-align: left;
+      }
+
     }
     .say-hello-a {
       text-decoration: none;
@@ -1327,13 +1336,9 @@ a {
     }
 
     .say-hello-h1 {
-      font-size: 4.7rem;
-      font-weight: 400;
+      font-size: 1.95rem;
+      font-weight: 500;
 
-      .footer-impression {
-        font-size: 6.1rem;
-        bottom: 0%;
-      }
     }
     .say-hello-a {
       text-decoration: none;
@@ -1626,7 +1631,7 @@ a {
       width: 100%;
       position: fixed;
       left: 0;
-      top: 8.2%;
+      top: 8.8%;
       z-index: 1111;
       list-style: none;
         width: 100%;
@@ -2344,13 +2349,13 @@ a {
       }
   
       .say-hello-h1 {
-        font-size: 7.7rem;
-        font-weight: 400;
+        font-size: 2.72rem;
+        font-weight: 500;
+        max-width: 825px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
 
-        .footer-impression {
-          font-size: 8.1rem;
-          bottom: 0%;
-        }
       }
       .say-hello-a {
         text-decoration: none;
