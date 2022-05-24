@@ -74,7 +74,7 @@ export default function Home() {
             </ul>
             <div className="main-page-impression-text-box">
                 <h1 className="main-page-impression-text-large mt-lg-5 pt-lg-4">
-                  Nesting Impressions on <strong className="color">Paper</strong> and <strong className="color">Technology</strong>
+                  Nesting Impressions on <strong className="color">Paper</strong> and <strong className="color">Screen</strong>
                 </h1>
             </div>
           </div>
