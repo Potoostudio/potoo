@@ -43,7 +43,7 @@ function toggle() {
                 onClick={toggle}>
                   <Link href="/about">
                     <a className="mobile-navBar-item design-a">
-                    About
+                     Studio
                     </a>
                   </Link>
                 </li>

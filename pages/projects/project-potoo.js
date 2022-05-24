@@ -94,6 +94,10 @@ export default function Projects() {
             <div className="we-do-it-with-style-col col-md-4 col-11">
               <p className="we-do-it">we do it <span className="with"> with</span></p>
               <p className="style">style</p>
+
+              <video className="video-" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%">
+                <source src="/Seedstock-screen-video.mp4" type="video/mp4"/>
+              </video>
             </div>
           </div>
           <div className="row jutify-content-center images-row">

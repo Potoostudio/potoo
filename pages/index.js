@@ -60,7 +60,7 @@ export default function Home() {
               <li className="item">
                 <Link href="/about">
                   <a className="nav-a">
-                    About
+                    Studio
                   </a>
                 </Link>
               </li>
