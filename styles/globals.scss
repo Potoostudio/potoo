@@ -747,6 +747,29 @@ a {
       padding-bottom: 4rem;
   
     }
+    .accessibility-list {
+      display: inline;
+      list-style: none;
+      padding-left: 0px;
+      margin-left: 0px;
+    }
+    .project-footer-title {
+      font-size: 1.1rem;
+    }
+    .project-footer-list {
+      display: grid;
+      grid-template-columns: 45% 45%;
+      grid-template-rows: auto;
+      -webkit-justify-content: center;
+      justify-content: center;
+      padding-left: 0;
+      margin-left: 0;
+
+      .item {
+        text-align: left;
+        width: 100%;
+      }
+    }
   }
   .co-container {
     .co-made {
@@ -756,6 +779,12 @@ a {
   .project-embeded {
     width: 375px;
     height: 362px;
+  }
+  .grid-text {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    justify-content: center;
   }
 }
 .about-container {
@@ -1697,6 +1726,13 @@ a {
       }
     }
   }
+  .grid-text {
+    display: grid;
+    grid-template-columns: 32% 32%;
+    grid-template-rows: auto;
+    justify-content: center;
+    grid-gap: 5%;
+  }
   .nav-container {
     .row {
       .mode-col {
@@ -2476,7 +2512,7 @@ a {
       }
     }
     .project-showcase-container {
-      margin-top: 8rem!important;
+      margin-top: 2rem!important;
       .project-row {
 
         .project-col {
@@ -2495,7 +2531,8 @@ a {
              } 
              &.project-year {
               padding-top: 0.5rem;
-              font-size: 35px;
+              font-size: 32px;
+              font-weight: 500;
               text-align: center;
              } 
              &.project-info {
@@ -2576,6 +2613,24 @@ a {
         background-color: #6b827c7d;
         padding-bottom: 8rem;
       }
+      .project-footer-list {
+        display: flex;
+        list-style: disc;
+        justify-content: center;
+      
+        .item {
+          width: 16%;
+        }
+      }
+    }
+    .pt-lg-4rem {
+      padding-top: 4rem!important;
+    }
+    .pt-lg-5rem {
+      padding-top: 5rem!important;
+    }
+    .pt-lg-6rem {
+      padding-top: 6rem!important;
     }
       .project-embeded {
         width: 1220px;
@@ -2590,6 +2645,8 @@ a {
           max-width: 1600px;
         }
     }
+    // end of 966px
+
     .mw-1190 {
       max-width: 1190px;
 

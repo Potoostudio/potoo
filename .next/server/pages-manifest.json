@@ -2,5 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/projects/project-potoo": "pages/projects/project-potoo.js"
+  "/projects/project-potoo": "pages/projects/project-potoo.js",
+  "/projects/project-seedstock": "pages/projects/project-seedstock.js"
 }

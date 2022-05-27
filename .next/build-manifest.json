@@ -28,6 +28,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/projects/project-potoo.js"
+    ],
+    "/projects/project-seedstock": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/projects/project-seedstock.js"
     ]
   },
   "ampFirstPages": []

@@ -82,7 +82,7 @@ export default class Footer extends Component {
                       </p>
                   </div>
                   <div className="col-lg-3 col-10 text-center ">
-                    <p className="clock mb-2 mb-md-3">It's <Clock className="digital-clock" format={'HH:mm'} ticking={true} timezone={'US/Mountain'}/> in the Rockies</p>
+                    <time className="clock mb-2 mb-md-3">It's <Clock className="digital-clock" format={'HH:mm'} ticking={true} timezone={'US/Mountain'}/> in the Rockies</time>
                   </div>
               </div>
           </div>
