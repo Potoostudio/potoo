@@ -48,7 +48,7 @@ export default function Projects() {
                 Seedstock was looking to update their menu from paper to digital and add new beer releases and events.
             </p>
             <p className="normal-text">
-                The design of the digital screen contains three sections. Every section has different content and goal. 
+                The design of the digital screen contains three sections. Every section has different content and goals. 
             </p>
            </div>
            <div className="col-11">
@@ -103,19 +103,19 @@ export default function Projects() {
                </h3>
                <div className="grid-text pt-5">
                 <p className="normal-text text-left">
-                    <strong className="pr-2">Section A</strong> is designed to be the first 
-                    element customers see as it is placed at the 
-                    eye level. This section contains different 
+                    <strong className="pr-2">Section A</strong> is designed to be the first
+                    element customers view as it is placed at the
+                    eye level. This section contains different
                     background-color, bigger font size, and offset
-                    picture to attract customers’ attention and be 
-                    the first to check
+                    picture to attract customers’ attention and be
+                    the first section to view
                 </p>
                 <p className="normal-text text-left">
-                    <strong className="pr-2">Section B</strong> is designed to be the second 
-                    element customers see. The bright white 
-                    background and underline title designed to 
+                    <strong className="pr-2">Section B</strong> is designed to be the second
+                    element customers view. The bright white
+                    background and underline title is designed to
                     drive customers’ attention to this section after
-                    checking section A
+                    viewing section A
                 </p>
                </div>
            </div>
