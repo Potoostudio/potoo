@@ -149,9 +149,9 @@ export default function Home() {
                 idea or a product. Starting
                 with the brand strategy and
                 identity, we delicately choose
-                what characterize your brand
+                what characterizes your brand,
                 from a custom logo to colors
-                and typefaces.
+                and typeface.
               </p>
               <Link href="mailto:ideas@potoo.studio?subject=Brand Strategy">
                 <a className="service-a-link"> work with us</a>
@@ -170,7 +170,7 @@ export default function Home() {
                 </li>
               </ul>
               <p className="service-p">
-                Design your website to translate 
+                We design your website to translate 
                 your brand identity seamlessly 
                 through different screen sizes.
                 We create prototypes to show
@@ -198,11 +198,10 @@ export default function Home() {
                 </li>
               </ul>
               <p className="service-p">
-                Personalize your brand with custom 
+                We personalize your brand with custom 
                 graphics for your social media
-                accounts and paper prints. Show 
-                your brand on events and 
-                conferences with custom graphics.
+                accounts and paper prints. We present 
+                your brand at events through custom graphics.
               </p>
               <Link href="mailto:ideas@potoo.studio?subject=Graphics">
                 <a className="service-a-link"> work with us</a>
@@ -224,7 +223,7 @@ export default function Home() {
                 </li>
               </ul>
               <p className="service-p">
-                We start with an espresso, then
+                We start with a cup of espresso, then
                 code your website pixel by pixel
                 to fit on all screens and operate seamlessly
                 on all browsers.
