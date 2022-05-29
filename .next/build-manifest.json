@@ -14,6 +14,11 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -24,15 +29,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/projects/project-potoo": [
+    "/about": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/projects/project-potoo.js"
+      "static/chunks/pages/about.js"
     ],
-    "/projects/project-seedstock": [
+    "/projects": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/projects/project-seedstock.js"
+      "static/chunks/pages/projects.js"
+    ],
+    "/projects/seedstock": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/projects/seedstock.js"
     ]
   },
   "ampFirstPages": []

@@ -87,7 +87,7 @@ export default function Home() {
       </div>
      <div className="container-fluid design-container mx-1600">
         <div className="row justify-content-start">
-          <div className="col-md-7 col-9 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-2 mt-4">
+          <div className="col-md-5 col-9 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-2 mt-4">
               <p className="design-p text-left pl-md-2">
               <span className="potoo-cap">Potoo</span>, a visionary bird flying
               over extraordinary <strong>ideas</strong> and
@@ -95,40 +95,27 @@ export default function Home() {
               </p>
           </div>
         </div>
-        <div className="row ideas-row justify-content-center">
-          <div className="col-md-10 col-9">
-            <motion.div className="rellax text-center" data-rellax-speed="4" data-rellax-mobile-speed="2" data-rellax-tablet-speed="2" data-speed-desktop-speed="4"
-            style={{scale: scale}}
-            >
-              <Image
-              src="/ideas-to-impressions.svg"
-              height="750px"
-              width="1400px"
-              alt="ideas-to-impressions"
-              />
-            </motion.div>
-          </div>
-        </div>
         <div className="row home-page-row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
-          <motion.div className="col-11">
-              <p className="work-p">Projects</p>
-              <ul className="project-list-image-list">
+          <motion.div className="col-12 col-md-10">
+            <h1 className="work-title">
+              Work
+            </h1>
+            <p className="normal work-text">
+            Every project is an opportunity to present clients' inspiring stories and show what we have been learning
+            </p>
+              <ul className="project-list-image-list pt-4 pt-md-0">
                 <li className="item project-image-item">
-                  <video className="video" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%">
-                    <source src="/Potoo-animation.mp4" type="video/mp4"/>
-                  </video>
-                  <Link href="/projects/project-potoo">
+                  <Link href="/projects/seedstock">
                     <a className="project-li-link">
-                  <div className="project-item-overlay">
-                    <div className="project-item-title">
-                      Potoo Studio
-                    </div>
-                  <Link href="/projects/project-potoo">
-                    <a className="project-item-link">
-                    <svg className="link-icon" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 125"><path className="cls-1" d="M42.2,21.2,78,56.9,24.4,110.4l35.7,35.8,53.6-53.6,35.7,35.7V21.2Z" transform="translate(-24.4 -21.2)"/></svg>
-                    </a>
-                  </Link>
-                  </div>
+                      <Image
+                        src="/Seedstock-project-picture.jpg"
+                        height="590px"
+                        width="444px"
+                        alt="Seedstock project image"
+                        />
+                        <p className="project-title">
+                          Seedstock
+                        </p>
                     </a>
                   </Link>
                 </li>
@@ -248,15 +235,22 @@ export default function Home() {
             </div>
         </div>
       </div>
-     {/* <div className="container-fluid code-container mw-1450">
-         <motion.div style={{scale: scale}} className="row justify-content-center justify-content-md-center">
-          <div className="col-md-10 col-10 pt-md-5 mt-md-5 potoo-vision-col ml-md-5">
-            <motion.p style={{ color }} className="potoo-vision-text">
-              Articulated Impressions
-            </motion.p>
+     <div className="container-fluid code-container mw-1450">
+      <div className="row ideas-row justify-content-center">
+          <div className="col-md-4 col-9">
+            <motion.div className="rellax text-center" data-rellax-speed="4" data-rellax-mobile-speed="2" data-rellax-tablet-speed="2" data-speed-desktop-speed="4"
+            style={{scale: scale}}
+            >
+              <Image
+              src="/ideas-to-impressions.svg"
+              height="750px"
+              width="1400px"
+              alt="ideas-to-impressions"
+              />
+            </motion.div>
           </div>
-         </motion.div>
-     </div> */}
+        </div>
+     </div>
     </>
   )
 }

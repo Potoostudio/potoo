@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react"
 import Head from 'next/head'
 import Link from 'next/link'
 import { useInView } from "react-intersection-observer"
-import {useAnimation } from "framer-motion"
+import {useAnimation, motion } from "framer-motion"
+import Image from 'next/image'
 
 
 
@@ -35,14 +36,35 @@ export default function Projects() {
         <meta property="og:url" content="https://potoo.studio/projects" />
         <meta property="og:type" content="website" />
       </Head>
-      <div className="container-fluid design-container projects-container  mw-1450 pb-lg-5">
-		<div className="row row-project-images pt-md-1 justify-content-center">
+      <div className="container-fluid projects-container  mw-1450 pb-lg-5">
+	  <div className="row home-page-row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
+          <motion.div className="col-10">
+              <ul className="project-list-image-list">
+                <li className="item project-image-item">
+                  <Link href="/projects/seedstock">
+                    <a className="project-li-link">
+                      <Image
+                        src="/Seedstock-project-picture.jpg"
+                        height="590px"
+                        width="444px"
+                        alt="Seedstock project image"
+                        />
+                        <p className="project-title">
+                          Seedstock
+                        </p>
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </motion.div>
+        </div>
+		{/* <div className="row row-project-images pt-md-1 justify-content-center">
 			<div className="col-12 col-md-10">
 				<ul className="list projects-list">
 					<li className="item projects-list-item"
 					onMouseEnter ={()=> UpdateToggle(1)}
 					onMouseLeave ={()=> UpdateToggle('')}>
-						<Link href="/projects/project-potoo" >
+						<Link href="/projects/potoo" >
 							<a className="project-item-link">
 								<span className="project-item-number">01</span> <p className="project-item-name">Potoo Studio</p>
 							</a>
@@ -54,7 +76,7 @@ export default function Projects() {
 					<li className="item projects-list-item"
 						onMouseEnter ={()=> UpdateToggle(2)}
 						onMouseLeave ={()=> UpdateToggle('')}>
-						<Link href="/projects/project-kish" >
+						<Link href="/projects/kish" >
 							<a className="project-item-link">
 								<span className="project-item-number">02</span> <p className="project-item-name">Kish</p>
 							</a>
@@ -65,7 +87,7 @@ export default function Projects() {
 					</li>
 				</ul>
 				</div>
-			</div>
+			</div> */}
       </div>
     </>
   )
