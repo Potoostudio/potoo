@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 
 function Navbar() {
-  
+
 const [isOpened, setIsOpened] = useState(false);
 const [isActive, setActive] = useState(false)
 
@@ -14,12 +14,11 @@ function toggle() {
 }
       return (
         <>
-        
         <div className="nav">
           <div className="logo-box">
                 <Link href="/">
                   <a className="potoo-logo-a d-block">
-                    <Image 
+                    <Image
                         src="/new-potoo-logo.svg"
                         width="100%"
                         height="140px"
@@ -89,7 +88,7 @@ function toggle() {
                               </Link>
                           </div>
                           <div className="col-lg-1 col-4 col-md-2 text-center text-md-left pt-4 pt-md-4 mt-md-1 pb-md-3 pt-lg-0 order-lg-4">
-                              <Link href="https://dribbble.com/Potoo" aria-label="dribbble">
+                              <Link href="https://dribbble.com/potoostudio" aria-label="dribbble">
                                   <a  className="social-media-a">
                                       DB
                                   </a>

@@ -56,7 +56,7 @@ export default class Footer extends Component {
                               </Link>
                           </div>
                           <div className="col-lg-1 col-4 col-md-2 text-md-center text-md-left pt-4 pt-md-4 mt-md-1 pb-md-3 pt-lg-0">
-                              <Link href="https://dribbble.com/Potoo" aria-label="dribbble">
+                              <Link href="https://dribbble.com/potoostudio" aria-label="dribbble">
                                   <a  className="social-media-a">
                                       DB
                                   </a>
