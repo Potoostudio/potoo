@@ -91,7 +91,7 @@ export default function Home() {
               <p className="design-p text-left pl-md-2">
               <span className="potoo-cap">Potoo</span>, a visionary bird flying
               over <strong>ideas</strong> and
-              <strong> innovations</strong>, hosting them on the web
+              <strong> innovations</strong>, nesting them on the web
               </p>
           </div>
         </div>
