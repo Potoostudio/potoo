@@ -19,14 +19,40 @@ a {
 
 @media only screen and (min-width: 320px) {
   .nav {
-    padding: 1rem;
+    padding: 1rem 0rem;
+
+    .latest-project {
+      width: 69px;
+      height: 44px;
+      position: relative;
+      left: 0.3vw;
+      display: inline;
+      top: 0.65rem;
+      padding: 6px;
+      line-height: 16px;
+      border-left: 2px solid #fff;
+
+      .latest-work-a {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 500;
+        position: relative;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
 
     .logo-box {
       margin-right: auto;
       position: relative;
-      left: 3%;
+      left: 0;
       top: 0;
       max-width: 12%;
+      margin-left: auto;
+      margin-right: auto;
     }
     .fixed-menu {
       display: none;
@@ -34,12 +60,12 @@ a {
 
     .hamburger-menu {
       display: inline;
-      width: 100px;
+      width: 75px;
       position: relative;
       height: 44px;
       z-index: 11111111;
       background: #fff;
-      right: 2%;
+      right: 0px;
       top: 0rem;
       margin-top: 0.5rem;
       cursor: pointer;
@@ -229,7 +255,7 @@ a {
           .potoo-cap {
             text-transform: uppercase;
             font-weight: 700;
-            font-family: "raleway";
+            font-family: inherit;
           }
         }
       }
@@ -863,6 +889,7 @@ a {
         left: 16%;
         font-size: 14px;
         font-weight: 600;
+        text-transform: uppercase;
   
         &::before {
           content: '';
@@ -1398,15 +1425,58 @@ a {
 
 @media only screen and  (min-width: 996px) {
   .nav {
-    padding: 3rem 2rem 2rem 2rem;
+    padding: 1.2rem 0rem;
+
+    .latest-project {
+      width: fit-content;
+      height: 45px;
+      position: relative;
+      left: 0.3vw;
+      display: inline;
+      top: 3rem;
+      border-left: none;
+      padding: 0;
+
+      .latest-work-a {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        position: relative;
+        padding: 15px;
+
+
+        &:hover {
+          text-decoration: none;
+          color: #000;
+          transition: all .4s ease-in-out;
+        }
+        &::before {
+          content: '';
+          width: 4%;
+          height: 100%;
+          position: absolute;
+          left: 0;
+          top: 0;
+          background-color: #fff;
+          transition: all .4s ease-in-out;
+          z-index: -111;
+        }
+        &:hover::before {
+          width: 100%;
+        }
+      }
+    }
 
     .logo-box {
       margin-right: auto;
       position: relative;
-      left: 3%;
-      top: 0;
-      max-width: 100px;
+      left: 0;
+      top: 1rem;
+      max-width: 90px;
       padding: 1rem;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .hamburger-menu {
@@ -1416,7 +1486,7 @@ a {
       height: 65px;
       z-index: 11111111;
       background: #fff;
-      right: 1%;
+      right: 0;
       top: 1rem;
       cursor: pointer;
 
@@ -1590,7 +1660,7 @@ a {
       width: 100%;
       position: fixed;
       left: 0;
-      top: 8.8%;
+      top: 7.8%;
       z-index: 1111;
       list-style: none;
         width: 100%;

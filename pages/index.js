@@ -90,7 +90,7 @@ export default function Home() {
           <div className="col-md-5 col-9 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-2 mt-4">
               <p className="design-p text-left pl-md-2">
               <span className="potoo-cap">Potoo</span>, a visionary bird flying
-              over extraordinary <strong>ideas</strong> and
+              over <strong>ideas</strong> and
               <strong> innovations</strong>, hosting them on the web
               </p>
           </div>
@@ -223,8 +223,7 @@ export default function Home() {
                 </li>
               </ul>
               <p className="service-p">
-                We start with a cup of espresso, then
-                code your website pixel by pixel
+                We code your website pixel by pixel
                 to fit on all screens and operate seamlessly
                 on all browsers.
               </p>

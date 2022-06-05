@@ -15,6 +15,13 @@ function toggle() {
       return (
         <>
         <div className="nav">
+          <div className="latest-project">
+            <Link href="/projects/seedstock">
+              <a className="latest-work-a">
+                latest work
+              </a>
+            </Link>
+          </div>
           <div className="logo-box">
                 <Link href="/">
                   <a className="potoo-logo-a d-block">
