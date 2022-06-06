@@ -36,28 +36,28 @@ export default function Projects() {
         <meta property="og:url" content="https://potoo.studio/projects" />
         <meta property="og:type" content="website" />
       </Head>
-      <div className="container-fluid projects-container  mw-1450 pb-lg-5">
-	  <div className="row home-page-row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
-          <motion.div className="col-10">
-              <ul className="project-list-image-list">
-                <li className="item project-image-item">
-                  <Link href="/projects/seedstock">
-                    <a className="project-li-link">
-                      <Image
-                        src="/Seedstock-project-picture.jpg"
-                        height="590px"
-                        width="444px"
-                        alt="Seedstock project image"
-                        />
-                        <p className="project-title">
-                          Seedstock
-                        </p>
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-            </motion.div>
-        </div>
+      <div className="container-fluid projects-container design-container  pb-lg-5 mt-md-0 pt-md-3">
+        <div className="row home-page-row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
+              <motion.div className="col-10">
+                  <ul className="project-list-image-list">
+                    <li className="item project-image-item">
+                      <Link href="/projects/seedstock">
+                        <a className="project-li-link">
+                          <Image
+                            src="/Seedstock-project-picture.jpg"
+                            height="590px"
+                            width="444px"
+                            alt="Seedstock project image"
+                            />
+                            <p className="project-title">
+                              Seedstock
+                            </p>
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </motion.div>
+            </div>
 		{/* <div className="row row-project-images pt-md-1 justify-content-center">
 			<div className="col-12 col-md-10">
 				<ul className="list projects-list">

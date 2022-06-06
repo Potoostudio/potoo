@@ -19,48 +19,117 @@ function Design() {
         </Head>
 
 
-        <div className="container about-container pt-5 pt-md-5 px-4 px-md-0">
+        <div className="container about-container pt-5 pt-md-5 px-4 px-md-0 pb-md-5 mb-md-5">
           <div className="row justify-content-start">
-              <div className="col-md-12 col-11">
-                <h1 className="we-are-potoo-h1">
-                  We <span className="we-are-potoo-h1-are">are</span> <span className="we-are-potoo-h1-potoo">potoo</span>
-                </h1>
+              <div className="col-md-12 col-12">
+                <h6 className="about-sec-title">
+                  we are potoo
+                </h6>
+                <div className="about-grid-two pt-md-4">
+                 <h5>
+                    We are a Denver based creative studio.
+                 </h5>
+                 <p className="normal-p">
+                  We make impressions that connect brands to
+                  clients. Our route to make an impression starts
+                  with getting to know your brand and the target
+                  market, then we design your digital brand and
+                  presents it with digital / printed content and a
+                  website.
+                 </p>
+                </div>
               </div>
           </div>
-          <div className="row we-are-row justify-content-start">
-            <div className="col-md-11 col-11">
-              <h3 className="we-are-h3">
-                We are a Denver based creative design studio
-              </h3>
+          
+          <div className="row justify-content-start pt-5 mt-5">
+            <div className="col-md-12 col-12 pt-md-5 mt-md-4">
+                <h6 className="about-sec-title">
+                  The concept of our logo / mission
+                </h6>
+                <div className="about-grid-two pt-md-4">
+                    <ul className="list pt-md-3 pt-0 pl-0">
+                      <li className="item">
+                        Huge eyes are capable of spotting impressions
+                      </li>
+                      <li className="item pt-3">
+                        A wide and gaping mouth to display extraordinary reactions
+                      </li>
+                    </ul>
+                </div>
             </div>
           </div>
-          <div className="row justify-content-start logo-concept-row">
-            <div className="col-md-11 col-11">
-              <h1 className="logo-concept-h1">
-                The concept of our logo
-              </h1>
-              <div className="logo-concept-box">
-                <div className="logo-concept-box-content">
-                  <ul className="list pt-md-3 pt-0">
-                    <li className="item">
-                      Huge eyes are capable of spotting impressions
+          <div className="row justify-content-start pt-5 mt-5 pb-md-5 mb-md-5">
+            <div className="col-md-12 col-12 pt-md-5 mt-md-4">
+              <h6 className="about-sec-title">
+                What we do
+              </h6>
+                <div className="about-grid-two pt-md-5 mt-md-4 pt-4 mt-4">
+                  <h4 className="text-uppercase">
+                    Research
+                  </h4>
+                  <ul className="list pt-0 pl-0">
+                    <li className="item text-upper-case">
+                     Brand Research
                     </li>
-                    <li className="item">
-                      A wide and gaping mouth to display extraordinary reactions
+                    <li className="item text-upper-case pt-md-3">
+                      Market Research
                     </li>
                   </ul>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-start content-row">
-            <div className="col-11 col-md-11 d-lg-flex">
-              <p className="normal-p pl-0">
-                We have no interest in rubbish work. We create unique images for brands
-              </p>
-              <p className="normal-p pl-0">
-                We remember the concept of our logo and consider impressions with every project we take
-              </p>
+                <div className="about-grid-two pt-md-5 mt-md-5 pt-4 mt-4">
+                  <h4 className="text-uppercase">
+                    Strategy
+                  </h4>
+                  <ul className="list pt-0 pl-0">
+                    <li className="item text-upper-case">
+                      Brand Identity
+                    </li>
+                    <li className="item text-upper-case pt-md-3">
+                      Brand Strategy
+                    </li>
+                    <li className="item text-upper-case pt-md-3">
+                      Guidelines
+                    </li>
+                    <li className="item text-upper-case pt-md-3">
+                      Copywriting
+                    </li>
+                  </ul>
+                </div>
+                <div className="about-grid-two pt-md-5 mt-md-5 pt-4 mt-4">
+                  <h4 className="text-uppercase">
+                    Design
+                  </h4>
+                  <ul className="list pt-0 pl-0">
+                    <li className="item text-upper-case">
+                      Product Design
+                    </li>
+                    <li className="item text-upper-case pt-md-3">
+                      Visual Design
+                    </li>
+                    <li className="item text-upper-case pt-md-3">
+                      Web Design
+                    </li>
+                    <li className="item text-upper-case pt-md-3">
+                      UI / UX
+                    </li>
+                    <li className="item text-upper-case pt-md-3">
+                      Print Design
+                    </li>
+                  </ul>
+                </div>
+                <div className="about-grid-two pt-md-5 mt-md-5 pt-4 mt-4">
+                  <h4 className="text-uppercase">
+                   Technology
+                  </h4>
+                  <ul className="list pt-0 pl-0">
+                    <li className="item text-upper-case">
+                      Web Development
+                    </li>
+                    <li className="item text-upper-case pt-md-3">
+                      CMS-based Sites
+                    </li>
+                  </ul>
+                </div>
             </div>
           </div>
         </div>
