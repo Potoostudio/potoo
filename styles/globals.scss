@@ -533,7 +533,7 @@ a {
     padding-bottom: 5rem;
 
     .col-h {
-      height: 570px;
+      height: 520px;
       max-height: 580px;
       margin: 6rem 0;
     }
@@ -2193,6 +2193,10 @@ a {
       .col-h {
         height: 600px;
         max-height: 610px;
+
+        &.h-540px {
+          height: 540px;
+        }
       }
 
       .service-custom-h1 {

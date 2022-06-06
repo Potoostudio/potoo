@@ -125,7 +125,7 @@ export default function Home() {
      </div>
      <div className="container-fluid service-container mx-1600 mt-md-5">
         <div className="row justify-content-md-around justify-content-sm-start pt-md-5 px-lg-5">
-            <div className="col-lg-5 col-md-5 col-11 px-lg-5 pb-lg-5 mb-lg-5 col-h">
+            <div className="col-lg-5 col-md-5 col-11 px-lg-5 pb-lg-5 mb-lg-5 col-h h-540px">
               <h1 className="service-custom-h1">
                 branding
               </h1>
@@ -157,7 +157,7 @@ export default function Home() {
                 <a className="service-a-link"> work with us</a>
               </Link>
             </div>
-            <div className="col-lg-5 col-md-5 col-11 px-lg-5 pb-lg-5 mb-lg-5 col-h">
+            <div className="col-lg-5 col-md-5 col-11 px-lg-5 pb-lg-5 mb-lg-5 col-h h-540px">
               <h1 className="service-custom-h1">
                 Web Design
               </h1>
