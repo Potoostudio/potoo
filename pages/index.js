@@ -18,7 +18,7 @@ export default function Home() {
     if (inView) {
       controls.start({
         x: 0,
-        opacity: 1, 
+        opacity: 1,
         transition: { duration: 1 }
       });
       console.log('visibile');
@@ -26,7 +26,7 @@ export default function Home() {
     if (!inView) {
       controls.start({
         x: -200,
-        opacity: 0 
+        opacity: 0
       });
       console.log('hidden');
     }
@@ -72,7 +72,7 @@ export default function Home() {
                 </Link>
               </li>
             </ul>
-            <div className="main-page-impression-text-box">
+            <div className="main-page-impression-text-box pt-5 mt-4 pt-md-0 mt-md-0">
                 <h1 className="main-page-impression-text-large mt-lg-5 pt-lg-4">
                   Nesting Impressions on <strong className="color">Paper</strong> and <strong className="color">Screen</strong>
                 </h1>
@@ -88,10 +88,10 @@ export default function Home() {
      <div className="container-fluid design-container mx-1600">
         <div className="row justify-content-start">
           <div className="col-md-5 col-9 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-5 mt-5">
-              <p className="design-p text-left pl-md-2">
-              <span className="potoo-cap">Potoo</span>, a visionary bird flying
-              over <strong>ideas</strong> and
-              <strong> innovations</strong>, nesting them on the web
+              <p className="design-p text-left pl-md-2 pt-md-0 pt-5">
+                <span className="potoo-cap">Potoo</span>, a visionary bird flying
+                 over <strong>ideas</strong> and
+                 <strong> innovations</strong>, nesting them on the web
               </p>
           </div>
         </div>
