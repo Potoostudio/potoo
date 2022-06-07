@@ -39,8 +39,6 @@ export default function Home() {
 
   const {scrollYProgress} = useViewportScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [0.5, 1.3]);
-  const color = useTransform(scrollYProgress, [0.64, 1], ['#0A100D', '#EBEBEB'])
-  const left = useTransform(scrollYProgress, [0, 1], ["-180px", "0"])
   return (
     <>
       <Head>
@@ -72,7 +70,7 @@ export default function Home() {
                 </Link>
               </li>
             </ul>
-            <div className="main-page-impression-text-box pt-5 mt-4 pt-md-0 mt-md-0">
+            <div className="main-page-impression-text-box py-5 my-4 py-md-0 my-md-0">
                 <h1 className="main-page-impression-text-large mt-lg-5 pt-lg-4">
                   Nesting Impressions on <strong className="color">Paper</strong> and <strong className="color">Screen</strong>
                 </h1>
@@ -86,8 +84,8 @@ export default function Home() {
         </div>
       </div>
      <div className="container-fluid design-container mx-1600">
-        <div className="row justify-content-start">
-          <div className="col-md-5 col-9 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-5 mt-5">
+        <div className="row justify-content-start pt-md-5 pt-0 mt-md-4 mt-0">
+          <div className="col-md-7 col-9 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-5 mt-5">
               <p className="design-p text-left pl-md-2 pt-md-0 pt-5">
                 <span className="potoo-cap">Potoo</span>, a visionary bird flying
                  over <strong>ideas</strong> and
@@ -183,7 +181,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="col-lg-5 col-md-5 col-11 px-lg-5 pt-lg-5 mt-lg-5 col-h">
-              <h1 className="service-custom-h1">
+              <h1 className="service-custom-h1 mt-md-5 mt-0">
                 Graphic Design
               </h1>
               <ul className="service-item-ul">
@@ -200,15 +198,14 @@ export default function Home() {
               <p className="service-p">
                 We personalize your brand with custom 
                 graphics for your social media
-                accounts and paper prints. We present 
-                your brand at events through custom graphics.
+                accounts and paper prints.
               </p>
               <Link href="mailto:ideas@potoo.studio?subject=Graphics">
                 <a className="service-a-link"> work with us</a>
               </Link>
             </div>
             <div className="col-lg-5 col-md-5 col-11 px-lg-5 pt-lg-5 mt-lg-5 col-h">
-              <h1 className="service-custom-h1">
+              <h1 className="service-custom-h1 mt-md-5 mt-0">
                 Web development
               </h1>
               <ul className="service-item-ul">
@@ -236,8 +233,7 @@ export default function Home() {
      <div className="container-fluid code-container mw-1450">
       <div className="row ideas-row justify-content-center">
           <div className="col-md-4 col-9">
-            <motion.div className="rellax text-center" data-rellax-speed="4" data-rellax-mobile-speed="2" data-rellax-tablet-speed="2" data-speed-desktop-speed="4"
-            style={{scale: scale}}
+            <motion.div className="text-center" style={{scale: scale}}
             >
               <Image
               src="/ideas-to-impressions.svg"

@@ -218,7 +218,7 @@ a {
       }
     }
     .home-page-container {
-      padding-top: 1.4rem;
+      padding-top: 3.4rem;
 
       .fixed-menu {
         display: none;
@@ -1514,6 +1514,7 @@ a {
   }
   .home-page-container {
     border-top: none;
+    padding-top: 4.8rem!important;
     margin-top: 5rem!important;
 
     .fixed-menu {
@@ -1521,7 +1522,7 @@ a {
       width: 100%;
       position: fixed;
       left: 0;
-      top: 8.2%;
+      top: 9.2%;
       z-index: 1111;
       list-style: none;
         width: 100%;
@@ -2080,13 +2081,13 @@ a {
               width: 475px;
 
               .project-title {
-                font-size: 1.5rem;
+                font-size: 1.65rem;
                 letter-spacing: 0.45px;
-                font-weight: 500;
+                font-weight: 700;
                 text-transform: capitalize;
                 color: #FAFAFA;
                 text-align: left;
-                padding: 1rem 1rem 1rem 0rem;
+                padding: 0.45rem 1rem 1rem 0rem;
               }
               .project-li-link {
                 &:hover {
@@ -2191,7 +2192,7 @@ a {
       padding-bottom: 5rem;
 
       .col-h {
-        height: 600px;
+        height: 560px;
         max-height: 610px;
 
         &.h-540px {

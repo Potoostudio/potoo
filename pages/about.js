@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from "react"
 import Head from 'next/head'
 
 
-
 function Design() {
 
     return (
@@ -29,18 +28,18 @@ function Design() {
                  <h5>
                     We are a Denver based creative studio.
                  </h5>
-                 <p className="normal-p">
-                  We make impressions that connect brands to
-                  clients. Our route to make an impression starts
-                  with getting to know your brand and the target
-                  market, then we design your digital brand and
-                  presents it with digital / printed content and a
-                  website.
-                 </p>
+                    <p className="normal-p">
+                      We make impressions that connect brands to
+                      clients. Our route to make an impression starts
+                      with getting to know your brand and the target
+                      market, then we design your digital brand and
+                      presents it with digital / printed content and a
+                      website.
+                    </p>
                 </div>
               </div>
           </div>
-          
+
           <div className="row justify-content-start pt-5 mt-5">
             <div className="col-md-12 col-12 pt-md-5 mt-md-4">
                 <h6 className="about-sec-title">
