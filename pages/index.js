@@ -72,7 +72,7 @@ export default function Home() {
             </ul>
             <div className="main-page-impression-text-box py-5 my-4 py-md-0 my-md-0">
                 <h1 className="main-page-impression-text-large mt-lg-5 pt-lg-4">
-                  Nesting Impressions on <strong className="color">Paper</strong> and <strong className="color">Screen</strong>
+                  Nesting Impressions <br/> on <strong className="color">Paper</strong> and <strong className="color">Screen</strong>
                 </h1>
             </div>
           </div>

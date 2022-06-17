@@ -226,7 +226,7 @@ a {
 
       .main-page-impression-text-box {
         text-align: center;
-  
+
         .main-page-impression-text-large {
           font-size: 1.8rem;
           line-height: 2.8rem;
@@ -269,7 +269,7 @@ a {
           list-style: none;
           padding-left: 0;
           text-align: right;
-          
+
           .item-one {
             font-size: 4rem;
             line-height: 4rem;
@@ -293,10 +293,10 @@ a {
       .row-project-images {
         margin-bottom: 12rem;
         margin-top: 0;
-  
+
         .projects-list {
           padding-left: 0;
-  
+
           .projects-list-item {
             display: inline-block;
             width: 100%;
@@ -304,14 +304,14 @@ a {
             margin-top: 7rem;
             position: relative;
             cursor: point;
-  
+
             .project-item-link {
               display: flex;
-  
+
               &:hover {
               text-decoration: none;
               }
-  
+
               .project-item-number {
                 width: 20%;
                 position: relative;
@@ -319,7 +319,7 @@ a {
                 font-size: 1.5rem;
                 color: #fafafa;
               }
-  
+
               .project-item-name {
                 width: 80%;
                 text-align: right;
@@ -329,7 +329,7 @@ a {
                 font-weight: 800;
               }
             }
-  
+
             .project-item-picture {
               display: inline;
               position: relative;
@@ -1515,14 +1515,14 @@ a {
   .home-page-container {
     border-top: none;
     padding-top: 4.8rem!important;
-    margin-top: 5rem!important;
+    margin-top: 3rem!important;
 
     .fixed-menu {
       display: inline;
       width: 100%;
       position: fixed;
       left: 0;
-      top: 9.2%;
+      top: 9.44%;
       z-index: 1111;
       list-style: none;
         width: 100%;
@@ -1536,6 +1536,26 @@ a {
           .nav-a {
             color: #ccc;
             transition: all 0.6s ease;
+            padding-top: 1rem;
+
+            &::before {
+              content: '';
+              position: absolute;
+              left: 0;
+              top: -45%;
+              height: 3px;
+              width: 11%;
+              background-color: #646464;
+            }
+            &::after {
+              content: '';
+              position: absolute;
+              right: 0;
+              top: -45%;
+              height: 3px;
+              width: 11%;
+              background-color: #646464;
+            }
 
             &:hover {
               text-decoration: none;
@@ -1555,33 +1575,12 @@ a {
      text-align: center;
 
       .main-page-impression-text-large {
-        font-size: 2rem;
+        font-size: 4.35rem;
+        line-height: 5.96rem;
         font-family: inherit;
         margin-left: auto;
         position: relative;
 
-        &::before {
-          content: '';
-          position: absolute;
-          left: 0;
-          top: 62%;
-          height: 3px;
-          width: 11%;
-          background-color: #646464;
-        }
-        &::after {
-          content: '';
-          position: absolute;
-          right: 0;
-          top: 62%;
-          height: 3px;
-          width: 11%;
-          background-color: #646464;
-        }
-        // .color  {
-        //   animation: border 2s;
-        //   transition: all 1s ease-in-out;
-        // }
         .color {
           position: relative;
         }
@@ -2426,7 +2425,7 @@ a {
             -webkit-justify-content: center;
             justify-content: center;
             grid-gap: 12%;
-    
+
             .project-image-item {
               position: relative;
               width: 475px;
