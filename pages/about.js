@@ -20,11 +20,11 @@ function Design() {
 
         <div className="container about-container pt-5 pt-md-5 px-4 px-md-0 pb-md-5 mb-md-5">
           <div className="row justify-content-start">
-              <div className="col-md-12 col-12">
+              <div className="col-md-12 col-12 pt-2 mt-2">
                 <h6 className="about-sec-title">
                   we are potoo
                 </h6>
-                <div className="about-grid-two pt-md-4 pt-5">
+                <div className="about-grid-two pt-md-4 pt-3">
                  <h5>
                     We are a Denver based creative studio.
                  </h5>
@@ -40,17 +40,17 @@ function Design() {
               </div>
           </div>
 
-          <div className="row justify-content-start pt-5 mt-5">
-            <div className="col-md-12 col-12 pt-md-5 mt-md-4">
+          <div className="row justify-content-start pt-5 mt-5 ">
+            <div className="col-md-12 col-12 pt-5 mt-5">
                 <h6 className="about-sec-title">
                   The concept of our logo / mission
                 </h6>
-                <div className="about-grid-two pt-md-4 pt-5">
+                <div className="pt-md-4 pt-5">
                     <ul className="list pt-md-3 pt-0 pl-0">
-                      <li className="item">
+                      <li className="item normal-p">
                         Huge eyes are capable of spotting impressions
                       </li>
-                      <li className="item pt-3">
+                      <li className="item pt-3 normal-p">
                         A wide and gaping mouth to display extraordinary reactions
                       </li>
                     </ul>
@@ -58,7 +58,7 @@ function Design() {
             </div>
           </div>
           <div className="row justify-content-start pt-5 mt-5 pb-md-5 mb-md-5">
-            <div className="col-md-12 col-12 pt-md-5 mt-md-4">
+            <div className="col-md-12 col-12 pt-5 mt-5">
               <h6 className="about-sec-title">
                 What we do
               </h6>
@@ -67,10 +67,10 @@ function Design() {
                     Research
                   </h4>
                   <ul className="list pt-0 pl-0">
-                    <li className="item text-upper-case">
+                    <li className="item text-upper-case normal-p">
                      Brand Research
                     </li>
-                    <li className="item text-upper-case pt-md-3">
+                    <li className="item text-upper-case pt-md-3 normal-p">
                       Market Research
                     </li>
                   </ul>
@@ -80,16 +80,16 @@ function Design() {
                     Strategy
                   </h4>
                   <ul className="list pt-0 pl-0">
-                    <li className="item text-upper-case">
+                    <li className="item text-upper-case normal-p">
                       Brand Identity
                     </li>
-                    <li className="item text-upper-case pt-md-3">
+                    <li className="item text-upper-case pt-md-3 normal-p">
                       Brand Strategy
                     </li>
-                    <li className="item text-upper-case pt-md-3">
+                    <li className="item text-upper-case pt-md-3 normal-p">
                       Guidelines
                     </li>
-                    <li className="item text-upper-case pt-md-3">
+                    <li className="item text-upper-case pt-md-3 normal-p">
                       Copywriting
                     </li>
                   </ul>
@@ -99,19 +99,19 @@ function Design() {
                     Design
                   </h4>
                   <ul className="list pt-0 pl-0">
-                    <li className="item text-upper-case">
+                    <li className="item text-upper-case normal-p">
                       Product Design
                     </li>
-                    <li className="item text-upper-case pt-md-3">
+                    <li className="item text-upper-case pt-md-3 normal-p">
                       Visual Design
                     </li>
-                    <li className="item text-upper-case pt-md-3">
+                    <li className="item text-upper-case pt-md-3 normal-p">
                       Web Design
                     </li>
-                    <li className="item text-upper-case pt-md-3">
+                    <li className="item text-upper-case pt-md-3 normal-p">
                       UI / UX
                     </li>
-                    <li className="item text-upper-case pt-md-3">
+                    <li className="item text-upper-case pt-md-3 normal-p">
                       Print Design
                     </li>
                   </ul>
@@ -121,10 +121,10 @@ function Design() {
                    Technology
                   </h4>
                   <ul className="list pt-0 pl-0">
-                    <li className="item text-upper-case">
+                    <li className="item text-upper-case normal-p">
                       Web Development
                     </li>
-                    <li className="item text-upper-case pt-md-3">
+                    <li className="item text-upper-case pt-md-3 normal-p">
                       CMS-based Sites
                     </li>
                   </ul>
