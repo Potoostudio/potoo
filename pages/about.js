@@ -24,11 +24,11 @@ function Design() {
                 <h6 className="about-sec-title">
                   we are potoo
                 </h6>
-                <div className="about-grid-two pt-md-4">
+                <div className="about-grid-two pt-md-4 pt-5">
                  <h5>
                     We are a Denver based creative studio.
                  </h5>
-                    <p className="normal-p">
+                    <p className="normal-p pt-4 pt-md-0">
                       We make impressions that connect brands to
                       clients. Our route to make an impression starts
                       with getting to know your brand and the target
@@ -45,7 +45,7 @@ function Design() {
                 <h6 className="about-sec-title">
                   The concept of our logo / mission
                 </h6>
-                <div className="about-grid-two pt-md-4">
+                <div className="about-grid-two pt-md-4 pt-5">
                     <ul className="list pt-md-3 pt-0 pl-0">
                       <li className="item">
                         Huge eyes are capable of spotting impressions
@@ -62,8 +62,8 @@ function Design() {
               <h6 className="about-sec-title">
                 What we do
               </h6>
-                <div className="about-grid-two pt-md-5 mt-md-4 pt-4 mt-4">
-                  <h4 className="text-uppercase">
+                <div className="about-grid-two about-grid-two-45 pt-md-5 mt-md-4 pt-5 mt-4">
+                  <h4 className="text-uppercase font-1n2rem">
                     Research
                   </h4>
                   <ul className="list pt-0 pl-0">
@@ -75,8 +75,8 @@ function Design() {
                     </li>
                   </ul>
                 </div>
-                <div className="about-grid-two pt-md-5 mt-md-5 pt-4 mt-4">
-                  <h4 className="text-uppercase">
+                <div className="about-grid-two about-grid-two-45 pt-md-5 mt-md-5 pt-4 mt-4">
+                  <h4 className="text-uppercase font-1n2rem">
                     Strategy
                   </h4>
                   <ul className="list pt-0 pl-0">
@@ -94,8 +94,8 @@ function Design() {
                     </li>
                   </ul>
                 </div>
-                <div className="about-grid-two pt-md-5 mt-md-5 pt-4 mt-4">
-                  <h4 className="text-uppercase">
+                <div className="about-grid-two about-grid-two-45 pt-md-5 mt-md-5 pt-4 mt-4">
+                  <h4 className="text-uppercase font-1n2rem">
                     Design
                   </h4>
                   <ul className="list pt-0 pl-0">
@@ -116,8 +116,8 @@ function Design() {
                     </li>
                   </ul>
                 </div>
-                <div className="about-grid-two pt-md-5 mt-md-5 pt-4 mt-4">
-                  <h4 className="text-uppercase">
+                <div className="about-grid-two about-grid-two-45 pt-md-5 mt-md-5 pt-4 mt-4">
+                  <h4 className="text-uppercase font-1n2rem">
                    Technology
                   </h4>
                   <ul className="list pt-0 pl-0">

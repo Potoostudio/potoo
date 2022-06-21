@@ -777,11 +777,23 @@ a {
     }
     .about-grid-two {
       display: grid;
-      grid-template-columns: 100% ;
+      grid-template-columns: 100%;
       grid-template-rows: auto;
       -webkit-justify-content: center;
       justify-content: center;
-      grid-gap: 10%;
+    }
+    .about-grid-two {
+      &.about-grid-two-45 {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: auto;
+        -webkit-justify-content: center;
+        justify-content: center;
+        grid-gap: 10%;
+      }
+    }
+    .font-1n2rem {
+      font-size: 1.2rem;
     }
   }
 }
@@ -1168,7 +1180,9 @@ a {
   }
   .about-container {
     margin-top: 4rem;
-
+    .font-1n2rem {
+      font-size: 2rem;
+    }
   }
   .footer-container {
     padding-top: 3rem;
@@ -1648,7 +1662,9 @@ a {
       justify-content: center;
       grid-gap: 20%;
     }
-
+    .font-1n2rem {
+      font-size: 3rem;
+    }
   }
   .contact-container {
     border-top: none;
