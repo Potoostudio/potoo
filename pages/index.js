@@ -230,7 +230,7 @@ export default function Home() {
             </div>
         </div>
       </div>
-     <div className="container-fluid code-container mw-1450">
+     {/* <div className="container-fluid code-container mw-1450">
       <div className="row ideas-row justify-content-center">
           <div className="col-md-4 col-9">
             <motion.div className="text-center" style={{scale: scale}}
@@ -244,7 +244,7 @@ export default function Home() {
             </motion.div>
           </div>
         </div>
-     </div>
+     </div> */}
     </>
   )
 }
