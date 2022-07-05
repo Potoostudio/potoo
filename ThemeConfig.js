@@ -20,7 +20,7 @@ export const GlobalStyles = createGlobalStyle`
   body {
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
-    font-family: Inter, Roboto, Montserrat, sans-serif, Helvetica Neue;
-    transition: all 0.50s linear;
+    font-family: 'Inter';
+    transition: all 0.5s linear;
   }
 `

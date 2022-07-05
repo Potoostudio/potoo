@@ -529,13 +529,14 @@ a {
   }
   // Service container styling
   .service-container {
-    padding-top: 5rem;
+    padding-top: 1rem;
     padding-bottom: 5rem;
 
     .col-h {
-      height: 520px;
-      max-height: 580px;
-      margin: 6rem 0;
+      height: 589px;
+      max-height: 630px;
+      padding: 4rem 0 8rem 1rem;
+      margin-bottom: 3rem;
     }
 
     .service-custom-h1 {
@@ -552,9 +553,12 @@ a {
         position: absolute;
         left: 0;
         top: 0;
-        width: 50%;
+        width: 10%;
         height: 2px;
         background-color: #ccc;
+      }
+      &:hover::before {
+        width: 50%;
       }
     }
     .service-item-ul {
@@ -586,6 +590,19 @@ a {
       text-transform: uppercase;
       font-size: 14pt;
       color: #fff;
+
+      &.first {
+        bottom: 0vh;
+      }
+      &.second {
+        bottom: 4vh;
+      }
+      &.third {
+        bottom: 7vh;
+      }
+      &.fourth {
+        bottom: 6.4vh;
+      }
 
       &:hover {
         text-decoration: none;
@@ -2206,20 +2223,21 @@ a {
       }
     }
     .service-container {
-      padding-top: 8rem;
+      padding-top: 0rem;
       padding-bottom: 5rem;
 
       .col-h {
-        height: 620px;
-        max-height: 630px;
+        height: 655px;
+        max-height: 660px;
+        padding: 4rem 0 8rem 0;
+        background-color: #1a1a1a;
+        border-radius: 5px;
+        margin-bottom: 0;
 
-        &.h-540px {
-          height: 540px;
-        }
       }
 
       .service-custom-h1 {
-        font-size: 50pt;
+        font-size: 45pt;
         width: 90%;
         letter-spacing: -1px;
         line-height: 56pt;
@@ -2227,15 +2245,20 @@ a {
         padding: 2.5rem 0;
         text-transform: capitalize;
         position: relative;
+        cursor: pointer;
 
         &::before {
           content: '';
           position: absolute;
           left: 0;
           top: 0;
-          width: 50%;
+          width: 10%;
           height: 2px;
           background-color: #ccc;
+          transition: all .3s ease-in-out;
+        }
+        &:hover::before {
+          width: 50%;
         }
       }
       .service-item-ul {
@@ -2267,10 +2290,25 @@ a {
         text-transform: uppercase;
         font-size: 14pt;
         color: #fff;
+        z-index: 111;
+
+        &.first {
+          bottom: 10vh;
+        }
+        &.second {
+          bottom: 10vh;
+        }
+        &.third {
+          bottom: 10vh;
+        }
+        &.fourth {
+          bottom: 10vh;
+        }
 
         &:hover {
           text-decoration: none;
           color: #000;
+          z-index: 111;
           transition: all .4s ease-in-out;
         }
 
@@ -2283,7 +2321,6 @@ a {
           top: 0;
           background-color: #fff;
           transition: all .4s ease-in-out;
-          z-index: -111;
         }
         &::after {
           content: '';

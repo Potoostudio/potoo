@@ -123,7 +123,7 @@ export default function Home() {
      </div>
      <div className="container-fluid service-container mx-1600 mt-md-5">
         <div className="row justify-content-md-around justify-content-sm-start pt-md-5 px-lg-5">
-            <div className="col-lg-5 col-md-5 col-11 px-lg-5 pb-lg-5 mb-lg-5 col-h h-540px">
+            <div className="col-lg-5 col-md-5 col-11 px-lg-5 mb-lg-5 col-h">
               <h1 className="service-custom-h1">
                 branding
               </h1>
@@ -152,10 +152,10 @@ export default function Home() {
                 and typeface.
               </p>
               <Link href="mailto:ideas@potoo.studio?subject=Brand Strategy">
-                <a className="service-a-link"> work with us</a>
+                <a className="service-a-link first"> work with us</a>
               </Link>
             </div>
-            <div className="col-lg-5 col-md-5 col-11 px-lg-5 pb-lg-5 mb-lg-5 col-h h-540px">
+            <div className="col-lg-5 col-md-5 col-11 px-lg-5 mb-lg-5 col-h">
               <h1 className="service-custom-h1">
                 Web Design
               </h1>
@@ -177,10 +177,10 @@ export default function Home() {
                 development stage.
               </p>
               <Link href="mailto:ideas@potoo.studio?subject=Web Design">
-                <a className="service-a-link"> work with us</a>
+                <a className="service-a-link second"> work with us</a>
               </Link>
             </div>
-            <div className="col-lg-5 col-md-5 col-11 px-lg-5 pt-lg-5 mt-lg-5 col-h">
+            <div className="col-lg-5 col-md-5 col-11 px-lg-5 mt-lg-5 col-h">
               <h1 className="service-custom-h1 mt-md-5 mt-0">
                 Graphic Design
               </h1>
@@ -196,15 +196,15 @@ export default function Home() {
                 </li>
               </ul>
               <p className="service-p">
-                We personalize your brand with custom 
+                We personalize your brand with custom
                 graphics for your social media
                 accounts and paper prints.
               </p>
               <Link href="mailto:ideas@potoo.studio?subject=Graphics">
-                <a className="service-a-link"> work with us</a>
+                <a className="service-a-link third"> work with us</a>
               </Link>
             </div>
-            <div className="col-lg-5 col-md-5 col-11 px-lg-5 pt-lg-5 mt-lg-5 col-h">
+            <div className="col-lg-5 col-md-5 col-11 px-lg-5 mt-lg-5 col-h">
               <h1 className="service-custom-h1 mt-md-5 mt-0">
                 Web development
               </h1>
@@ -225,26 +225,11 @@ export default function Home() {
                 on all browsers.
               </p>
               <Link href="mailto:ideas@potoo.studio?subject=Website Development">
-                <a className="service-a-link"> work with us</a>
+                <a className="service-a-link fourth"> work with us</a>
               </Link>
             </div>
         </div>
       </div>
-     {/* <div className="container-fluid code-container mw-1450">
-      <div className="row ideas-row justify-content-center">
-          <div className="col-md-4 col-9">
-            <motion.div className="text-center" style={{scale: scale}}
-            >
-              <Image
-              src="/ideas-to-impressions.svg"
-              height="750px"
-              width="1400px"
-              alt="ideas-to-impressions"
-              />
-            </motion.div>
-          </div>
-        </div>
-     </div> */}
     </>
   )
 }
