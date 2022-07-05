@@ -1763,6 +1763,14 @@ a {
         }
       }
     }
+    .work-grid-two {
+      display: grid;
+      grid-template-columns: 60% 35%;
+      grid-template-rows: auto;
+      -webkit-justify-content: start;
+      justify-content: start;
+      grid-gap: 5%;
+    }
     .header {
     display: block;
     position: relative;
@@ -2094,11 +2102,25 @@ a {
             font-size: 13rem;
             padding: 1rem 1rem 3.5rem 2.5rem;
             font-weight: 700;
+            position: relative;
           }
 
           .work-text {
-            width: 40%;
+            width: 100%;
             float: right;
+            position: relative;
+            margin-top: 9rem;
+            padding-top: 1rem;
+
+            &::before {
+              content: '';
+              position: absolute;
+              height: 3px;
+              width: 100%;
+              top: 0px;
+              left: 0;
+              background-color: #fff;
+            }
           }
     
           .project-list-image-list {

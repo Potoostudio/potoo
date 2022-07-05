@@ -94,14 +94,16 @@ export default function Home() {
           </div>
         </div>
         <div className="row home-page-row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
-          <motion.div className="col-12 col-md-10">
-            <h1 className="work-title">
-              Work
-            </h1>
-            <p className="normal work-text">
-            Every project is an opportunity to present clients' inspiring stories and show what we have been learning
-            </p>
-              <ul className="project-list-image-list pt-4 pt-md-0">
+          <div className="col-12 col-md-10">
+            <div className="work-grid-two">
+              <h1 className="work-title">
+                Work
+              </h1>
+              <p className="normal work-text">
+              Every project is an opportunity to present clients' inspiring stories and show what we have been learning
+              </p>
+            </div>
+              <ul className="project-list-image-list pt-4 pt-md-5 mt-md-4">
                 <li className="item project-image-item">
                   <Link href="/projects/seedstock">
                     <a className="project-li-link">
@@ -118,7 +120,7 @@ export default function Home() {
                   </Link>
                 </li>
               </ul>
-            </motion.div>
+            </div>
         </div>
      </div>
      <div className="container-fluid service-container mx-1600 mt-md-5">
