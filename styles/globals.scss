@@ -556,6 +556,7 @@ a {
         width: 10%;
         height: 2px;
         background-color: #ccc;
+        transition: all .3s ease-in-out;
       }
       &:hover::before {
         width: 50%;
@@ -2293,16 +2294,16 @@ a {
         z-index: 111;
 
         &.first {
-          bottom: 10vh;
+          bottom: 5vh;
         }
         &.second {
-          bottom: 10vh;
+          bottom: 5vh;
         }
         &.third {
-          bottom: 10vh;
+          bottom: 5vh;
         }
         &.fourth {
-          bottom: 10vh;
+          bottom: 5vh;
         }
 
         &:hover {
