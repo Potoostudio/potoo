@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "sitemap": "next-sitemap"
   },
   "dependencies": {
     "axios": "^0.21.4",
@@ -16,6 +17,7 @@
     "gsap": "^3.10.2",
     "moment-timezone": "^0.5.34",
     "next": "^11.1.3",
+    "next-sitemap": "^3.1.10",
     "next-transpile-modules": "^8.0.0",
     "react": "17.0.2",
     "react-bootstrap": "^1.5.2",

@@ -1,0 +1,1 @@
+{"version":3,"pages404":true,"basePath":"","redirects":[{"source":"/:path+/","destination":"/:path+","internal":true,"statusCode":308,"regex":"^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"}],"headers":[],"dynamicRoutes":[],"dataRoutes":[],"rewrites":[{"source":"/api/contact-handle","destination":"https://potoo-flax.vercel.app/api/contact-handle","regex":"^/api/contact-handle(?:/)?$"}]}

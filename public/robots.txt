@@ -1,7 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
-Host: https://www.potoo.studio.com
+# Host
+Host: https://potoo.studio
 
-
-Sitemap: https://www.potoo.studio/sitemap.xml
+# Sitemaps
+Sitemap: https://potoo.studio/sitemap.xml
