@@ -62,7 +62,7 @@ export default class Footer extends Component {
                                   </a>
                               </Link>
                           </div>
-                          <div className="col-lg-4 col-12 text-lg-right py-2 pb-md-4 pb-lg-0 pt-md-4 pt-lg-0">
+                          <div className="col-lg-4 col-12 text-lg-right py-2 pb-md-4">
                               <Link href="tel:3202604416" aria-label="phone">
                                   <a className="say-hello-a pb-lg-2">
                                       +1 320 260 4416
@@ -77,12 +77,17 @@ export default class Footer extends Component {
           <div className="container-fluid pl-lg-0 co-container pt-lg-2 mt-lg-2 pb-lg-2 mt-5 mb-4 mb-md-0">
               <div className="row justify-content-md-center justify-content-center">
                   <div className="col-lg-3 col-10">
-                      <p className="co-made text-center mb-2 mb-md-3">
+                      <p className="co-made text-center mb-3">
                           Made in the high altitude of Colorado
                       </p>
                   </div>
-                  <div className="col-lg-3 col-10 text-center ">
-                    <time className="clock mb-2 mb-md-3">It's <Clock className="digital-clock" format={'HH:mm'} ticking={true} timezone={'US/Mountain'}/> in the Rockies</time>
+                  <div className="col-lg-4 col-10">
+                      <p className="co-made text-center mb-3">
+                        2000 S Colorado Blvd Tower 1, Suite 2000-511 Denver, CO 80222
+                      </p>
+                  </div>
+                  <div className="col-lg-2 col-10 text-center">
+                    <time className="clock mb-3">It's <Clock className="digital-clock" format={'HH:mm'} ticking={true} timezone={'US/Mountain'}/> in the Rockies</time>
                   </div>
               </div>
           </div>

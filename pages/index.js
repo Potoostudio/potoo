@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Potoo Studio</title>
+        <title>POTOO STUDIO</title>
         <link rel="icon" href="favicon.ico" />
         <link rel="manifest" href="/manifest.json"/>
         <meta name="description" content="POTOO STUDIO | A creative Studio specializes in branding, web design, and website development"/>

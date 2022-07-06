@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-	  	<title>Potoo Studio | Projects</title>
+	  	<title>POTOO STUDIO | Projects</title>
         <link rel="icon" href="favicon.ico" />
         <link rel="manifest" href="/manifest.json"/>
         <meta name="description" content="POTOO Project | Branding project, logo and marketing material"/>

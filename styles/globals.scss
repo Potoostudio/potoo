@@ -446,7 +446,7 @@ a {
       }
 
       .social-media-a {
-        color: #ccc;
+        color: #FAFAFA;
         position: relative;
 
         &::after {
@@ -469,7 +469,7 @@ a {
         }
       }
       .say-hello-a {
-        color: #ccc;
+        color: #FAFAFA;
       }
     }
 
@@ -762,6 +762,7 @@ a {
   }
   .co-container {
     .co-made {
+      color: #e3e3e3;
       font-size: .8rem;
     }
   }
@@ -1219,7 +1220,7 @@ a {
     }
     .say-hello-a {
       text-decoration: none;
-      color: #ccc;
+      color: #FAFAFA;
       position: relative;
       
 
@@ -2185,7 +2186,7 @@ a {
           background-color: #ccc;
         }
         .social-media-a {
-          color: #ccc;
+          color: #FAFAFA;
           position: relative;
 
           &::after {
@@ -2220,7 +2221,7 @@ a {
       }
       .say-hello-a {
         text-decoration: none;
-        color: #ccc;
+        color: #FAFAFA;
         position: relative;
   
         &::after {
@@ -2253,7 +2254,7 @@ a {
         height: 655px;
         max-height: 660px;
         padding: 4rem 0 8rem 0;
-        background-color: #1a1a1a87;
+        background-color: #1e1e1ed1;
         border-radius: 5px;
         margin-bottom: 0;
 
@@ -2552,6 +2553,7 @@ a {
     margin-top: 6rem!important;
 
     .clock {
+      color: #e3e3e3;
       font-size: .8rem;
       display: inline-flex;
       div {

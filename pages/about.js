@@ -7,7 +7,7 @@ function Design() {
     return (
       <>
         <Head>
-          <title>Potoo Studio | Design</title>
+          <title>POTOO STUDIO | Design</title>
           <link rel="icon" href="favicon.ico" />
           <link rel="manifest" href="/manifest.json"/>
           <meta name="description" content="POTOO STUDIO | We are a creative web studio in Denver Colorado"/>
