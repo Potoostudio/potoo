@@ -50,6 +50,7 @@ export default function Home() {
         <meta property="og:description" content="POTOO STUDIO | creative designs, branding, and website development"/>
         <meta property="og:url" content="https://potoo.studio" />
         <meta property="og:type" content="website" />
+        <meta name="format-detection" content="telephone=no"></meta>
       </Head>
       <div className="container-fluid home-page-container mx-0 pb-lg-5">
         <div className="row justify-content-center">
