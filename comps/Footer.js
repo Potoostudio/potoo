@@ -83,7 +83,7 @@ export default class Footer extends Component {
                   </div>
                   <div className="col-lg-4 col-10">
                       <p className="co-made adress text-center mb-3">
-                        2000 S Colorado Blvd Tower 1, Suite 2000-511 Denver, CO 80222
+                        2000 S Colorado Blvd Tower 1, Suite 2000<span>-</span>511 Denver, CO 80222
                       </p>
                   </div>
                   <div className="col-lg-2 col-10 text-center">
