@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import Link from 'next/link'
 import Clock from 'react-live-clock'
 
-const impressionsList = ["cheerful", "neat", "trusting", "bright", "luxury", "positive", "slick"];
+const impressionsList = ["charismatic", "memorable", "extraordinary", "inspirational", "luxurious"];
 export default class Footer extends Component {
 
     constructor() {
@@ -29,11 +29,11 @@ export default class Footer extends Component {
           <div className="container-fluid footer-container">
               <div className="row justify-content-center pb-md-3 mx-md-5 pt-md-4">
                   <div className="col-lg-9 col-12 text-center">
-                      <h1 className="say-hello-h1 pb-md-5 pb-2">
+                      <h1 className="say-hello-h1 py-4">
                           <span>Creating</span> <span>{impressionsChange}</span> <span>impressions</span>
                       </h1>
-                      <div className="row justify-content-lg-around justify-content-md-center justify-content-center pb-4 pt-4 pt-lg-4 pb-lg-3 mt-lg-3 mt-3 phone-email-row">
-                          <div className="col-lg-4 col-12 text-lg-left text-center py-2 pb-md-0">
+                      <div className="row justify-content-lg-around justify-content-md-center justify-content-center pb-1 pt-1 pt-lg-4 pb-lg-3 phone-email-row">
+                          <div className="col-lg-4 col-12 text-lg-left text-center py-2 pb-md-3 order-lg-1">
                               <Link href="mailto:ideas@potoo.studio" aria-label="email">
                                   <a className="say-hello-a pb-lg-2">
                                       ideas@potoo.studio
@@ -41,32 +41,32 @@ export default class Footer extends Component {
                                   </a>
                               </Link>
                           </div>
-                          <div className="col-lg-1 col-4 col-md-2 text-md-center text-md-right py-3 pt-md-4  mt-md-1 pb-md-3 pt-lg-0">
+                          <div className="col-lg-4 col-12 text-lg-right py-2 pb-3 order-lg-5">
+                              <Link href="tel:3202604416" aria-label="phone">
+                                  <a className="say-hello-a pb-lg-2">
+                                      +1 320.260.4416
+                                      <span className="bottom-line"></span>
+                                  </a>
+                              </Link>
+                          </div>
+                          <div className="col-lg-1 col-3 col-md-2 text-md-center text-right py-2 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-2">
                               <Link href="https://www.instagram.com/potoostudio" aria-label="instagram">
                                   <a  className="social-media-a">
                                       IG
                                   </a>
                               </Link>
                           </div>
-                          <div className="col-lg-1 col-4 col-md-2 text-md-center text-md-right py-3 pt-md-4  mt-md-1 pb-md-3 pt-lg-0">
+                          <div className="col-lg-1 col-3 col-md-2 text-center py-2 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-3">
                               <Link href="https://www.behance.net/potoostudio" aria-label="behance">
                                   <a  className="social-media-a">
                                       BE
                                   </a>
                               </Link>
                           </div>
-                          <div className="col-lg-1 col-4 col-md-2 text-md-center text-md-left py-3 pt-md-4 mt-md-1 pb-md-3 pt-lg-0">
+                          <div className="col-lg-1 col-3 col-md-2 text-md-center text-left py-2 pt-md-4 mt-md-1 pb-md-3 pt-lg-0 order-lg-4">
                               <Link href="https://dribbble.com/potoostudio" aria-label="dribbble">
                                   <a  className="social-media-a">
                                       DB
-                                  </a>
-                              </Link>
-                          </div>
-                          <div className="col-lg-4 col-12 text-lg-right py-2 pb-md-4">
-                              <Link href="tel:3202604416" aria-label="phone">
-                                  <a className="say-hello-a pb-lg-2">
-                                      +1 320 260 4416
-                                      <span className="bottom-line"></span>
                                   </a>
                               </Link>
                           </div>
@@ -74,20 +74,20 @@ export default class Footer extends Component {
                   </div>
               </div>
           </div>
-          <div className="container-fluid pl-lg-0 co-container pt-lg-2 mt-lg-2 pb-lg-2 mt-5 mb-4 mb-md-0">
+          <div className="container-fluid pl-lg-0 co-container pt-lg-2 mt-lg-2 pb-lg-2 mb-4 mb-md-0">
               <div className="row justify-content-md-center justify-content-center">
+                  <div className="col-lg-2 col-10 text-center">
+                    <time className="clock mb-3">It's <Clock className="digital-clock" format={'HH:mm'} ticking={true} timezone={'US/Mountain'}/> in the Rockies</time>
+                  </div>
+                  <div className="col-lg-4 col-10">
+                      <p className="co-made adress text-center mb-3">
+                        2000 S Colorado Blvd Tower 1 Suite 2000-511 Denver, CO 80222
+                      </p>
+                  </div>
                   <div className="col-lg-3 col-10">
                       <p className="co-made text-center mb-3">
                           Made in the high altitude of Colorado
                       </p>
-                  </div>
-                  <div className="col-lg-4 col-10">
-                      <p className="co-made adress text-center mb-3">
-                        2000 S Colorado Blvd Tower 1, Suite 2000-511 Denver, CO 80222
-                      </p>
-                  </div>
-                  <div className="col-lg-2 col-10 text-center">
-                    <time className="clock mb-3">It's <Clock className="digital-clock" format={'HH:mm'} ticking={true} timezone={'US/Mountain'}/> in the Rockies</time>
                   </div>
               </div>
           </div>

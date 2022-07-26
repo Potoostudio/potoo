@@ -41,7 +41,7 @@ function Design() {
           </div>
 
           <div className="row justify-content-start pt-5 mt-5 ">
-            <div className="col-md-12 col-12 pt-5 mt-5">
+            <div className="col-md-12 col-12 pt-5 mt-2">
                 <h6 className="about-sec-title">
                   The concept of our logo / mission
                 </h6>

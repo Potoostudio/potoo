@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/KeYNDfuI1PEofNlC04tz8/_buildManifest.js",
-    "static/KeYNDfuI1PEofNlC04tz8/_ssgManifest.js"
+    "static/qYM7-DMvkWbgaIlXJfMJc/_buildManifest.js",
+    "static/qYM7-DMvkWbgaIlXJfMJc/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -14,7 +14,7 @@
       "static/chunks/framework-2191d16384373197bc0a.js",
       "static/chunks/main-2740864dea33ba29eb6a.js",
       "static/chunks/751-f5f0ab61f633cdfef4d0.js",
-      "static/chunks/pages/index-92294198f71b9eb4df99.js"
+      "static/chunks/pages/index-b66e97d039f0e7449721.js"
     ],
     "/404": [
       "static/chunks/webpack-3dffc3fa5266eeee0afa.js",
@@ -26,8 +26,8 @@
       "static/chunks/webpack-3dffc3fa5266eeee0afa.js",
       "static/chunks/framework-2191d16384373197bc0a.js",
       "static/chunks/main-2740864dea33ba29eb6a.js",
-      "static/css/6328c4263942c42266d8.css",
-      "static/chunks/pages/_app-16d15a7542b966ce81f2.js"
+      "static/css/1896e7d42033c4d8f2b9.css",
+      "static/chunks/pages/_app-858c1b55d801a9ed3f05.js"
     ],
     "/_error": [
       "static/chunks/webpack-3dffc3fa5266eeee0afa.js",
@@ -39,14 +39,14 @@
       "static/chunks/webpack-3dffc3fa5266eeee0afa.js",
       "static/chunks/framework-2191d16384373197bc0a.js",
       "static/chunks/main-2740864dea33ba29eb6a.js",
-      "static/chunks/pages/about-b18fd89e7dd92a990601.js"
+      "static/chunks/pages/about-0d710ab5792c4f37c21d.js"
     ],
     "/projects": [
       "static/chunks/webpack-3dffc3fa5266eeee0afa.js",
       "static/chunks/framework-2191d16384373197bc0a.js",
       "static/chunks/main-2740864dea33ba29eb6a.js",
       "static/chunks/751-f5f0ab61f633cdfef4d0.js",
-      "static/chunks/pages/projects-a664314bf9e093df31d1.js"
+      "static/chunks/pages/projects-b17f5270e239aea3f776.js"
     ],
     "/projects/kish": [
       "static/chunks/webpack-3dffc3fa5266eeee0afa.js",
@@ -58,13 +58,13 @@
       "static/chunks/webpack-3dffc3fa5266eeee0afa.js",
       "static/chunks/framework-2191d16384373197bc0a.js",
       "static/chunks/main-2740864dea33ba29eb6a.js",
-      "static/chunks/pages/projects/potoo-1821af106039ec1c1eb1.js"
+      "static/chunks/pages/projects/potoo-129ef4650bd4f146ee05.js"
     ],
     "/projects/seedstock": [
       "static/chunks/webpack-3dffc3fa5266eeee0afa.js",
       "static/chunks/framework-2191d16384373197bc0a.js",
       "static/chunks/main-2740864dea33ba29eb6a.js",
-      "static/chunks/pages/projects/seedstock-6dfd6056676dd3376c45.js"
+      "static/chunks/pages/projects/seedstock-0e953ade950e62887fbe.js"
     ]
   },
   "ampFirstPages": []

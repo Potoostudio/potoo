@@ -37,15 +37,15 @@ export default function Projects() {
                         Impression
                       </li>
                       <li className="project-item project-impression-is">
-                        <em>Neat</em>
+                        <em className="impression-lines">- Neat -</em>
                       </li>
                   </ul>
               </div>
           </div>
           <div className="row justify-content-center pt-5 mt-4 pb-5 mb-5">
            <div className="col-md-7 col-10">
-            <p className="normal-text">
-                Seedstock was looking to update their menu from paper to digital and add new beer releases and events.
+            <p className="normal-text before-border">
+                <span className="top-border">Seedstock</span> was looking to update their menu from paper to digital and add new beer releases and events.
             </p>
             <p className="normal-text">
                 The design of the digital screen contains three sections. Every section has different content and goals. 
@@ -84,7 +84,7 @@ export default function Projects() {
                 />
            </div>
            <div className="col-md-6 col-10 pt-5 mt-5 mb-5 pb-5">
-               <h4 className="bold pt-md-5 mt-md-5 mb-md-4">Accessibility </h4>
+               <h4 className="bold accessibility">Accessibility</h4>
                <ul className="accessibility-list w-75 pt-md-5 pb-md-5">
                    <li className="item">
                     Eyesight <span className="float-right">20/20 to 20/60</span>
@@ -97,7 +97,7 @@ export default function Projects() {
                    </li>
                </ul>
            </div>
-           <div className="col-11 text-center mt-5">
+           <div className="col-11 text-center mt-3">
                <h3 className="text-center pt-lg-4rem">
                    User Experience
                </h3>

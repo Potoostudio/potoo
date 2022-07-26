@@ -5,6 +5,7 @@ import {ThemeProvider} from 'styled-components'
 import {useState} from 'react'
 import { darkTheme, lightTheme, GlobalStyles } from '../ThemeConfig'
 import { AnimatePresence, motion } from 'framer-motion'
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 
 function MyApp({ Component, pageProps, router }) {
@@ -28,20 +29,22 @@ function MyApp({ Component, pageProps, router }) {
   return (
   <>
   <AnimatePresence exitBeforeEnter>
-    <ThemeProvider theme={theme =='dark' ? darkTheme : lightTheme}>
-      <GlobalStyles/>
-      <motion.div
-      transition={spring}
-      key={router.pathname}
-      initial={{opacity: 0.3, y: "100vh"}}
-      animate={{opacity: 1, y: "0vh"}}
-      >
-        <Layout>
-          <button className={isActive ? "mode-btn dark" : "mode-btn light"} onClick={toggleTheme}><span className="mode-icon"></span></button>
-        <Component {...pageProps} key={router.pathname} />
-      </Layout>
-      </motion.div>
-    </ThemeProvider>
+      <ThemeProvider theme={theme =='dark' ? darkTheme : lightTheme}>
+        <GlobalStyles/>
+        <motion.div
+        transition={spring}
+        key={router.pathname}
+        initial={{opacity: 0.3, y: "100vh"}}
+        animate={{opacity: 1, y: "0vh"}}
+        >
+          <Layout>
+            <button className={isActive ? "mode-btn dark" : "mode-btn light"} onClick={toggleTheme}><span className="mode-icon"></span></button>
+          <ParallaxProvider>
+            <Component {...pageProps} key={router.pathname} />
+          </ParallaxProvider>
+        </Layout>
+        </motion.div>
+      </ThemeProvider>
   </AnimatePresence>
     </>
   )

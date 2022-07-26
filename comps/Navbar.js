@@ -75,26 +75,26 @@ function toggle() {
                           <div className="col-lg-4 col-11 text-center text-lg-right pt-md-0 pt-2 pt-md-4 pt-lg-0 pb-3 pb-md-3 pb-lg-0 order-lg-5">
                               <Link href="tel:3202604416" aria-label="phone">
                                   <a className="say-hello-a pb-lg-2">
-                                      +1 320 260 4416
+                                      +1 320.260.4416
                                       <span className="bottom-line"></span>
                                   </a>
                               </Link>
                           </div>
-                          <div className="col-lg-1 col-4 col-md-2 text-center text-md-right pt-4 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-2">
+                          <div className="col-lg-1 col-3 col-md-2 text-right text-md-right pt-4 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-2">
                               <Link href="https://www.instagram.com/potoostudio/" aria-label="instagram">
                                   <a  className="social-media-a">
                                       IG
                                   </a>
                               </Link>
                           </div>
-                          <div className="col-lg-1 col-4 col-md-2 text-center text-md-right pt-4 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-3">
+                          <div className="col-lg-1 col-3 col-md-2 text-center text-md-right pt-4 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-3">
                               <Link href="https://www.behance.net/potoostudio" aria-label="behance">
                                   <a  className="social-media-a">
                                       BE
                                   </a>
                               </Link>
                           </div>
-                          <div className="col-lg-1 col-4 col-md-2 text-center text-md-left pt-4 pt-md-4 mt-md-1 pb-md-3 pt-lg-0 order-lg-4">
+                          <div className="col-lg-1 col-3 col-md-2 text-left text-md-left pt-4 pt-md-4 mt-md-1 pb-md-3 pt-lg-0 order-lg-4">
                               <Link href="https://dribbble.com/potoostudio" aria-label="dribbble">
                                   <a  className="social-media-a">
                                       DB

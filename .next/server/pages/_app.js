@@ -137,13 +137,13 @@ function Navbar() {
                   "aria-label": "phone",
                   children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("a", {
                     className: "say-hello-a pb-lg-2",
-                    children: ["+1 320 260 4416", /*#__PURE__*/jsx_runtime_.jsx("span", {
+                    children: ["+1 320.260.4416", /*#__PURE__*/jsx_runtime_.jsx("span", {
                       className: "bottom-line"
                     })]
                   })
                 })
               }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-                className: "col-lg-1 col-4 col-md-2 text-center text-md-right pt-4 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-2",
+                className: "col-lg-1 col-3 col-md-2 text-right text-md-right pt-4 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-2",
                 children: /*#__PURE__*/jsx_runtime_.jsx(next_link.default, {
                   href: "https://www.instagram.com/potoostudio/",
                   "aria-label": "instagram",
@@ -153,7 +153,7 @@ function Navbar() {
                   })
                 })
               }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-                className: "col-lg-1 col-4 col-md-2 text-center text-md-right pt-4 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-3",
+                className: "col-lg-1 col-3 col-md-2 text-center text-md-right pt-4 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-3",
                 children: /*#__PURE__*/jsx_runtime_.jsx(next_link.default, {
                   href: "https://www.behance.net/potoostudio",
                   "aria-label": "behance",
@@ -163,7 +163,7 @@ function Navbar() {
                   })
                 })
               }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-                className: "col-lg-1 col-4 col-md-2 text-center text-md-left pt-4 pt-md-4 mt-md-1 pb-md-3 pt-lg-0 order-lg-4",
+                className: "col-lg-1 col-3 col-md-2 text-left text-md-left pt-4 pt-md-4 mt-md-1 pb-md-3 pt-lg-0 order-lg-4",
                 children: /*#__PURE__*/jsx_runtime_.jsx(next_link.default, {
                   href: "https://dribbble.com/potoostudio",
                   "aria-label": "dribbble",
@@ -192,7 +192,7 @@ var external_react_live_clock_default = /*#__PURE__*/__webpack_require__.n(exter
 
 
 
-const impressionsList = ["cheerful", "neat", "trusting", "bright", "luxury", "positive", "slick"];
+const impressionsList = ["charismatic", "memorable", "extraordinary", "inspirational", "luxurious"];
 class Footer extends external_react_.Component {
   constructor() {
     super();
@@ -224,7 +224,7 @@ class Footer extends external_react_.Component {
           children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
             className: "col-lg-9 col-12 text-center",
             children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)("h1", {
-              className: "say-hello-h1 pb-md-5 pb-2",
+              className: "say-hello-h1 py-4",
               children: [/*#__PURE__*/jsx_runtime_.jsx("span", {
                 children: "Creating"
               }), " ", /*#__PURE__*/jsx_runtime_.jsx("span", {
@@ -233,9 +233,9 @@ class Footer extends external_react_.Component {
                 children: "impressions"
               })]
             }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
-              className: "row justify-content-lg-around justify-content-md-center justify-content-center pb-4 pt-4 pt-lg-4 pb-lg-3 mt-lg-3 mt-3 phone-email-row",
+              className: "row justify-content-lg-around justify-content-md-center justify-content-center pb-1 pt-1 pt-lg-4 pb-lg-3 phone-email-row",
               children: [/*#__PURE__*/jsx_runtime_.jsx("div", {
-                className: "col-lg-4 col-12 text-lg-left text-center py-2 pb-md-0",
+                className: "col-lg-4 col-12 text-lg-left text-center py-2 pb-md-3 order-lg-1",
                 children: /*#__PURE__*/jsx_runtime_.jsx(next_link.default, {
                   href: "mailto:ideas@potoo.studio",
                   "aria-label": "email",
@@ -247,7 +247,19 @@ class Footer extends external_react_.Component {
                   })
                 })
               }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-                className: "col-lg-1 col-4 col-md-2 text-md-center text-md-right py-3 pt-md-4  mt-md-1 pb-md-3 pt-lg-0",
+                className: "col-lg-4 col-12 text-lg-right py-2 pb-3 order-lg-5",
+                children: /*#__PURE__*/jsx_runtime_.jsx(next_link.default, {
+                  href: "tel:3202604416",
+                  "aria-label": "phone",
+                  children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("a", {
+                    className: "say-hello-a pb-lg-2",
+                    children: ["+1 320.260.4416", /*#__PURE__*/jsx_runtime_.jsx("span", {
+                      className: "bottom-line"
+                    })]
+                  })
+                })
+              }), /*#__PURE__*/jsx_runtime_.jsx("div", {
+                className: "col-lg-1 col-3 col-md-2 text-md-center text-right py-2 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-2",
                 children: /*#__PURE__*/jsx_runtime_.jsx(next_link.default, {
                   href: "https://www.instagram.com/potoostudio",
                   "aria-label": "instagram",
@@ -257,7 +269,7 @@ class Footer extends external_react_.Component {
                   })
                 })
               }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-                className: "col-lg-1 col-4 col-md-2 text-md-center text-md-right py-3 pt-md-4  mt-md-1 pb-md-3 pt-lg-0",
+                className: "col-lg-1 col-3 col-md-2 text-center py-2 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-3",
                 children: /*#__PURE__*/jsx_runtime_.jsx(next_link.default, {
                   href: "https://www.behance.net/potoostudio",
                   "aria-label": "behance",
@@ -267,7 +279,7 @@ class Footer extends external_react_.Component {
                   })
                 })
               }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-                className: "col-lg-1 col-4 col-md-2 text-md-center text-md-left py-3 pt-md-4 mt-md-1 pb-md-3 pt-lg-0",
+                className: "col-lg-1 col-3 col-md-2 text-md-center text-left py-2 pt-md-4 mt-md-1 pb-md-3 pt-lg-0 order-lg-4",
                 children: /*#__PURE__*/jsx_runtime_.jsx(next_link.default, {
                   href: "https://dribbble.com/potoostudio",
                   "aria-label": "dribbble",
@@ -276,39 +288,15 @@ class Footer extends external_react_.Component {
                     children: "DB"
                   })
                 })
-              }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-                className: "col-lg-4 col-12 text-lg-right py-2 pb-md-4",
-                children: /*#__PURE__*/jsx_runtime_.jsx(next_link.default, {
-                  href: "tel:3202604416",
-                  "aria-label": "phone",
-                  children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("a", {
-                    className: "say-hello-a pb-lg-2",
-                    children: ["+1 320 260 4416", /*#__PURE__*/jsx_runtime_.jsx("span", {
-                      className: "bottom-line"
-                    })]
-                  })
-                })
               })]
             })]
           })
         })
       }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-        className: "container-fluid pl-lg-0 co-container pt-lg-2 mt-lg-2 pb-lg-2 mt-5 mb-4 mb-md-0",
+        className: "container-fluid pl-lg-0 co-container pt-lg-2 mt-lg-2 pb-lg-2 mb-4 mb-md-0",
         children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
           className: "row justify-content-md-center justify-content-center",
           children: [/*#__PURE__*/jsx_runtime_.jsx("div", {
-            className: "col-lg-3 col-10",
-            children: /*#__PURE__*/jsx_runtime_.jsx("p", {
-              className: "co-made text-center mb-3",
-              children: "Made in the high altitude of Colorado"
-            })
-          }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-            className: "col-lg-4 col-10",
-            children: /*#__PURE__*/jsx_runtime_.jsx("p", {
-              className: "co-made adress text-center mb-3",
-              children: "2000 S Colorado Blvd Tower 1, Suite 2000-511 Denver, CO 80222"
-            })
-          }), /*#__PURE__*/jsx_runtime_.jsx("div", {
             className: "col-lg-2 col-10 text-center",
             children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("time", {
               className: "clock mb-3",
@@ -318,6 +306,18 @@ class Footer extends external_react_.Component {
                 ticking: true,
                 timezone: 'US/Mountain'
               }), " in the Rockies"]
+            })
+          }), /*#__PURE__*/jsx_runtime_.jsx("div", {
+            className: "col-lg-4 col-10",
+            children: /*#__PURE__*/jsx_runtime_.jsx("p", {
+              className: "co-made adress text-center mb-3",
+              children: "2000 S Colorado Blvd Tower 1 Suite 2000-511 Denver, CO 80222"
+            })
+          }), /*#__PURE__*/jsx_runtime_.jsx("div", {
+            className: "col-lg-3 col-10",
+            children: /*#__PURE__*/jsx_runtime_.jsx("p", {
+              className: "co-made text-center mb-3",
+              children: "Made in the high altitude of Colorado"
             })
           })]
         })
@@ -374,12 +374,15 @@ const GlobalStyles = external_styled_components_namespaceObject.createGlobalStyl
 `;
 // EXTERNAL MODULE: external "framer-motion"
 var external_framer_motion_ = __webpack_require__(762);
+// EXTERNAL MODULE: external "react-scroll-parallax"
+var external_react_scroll_parallax_ = __webpack_require__(5582);
 ;// CONCATENATED MODULE: ./pages/_app.js
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -441,9 +444,11 @@ function MyApp({
               children: /*#__PURE__*/jsx_runtime_.jsx("span", {
                 className: "mode-icon"
               })
-            }), /*#__PURE__*/(0,external_react_.createElement)(Component, _objectSpread(_objectSpread({}, pageProps), {}, {
-              key: router.pathname
-            }))]
+            }), /*#__PURE__*/jsx_runtime_.jsx(external_react_scroll_parallax_.ParallaxProvider, {
+              children: /*#__PURE__*/(0,external_react_.createElement)(Component, _objectSpread(_objectSpread({}, pageProps), {}, {
+                key: router.pathname
+              }))
+            })]
           })
         }, router.pathname)]
       })
@@ -571,6 +576,13 @@ module.exports = require("next/dist/shared/lib/utils.js");
 /***/ ((module) => {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ 5582:
+/***/ ((module) => {
+
+module.exports = require("react-scroll-parallax");
 
 /***/ }),
 

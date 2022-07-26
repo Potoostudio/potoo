@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useInView } from "react-intersection-observer"
 import { motion, useAnimation, useTransform, useViewportScroll} from "framer-motion"
-
+import { Parallax } from 'react-scroll-parallax';
 
 
 export default function Home() {
@@ -54,22 +54,22 @@ export default function Home() {
       <div className="container-fluid home-page-container mx-0 pb-lg-5">
         <div className="row justify-content-center">
           <div className="col-md-12 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg pt-4 pt-md-0 pt-5 pr-0 pl-0">
-            <ul className="fixed-menu">
-              <li className="item">
-                <Link href="/about">
-                  <a className="nav-a">
-                    Studio
-                  </a>
-                </Link>
-              </li>
-              <li className="item">
-                <Link href="/projects">
-                  <a className="nav-a">
-                    Work
-                  </a>
-                </Link>
-              </li>
-            </ul>
+              <ul className="fixed-menu">
+                <li className="item">
+                  <Link href="/about">
+                    <a className="nav-a">
+                      Studio
+                    </a>
+                  </Link>
+                </li>
+                <li className="item">
+                  <Link href="/projects">
+                    <a className="nav-a">
+                      Work
+                    </a>
+                  </Link>
+                </li>
+              </ul>
             <div className="main-page-impression-text-box py-5 my-4 py-md-0 my-md-0">
                 <h1 className="main-page-impression-text-large mt-lg-5 pt-lg-4">
                   Nesting Impressions <br/> on <strong className="color">Paper</strong> and <strong className="color">Screen</strong>
