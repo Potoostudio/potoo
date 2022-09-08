@@ -74,18 +74,18 @@ export default class Footer extends Component {
                   </div>
               </div>
           </div>
-          <div className="container-fluid pl-lg-0 co-container pt-lg-2 mt-lg-2 pb-lg-2 mb-4 mb-md-0">
+          <div className="container pl-lg-0 co-container pt-lg-2 mt-lg-2 pb-lg-2 mb-4 mb-md-0">
               <div className="row justify-content-md-center justify-content-center">
                   <div className="col-lg-2 col-10 text-center">
                     <time className="clock mb-3">It's <Clock className="digital-clock" format={'HH:mm'} ticking={true} timezone={'US/Mountain'}/> in the Rockies</time>
                   </div>
-                  <div className="col-lg-4 col-10">
+                  <div className="col-lg-5 col-10">
                       <p className="co-made adress text-center mb-3">
                         2000 S Colorado Blvd Tower 1 Suite 2000-511 Denver, CO 80222
                       </p>
                   </div>
                   <div className="col-lg-3 col-10">
-                      <p className="co-made text-center mb-3">
+                      <p className="co-made text-center text-lg-right mb-3">
                           Made in the high altitude of Colorado
                       </p>
                   </div>
