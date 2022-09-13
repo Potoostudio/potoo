@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useInView } from "react-intersection-observer"
 import { motion, useAnimation, useTransform, useViewportScroll} from "framer-motion"
 import { Parallax } from 'react-scroll-parallax';
+import HoverVideoPlayer from 'react-hover-video-player'
 
 
 export default function Home() {
@@ -104,6 +105,36 @@ export default function Home() {
               </p>
             </div>
               <ul className="project-list-image-list pt-4 pt-md-5 mt-md-4">
+                <li className="item project-image-item">
+                  <Link href="/projects/#">
+                    <a className="project-li-link">
+                        <HoverVideoPlayer
+                          videoSrc="AU-website-promo_v4-website.mp4"
+                          restartOnPaused
+                          pausedOverlay={
+                            <img
+                              src="/AU-project-pic.png"
+                              alt=""
+                              style={{
+                                // Make the image expand to cover the video's dimensions
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'cover',
+                              }}
+                            />
+                          }
+                          loadingOverlay={
+                            <div className="loading-overlay">
+                              <div className="loading-spinner" />
+                            </div>
+                          }
+                        />
+                        <p className="project-title">
+                          The Gulf War <span className="coming-soon">coming soon</span>
+                        </p>
+                    </a>
+                  </Link>
+                </li>
                 <li className="item project-image-item">
                   <Link href="/projects/seedstock">
                     <a className="project-li-link">
