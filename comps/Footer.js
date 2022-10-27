@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import Link from 'next/link'
 import Clock from 'react-live-clock'
+import Image from 'next/image'
 
 const impressionsList = ["charismatic", "memorable", "extraordinary", "inspirational", "luxurious"];
 export default class Footer extends Component {
@@ -28,12 +29,20 @@ export default class Footer extends Component {
             <>
           <div className="container-fluid footer-container">
               <div className="row justify-content-center pb-md-3 mx-md-5 pt-md-4">
-                  <div className="col-lg-9 col-12 text-center">
-                      <h1 className="say-hello-h1 py-4">
+                  <div className="col-10 text-center">
+                  <Image
+                        src="/Potoo-logo-word-white.svg"
+                        height="118px"
+                        width="612px"
+                        alt="Potoo Studio Logo Word"
+                        />
+                  </div>
+                  <div className="col-lg-9 col-12 text-center pt-4 pt-md-0">
+                      {/* <h1 className="say-hello-h1 py-4">
                           <span>Creating</span> <span>{impressionsChange}</span> <span>impressions</span>
-                      </h1>
-                      <div className="row justify-content-lg-around justify-content-md-center justify-content-center pb-1 pt-1 pt-lg-4 pb-lg-3 phone-email-row">
-                          <div className="col-lg-4 col-12 text-lg-left text-center py-2 pb-md-3 order-lg-1">
+                      </h1> */}
+                      <div className="row justify-content-lg-around justify-content-md-center justify-content-center pb-1 pt-1 pt-lg-4 pb-lg-3 phone-email-row py-3">
+                          <div className="col-lg-3 col-10 text-lg-left text-left py-2 pb-md-3 order-lg-1">
                               <Link href="mailto:ideas@potoo.studio" aria-label="email">
                                   <a className="say-hello-a pb-lg-2">
                                       ideas@potoo.studio
@@ -41,7 +50,7 @@ export default class Footer extends Component {
                                   </a>
                               </Link>
                           </div>
-                          <div className="col-lg-4 col-12 text-lg-right py-2 pb-3 order-lg-5">
+                          <div className="col-lg-3 col-10 text-lg-right text-left py-2 pb-3 order-lg-5">
                               <Link href="tel:3202604416" aria-label="phone">
                                   <a className="say-hello-a pb-lg-2">
                                       +1 320.260.4416
@@ -49,21 +58,21 @@ export default class Footer extends Component {
                                   </a>
                               </Link>
                           </div>
-                          <div className="col-lg-1 col-3 col-md-2 text-md-center text-right py-2 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-2">
+                          <div className="col-lg-1 col-2 col-md-2 text-md-center text-right py-2 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-2">
                               <Link href="https://www.instagram.com/potoostudio" aria-label="instagram">
                                   <a  className="social-media-a">
                                       IG
                                   </a>
                               </Link>
                           </div>
-                          <div className="col-lg-1 col-3 col-md-2 text-center py-2 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-3">
+                          <div className="col-lg-1 col-2 col-md-2 text-md-center text-right py-2 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-3">
                               <Link href="https://www.behance.net/potoostudio" aria-label="behance">
                                   <a  className="social-media-a">
                                       BE
                                   </a>
                               </Link>
                           </div>
-                          <div className="col-lg-1 col-3 col-md-2 text-md-center text-left py-2 pt-md-4 mt-md-1 pb-md-3 pt-lg-0 order-lg-4">
+                          <div className="col-lg-1 col-2 col-md-2 text-md-center text-right py-2 pt-md-4 mt-md-1 pb-md-3 pt-lg-0 order-lg-4">
                               <Link href="https://dribbble.com/potoostudio" aria-label="dribbble">
                                   <a  className="social-media-a">
                                       DB
