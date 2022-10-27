@@ -58,21 +58,21 @@ export default class Footer extends Component {
                                   </a>
                               </Link>
                           </div>
-                          <div className="col-lg-1 col-2 col-md-2 text-md-center text-right py-2 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-2">
+                          <div className="col-lg-1 col-2 col-md-2 text-md-center text-right pb-2 pt-1 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-2">
                               <Link href="https://www.instagram.com/potoostudio" aria-label="instagram">
                                   <a  className="social-media-a">
                                       IG
                                   </a>
                               </Link>
                           </div>
-                          <div className="col-lg-1 col-2 col-md-2 text-md-center text-right py-2 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-3">
+                          <div className="col-lg-1 col-2 col-md-2 text-md-center text-right pb-2 pt-1 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-3">
                               <Link href="https://www.behance.net/potoostudio" aria-label="behance">
                                   <a  className="social-media-a">
                                       BE
                                   </a>
                               </Link>
                           </div>
-                          <div className="col-lg-1 col-2 col-md-2 text-md-center text-right py-2 pt-md-4 mt-md-1 pb-md-3 pt-lg-0 order-lg-4">
+                          <div className="col-lg-1 col-2 col-md-2 text-md-center text-right pb-2 pt-1 pt-md-4 mt-md-1 pb-md-3 pt-lg-0 order-lg-4">
                               <Link href="https://dribbble.com/potoostudio" aria-label="dribbble">
                                   <a  className="social-media-a">
                                       DB
