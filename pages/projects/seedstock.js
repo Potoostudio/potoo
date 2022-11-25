@@ -1,7 +1,7 @@
-import React, { useEffect } from "react"
+import React from "react"
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 export default function Projects() {
 
@@ -21,69 +21,141 @@ export default function Projects() {
       </Head>
       
       <div className="container-fluid mw-1450 pt-5 project-showcase-container">
-          <div className="row project-row justify-content-center">
-              <div className="col-8 project-col">
+          <div className="row project-row justify-content-center pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0">
+              <div className="col-md-8 col-10 project-col">
                   <ul className="project-list">
-                      <li className="project-item project-title">
+                      <motion.li className="project-item project-title luxury-title"
+                       animate={{opacity: 1}}
+                       transition={{
+                        delay: 0.77
+                       }}
+                       initial={{opacity: 0}}
+                      >
                           Seedstock
-                      </li>
-                      <li className="project-item project-year">
+                      </motion.li>
+                      <motion.li className="project-item project-year mt-4 mt-md-5"
+                        animate= {{y: 0}}
+                        transition={{
+                            y: { duration: 0.8, repeat: 0, delay: 0.83},
+                        }}
+                        initial={{y: "15px"}}
+                        >
                           2022
-                      </li>
-                      <li className="project-item project-info">
+                      </motion.li>
+                      <motion.li className="project-item project-info"
+                        animate= {{y: 0}}
+                        transition={{
+                        y: { duration: 0.8, repeat: 0, delay: 0.86},
+                        }}
+                        initial={{y: "15px"}}
+                        >
                         Advertising
-                      </li>
-                      <li className="project-item project-impression">
+                      </motion.li>
+                      <motion.li className="project-item project-impression"
+                        animate= {{y: 0}}
+                        transition={{
+                            y: { duration: 0.8, repeat: 0, delay: 0.89},
+                        }}
+                        initial={{y: "15px"}}
+                        >
                         Impression
-                      </li>
-                      <li className="project-item project-impression-is">
+                      </motion.li>
+                      <motion.li className="project-item project-impression-is"
+                        animate= {{y: 0}}
+                        transition={{
+                        y: { duration: 0.8, repeat: 0, delay: 0.9},
+                        }}
+                        initial={{y: "15px"}}
+                      >
                         <em className="impression-lines">- Neat -</em>
-                      </li>
+                      </motion.li>
                   </ul>
               </div>
           </div>
-          <div className="row justify-content-center pt-5 mt-4 pb-5 mb-5">
-           <div className="col-md-7 col-10">
+          <div className="row justify-content-center pt-4 mt-4 pb-5 mb-5">
+           <motion.div className="col-md-7 col-10"
+            whileInView= {{y: 0}}
+            transition={{
+            y: { duration: 0.8, repeat: 0, delay: 0.9},
+            }}
+            initial={{y: "15px"}}
+           >
             <p className="normal-text before-border">
                 <span className="top-border">Seedstock</span> was looking to update their menu from paper to digital and add new beer releases and events.
             </p>
             <p className="normal-text">
                 The design of the digital screen contains three sections. Every section has different content and goals. 
             </p>
-           </div>
+           </motion.div>
            <div className="col-11">
-            <Image
+            <motion.div className="image-container"
+            whileInView= {{opacity: 1}}
+            transition={{
+            opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+            }}
+            initial={{opacity: 0}}
+            >
+                <Image
                 src="/Seedstock-digital-board.png"
-                height= "992px"
-                width= "1515px"
+                layout="fill"
+                className="image"
                 alt= "Seedstock Digital Board"
                 />
+            </motion.div>
            </div>
            <div className="col-8 pt-5 mt-5">
-            <Image
-                src="/Seedstock-slogan.png"
-                height= "445px"
-                width= "1053px"
-                alt= "Seedstock Slogan"
-                />
+            <motion.div className="image-container"
+             whileInView= {{opacity: 1}}
+             transition={{
+             opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+             }}
+             initial={{opacity: 0}}
+            >
+                <Image
+                    src="/Seedstock-slogan.png"
+                    layout="fill"
+                    className="image"
+                    alt= "Seedstock Slogan"
+                    />
+            </motion.div>
            </div>
            <div className="col-9 pt-5 mt-5 text-center">
-            <Image
-                src="/Seedstock-digital-board-first-section.png"
-                height= "609.13px"
-                width= "934.7px"
-                alt= "Seedstock Slogan"
+            <motion.div className="image-container"
+            whileInView= {{opacity: 1}}
+            transition={{
+            opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+            }}
+            initial={{opacity: 0}}>
+                <Image
+                    src="/Seedstock-digital-board-first-section.png"
+                    layout="fill"
+                    className="image"
+                    alt= "Seedstock Slogan"
                 />
+            </motion.div>
            </div>
-           <div className="col-11 pt-5 mt-5 text-center">
-            <Image
-                src="/Seedstock-screen-menu-content.png"
-                height= "1395.43px"
-                width= "778.34px"
-                alt= "Seedstock Menu"
-                />
+           <div className="col-11 col-md-7 pt-5 mt-5 text-center">
+                <motion.div className="image-container"
+                whileInView= {{opacity: 1}}
+                transition={{
+                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                }}
+                initial={{opacity: 0}}>
+                    <Image
+                        src="/Seedstock-screen-menu-content.png"
+                        layout="fill"
+                        className="image"
+                        alt= "Seedstock Menu"
+                    />
+                </motion.div>
            </div>
-           <div className="col-md-6 col-10 pt-5 mt-5 mb-5 pb-5">
+           <motion.div className="col-md-6 col-10 py-5 my-5"
+            whileInView= {{y: 0}}
+            transition={{
+            y: { duration: 0.8, repeat: 0, delay: 0.2},
+            }}
+            initial={{y: "30px"}}
+           >
                <h4 className="bold accessibility">Accessibility</h4>
                <ul className="accessibility-list w-75 pt-md-5 pb-md-5">
                    <li className="item">
@@ -96,7 +168,7 @@ export default function Projects() {
                    Contrast Ratio <span className="float-right">12.92</span>
                    </li>
                </ul>
-           </div>
+           </motion.div>
            <div className="col-11 text-center mt-3">
                <h3 className="text-center pt-lg-4rem">
                    User Experience
@@ -126,11 +198,17 @@ export default function Projects() {
                     </video>
                 </div>
             </div>
-            <div className="col-10 col-md-6 col-lg-10 mt-5 text-center pb-5 mb-5 pt-5 mt-5 pt-lg-6rem">
+            <div className="col-10 col-md-6 col-lg-10 mt-5 pt-5 text-center pb-5 mb-5 pt-5 mt-5 pt-lg-6rem">
                 <h4 className="project-footer-title pt-lg-6rem">
                     Project made under the influence of
                 </h4>
-                <ul className="project-footer-list pt-4 mt-2">
+                <motion.ul className="project-footer-list pt-3 mt-2"
+                whileInView= {{y: 0}}
+                transition={{
+                  y: { duration: 1.2, repeat: 0, delay: 0.2},
+                }}
+                initial={{y: 50}}
+                >
                     <li className="item">
                         Sigur Rós
                     </li>
@@ -143,7 +221,7 @@ export default function Projects() {
                     <li className="item">
                         Seedstock IPA
                     </li>
-                </ul>
+                </motion.ul>
             </div>
           </div>
       </div>

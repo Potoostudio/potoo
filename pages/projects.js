@@ -36,59 +36,67 @@ export default function Projects() {
         <meta property="og:url" content="https://potoo.studio/projects" />
         <meta property="og:type" content="website" />
       </Head>
-      <div className="container-fluid projects-container design-container  pb-lg-5 mt-md-0 pt-md-3">
-        <div className="row home-page-row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
-              <motion.div className="col-10">
-                  <ul className="project-list-image-list">
-                    <li className="item project-image-item">
-                      <Link href="/projects/seedstock">
-                        <a className="project-li-link">
-                          <Image
-                            src="/Seedstock-project-picture.jpg"
-                            height="590px"
-                            width="444px"
-                            alt="Seedstock project image"
-                            />
-                            <p className="project-title">
-                              Seedstock
-                            </p>
-                        </a>
-                      </Link>
-                    </li>
-                  </ul>
-                </motion.div>
+      
+      <div className="container-fluid design-container mx-1600">
+      <div className="row home-page-row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
+          <div className="col-11 ml-md-5">
+              <motion.h1 className="work-title luxury-title"
+               whileInView= {{letterSpacing: 0}}
+               transition={{
+                letterSpacing: { duration: 0.8, repeat: 0, delay: 0.3},
+               }}
+               initial={{letterSpacing: "4rem"}}
+               >
+                Work
+              </motion.h1>
+              <ul className="project-list-image-list pt-4 pt-md-5 mt-md-4">
+                <motion.li className="item project-image-item full-item"
+                whileInView= {{x: 0}}
+                transition={{
+                 x: { duration: 0.8, repeat: 0, delay: 0.2},
+                }}
+                initial={{x: "20px"}}
+                >
+                  <Link href="/projects/au" className="project-li-link">
+                    <div className="image-container">
+                      <Image
+                          src="/project-hamid.jpg"
+                          layout="fill"
+                          className="image"
+                          alt="Project Hamid"
+                          />
+                    </div>
+                  </Link>
+                  <p className="project-title pt-md-4 luxury-title">
+                    Abdulhamid <span className="small-text">(Gulf War)</span> <br/><span className="project-info">Web</span>
+                  </p>
+
+                </motion.li>
+                <motion.li className="item project-image-item third-item"
+                 whileInView= {{x: 0}}
+                 transition={{
+                  x: { duration: 0.8, repeat: 0, delay: 0.2},
+                 }}
+                 initial={{x: "-20px"}}
+                >
+                  <Link href="/projects/seedstock" className="project-li-link">
+                    <div className="image-container">
+                      <Image
+                        src="/project-seedstock.jpg"
+                        layout='fill'
+                        className="image"
+                        alt="Seedstock project image"
+                        />
+                    </div>
+                        <p className="project-title text-center luxury-title pt-md-3">
+                          Seedstock <br/><span className="project-info">Advertising</span>
+                        </p>
+                  </Link>
+                </motion.li>
+              </ul>
             </div>
-		{/* <div className="row row-project-images pt-md-1 justify-content-center">
-			<div className="col-12 col-md-10">
-				<ul className="list projects-list">
-					<li className="item projects-list-item"
-					onMouseEnter ={()=> UpdateToggle(1)}
-					onMouseLeave ={()=> UpdateToggle('')}>
-						<Link href="/projects/potoo" >
-							<a className="project-item-link">
-								<span className="project-item-number">01</span> <p className="project-item-name">Potoo Studio</p>
-							</a>
-						</Link>
-						<video className={`project-item-picture ${selected === 1 ? "active" : ''}`} playsinline="" webkit-playsinline="" autoPlay  loop muted width="100%" height="100%">
-							<source src="/Potoo-animation.mp4" type="video/mp4"/>
-						</video>
-					</li>
-					<li className="item projects-list-item"
-						onMouseEnter ={()=> UpdateToggle(2)}
-						onMouseLeave ={()=> UpdateToggle('')}>
-						<Link href="/projects/kish" >
-							<a className="project-item-link">
-								<span className="project-item-number">02</span> <p className="project-item-name">Kish</p>
-							</a>
-						</Link>
-						<video className={`project-item-picture ${selected === 2 ? "active" : ''}`} playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%">
-							<source src="/kish-animation.mp4" type="video/mp4"/>
-						</video>
-					</li>
-				</ul>
-				</div>
-			</div> */}
-      </div>
+        </div>
+     </div>
     </>
   )
 }

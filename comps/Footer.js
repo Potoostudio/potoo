@@ -27,77 +27,68 @@ export default class Footer extends Component {
 
         return (
             <>
-          <div className="container-fluid footer-container">
-              <div className="row justify-content-center pb-md-3 mx-md-5 pt-md-4">
-                  <div className="col-10 text-center">
-                  <Image
-                        src="/Potoo-logo-word-white.svg"
-                        height="118px"
-                        width="612px"
-                        alt="Potoo Studio Logo Word"
+          <div className="container-fluid footer-container pt-5 pb-md-0 pb-4">
+              <div className="row justify-content-around pb-md-3 mx-md-5 pt-md-4">
+                  <div className="col-11 col-md-4 text-center pr-md-5">
+                      <div className="image-container">
+                        <Image
+                            src="/Potoo-logo-word-white.svg"
+                            layout='fill'
+                            className="image"
+                            alt="Potoo Studio Logo Word"
                         />
-                  </div>
-                  <div className="col-lg-9 col-12 text-center pt-4 pt-md-0">
-                      {/* <h1 className="say-hello-h1 py-4">
-                          <span>Creating</span> <span>{impressionsChange}</span> <span>impressions</span>
-                      </h1> */}
-                      <div className="row justify-content-lg-around justify-content-md-center justify-content-center pb-1 pt-1 pt-lg-4 pb-lg-3 phone-email-row py-3">
-                          <div className="col-lg-3 col-10 text-lg-left text-left py-2 pb-md-3 order-lg-1">
-                              <Link href="mailto:ideas@potoo.studio" aria-label="email">
-                                  <a className="say-hello-a pb-lg-2">
-                                      ideas@potoo.studio
-                                      <span className="bottom-line"></span>
-                                  </a>
-                              </Link>
-                          </div>
-                          <div className="col-lg-3 col-10 text-lg-right text-left py-2 pb-3 order-lg-5">
-                              <Link href="tel:3202604416" aria-label="phone">
-                                  <a className="say-hello-a pb-lg-2">
-                                      +1 320.260.4416
-                                      <span className="bottom-line"></span>
-                                  </a>
-                              </Link>
-                          </div>
-                          <div className="col-lg-1 col-2 col-md-2 text-md-center text-right pb-2 pt-1 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-2">
-                              <Link href="https://www.instagram.com/potoostudio" aria-label="instagram">
-                                  <a  className="social-media-a">
-                                      IG
-                                  </a>
-                              </Link>
-                          </div>
-                          <div className="col-lg-1 col-2 col-md-2 text-md-center text-right pb-2 pt-1 pt-md-4  mt-md-1 pb-md-3 pt-lg-0 order-lg-3">
-                              <Link href="https://www.behance.net/potoostudio" aria-label="behance">
-                                  <a  className="social-media-a">
-                                      BE
-                                  </a>
-                              </Link>
-                          </div>
-                          <div className="col-lg-1 col-2 col-md-2 text-md-center text-right pb-2 pt-1 pt-md-4 mt-md-1 pb-md-3 pt-lg-0 order-lg-4">
-                              <Link href="https://dribbble.com/potoostudio" aria-label="dribbble">
-                                  <a  className="social-media-a">
-                                      DB
-                                  </a>
-                              </Link>
-                          </div>
                       </div>
                   </div>
+                  <div className="col-md-2 col-6 text-left pt-4 pt-md-0">
+                      <ul className="contact-list">
+                          <li className="item">
+                            <Link href="mailto:ideas@potoo.studio" aria-label="email" className="say-hello-a pb-lg-2">
+                                ideas@potoo.studio
+                                <span className="bottom-line"></span>
+                            </Link>
+                          </li>
+                          <li className="item pt-md-3 pt-2">
+                            <Link href="tel:3202604416" aria-label="phone" className="say-hello-a pb-lg-2">
+                                320.260.4416
+                                <span className="bottom-line"></span>
+                              </Link>
+                          </li>
+                      </ul>
+                    </div>
+                    <div className="col-md-2 col-4 pt-4 pt-md-0">
+                        <ul className="media-list text-right text-md-left">
+                            <li className="item">
+                                <Link href="https://www.instagram.com/potoostudio" aria-label="instagram" className="social-media-a">
+                                    Instagram
+                                </Link>
+                            </li>
+                            <li className="item pt-1">
+                                <Link href="https://www.behance.net/potoostudio" aria-label="behance" className="social-media-a">
+                                    Behance
+                                </Link>
+                            </li>
+                            <li className="item pt-1">
+                                <Link href="https://dribbble.com/potoostudio" aria-label="dribbble" className="social-media-a">
+                                    Dribbble
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
               </div>
-          </div>
-          <div className="container pl-lg-0 co-container pt-lg-2 mt-lg-2 pb-lg-2 mb-4 mb-md-0">
-              <div className="row justify-content-md-center justify-content-center">
-                  <div className="col-lg-2 col-10 text-center">
-                    <time className="clock mb-3">It's <Clock className="digital-clock" format={'HH:mm'} ticking={true} timezone={'US/Mountain'}/> in the Rockies</time>
-                  </div>
-                  <div className="col-lg-5 col-10">
-                      <p className="co-made adress text-center mb-3">
+              <div className="row justify-content-around pb-md-4 mx-md-5 pt-md-5 pt-4">
+                  <div className="col-11 col-md-4 text-left">
+                    <p className=" text-left mb-md-3 mb-0 footer-bottom-info">
                         2000 S Colorado Blvd Tower 1 Suite 2000-511 Denver, CO 80222
-                      </p>
+                    </p>
                   </div>
-                  <div className="col-lg-3 col-10">
-                      <p className="co-made text-center text-lg-right mb-3">
-                          Made in the high altitude of Colorado
-                      </p>
+                  <div className="col-md-2 col-4 text-left pt-2 pt-md-0">
+                    <p className="text-left footer-bottom-info mb-3">
+                        Site Made In House
+                    </p>
                   </div>
+                    <div className="col-md-2 col-6 pt-1 pt-md-0 text-right text-md-left">
+                        <time className="clock mb-3 footer-bottom-info">It's<Clock className="digital-clock" format={'HH:mm'} ticking={true} timezone={'US/Mountain'}/>in the Rockies</time>
+                    </div>
               </div>
           </div>
           </>

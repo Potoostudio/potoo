@@ -19,23 +19,25 @@ function MyApp({ Component, pageProps, router }) {
     setActive(!isActive);
 }
 
-  const spring = {
-    type: "spring",
-    damping: 29,
-    stiffness: 90,
-    when: "afterChildren",
-    delay: 0.5
-  };
+  // const spring = {
+  //   type: "spring",
+  //   damping: 29,
+  //   stiffness: 90,
+  //   when: "afterChildren",
+  //   delay: 0.5
+  // };
   return (
   <>
   <AnimatePresence exitBeforeEnter>
       <ThemeProvider theme={theme =='dark' ? darkTheme : lightTheme}>
         <GlobalStyles/>
         <motion.div
-        transition={spring}
         key={router.pathname}
-        initial={{opacity: 0.3, y: "100vh"}}
-        animate={{opacity: 1, y: "0vh"}}
+        initial={{opacity: 0}}
+        animate={{opacity: 1}}
+        transition={{
+                opacity: { duration: 0.3},
+              }}
         >
           <Layout>
             <button className={isActive ? "mode-btn dark" : "mode-btn light"} onClick={toggleTheme}><span className="mode-icon"></span></button>

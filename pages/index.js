@@ -55,27 +55,17 @@ export default function Home() {
       <div className="container-fluid home-page-container mx-0 pb-lg-5">
         <div className="row justify-content-center">
           <div className="col-md-12 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg pt-4 pt-md-0 pt-5 pr-0 pl-0">
-              <ul className="fixed-menu">
-                <li className="item">
-                  <Link href="/about">
-                    <a className="nav-a">
-                      Studio
-                    </a>
-                  </Link>
-                </li>
-                <li className="item">
-                  <Link href="/projects">
-                    <a className="nav-a">
-                      Work
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-            <div className="main-page-impression-text-box py-5 my-4 py-md-0 my-md-0">
-                <h1 className="main-page-impression-text-large mt-lg-5 pt-lg-4">
+            <motion.div className="main-page-impression-text-box py-5 my-4 py-md-0 my-md-0"
+             initial={{opacity: 0}}
+             animate={{opacity: 1}}
+             transition={{
+               opacity: { duration: 1, delay: 0.9},
+             }}
+             >
+                <h1 className="main-page-impression-text-large mt-lg-5 pt-lg-4 ">
                   Nesting Impressions <br/> on <strong className="color">Paper</strong> and <strong className="color">Screen</strong>
                 </h1>
-            </div>
+            </motion.div>
           </div>
           {/* <div className=" col-md-3-custom-30p col-12 pt-2 pt-md-0">
             <video className="video" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%">
@@ -85,71 +75,61 @@ export default function Home() {
         </div>
       </div>
      <div className="container-fluid design-container mx-1600">
-        <div className="row justify-content-start pt-md-5 pt-0 mt-md-4 mt-0">
-          <div className="col-md-7 col-9 homepage-design-col text-center pl-md-5 ml-md-5 pt-md-0 mt-md-0 pt-5 mt-5">
-              <p className="design-p text-left pl-md-2 pt-md-0 pt-5">
-                <span className="potoo-cap">Potoo</span>, a visionary bird flying
-                 over <strong>ideas</strong> and
-                 <strong> innovations</strong>, nesting them on the web
-              </p>
-          </div>
-        </div>
         <div className="row home-page-row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
-          <div className="col-12 col-md-10">
-            <div className="work-grid-two">
-              <h1 className="work-title">
+          <div className="col-11 ml-md-5">
+              <motion.h1 className="work-title luxury-title"
+               whileInView= {{letterSpacing: 0}}
+               transition={{
+                letterSpacing: { duration: 0.8, repeat: 0, delay: 0.3},
+               }}
+               initial={{letterSpacing: "4rem"}}
+               >
                 Work
-              </h1>
-              <p className="normal work-text">
-              Every project is an opportunity to present clients' inspiring stories and show what we have been learning
-              </p>
-            </div>
+              </motion.h1>
               <ul className="project-list-image-list pt-4 pt-md-5 mt-md-4">
-                <li className="item project-image-item">
-                  <Link href="/projects/#">
-                    <a className="project-li-link">
-                        <HoverVideoPlayer
-                          videoSrc="AU-website-promo_v4-website.mp4"
-                          restartOnPaused
-                          pausedOverlay={
-                            <img
-                              src="/AU-project-pic.png"
-                              alt=""
-                              style={{
-                                // Make the image expand to cover the video's dimensions
-                                width: '100%',
-                                height: '100%',
-                                objectFit: 'cover',
-                              }}
-                            />
-                          }
-                          loadingOverlay={
-                            <div className="loading-overlay">
-                              <div className="loading-spinner" />
-                            </div>
-                          }
-                        />
-                        <p className="project-title">
-                          The Gulf War <span className="coming-soon">coming soon</span>
-                        </p>
-                    </a>
-                  </Link>
-                </li>
-                <li className="item project-image-item">
-                  <Link href="/projects/seedstock">
-                    <a className="project-li-link">
+                <motion.li className="item project-image-item full-item"
+                 whileInView= {{x: 0}}
+                 transition={{
+                  x: { duration: 0.8, repeat: 0, delay: 0.2},
+                 }}
+                 initial={{x: "20px"}}
+                >
+                  <Link href="/projects/au" className="project-li-link">
+                    <div className="image-container">
                       <Image
-                        src="/Seedstock-project-picture.jpg"
-                        height="590px"
-                        width="444px"
+                          src="/project-hamid.jpg"
+                          layout="fill"
+                          className="image"
+                          alt="Project Hamid"
+                          />
+                    </div>
+                  </Link>
+                  <p className="project-title pt-md-4 luxury-title">
+                    Abdulhamid <span className="small-text">(Gulf War)</span> <br/><span className="project-info">Web</span>
+                  </p>
+
+                </motion.li>
+                <motion.li className="item project-image-item third-item"
+                whileInView= {{x: 0}}
+                transition={{
+                 x: { duration: 0.8, repeat: 0, delay: 0.2},
+                }}
+                initial={{x: "-20px"}}
+                >
+                  <Link href="/projects/seedstock" className="project-li-link">
+                    <div className="image-container">
+                      <Image
+                        src="/project-seedstock.jpg"
+                        layout='fill'
+                        className="image"
                         alt="Seedstock project image"
                         />
-                        <p className="project-title">
-                          Seedstock
+                    </div>
+                        <p className="project-title text-center luxury-title pt-md-3">
+                          Seedstock <br/><span className="project-info">Advertising</span>
                         </p>
-                    </a>
                   </Link>
-                </li>
+                </motion.li>
               </ul>
             </div>
         </div>
@@ -157,109 +137,102 @@ export default function Home() {
      <div className="container-fluid service-container mx-1600 mt-md-5">
         <div className="row justify-content-md-around justify-content-sm-start pt-md-5 px-lg-5">
             <div className="col-lg-5 col-md-5 col-11 px-lg-5 mb-lg-5 col-h">
-              <h1 className="service-custom-h1">
+              <motion.h1 className="service-custom-h1"
+              whileInView= {{y: 0}}
+              transition={{
+               y: { duration: 0.4, repeat: 0, delay: 0},
+              }}
+              initial={{y: "20px"}}
+              >
                 branding
-              </h1>
+              </motion.h1>
               <ul className="service-item-ul">
-                <li className="item">
-                  Strategy
-                </li>
-                <li className="item">
+                <motion.li className="item"
+                whileInView= {{y: 0}}
+                transition={{
+                 y: { duration: 0.4, repeat: 0, delay: 0.1},
+                }}
+                initial={{y: "15px"}}
+                >
+                  Strategy + Naming
+                </motion.li>
+                <motion.li className="item"
+                whileInView= {{y: 0}}
+                transition={{
+                 y: { duration: 0.4, repeat: 0, delay: 0.2},
+                }}
+                initial={{y: "15px"}}
+                >
                   Identity
-                </li>
-                <li className="item">
+                </motion.li>
+                <motion.li className="item"
+                whileInView= {{y: 0}}
+                transition={{
+                 y: { duration: 0.4, repeat: 0, delay: 0.3},
+                }}
+                initial={{y: "15px"}}
+                >
                   Guidelines
-                </li>
-                <li className="item">
-                  Logo
-                </li>
+                </motion.li>
+                <motion.li className="item"
+                whileInView= {{y: 0}}
+                transition={{
+                 y: { duration: 0.4, repeat: 0, delay: 0.4},
+                }}
+                initial={{y: "15px"}}
+                >
+                   Product Design
+                </motion.li>
               </ul>
-              <p className="service-p">
-                Branding to us, is the art of
-                making an impression of an
-                idea or a product. Starting
-                with the brand strategy and
-                identity, we delicately choose
-                what characterizes your brand,
-                from a custom logo to colors
-                and typeface.
-              </p>
-              <Link href="mailto:ideas@potoo.studio?subject=Brand Strategy">
-                <a className="service-a-link first"> work with us</a>
-              </Link>
             </div>
             <div className="col-lg-5 col-md-5 col-11 px-lg-5 mb-lg-5 col-h">
-              <h1 className="service-custom-h1">
-                Web Design
-              </h1>
+              <motion.h1 className="service-custom-h1"
+              whileInView= {{y: 0}}
+              transition={{
+               y: { duration: 0.4, repeat: 0, delay: 0},
+              }}
+              initial={{y: "20px"}}
+              >
+                Web Design & Development
+              </motion.h1>
               <ul className="service-item-ul">
-                <li className="item">
+                <motion.li className="item"
+                whileInView= {{y: 0}}
+                transition={{
+                 y: { duration: 0.4, repeat: 0, delay: 0.1},
+                }}
+                initial={{y: "15px"}}
+                >
+                  Prototype
+                </motion.li>
+                <motion.li className="item"
+                whileInView= {{y: 0}}
+                transition={{
+                 y: { duration: 0.4, repeat: 0, delay: 0.2},
+                }}
+                initial={{y: "15px"}}
+                >
                   Responsive
-                </li>
-                <li className="item">
-                  Prototypes
-                </li>
+                </motion.li>
+                <motion.li className="item"
+                whileInView= {{y: 0}}
+                transition={{
+                 y: { duration: 0.6, repeat: 0, delay: 0.3},
+                }}
+                initial={{y: "15px"}}
+                >
+                  CMS-based Sites
+                </motion.li>
+                <motion.li className="item"
+                whileInView= {{y:0}}
+                transition={{
+                  y: { duration: 0.4, repeat: 0, delay: 0.4},
+                }}
+                initial={{y: "15px"}}
+                >
+                  Custom Web Development
+                </motion.li>
               </ul>
-              <p className="service-p">
-                We design your website to translate 
-                your brand identity seamlessly 
-                through different screen sizes.
-                We create prototypes to show
-                how your website will look on 
-                the web before we get to the 
-                development stage.
-              </p>
-              <Link href="mailto:ideas@potoo.studio?subject=Web Design">
-                <a className="service-a-link second"> work with us</a>
-              </Link>
-            </div>
-            <div className="col-lg-5 col-md-5 col-11 px-lg-5 mt-lg-5 col-h">
-              <h1 className="service-custom-h1 mt-md-5 mt-0">
-                Graphic Design
-              </h1>
-              <ul className="service-item-ul">
-                <li className="item">
-                  Social Media
-                </li>
-                <li className="item">
-                  Posters
-                </li>
-                <li className="item">
-                  Banners
-                </li>
-              </ul>
-              <p className="service-p">
-                We personalize your brand with custom
-                graphics for your social media
-                accounts and paper prints.
-              </p>
-              <Link href="mailto:ideas@potoo.studio?subject=Graphics">
-                <a className="service-a-link third"> work with us</a>
-              </Link>
-            </div>
-            <div className="col-lg-5 col-md-5 col-11 px-lg-5 mt-lg-5 col-h">
-              <h1 className="service-custom-h1 mt-md-5 mt-0">
-                Web development
-              </h1>
-              <ul className="service-item-ul">
-                <li className="item">
-                SEO
-                </li>
-                <li className="item">
-                  Accessibility
-                </li>
-                <li className="item">
-                  Mobile Responsive
-                </li>
-              </ul>
-              <p className="service-p">
-                We code your website pixel by pixel
-                to fit on all screens and operate seamlessly
-                on all browsers.
-              </p>
-              <Link href="mailto:ideas@potoo.studio?subject=Website Development">
-                <a className="service-a-link fourth"> work with us</a>
-              </Link>
             </div>
         </div>
       </div>
