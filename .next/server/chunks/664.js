@@ -11,7 +11,26 @@ var __webpack_unused_export__;
 __webpack_unused_export__ = ({
     value: true
 });
-exports.Z = _asyncToGenerator;
+Object.defineProperty(exports, "Z", ({
+    enumerable: true,
+    get: function() {
+        return _asyncToGenerator;
+    }
+}));
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+    try {
+        var info = gen[key](arg);
+        var value = info.value;
+    } catch (error) {
+        reject(error);
+        return;
+    }
+    if (info.done) {
+        resolve(value);
+    } else {
+        Promise.resolve(value).then(_next, _throw);
+    }
+}
 function _asyncToGenerator(fn) {
     return function() {
         var self = this, args = arguments;
@@ -26,20 +45,6 @@ function _asyncToGenerator(fn) {
             _next(undefined);
         });
     };
-}
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
-    try {
-        var info = gen[key](arg);
-        var value = info.value;
-    } catch (error) {
-        reject(error);
-        return;
-    }
-    if (info.done) {
-        resolve(value);
-    } else {
-        Promise.resolve(value).then(_next, _throw);
-    }
 }
 
 
@@ -597,7 +602,7 @@ exports.normalizePathTrailingSlash = void 0;
 var _removeTrailingSlash = __webpack_require__(3297);
 var _parsePath = __webpack_require__(8854);
 const normalizePathTrailingSlash = (path)=>{
-    if (!path.startsWith("/")) {
+    if (!path.startsWith("/") || undefined) {
         return path;
     }
     const { pathname , query , hash  } = (0, _parsePath).parsePath(path);
@@ -680,7 +685,7 @@ Object.defineProperty(exports, "__esModule", ({
 exports.cancelIdleCallback = exports.requestIdleCallback = void 0;
 const requestIdleCallback = typeof self !== "undefined" && self.requestIdleCallback && self.requestIdleCallback.bind(window) || function(cb) {
     let start = Date.now();
-    return setTimeout(function() {
+    return self.setTimeout(function() {
         cb({
             didTimeout: false,
             timeRemaining: function() {
