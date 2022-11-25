@@ -26,6 +26,7 @@
     "react-hook-form": "^7.39.5",
     "react-hover-video-player": "^9.7.1",
     "react-intersection-observer": "^8.34.0",
+    "react-is": "^18.2.0",
     "react-live-clock": "^5.10.0",
     "react-moment": "^1.1.1",
     "react-scroll-parallax": "^3.3.2",
