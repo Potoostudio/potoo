@@ -3,17 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import IframePlayer from 'player-iframe-video'
 
 export default function Projects() {
-
-    const iFrame = <iframe width="100%" height="100%"
-                          src="https://player.vimeo.com/video/772922513?h=b2086adb80&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;loop=1"
-                          frameBorder="0"
-                          allow="fullscreen; picture-in-picture"
-                          allowFullScreen
-                          title="test player iframe vimeo"
-                          />
 
 
 
@@ -96,13 +87,7 @@ export default function Projects() {
           </div>
           <div className="row video-row px-0 mx-0">
            <div className="col-12 px-0 mx-0">
-           <div className="video-wrapper">
-                <div className="video-row">
-                    <div className="video-box">
-                    <IframePlayer id={"iframe-vimeo-player-test"} iFrame={iFrame} />
-                    </div>
-                </div>
-            </div>
+           <div style={{padding:"56.25% 0 0 0", position:"relative"}}><iframe src="https://player.vimeo.com/video/772922513?h=88eb3d10cd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style={{position: "absolute", top:"0", left:"0", width:"100%", height:"100%"}} title="AU-Website-Video-v1-Oud.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
            </div>
           </div>
           <div className="row img-row py-5 my-5 bg-white justify-content-md-around justify-content-center">

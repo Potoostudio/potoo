@@ -1,14 +1,6 @@
 {
-  "/_document": "pages/_document.js",
   "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/404": "pages/404.html",
-  "/projects": "pages/projects.html",
-  "/api/ga": "pages/api/ga.js",
-  "/about": "pages/about.html",
-  "/projects/au": "pages/projects/au.html",
-  "/": "pages/index.html",
-  "/projects/kish": "pages/projects/kish.html",
-  "/projects/potoo": "pages/projects/potoo.html",
-  "/projects/seedstock": "pages/projects/seedstock.html"
+  "/projects/au": "pages/projects/au.js"
 }
