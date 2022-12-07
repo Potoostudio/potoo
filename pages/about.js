@@ -62,73 +62,26 @@ function Design() {
               <h6 className="about-sec-title">
                 What we do
               </h6>
-                <div className="about-grid-two about-grid-two-45 pt-md-5 mt-md-4 pt-5 mt-4">
-                  <h4 className="text-uppercase font-1n2rem">
-                    Research
-                  </h4>
-                  <ul className="list pt-0 pl-0">
-                    <li className="item text-upper-case normal-p">
-                     Brand Research
-                    </li>
-                    <li className="item text-upper-case pt-md-3 normal-p">
-                      Market Research
-                    </li>
-                  </ul>
-                </div>
-                <div className="about-grid-two about-grid-two-45 pt-md-5 mt-md-5 pt-4 mt-4">
-                  <h4 className="text-uppercase font-1n2rem">
-                    Strategy
-                  </h4>
-                  <ul className="list pt-0 pl-0">
-                    <li className="item text-upper-case normal-p">
-                      Brand Identity
-                    </li>
-                    <li className="item text-upper-case pt-md-3 normal-p">
-                      Brand Strategy
-                    </li>
-                    <li className="item text-upper-case pt-md-3 normal-p">
-                      Guidelines
-                    </li>
-                    <li className="item text-upper-case pt-md-3 normal-p">
-                      Copywriting
-                    </li>
-                  </ul>
-                </div>
-                <div className="about-grid-two about-grid-two-45 pt-md-5 mt-md-5 pt-4 mt-4">
-                  <h4 className="text-uppercase font-1n2rem">
-                    Design
-                  </h4>
-                  <ul className="list pt-0 pl-0">
-                    <li className="item text-upper-case normal-p">
-                      Product Design
-                    </li>
-                    <li className="item text-upper-case pt-md-3 normal-p">
-                      Visual Design
-                    </li>
-                    <li className="item text-upper-case pt-md-3 normal-p">
-                      Web Design
-                    </li>
-                    <li className="item text-upper-case pt-md-3 normal-p">
-                      UI / UX
-                    </li>
-                    <li className="item text-upper-case pt-md-3 normal-p">
-                      Print Design
-                    </li>
-                  </ul>
-                </div>
-                <div className="about-grid-two about-grid-two-45 pt-md-5 mt-md-5 pt-4 mt-4">
-                  <h4 className="text-uppercase font-1n2rem">
-                   Technology
-                  </h4>
-                  <ul className="list pt-0 pl-0">
-                    <li className="item text-upper-case normal-p">
-                      Web Development
-                    </li>
-                    <li className="item text-upper-case pt-md-3 normal-p">
-                      CMS-based Sites
-                    </li>
-                  </ul>
-                </div>
+              <ul className="we-do-list pt-md-5 mt-md-5">
+                  <li className="we-do-item pt-2">
+                    Brand Strategy
+                  </li>
+                  <li className="we-do-item pt-2">
+                    Naming
+                  </li>
+                  <li className="we-do-item pt-2">
+                    Identity Systems
+                  </li>
+                  <li className="we-do-item mt-5 pt-2">
+                    Brand Guidelines
+                  </li>
+                  <li className="we-do-item mt-5 pt-2">
+                    Web Design
+                  </li>
+                  <li className="we-do-item mt-5 pt-2">
+                    Web Development
+                  </li>
+                </ul>
             </div>
           </div>
         </div>

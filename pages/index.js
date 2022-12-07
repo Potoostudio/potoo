@@ -52,8 +52,8 @@ export default function Home() {
         <meta property="og:url" content="https://potoo.studio" />
         <meta property="og:type" content="website" />
       </Head>
-      <div className="container-fluid home-page-container mx-0 pb-lg-5">
-        <div className="row justify-content-center">
+      <div className="container-fluid home-page-container px-0 pb-lg-5 mx-1600">
+        <div className="row justify-content-center pb-md-5 mb-md-5">
           <div className="col-md-12 col-12 pl-lg-0 pr-lg-0 mr-lg-0 your-bg pt-4 pt-md-0 pt-5 pr-0 pl-0">
             <motion.div className="main-page-impression-text-box py-5 my-4 py-md-0 my-md-0"
              initial={{opacity: 0}}
@@ -62,31 +62,55 @@ export default function Home() {
                opacity: { duration: 1, delay: 0.9},
              }}
              >
-                <h1 className="main-page-impression-text-large mt-lg-5 pt-lg-4 ">
-                  Nesting Impressions <br/> on <strong className="color">Paper</strong> and <strong className="color">Screen</strong>
+                <h1 className="main-page-impression-text-large luxury-title">
+                  Nesting Impressions <br/> <span className="smaller-text">on</span> <strong className="bolder-text">Paper</strong> <span className="smaller-text">and</span> <strong className="bolder-text">Screen</strong>
                 </h1>
             </motion.div>
           </div>
-          {/* <div className=" col-md-3-custom-30p col-12 pt-2 pt-md-0">
-            <video className="video" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%">
-              <source src="/main-potoo-animtaion.mp4" type="video/mp4"/>
-             </video>
-          </div> */}
+        </div>
+        <div className="row justify-content-between px-4 pt-5 mt-5">
+          <div className="col-md-3 col-10 pt-5">
+             <h1 className="luxury-title">
+               Awards
+             </h1>
+          </div>
+          <div className="col-md-4 col-10 pt-md-5 pt-1">
+            <ul className="award-list text-right text-md-left">
+              <li className="award-item">
+              <Image
+                  src="/csswinner.svg"
+                  width={138}
+                  height={17}
+                  className="award"
+                  alt="project award"
+                  />
+              </li>
+              <li className="award-item pt-2 pt-md-0">
+              <Image
+                  src="/cssdesignawards.svg"
+                  width={163}
+                  height={24}
+                  className="award"
+                  alt="project award"
+                  />
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
      <div className="container-fluid design-container mx-1600">
-        <div className="row home-page-row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center">
-          <div className="col-11 ml-md-5">
-              <motion.h1 className="work-title luxury-title"
+        <div className="row home-page-row-project-images mb-5 mb-md-1 pt-md-5 mt-md-5 justify-content-center px-4">
+          <div className="col-12 px-0">
+              <motion.h1 className="luxury-title"
                whileInView= {{letterSpacing: 0}}
                transition={{
                 letterSpacing: { duration: 0.8, repeat: 0, delay: 0.3},
                }}
-               initial={{letterSpacing: "4rem"}}
+               initial={{letterSpacing: "0.4rem"}}
                >
                 Work
               </motion.h1>
-              <ul className="project-list-image-list pt-4 pt-md-5 mt-md-4">
+              <ul className="project-list-image-list pt-2 pt-md-5 mt-md-4">
                 <motion.li className="item project-image-item full-item"
                  whileInView= {{x: 0}}
                  transition={{
@@ -104,8 +128,8 @@ export default function Home() {
                           />
                     </div>
                   </Link>
-                  <p className="project-title pt-md-4 luxury-title">
-                    Abdulhamid <span className="small-text">(Gulf War)</span> <br/><span className="project-info">Web</span>
+                  <p className="project-title pt-md-4 pt-2 luxury-title">
+                    Abdulhamid <span className="small-text">(Gulf War)</span> <br/><span className="project-info text-normal">Web</span> <span className="project-info float-right text-normal">Awards x4</span>
                   </p>
 
                 </motion.li>
@@ -125,8 +149,8 @@ export default function Home() {
                         alt="Seedstock project image"
                         />
                     </div>
-                        <p className="project-title text-center luxury-title pt-md-3">
-                          Seedstock <br/><span className="project-info">Advertising</span>
+                        <p className="project-title text-center luxury-title pt-md-3 pt-2 ml-auto mr-auto">
+                          Seedstock <br/><span className="project-info text-normal">Advertising</span>
                         </p>
                   </Link>
                 </motion.li>
@@ -134,106 +158,35 @@ export default function Home() {
             </div>
         </div>
      </div>
-     <div className="container-fluid service-container mx-1600 mt-md-5">
-        <div className="row justify-content-md-around justify-content-sm-start pt-md-5 px-lg-5">
-            <div className="col-lg-5 col-md-5 col-11 px-lg-5 mb-lg-5 col-h">
-              <motion.h1 className="service-custom-h1"
-              whileInView= {{y: 0}}
-              transition={{
-               y: { duration: 0.4, repeat: 0, delay: 0},
-              }}
-              initial={{y: "20px"}}
-              >
-                branding
-              </motion.h1>
-              <ul className="service-item-ul">
-                <motion.li className="item"
-                whileInView= {{y: 0}}
-                transition={{
-                 y: { duration: 0.4, repeat: 0, delay: 0.1},
-                }}
-                initial={{y: "15px"}}
-                >
-                  Strategy + Naming
-                </motion.li>
-                <motion.li className="item"
-                whileInView= {{y: 0}}
-                transition={{
-                 y: { duration: 0.4, repeat: 0, delay: 0.2},
-                }}
-                initial={{y: "15px"}}
-                >
-                  Identity
-                </motion.li>
-                <motion.li className="item"
-                whileInView= {{y: 0}}
-                transition={{
-                 y: { duration: 0.4, repeat: 0, delay: 0.3},
-                }}
-                initial={{y: "15px"}}
-                >
-                  Guidelines
-                </motion.li>
-                <motion.li className="item"
-                whileInView= {{y: 0}}
-                transition={{
-                 y: { duration: 0.4, repeat: 0, delay: 0.4},
-                }}
-                initial={{y: "15px"}}
-                >
-                   Product Design
-                </motion.li>
-              </ul>
-            </div>
-            <div className="col-lg-5 col-md-5 col-11 px-lg-5 mb-lg-5 col-h">
-              <motion.h1 className="service-custom-h1"
-              whileInView= {{y: 0}}
-              transition={{
-               y: { duration: 0.4, repeat: 0, delay: 0},
-              }}
-              initial={{y: "20px"}}
-              >
-                Web Design & Development
-              </motion.h1>
-              <ul className="service-item-ul">
-                <motion.li className="item"
-                whileInView= {{y: 0}}
-                transition={{
-                 y: { duration: 0.4, repeat: 0, delay: 0.1},
-                }}
-                initial={{y: "15px"}}
-                >
-                  Prototype
-                </motion.li>
-                <motion.li className="item"
-                whileInView= {{y: 0}}
-                transition={{
-                 y: { duration: 0.4, repeat: 0, delay: 0.2},
-                }}
-                initial={{y: "15px"}}
-                >
-                  Responsive
-                </motion.li>
-                <motion.li className="item"
-                whileInView= {{y: 0}}
-                transition={{
-                 y: { duration: 0.6, repeat: 0, delay: 0.3},
-                }}
-                initial={{y: "15px"}}
-                >
-                  CMS-based Sites
-                </motion.li>
-                <motion.li className="item"
-                whileInView= {{y:0}}
-                transition={{
-                  y: { duration: 0.4, repeat: 0, delay: 0.4},
-                }}
-                initial={{y: "15px"}}
-                >
-                  Custom Web Development
-                </motion.li>
-              </ul>
-            </div>
+     <div className="container-fluid service-container mx-1600">
+        <div className="row justify-content-md-between justify-content-sm-center pt-md-5 px-lg-5 px-4">
+          <div className="col-md-2 col-10">
+            <h1 className="luxury-title">
+              We Do
+            </h1>
+          </div>
+          <div className="col-md-9 col-11 pt-md-0 pt-4">
+                <ul className="we-do-list">
+                  <li className="we-do-item mt-3 mt-md-0 pt-2">
+                    Brand Strategy
+                  </li>
+                  <li className="we-do-item mt-5 mt-md-0 pt-2">
+                    Naming
+                  </li>
+                  <li className="we-do-item mt-5 mt-md-0 pt-2">
+                    Identity Systems
+                  </li>
+                  <li className="we-do-item mt-5 pt-2">
+                    Brand Guidelines
+                  </li>
+                  <li className="we-do-item mt-5 pt-2">
+                    Web Design
+                  </li>
+                  <li className="we-do-item mt-5 pt-2">
+                    Web Development
+                  </li>
+                </ul>
+          </div>
         </div>
       </div>
     </>

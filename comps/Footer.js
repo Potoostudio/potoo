@@ -29,7 +29,8 @@ export default class Footer extends Component {
             <>
           <div className="container-fluid footer-container pt-5 pb-md-0 pb-4">
               <div className="row justify-content-around pb-md-3 mx-md-5 pt-md-4">
-                  <div className="col-11 col-md-4 text-center pr-md-5">
+                  <div className="col-11 col-md-4 text-left pr-md-5">
+                  <span className="footer-small-title">we are</span>
                       <div className="image-container">
                         <Image
                             src="/Potoo-logo-word-white.svg"
@@ -41,13 +42,14 @@ export default class Footer extends Component {
                   </div>
                   <div className="col-md-2 col-6 text-left pt-4 pt-md-0">
                       <ul className="contact-list">
+                          <span className="footer-small-title">contact info</span>
                           <li className="item">
                             <Link href="mailto:ideas@potoo.studio" aria-label="email" className="say-hello-a pb-lg-2">
                                 ideas@potoo.studio
                                 <span className="bottom-line"></span>
                             </Link>
                           </li>
-                          <li className="item pt-md-3 pt-2">
+                          <li className="item pt-md-2 pt-2">
                             <Link href="tel:3202604416" aria-label="phone" className="say-hello-a pb-lg-2">
                                 320.260.4416
                                 <span className="bottom-line"></span>
@@ -57,6 +59,7 @@ export default class Footer extends Component {
                     </div>
                     <div className="col-md-2 col-4 pt-4 pt-md-0">
                         <ul className="media-list text-right text-md-left">
+                        <span className="footer-small-title">social media</span>
                             <li className="item">
                                 <Link href="https://www.instagram.com/potoostudio" aria-label="instagram" className="social-media-a">
                                     Instagram

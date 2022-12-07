@@ -15,47 +15,26 @@ function toggle() {
       return (
         <>
         <div className="nav">
-          <motion.div className="latest-project"
-            initial={{x: "-30px"}}
-            animate={{x: "0px"}}
-            transition={{
-              x: { duration: 1, delay: 0.6},
-            }}
-          >
-            <Link href="/projects/au" className="latest-work-a">
-                <span className="indet">latest</span> <br/> work
-            </Link>
-          </motion.div>
-
-          <motion.div className="logo-box"
-          initial={{opacity: 0}}
-          animate={{opacity: 1}}
-          transition={{
-            opacity: { duration: 0.6, delay: 0.4},
-          }}
-          >
-                <Link href="/" className="potoo-logo-a d-flex">
-                    <Image
-                        src="/new-potoo-logo.svg"
-                        width="22"
-                        height="60"
-                        alt="Potoo logo"
-                        />
-                </Link>
-          </motion.div>
-
-          <motion.div className="hamburger-menu" aria-label="menu"
-            onClick={toggle}
-            initial={{x: "30px"}}
-            animate={{x: "0px"}}
-            transition={{
-              x: { duration: 1, delay: 0.6},
-            }}
-            >
-            <div className={`menu-icon ${isActive ? 'activeNav' : ''}`}>
-              <p className={`menu ${isActive ? `menu-active` : ''}`}>Menu</p>
-            </div>
-          </motion.div>
+          <ul className="nav-list">
+            <li className="nav-item logo-item">
+              <Link href="/" className="potoo-logo-a d-flex">
+                <Image
+                    src="/new-potoo-logo.svg"
+                    width="18"
+                    height="41"
+                    alt="Potoo logo"
+                    className="text-center"
+                    />
+              </Link>
+            </li>
+            <li 
+            className={`nav-item menu-item ${isActive ? `menu-active` : ''}`}
+             aria-label="menu" onClick={toggle}>
+              <div className={`menu-icon ${isActive ? 'activeNav' : ''}`}>
+                <p className="menu">Menu</p>
+              </div>
+            </li>
+          </ul>
         </div>
 
         <div className="mobile-header container">

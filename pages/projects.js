@@ -68,7 +68,7 @@ export default function Projects() {
                     </div>
                   </Link>
                   <p className="project-title pt-md-4 luxury-title">
-                    Abdulhamid <span className="small-text">(Gulf War)</span> <br/><span className="project-info">Web</span>
+                  Abdulhamid <span className="small-text">(Gulf War)</span> <br/><span className="project-info text-normal">Web</span> <span className="project-info float-right text-normal">Awards x4</span>
                   </p>
 
                 </motion.li>
@@ -88,9 +88,9 @@ export default function Projects() {
                         alt="Seedstock project image"
                         />
                     </div>
-                        <p className="project-title text-center luxury-title pt-md-3">
-                          Seedstock <br/><span className="project-info">Advertising</span>
-                        </p>
+                      <p className="project-title text-center luxury-title pt-md-3 pt-2 ml-auto mr-auto">
+                          Seedstock <br/><span className="project-info text-normal">Advertising</span>
+                      </p>
                   </Link>
                 </motion.li>
               </ul>
