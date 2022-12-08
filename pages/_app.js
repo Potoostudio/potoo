@@ -33,11 +33,10 @@ function MyApp({ Component, pageProps, router }) {
         <GlobalStyles/>
         <motion.div
         key={router.pathname}
-        initial={{opacity: 0}}
-        animate={{opacity: 1}}
-        transition={{
-                opacity: { duration: 0.3},
-              }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 2 }}
         >
           <Layout>
             <button className={isActive ? "mode-btn dark" : "mode-btn light"} onClick={toggleTheme}><span className="mode-icon"></span></button>
