@@ -68,7 +68,7 @@ export default function Projects() {
                     </div>
                   </Link>
                   <p className="project-title pt-md-4 luxury-title">
-                  Abdulhamid <span className="small-text">(Gulf War)</span> <br/><span className="project-info text-normal">Web</span> <span className="project-info float-right text-normal">Awards x4</span>
+                  Abdulhamid - Gulf War <br/><span className="project-info text-normal">Web</span> <span className="project-info float-right text-normal">Awards x4</span>
                   </p>
 
                 </motion.li>
