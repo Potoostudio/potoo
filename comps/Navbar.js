@@ -27,7 +27,7 @@ function toggle() {
                     />
               </Link>
             </li>
-            <li 
+            <li
             className={`nav-item menu-item ${isActive ? `menu-active` : ''}`}
              aria-label="menu" onClick={toggle}>
               <div className={`menu-icon ${isActive ? 'activeNav' : ''}`}>
@@ -36,11 +36,18 @@ function toggle() {
             </li>
           </ul>
         </div>
+        <div
+            className={`mobile-menu ${isActive ? `menu-active` : ''}`}
+             aria-label="menu" onClick={toggle}>
+              <div className={`menu-icon ${isActive ? 'activeNav' : ''}`}>
+                <p className={`menu ${isActive ? 'activeNav' : ''}`}>Me<br/>nu</p>
+              </div>
+            </div>
 
         <div className="mobile-header container">
           <div className="header-box">
             <div className={`menu-list ${isActive ? 'activeNav' : ''}`}>
-              <ul className="list header-list">
+              <ul className="list header-list pt-5 mt-4 pt-md-5 mt-md-0">
                 <li className="item"
                 onClick={toggle}>
                   <Link href="/about" className="mobile-navBar-item design-a luxury-title">
