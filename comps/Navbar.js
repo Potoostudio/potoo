@@ -27,13 +27,13 @@ function toggle() {
                     />
               </Link>
             </li>
-            <li
+            {/* <li
             className={`nav-item menu-item ${isActive ? `menu-active` : ''}`}
              aria-label="menu" onClick={toggle}>
               <div className={`menu-icon ${isActive ? 'activeNav' : ''}`}>
                 <p className="menu">Menu</p>
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div
