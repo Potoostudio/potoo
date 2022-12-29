@@ -1202,6 +1202,15 @@ a {
 @media only screen and  (min-width: 996px) {
   .mobile-menu {
     top: 26px;
+    right: 2.5rem;
+
+    .menu-icon {
+
+      .menu {
+        padding-left: 15px;
+        padding-right: 0px;
+      }
+    }
   }
   .nav {
     margin: 2rem 2.5rem;
@@ -1217,7 +1226,7 @@ a {
       list-style: none;
 
       .logo-item {
-        padding-left: 11px;
+        padding-left: 0;
       }
 
       .menu-item {
