@@ -21,7 +21,7 @@ function Design() {
         <div className="container about-container pt-5 pt-md-5 px-4 px-md-0 pb-md-5 mb-md-5">
           <div className="row justify-content-start">
               <div className="col-md-12 col-12 pt-2 mt-2">
-                <h6 className="about-sec-title">
+                <h6 className="about-sec-title luxury-title">
                   we are potoo
                 </h6>
                 <div className="about-grid-two pt-md-4 pt-3">
@@ -42,7 +42,7 @@ function Design() {
 
           <div className="row justify-content-start pt-5 mt-5 ">
             <div className="col-md-12 col-12 pt-5 mt-2">
-                <h6 className="about-sec-title">
+                <h6 className="about-sec-title luxury-title">
                   The concept of our logo / mission
                 </h6>
                 <div className="pt-md-4 pt-5">
@@ -59,7 +59,7 @@ function Design() {
           </div>
           <div className="row justify-content-start pt-5 mt-5 pb-md-5 mb-md-5">
             <div className="col-md-12 col-12 pt-5 mt-5">
-              <h6 className="about-sec-title">
+              <h6 className="about-sec-title luxury-title">
                 What we do
               </h6>
               <ul className="we-do-list pt-md-5 mt-md-5">
