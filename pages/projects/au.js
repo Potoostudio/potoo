@@ -210,6 +210,16 @@ export default function Projects() {
                     </video>
               </div>
           </div>
+          <div className="row justify-content-center">
+            <div className="col-md-5 col-8 text-center">
+              <h2 className="luxury-title">
+                Website
+              </h2>
+              <Link href="https:/abdulhamid.life" className="text-white border-bottom text-decoration-none">
+                abdulhamid.life
+              </Link>
+            </div>
+          </div>
           <div className="row py-5 my-5 justify-content-center mb-md-5 pb-md-5">
           <div className="col-10 col-md-6 col-lg-10 mt-5 pt-5 text-center pb-5 mb-5 pt-5 mt-5 pt-lg-6rem">
               <h1 className="project-footer-title pt-lg-6rem">
