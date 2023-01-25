@@ -1,0 +1,15 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.js",
+  "/about": "pages/about.js",
+  "/api/ga": "pages/api/ga.js",
+  "/projects/au": "pages/projects/au.js",
+  "/_document": "pages/_document.js",
+  "/projects/kish": "pages/projects/kish.js",
+  "/projects/potoo": "pages/projects/potoo.js",
+  "/": "pages/index.js",
+  "/studio": "pages/studio.js",
+  "/work": "pages/work.js",
+  "/projects/seedstock": "pages/projects/seedstock.js"
+}

@@ -2,5 +2,14 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/projects/au": "pages/projects/au.js"
+  "/404": "pages/404.js",
+  "/about": "pages/about.js",
+  "/api/ga": "pages/api/ga.js",
+  "/": "pages/index.js",
+  "/projects/au": "pages/projects/au.js",
+  "/projects/kish": "pages/projects/kish.js",
+  "/projects/potoo": "pages/projects/potoo.js",
+  "/projects/seedstock": "pages/projects/seedstock.js",
+  "/studio": "pages/studio.js",
+  "/work": "pages/work.js"
 }

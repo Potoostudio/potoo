@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "sitemap": "next-sitemap"
+    "sitemap": "next-sitemap --config next-sitemap.config.js"
   },
   "dependencies": {
     "axios": "^0.21.4",
