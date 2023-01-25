@@ -1,0 +1,15 @@
+{
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html",
+  "/_app": "pages/_app.js",
+  "/api/ga": "pages/api/ga.js",
+  "/": "pages/index.html",
+  "/about": "pages/about.html",
+  "/_error": "pages/_error.js",
+  "/projects/kish": "pages/projects/kish.html",
+  "/projects/au": "pages/projects/au.html",
+  "/projects/seedstock": "pages/projects/seedstock.html",
+  "/work": "pages/work.html",
+  "/projects/potoo": "pages/projects/potoo.html",
+  "/studio": "pages/studio.html"
+}
