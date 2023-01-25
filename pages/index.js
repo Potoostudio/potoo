@@ -1,43 +1,13 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useInView } from "react-intersection-observer"
-import { motion, useAnimation, useTransform} from "framer-motion"
+import { motion} from "framer-motion"
 
 
 export default function Home() {
 
 
-// Delete this code if it doesn't work on animation
-  const controls = useAnimation();
-  const [ref, inView] = useInView();
-
-  useEffect(() => {
-    if (inView) {
-      controls.start({
-        x: 0,
-        opacity: 1,
-        transition: { duration: 1 }
-      });
-      console.log('visibile');
-    }
-    if (!inView) {
-      controls.start({
-        x: -200,
-        opacity: 0
-      });
-      console.log('hidden');
-    }
-  }, [controls, inView]);
-
-  const sec = {
-    visible: {opacity: 1, x: 0, transition: { duration: 1, delay: 0.2}},
-    hidden: {opacity: 0, x: -200},
-  };
-
-  const {scrollYProgress} = useViewportScroll();
-  const scale = useTransform(scrollYProgress, [0, 1], [0.5, 1.3]);
   return (
     <>
       <Head>
