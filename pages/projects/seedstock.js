@@ -21,58 +21,25 @@ export default function Projects() {
       </Head>
       
       <div className="container-fluid mw-1450 pt-5 project-showcase-container">
-          <div className="row project-row justify-content-center pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0">
-              <div className="col-md-8 col-10 project-col">
+          <div className="row project-row justify-content-start pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-4">
+          <div className="col-md-4 col-10 project-col px-0">
                   <ul className="project-list">
-                      <motion.li className="project-item project-title luxury-title"
-                       animate={{opacity: 1}}
-                       transition={{
-                        delay: 0.77
-                       }}
-                       initial={{opacity: 0}}
-                      >
-                          Seedstock
-                      </motion.li>
-                      <motion.li className="project-item project-year mt-4 mt-md-5"
-                        animate= {{y: 0}}
-                        transition={{
-                            y: { duration: 0.8, repeat: 0, delay: 0.83},
-                        }}
-                        initial={{y: "15px"}}
-                        >
+                      <li className="project-item project-year mt-4 mt-md-5 border-bottom text-left pb-1">
                           2022
-                      </motion.li>
-                      <motion.li className="project-item project-info"
-                        animate= {{y: 0}}
-                        transition={{
-                        y: { duration: 0.8, repeat: 0, delay: 0.86},
-                        }}
-                        initial={{y: "15px"}}
-                        >
-                        Advertising
-                      </motion.li>
-                      <motion.li className="project-item project-impression"
-                        animate= {{y: 0}}
-                        transition={{
-                            y: { duration: 0.8, repeat: 0, delay: 0.89},
-                        }}
-                        initial={{y: "15px"}}
-                        >
-                        Impression
-                      </motion.li>
-                      <motion.li className="project-item project-impression-is"
-                        animate= {{y: 0}}
-                        transition={{
-                        y: { duration: 0.8, repeat: 0, delay: 0.9},
-                        }}
-                        initial={{y: "15px"}}
-                      >
-                        <em className="impression-lines">- Neat -</em>
-                      </motion.li>
+                      </li>
+                      <li className="project-item project-title luxury-title pt-5 mt-5 text-left">
+                        Seedstock
+                      </li>
+                      <li className="project-item project-info text-left">
+                        Digital Design
+                      </li>
+                      <li className="project-item project-impression color-secondary pt-5 text-left">
+                        Impression <span className="float-right"><em className="impression-lines">- Neat -</em></span>
+                      </li>
                   </ul>
               </div>
           </div>
-          <div className="row justify-content-center pt-4 mt-4 pb-5 mb-5">
+          <div className="row justify-content-center pt-5 mt-5 pb-5 mb-5 pt-md-5 mt-md-5">
            <motion.div className="col-md-7 col-10"
             whileInView= {{y: 0}}
             transition={{
@@ -81,13 +48,13 @@ export default function Projects() {
             initial={{y: "15px"}}
            >
             <p className="normal-text before-border">
-                <span className="top-border">Seedstock</span> was looking to update their menu from paper to digital and add new beer releases and events.
+                <span className="top-border color-white">Seedstock</span> <span className="color-secondary">was looking to update their menu from paper to digital and add new beer releases and events.</span>
             </p>
-            <p className="normal-text">
+            <p className="normal-text color-secondary">
                 The design of the digital screen contains three sections. Every section has different content and goals. 
             </p>
            </motion.div>
-           <div className="col-11">
+           <div className="col-10">
             <motion.div className="image-container"
             whileInView= {{opacity: 1}}
             transition={{
@@ -103,7 +70,7 @@ export default function Projects() {
                 />
             </motion.div>
            </div>
-           <div className="col-8 pt-5 mt-5">
+           <div className="col-md-7 col-10 pt-5 mt-5">
             <motion.div className="image-container"
              whileInView= {{opacity: 1}}
              transition={{
@@ -119,7 +86,7 @@ export default function Projects() {
                     />
             </motion.div>
            </div>
-           <div className="col-9 pt-5 mt-5 text-center">
+           <div className="col-md-7 col-10 pt-5 mt-5 text-center">
             <motion.div className="image-container"
             whileInView= {{opacity: 1}}
             transition={{
@@ -158,13 +125,13 @@ export default function Projects() {
            >
                <h4 className="bold accessibility">Accessibility</h4>
                <ul className="accessibility-list w-75 pt-md-5 pb-md-5">
-                   <li className="item">
+                   <li className="item color-secondary">
                     Eyesight <span className="float-right">20/20 to 20/60</span>
                    </li>
-                   <li className="item pt-md-3">
+                   <li className="item pt-md-3 color-secondary">
                     Distance <span className="font-weight-light">(screen to viewer)</span>  <span className="float-right">9<sup>ft</sup></span>
                    </li>
-                   <li className="item pt-md-3">
+                   <li className="item pt-md-3 color-secondary">
                    Contrast Ratio <span className="float-right">12.92</span>
                    </li>
                </ul>
@@ -175,19 +142,24 @@ export default function Projects() {
                </h3>
                <div className="grid-text pt-5">
                 <p className="normal-text text-left">
-                    <strong className="pr-2">Section A</strong> is designed to be the first
+                    <strong className="pr-2">Section A</strong>
+                    <span className="color-secondary">
+                    is designed to be the first
                     element customers view as it is placed at the
                     eye level. This section contains different
                     background-color, bigger font size, and offset
                     picture to attract customers’ attention and be
-                    the first section to view
+                    the first section to view</span>
                 </p>
                 <p className="normal-text text-left">
-                    <strong className="pr-2">Section B</strong> is designed to be the second
+                    <strong className="pr-2">Section B</strong>
+                    <span className="color-secondary">
+                    is designed to be the second
                     element customers view. The bright white
                     background and underline title is designed to
                     drive customers’ attention to this section after
                     viewing section A
+                    </span>
                 </p>
                </div>
            </div>
@@ -199,7 +171,7 @@ export default function Projects() {
                 </div>
             </div>
             <div className="col-10 col-md-6 col-lg-10 mt-5 pt-5 text-center pb-5 mb-5 pt-5 mt-5 pt-lg-6rem">
-                <h4 className="project-footer-title pt-lg-6rem">
+                <h4 className="project-footer-title pt-lg-6rem luxury-title">
                     Project made under the influence of
                 </h4>
                 <motion.ul className="project-footer-list pt-3 mt-2"
@@ -209,16 +181,16 @@ export default function Projects() {
                 }}
                 initial={{y: 50}}
                 >
-                    <li className="item">
+                    <li className="item luxury-title">
                         Sigur Rós
                     </li>
-                    <li className="item">
+                    <li className="item luxury-title">
                         Pablo’s Coffee
                     </li>
-                    <li className="item">
+                    <li className="item luxury-title">
                         Meditation
                     </li>
-                    <li className="item">
+                    <li className="item luxury-title">
                         Seedstock IPA
                     </li>
                 </motion.ul>

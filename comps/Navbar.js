@@ -14,33 +14,45 @@ function toggle() {
 }
       return (
         <>
-        <div className="nav">
-          <ul className="nav-list">
-            <li className="nav-item logo-item">
-              <Link href="/" className="potoo-logo-a d-flex">
+        <div className="nav px-md-5 py-md-4">
+          <div className="item pt-md-3 pt-3 d-lg-only">
+            <Link href="/" className="potoo-logo-a d-flex">
                 <Image
+                  src="/Potoo-word-logo.svg"
+                  width="137"
+                  height="13"
+                  alt="Potoo logo"
+                />
+              </Link>
+          </div>
+          <div className="item center">
+            <Link href="/" className="potoo-logo-a d-flex">
+              <Image
                     src="/new-potoo-logo.svg"
                     width="18"
-                    height="41"
+                    height="48"
                     alt="Potoo logo"
                     className="text-center"
+                    title="Potoo Bird. A quiue bird lives in Brazil"
                     />
-              </Link>
-            </li>
-            {/* <li
-            className={`nav-item menu-item ${isActive ? `menu-active` : ''}`}
-             aria-label="menu" onClick={toggle}>
-              <div className={`menu-icon ${isActive ? 'activeNav' : ''}`}>
-                <p className="menu">Menu</p>
-              </div>
-            </li> */}
-          </ul>
+            </Link>
+          </div>
+          <div className="item pt-md-2 pr-md-5 d-lg-only">
+            <Link href="/work" className="nav-a">
+              Work
+            </Link>
+          </div>
+          <div className="item pt-md-2 d-lg-only">
+            <Link href="/studio" className="nav-a">
+              Studio
+            </Link>
+          </div>
         </div>
         <div
             className={`mobile-menu ${isActive ? `menu-active` : ''}`}
              aria-label="menu" onClick={toggle}>
               <div className={`menu-icon ${isActive ? 'activeNav' : ''}`}>
-                <p className={`menu ${isActive ? 'activeNav' : ''}`}>Me<br/>nu</p>
+                <p className={`menu ${isActive ? 'activeNav' : ''}`}>Menu</p>
               </div>
             </div>
 
@@ -50,13 +62,13 @@ function toggle() {
               <ul className="list header-list pt-5 mt-4 pt-md-5 mt-md-0">
                 <li className="item"
                 onClick={toggle}>
-                  <Link href="/about" className="mobile-navBar-item design-a luxury-title">
+                  <Link href="/studio" className="mobile-navBar-item design-a luxury-title">
                     Studio
                   </Link>
                 </li>
                 <li className="item"
                 onClick={toggle}>
-                  <Link href="/projects" className="mobile-navBar-item code-a luxury-title">
+                  <Link href="/work" className="mobile-navBar-item code-a luxury-title">
                       Work
                   </Link>
                 </li>

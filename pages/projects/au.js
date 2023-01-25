@@ -22,59 +22,26 @@ export default function Projects() {
       </Head>
       
       <div className="container-fluid mw-1450 pt-5 project-showcase-container">
-          <div className="row project-row justify-content-center pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0">
-              <div className="col-md-8 col-10 project-col">
+          <div className="row project-row justify-content-start pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-4">
+              <div className="col-md-4 col-10 project-col px-0">
                   <ul className="project-list">
-                      <motion.li className="project-item project-title luxury-title"
-                      animate={{opacity: 1}}
-                      transition={{
-                       delay: 0.77
-                      }}
-                      initial={{opacity: 0}}
-                       >
-                          Abdulhamid <br/> <span className="small-text">(Gulf War)</span>
-                      </motion.li>
-                      <motion.li className="project-item project-year mt-4 mt-md-5"
-                       animate= {{y: 0}}
-                       transition={{
-                        y: { duration: 0.8, repeat: 0, delay: 0.83},
-                       }}
-                       initial={{y: "15px"}}
-                       >
+                      <li className="project-item project-year mt-4 mt-md-5 border-bottom text-left pb-1">
                           2022
-                      </motion.li>
-                      <motion.li className="project-item project-info"
-                      animate= {{y: 0}}
-                      transition={{
-                       y: { duration: 0.8, repeat: 0, delay: 0.86},
-                      }}
-                      initial={{y: "15px"}}
-                      >
-                        Web
-                      </motion.li>
-                      <motion.li className="project-item project-impression"
-                      animate= {{y: 0}}
-                      transition={{
-                       y: { duration: 0.8, repeat: 0, delay: 0.89},
-                      }}
-                      initial={{y: "15px"}}
-                      >
-                        Impression
-                      </motion.li>
-                      <motion.li className="project-item project-impression-is"
-                       animate= {{y: 0}}
-                       transition={{
-                        y: { duration: 0.8, repeat: 0, delay: 0.9},
-                       }}
-                       initial={{y: "15px"}}
-                      >
-                        <em className="impression-lines">- Loss -</em>
-                      </motion.li>
+                      </li>
+                      <li className="project-item project-title luxury-title pt-5 mt-5 text-left">
+                          Abdulhamid-Gulf War
+                      </li>
+                      <li className="project-item project-info text-left">
+                        Story <span className="divider">| </span>Web
+                      </li>
+                      <li className="project-item project-impression color-secondary pt-5 text-left">
+                        Impression <span className="float-right"><em className="impression-lines">- Loss -</em></span>
+                      </li>
                   </ul>
               </div>
           </div>
-          <div className="row full-h px-0 bg-white pt-md-5 mt-md-5">
-              <div className="col-12 px-0 text-center">
+          <div className="row full-h px-0 pt-5 mt-5 px-md-5 px-4 justify-content-end px-md-5 px-4">
+              <div className="col-md-8 col-12 px-0 text-center px-0">
                   <div className="image-container">
                     <Image
                     src="/project-hamid-bio.jpg"
@@ -85,8 +52,9 @@ export default function Projects() {
                   </div>
               </div>
           </div>
-          <div className="row video-row px-0 mx-0">
-           <div className="col-12 px-0 mx-0">
+          <div className="row video-row px-md-5 px-4 justify-content-center pt-5 mt-5">
+           <div className="col-md-8 col-12 px-0 mx-5 pt-md-5 mt-md-5">
+             <h5 className="color-secondary text-center pt-md-5 mt-md-5 pb-md-4">Video</h5>
            <div style={{padding:"56.25% 0 0 0", position:"relative"}}><iframe src="https://player.vimeo.com/video/772922513?h=88eb3d10cd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style={{position: "absolute", top:"0", left:"0", width:"100%", height:"100%"}} title="AU-Website-Video-v1-Oud.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
            </div>
           </div>
@@ -112,9 +80,9 @@ export default function Projects() {
                   </div>
               </div>
           </div>
-          <div className="row justify-content-start pt-5 mt-5">
-            <div className="col-11 text-left pt-md-5 mt-md-5">
-                <h1 className="font-weight-bold pl-md-5">Timeline</h1>
+          <div className="row justify-content-start pt-5 mt-5 px-md-5 px-4">
+            <div className="col-12 text-center pt-md-5 mt-md-5">
+                <h1 className="font-weight-bolder color-secondary">Timeline</h1>
             </div>
           </div>
           <div className="row pt-3 pt-md-0 pb-5 my-5 pt-md-5 justify-content-center row-timeline">
@@ -142,7 +110,7 @@ export default function Projects() {
                     <li className="item"><h4 className="font-weight-bold h4-smaller">War</h4></li>
                 </ul>
             </div>
-            <div className="col-md-3 col-10 pt-4 pt-md-0 pb-5 pb-md-0">
+            <div className="col-md-2 col-10 pt-4 pt-md-0 pb-5 pb-md-0">
                 <motion.div
                     className="image-container  cursor-pointer"
                     whileInView= {{rotate: 365}}
@@ -186,7 +154,7 @@ export default function Projects() {
             </div>
           </div>
           <div className="row py-5 my-5 justify-content-center">
-              <div className="col-md-6 col-10 py-5 my-5 text-center">
+              <div className="col-md-4 col-10 py-5 my-5 text-center">
                   <motion.div className="image-container"
                    whileInView= {{scale: 1}}
                    transition={{
@@ -222,7 +190,7 @@ export default function Projects() {
           </div>
           <div className="row py-5 my-5 justify-content-center mb-md-5 pb-md-5">
           <div className="col-10 col-md-6 col-lg-10 mt-5 pt-5 text-center pb-5 mb-5 pt-5 mt-5 pt-lg-6rem">
-              <h1 className="project-footer-title pt-lg-6rem">
+              <h1 className="project-footer-title pt-lg-6rem luxury-title">
                 Project made under the influence of
               </h1>
               <motion.ul
@@ -233,13 +201,13 @@ export default function Projects() {
                 }}
                 initial={{y: 50}}
                 >
-                <li className="item">
+                <li className="item luxury-title">
                   Oud Music
                 </li>
-                <li className="item">
+                <li className="item luxury-title">
                   Tea (Chai)
                 </li>
-                <li className="item">
+                <li className="item luxury-title">
                   Traveling
                 </li>
               </motion.ul>

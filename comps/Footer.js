@@ -28,8 +28,8 @@ export default class Footer extends Component {
         return (
             <>
           <div className="container-fluid footer-container pt-5 pb-md-0 pb-4">
-              <div className="row justify-content-around pb-md-3 mx-md-5 pt-md-4">
-                  <div className="col-11 col-md-4 text-left pr-md-5">
+              <div className="row justify-content-between pb-md-3 mx-md-5 pt-md-4">
+                  <div className="col-12 col-md-4 text-left pr-md-5 pb-md-0 pb-4">
                   <span className="footer-small-title">we are</span>
                       <div className="image-container">
                         <Image
@@ -78,19 +78,19 @@ export default class Footer extends Component {
                         </ul>
                     </div>
               </div>
-              <div className="row justify-content-around pb-md-4 mx-md-5 pt-md-5 pt-4">
+              <div className="row justify-content-between pb-md-4 mx-md-5 pt-md-5 pt-4">
                   <div className="col-11 col-md-4 text-left">
-                    <p className=" text-left mb-md-3 mb-0 footer-bottom-info">
+                    <p className=" text-left mb-md-3 mb-0 footer-bottom-info color-secondary">
                         2000 S Colorado Blvd Tower 1 Suite 2000-511 Denver, CO 80222
                     </p>
                   </div>
                   <div className="col-md-2 col-4 text-left pt-2 pt-md-0">
-                    <p className="text-left footer-bottom-info mb-3">
+                    <p className="text-left footer-bottom-info mb-3 color-secondary">
                         Site Made In House
                     </p>
                   </div>
                     <div className="col-md-2 col-6 pt-1 pt-md-0 text-right text-md-left">
-                        <time className="clock mb-3 footer-bottom-info">It's<Clock className="digital-clock" format={'HH:mm'} ticking={true} timezone={'US/Mountain'}/>in the Rockies</time>
+                        <time className="clock mb-3 footer-bottom-info color-secondary">It's<Clock className="digital-clock" format={'HH:mm'} ticking={true} timezone={'US/Mountain'}/>in the Rockies</time>
                     </div>
               </div>
           </div>
