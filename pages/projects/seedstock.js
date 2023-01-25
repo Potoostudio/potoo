@@ -21,7 +21,13 @@ export default function Projects() {
       </Head>
       
       <div className="container-fluid mw-1450 pt-5 project-showcase-container">
-          <div className="row project-row justify-content-start pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-4">
+          <motion.div className="row project-row justify-content-start pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-4"
+          initial={{y: 0}}
+          animate={{y: -20}}
+          viewport={{ once: true }}
+          transition={{
+            y: { duration: 1, delay: 0.4},
+          }}>
           <div className="col-md-4 col-10 project-col px-0">
                   <ul className="project-list">
                       <li className="project-item project-year mt-4 mt-md-5 border-bottom text-left pb-1">
@@ -38,12 +44,13 @@ export default function Projects() {
                       </li>
                   </ul>
               </div>
-          </div>
+          </motion.div>
           <div className="row justify-content-center pt-5 mt-5 pb-5 mb-5 pt-md-5 mt-md-5">
            <motion.div className="col-md-7 col-10"
             whileInView= {{y: 0}}
+            viewport={{ once: true }}
             transition={{
-            y: { duration: 0.8, repeat: 0, delay: 0.9},
+            y: { duration: 0.8, repeat: 0, delay: 0.4},
             }}
             initial={{y: "15px"}}
            >
@@ -57,8 +64,9 @@ export default function Projects() {
            <div className="col-10">
             <motion.div className="image-container"
             whileInView= {{opacity: 1}}
+            viewport={{ once: true }}
             transition={{
-            opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+            opacity: { duration: 0.8, repeat: 0, delay: 0.4},
             }}
             initial={{opacity: 0}}
             >
@@ -73,8 +81,9 @@ export default function Projects() {
            <div className="col-md-7 col-10 pt-5 mt-5">
             <motion.div className="image-container"
              whileInView= {{opacity: 1}}
+             viewport={{ once: true }}
              transition={{
-             opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+             opacity: { duration: 0.8, repeat: 0, delay: 0.4},
              }}
              initial={{opacity: 0}}
             >
@@ -89,8 +98,9 @@ export default function Projects() {
            <div className="col-md-7 col-10 pt-5 mt-5 text-center">
             <motion.div className="image-container"
             whileInView= {{opacity: 1}}
+            viewport={{ once: true }}
             transition={{
-            opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+            opacity: { duration: 0.8, repeat: 0, delay: 0.4},
             }}
             initial={{opacity: 0}}>
                 <Image
@@ -104,8 +114,9 @@ export default function Projects() {
            <div className="col-11 col-md-7 pt-5 mt-5 text-center">
                 <motion.div className="image-container"
                 whileInView= {{opacity: 1}}
+                viewport={{ once: true }}
                 transition={{
-                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                opacity: { duration: 0.8, repeat: 0, delay: 0.4},
                 }}
                 initial={{opacity: 0}}>
                     <Image
@@ -118,8 +129,9 @@ export default function Projects() {
            </div>
            <motion.div className="col-md-6 col-10 py-5 my-5"
             whileInView= {{y: 0}}
+            viewport={{ once: true }}
             transition={{
-            y: { duration: 0.8, repeat: 0, delay: 0.2},
+            y: { duration: 0.8, repeat: 0, delay: 0.4},
             }}
             initial={{y: "30px"}}
            >
@@ -176,10 +188,11 @@ export default function Projects() {
                 </h4>
                 <motion.ul className="project-footer-list pt-3 mt-2"
                 whileInView= {{y: 0}}
+                viewport={{ once: true }}
                 transition={{
-                  y: { duration: 1.2, repeat: 0, delay: 0.2},
+                  y: { duration: 1.2, repeat: 0, delay: 0.4},
                 }}
-                initial={{y: 50}}
+                initial={{y: 30}}
                 >
                     <li className="item luxury-title">
                         Sigur Rós

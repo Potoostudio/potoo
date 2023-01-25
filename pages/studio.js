@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react"
 import Head from 'next/head'
 import Image from 'next/image'
-
+import { motion} from "framer-motion"
 
 function Studio() {
 
@@ -27,7 +27,13 @@ function Studio() {
                     </h1>
                 </div>
             </div>
-            <div className="row justify-content-between pt-5 px-4 px-md-5 mt-5">
+            <motion.div className="row justify-content-between pt-5 px-4 px-md-5 mt-5"
+            initial={{y: 0}}
+            animate={{y: -20}}
+            viewport={{ once: true }}
+            transition={{
+              y: { duration: 1, delay: 0.4},
+            }}>
                 <div className="col-12 text-center px-0 pt-md-0 pt-5 mt-md-0 mt-5">
                     <h6 className="color-secondary">With minimalist design as the core of our studio,</h6>
                 </div>
@@ -131,7 +137,7 @@ function Studio() {
                         alt="Branding - Web Development"
                     />
                 </div>
-            </div>
+            </motion.div>
         </div>
       </>
     );

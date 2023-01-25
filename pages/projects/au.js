@@ -22,7 +22,13 @@ export default function Projects() {
       </Head>
       
       <div className="container-fluid mw-1450 pt-5 project-showcase-container">
-          <div className="row project-row justify-content-start pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-4">
+          <motion.div className="row project-row justify-content-start pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-4"
+          initial={{y: 0}}
+          animate={{y: -20}}
+          viewport={{ once: true }}
+          transition={{
+            y: { duration: 1, delay: 0.4},
+          }}>
               <div className="col-md-4 col-10 project-col px-0">
                   <ul className="project-list">
                       <li className="project-item project-year mt-4 mt-md-5 border-bottom text-left pb-1">
@@ -39,7 +45,7 @@ export default function Projects() {
                       </li>
                   </ul>
               </div>
-          </div>
+          </motion.div>
           <div className="row full-h px-0 pt-5 mt-5 px-md-5 px-4 justify-content-end px-md-5 px-4">
               <div className="col-md-8 col-12 px-0 text-center px-0">
                   <div className="image-container">
@@ -196,10 +202,11 @@ export default function Projects() {
               <motion.ul
                 className="project-footer-list pt-3 mt-2"
                 whileInView= {{y: 0}}
+                viewport={{ once: true }}
                 transition={{
-                  y: { duration: 1.2, repeat: 0, delay: 0.2},
+                  y: { duration: 1.2, repeat: 0, delay: 0.4},
                 }}
-                initial={{y: 50}}
+                initial={{y: 30}}
                 >
                 <li className="item luxury-title">
                   Oud Music

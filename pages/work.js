@@ -38,7 +38,13 @@ export default function Projects() {
       </Head>
 
       <div className="container-fluid design-container">
-      <div className="row home-page-row-project-images mb-5 mb-md-1 pt-5 mt-md-5 justify-content-center px-4 px-md-5">
+      <motion.div className="row home-page-row-project-images mb-5 mb-md-1 pt-5 mt-md-5 justify-content-center px-4 px-md-5"
+      initial={{y: 0}}
+      animate={{y: -20}}
+      viewport={{ once: true }}
+      transition={{
+        y: { duration: 1, delay: 0.4},
+      }}>
            <div className="col-md-12 px-0">
             <h3 className="luxury-title text-center line-before-after">Work</h3>
           </div>
@@ -47,13 +53,7 @@ export default function Projects() {
                 <p className="project-title pt-md-4 pt-2 luxury-title">
                     Abdulhamid - Gulf War<br/><span className="project-info text-normal pt-1 pt-md-0">Story <span className="divider">|</span> Web <br/> Awards x4</span>
                 </p>
-                <motion.li className="item project-image-item full-item"
-                 whileInView= {{x: 0}}
-                 transition={{
-                  x: { duration: 0.8, repeat: 0, delay: 0.2},
-                 }}
-                 initial={{x: "20px"}}
-                >
+                <li className="item project-image-item full-item">
                   <Link href="/projects/au" className="project-li-link">
                     <div className="image-container">
                       <Image
@@ -65,18 +65,11 @@ export default function Projects() {
                     </div>
                   </Link>
 
-                </motion.li>
-                
+                </li>
                 <p className="project-title pt-md-4 pt-5 mt-5 mt-md-0 luxury-title">
                   Seedstock<br/><span className="project-info text-normal pt-1 pt-md-0">Digital Design</span>
                 </p>
-                <motion.li className="item project-image-item full-item"
-                whileInView= {{x: 0}}
-                transition={{
-                 x: { duration: 0.8, repeat: 0, delay: 0.2},
-                }}
-                initial={{x: "20px"}}
-                >
+                <li className="item project-image-item full-item">
                   <Link href="/projects/seedstock" className="project-li-link">
                     <div className="image-container">
                       <Image
@@ -87,10 +80,10 @@ export default function Projects() {
                         />
                     </div>
                   </Link>
-                </motion.li>
+                </li>
               </ul>
             </div>
-        </div>
+        </motion.div>
      </div>
     </>
   )

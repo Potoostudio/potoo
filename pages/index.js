@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useInView } from "react-intersection-observer"
-import { motion, useAnimation, useTransform, useViewportScroll} from "framer-motion"
+import { motion, useAnimation, useTransform} from "framer-motion"
 
 
 export default function Home() {
@@ -57,7 +57,7 @@ export default function Home() {
              initial={{opacity: 0}}
              animate={{opacity: 1}}
              transition={{
-               opacity: { duration: 1, delay: 0.9},
+               opacity: { duration: 1, delay: 0.4},
              }}
              >
                 <h1 className="main-page-impression-text-large luxury-title">
@@ -73,7 +73,12 @@ export default function Home() {
             <h3 className="luxury-title text-center line-before-after">We</h3>
           </div>
         </div>
-        <div className="row px-md-5 px-4 justify-content-between pt-4">
+        <motion.div className="row px-md-5 px-4 justify-content-between pt-4"
+        initial={{y: 0}}
+        animate={{y: -20}}
+        transition={{
+          y: { duration: 1, delay: 0.4},
+        }}>
           <div className="col-md-5 px-0 col-12">
             <h6 className="text-capitalize font-bolder">We are A branding studio based in Denver.</h6>
           </div>
@@ -97,7 +102,7 @@ export default function Home() {
               </li>
             </ul>
           </div>
-        </div>
+        </motion.div>
       </div>
      <div className="container-fluid design-container">
         <div className="row home-page-row-project-images mb-5 mb-md-1 pt-5 mt-md-5 justify-content-center px-4 px-md-5">
@@ -105,17 +110,18 @@ export default function Home() {
             <h3 className="luxury-title text-center line-before-after">Work</h3>
           </div>
           <div className="col-md-12 px-0">
-              <ul className="project-list-image-list pt-5 pt-md-5 mt-md-4">
+              <motion.ul className="project-list-image-list pt-5 pt-md-5 mt-md-4"
+              initial={{y: 0}}
+              whileInView={{y: -20}}
+              viewport={{ once: true }}
+              transition={{
+                y: { duration: 1, delay: 0.4},
+              }}
+              >
                 <p className="project-title pt-md-4 pt-2 luxury-title">
                     Abdulhamid - Gulf War<br/><span className="project-info text-normal pt-1 pt-md-0">Story <span className="divider">|</span> Web <br/> Awards x4</span>
                 </p>
-                <motion.li className="item project-image-item full-item"
-                 whileInView= {{x: 0}}
-                 transition={{
-                  x: { duration: 0.8, repeat: 0, delay: 0.2},
-                 }}
-                 initial={{x: "20px"}}
-                >
+                <li className="item project-image-item full-item">
                   <Link href="/projects/au" className="project-li-link">
                     <div className="image-container">
                       <Image
@@ -127,18 +133,12 @@ export default function Home() {
                     </div>
                   </Link>
 
-                </motion.li>
+                </li>
                 
                 <p className="project-title pt-md-4 pt-5 mt-5 mt-md-0 luxury-title">
                   Seedstock<br/><span className="project-info text-normal pt-1 pt-md-0">Digital Design</span>
                 </p>
-                <motion.li className="item project-image-item full-item"
-                whileInView= {{x: 0}}
-                transition={{
-                 x: { duration: 0.8, repeat: 0, delay: 0.2},
-                }}
-                initial={{x: "-20px"}}
-                >
+                <li className="item project-image-item full-item">
                   <Link href="/projects/seedstock" className="project-li-link">
                     <div className="image-container">
                       <Image
@@ -149,8 +149,8 @@ export default function Home() {
                         />
                     </div>
                   </Link>
-                </motion.li>
-              </ul>
+                </li>
+              </motion.ul>
             </div>
         </div>
      </div>
@@ -159,7 +159,13 @@ export default function Home() {
         <div className="col-md-12 px-0 pb-4 pb-md-0">
           <h3 className="luxury-title text-center line-before-after">Awards <sup className="color-secondary">4x</sup></h3>
         </div>
-          <div className="col-md-5 col-8 pt-md-5 pt-1 px-0">
+          <motion.div className="col-md-5 col-8 pt-md-5 pt-1 px-0"
+          initial={{y: 0}}
+          whileInView={{y: -20}}
+          viewport={{ once: true }}
+          transition={{
+            y: { duration: 1, delay: 0.4},
+          }}>
             <ul className="award-list text-left list-unstyled pl-md-0">
               <li className="award-item pt-2">
               <Image
@@ -180,8 +186,15 @@ export default function Home() {
                   />
               </li>
             </ul>
-          </div>
-          <div className="col-md-5 col-3 pt-md-5 pt-1 px-0 pb-md-0 pb-5 mb-md-0 mb-5">
+          </motion.div>
+          <motion.div className="col-md-5 col-3 pt-md-5 pt-1 px-0 pb-md-0 pb-5 mb-md-0 mb-5"
+          initial={{y: 0}}
+          whileInView={{y: -20}}
+          viewport={{ once: true }}
+          transition={{
+            y: { duration: 1, delay: 0.4},
+          }}
+          >
             <ul className="award-list text-right text-md-left list-unstyled pl-md-0">
               <li className="award-item pt-2 color-secondary">
                 3x
@@ -190,7 +203,7 @@ export default function Home() {
                 1x
               </li>
             </ul>
-          </div>
+          </motion.div>
         </div>
       </div>
     </>
