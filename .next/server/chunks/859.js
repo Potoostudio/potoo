@@ -419,11 +419,11 @@ class Head extends _react.default.Component {
                 };
                 return /*#__PURE__*/ _react.default.cloneElement(c, newProps);
             } else if (c == null ? void 0 : (ref3 = c.props) == null ? void 0 : ref3.children) {
-                const newProps = {
+                const newProps1 = {
                     ...c.props || {},
                     children: this.makeStylesheetInert(c.props.children)
                 };
-                return /*#__PURE__*/ _react.default.cloneElement(c, newProps);
+                return /*#__PURE__*/ _react.default.cloneElement(c, newProps1);
             }
             return c;
         }).filter(Boolean);

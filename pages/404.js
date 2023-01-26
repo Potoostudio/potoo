@@ -31,7 +31,7 @@ export default function NotFound() {
               <div className="col-lg-10">
                   <h1 className="404-h1 text-center">
                       Ooooops..
-                  </h1> 
+                  </h1>
                   <h5 className="404-h5 pt-lg-5 text-center">
                         This page cannot be found.
                   </h5>
@@ -39,7 +39,7 @@ export default function NotFound() {
                         Hang on, we will redirect you to Homepage in {counter} s
                   </h6>
                   <p className="404-p text-center pt-lg-5">
-                      Go back to 
+                      Go back to
                       <Link href="/">
                         <a  className="404-a"> Homepage</a>
                       </Link>

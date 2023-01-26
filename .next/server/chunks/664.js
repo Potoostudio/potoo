@@ -431,7 +431,7 @@ function formatStringOrUrl(urlObjOrString) {
     // We're in the app directory if there is no pages router.
     const isAppRouter = !pagesRouter;
     if (false) {}
-    const { href , as  } = _react.default.useMemo(()=>{
+    const { href: href1 , as  } = _react.default.useMemo(()=>{
         if (!pagesRouter) {
             const resolvedHref = formatStringOrUrl(hrefProp);
             return {
@@ -439,17 +439,17 @@ function formatStringOrUrl(urlObjOrString) {
                 as: asProp ? formatStringOrUrl(asProp) : resolvedHref
             };
         }
-        const [resolvedHref, resolvedAs] = (0, _router).resolveHref(pagesRouter, hrefProp, true);
+        const [resolvedHref1, resolvedAs] = (0, _router).resolveHref(pagesRouter, hrefProp, true);
         return {
-            href: resolvedHref,
-            as: asProp ? (0, _router).resolveHref(pagesRouter, asProp) : resolvedAs || resolvedHref
+            href: resolvedHref1,
+            as: asProp ? (0, _router).resolveHref(pagesRouter, asProp) : resolvedAs || resolvedHref1
         };
     }, [
         pagesRouter,
         hrefProp,
         asProp
     ]);
-    const previousHref = _react.default.useRef(href);
+    const previousHref = _react.default.useRef(href1);
     const previousAs = _react.default.useRef(as);
     // This will return the first child, if multiple are provided it will throw an error
     let child;
@@ -466,10 +466,10 @@ function formatStringOrUrl(urlObjOrString) {
     });
     const setRef = _react.default.useCallback((el)=>{
         // Before the link getting observed, check if visible state need to be reset
-        if (previousAs.current !== as || previousHref.current !== href) {
+        if (previousAs.current !== as || previousHref.current !== href1) {
             resetVisible();
             previousAs.current = as;
-            previousHref.current = href;
+            previousHref.current = href1;
         }
         setIntersectionRef(el);
         if (childRef) {
@@ -481,7 +481,7 @@ function formatStringOrUrl(urlObjOrString) {
     }, [
         as,
         childRef,
-        href,
+        href1,
         resetVisible,
         setIntersectionRef
     ]);
@@ -497,12 +497,12 @@ function formatStringOrUrl(urlObjOrString) {
             return;
         }
         // Prefetch the URL.
-        prefetch(router, href, as, {
+        prefetch(router, href1, as, {
             locale
         });
     }, [
         as,
-        href,
+        href1,
         isVisible,
         locale,
         prefetchEnabled,
@@ -525,7 +525,7 @@ function formatStringOrUrl(urlObjOrString) {
             if (e.defaultPrevented) {
                 return;
             }
-            linkClicked(e, router, href, as, replace, shallow, scroll, locale, isAppRouter, prefetchEnabled);
+            linkClicked(e, router, href1, as, replace, shallow, scroll, locale, isAppRouter, prefetchEnabled);
         },
         onMouseEnter (e) {
             if (!legacyBehavior && typeof onMouseEnterProp === "function") {
@@ -540,7 +540,7 @@ function formatStringOrUrl(urlObjOrString) {
             if (!prefetchEnabled && isAppRouter) {
                 return;
             }
-            prefetch(router, href, as, {
+            prefetch(router, href1, as, {
                 locale,
                 priority: true,
                 // @see {https://github.com/vercel/next.js/discussions/40268?sort=top#discussioncomment-3572642}
@@ -560,7 +560,7 @@ function formatStringOrUrl(urlObjOrString) {
             if (!prefetchEnabled && isAppRouter) {
                 return;
             }
-            prefetch(router, href, as, {
+            prefetch(router, href1, as, {
                 locale,
                 priority: true,
                 // @see {https://github.com/vercel/next.js/discussions/40268?sort=top#discussioncomment-3572642}
@@ -1698,8 +1698,8 @@ function getMiddlewareData(source, response, options) {
     const redirectTarget = response.headers.get("x-nextjs-redirect");
     if (redirectTarget) {
         if (redirectTarget.startsWith("/")) {
-            const src = (0, _parsePath).parsePath(redirectTarget);
-            const pathname = (0, _formatNextPathnameInfo).formatNextPathnameInfo(_extends({}, (0, _getNextPathnameInfo).getNextPathnameInfo(src.pathname, {
+            const src1 = (0, _parsePath).parsePath(redirectTarget);
+            const pathname1 = (0, _formatNextPathnameInfo).formatNextPathnameInfo(_extends({}, (0, _getNextPathnameInfo).getNextPathnameInfo(src1.pathname, {
                 nextConfig,
                 parseData: true
             }), {
@@ -1708,8 +1708,8 @@ function getMiddlewareData(source, response, options) {
             }));
             return Promise.resolve({
                 type: "redirect-internal",
-                newAs: `${pathname}${src.query}${src.hash}`,
-                newUrl: `${pathname}${src.query}${src.hash}`
+                newAs: `${pathname1}${src1.query}${src1.hash}`,
+                newUrl: `${pathname1}${src1.query}${src1.hash}`
             });
         }
         return Promise.resolve({
@@ -2046,7 +2046,7 @@ class Router {
                     (0, _routeLoader).getClientBuildManifest(),
                     _this.pageLoader.getMiddleware()
                 ]);
-            } catch (err) {
+            } catch (err1) {
                 // If we fail to resolve the page list or client-build manifest, we must
                 // do a server-side transition:
                 handleHardNavigation({
@@ -2108,8 +2108,8 @@ class Router {
             route = (0, _removeTrailingSlash).removeTrailingSlash(pathname);
             let routeMatch = false;
             if ((0, _isDynamic).isDynamicRoute(route)) {
-                const parsedAs = (0, _parseRelativeUrl).parseRelativeUrl(resolvedAs);
-                const asPathname = parsedAs.pathname;
+                const parsedAs1 = (0, _parseRelativeUrl).parseRelativeUrl(resolvedAs);
+                const asPathname = parsedAs1.pathname;
                 const routeRegex = (0, _routeRegex).getRouteRegex(route);
                 routeMatch = (0, _routeMatcher).getRouteMatcher(routeRegex)(asPathname);
                 const shouldInterpolate = route === asPathname;
@@ -2121,7 +2121,7 @@ class Router {
                         throw new Error((shouldInterpolate ? `The provided \`href\` (${url}) value is missing query values (${missingParams.join(", ")}) to be interpolated properly. ` : `The provided \`as\` value (${asPathname}) is incompatible with the \`href\` value (${route}). `) + `Read more: https://nextjs.org/docs/messages/${shouldInterpolate ? "href-interpolation-failed" : "incompatible-href-as"}`);
                     }
                 } else if (shouldInterpolate) {
-                    as = (0, _formatUrl).formatWithValidation(Object.assign({}, parsedAs, {
+                    as = (0, _formatUrl).formatWithValidation(Object.assign({}, parsedAs1, {
                         pathname: interpolatedAs.result,
                         query: omit(query, interpolatedAs.params)
                     }));
@@ -2170,8 +2170,8 @@ class Router {
                             rewriteAs = (0, _removeBasePath).removeBasePath(rewriteAs);
                         }
                         if (false) {}
-                        const routeRegex = (0, _routeRegex).getRouteRegex(pathname);
-                        const curRouteMatch = (0, _routeMatcher).getRouteMatcher(routeRegex)(new URL(rewriteAs, location.href).pathname);
+                        const routeRegex1 = (0, _routeRegex).getRouteRegex(pathname);
+                        const curRouteMatch = (0, _routeMatcher).getRouteMatcher(routeRegex1)(new URL(rewriteAs, location.href).pathname);
                         if (curRouteMatch) {
                             Object.assign(query, curRouteMatch);
                         }
@@ -2296,11 +2296,11 @@ class Router {
                     }
                     try {
                         yield _this.set(upcomingRouterState, routeInfo, upcomingScrollState);
-                    } catch (err) {
-                        if ((0, _isError).default(err) && err.cancelled) {
-                            Router.events.emit("routeChangeError", err, cleanedAs, routeProps);
+                    } catch (err2) {
+                        if ((0, _isError).default(err2) && err2.cancelled) {
+                            Router.events.emit("routeChangeError", err2, cleanedAs, routeProps);
                         }
-                        throw err;
+                        throw err2;
                     }
                     return true;
                 }
@@ -2334,11 +2334,11 @@ class Router {
                     }
                 }
                 return true;
-            } catch (err1) {
-                if ((0, _isError).default(err1) && err1.cancelled) {
+            } catch (err11) {
+                if ((0, _isError).default(err11) && err11.cancelled) {
                     return false;
                 }
-                throw err1;
+                throw err11;
             }
         })();
     }
@@ -2863,10 +2863,10 @@ class Router {
             const { url , as , options , key  } = state;
             if (false) {}
             this._key = key;
-            const { pathname  } = (0, _parseRelativeUrl).parseRelativeUrl(url);
+            const { pathname: pathname1  } = (0, _parseRelativeUrl).parseRelativeUrl(url);
             // Make sure we don't re-render on initial load,
             // can be caused by navigating back from an external site
-            if (this.isSsr && as === (0, _addBasePath).addBasePath(this.asPath) && pathname === (0, _addBasePath).addBasePath(this.pathname)) {
+            if (this.isSsr && as === (0, _addBasePath).addBasePath(this.asPath) && pathname1 === (0, _addBasePath).addBasePath(this.pathname)) {
                 return;
             }
             // If the downstream application returns falsy, return.
