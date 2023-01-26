@@ -20,7 +20,7 @@ export default function Projects() {
         <meta property="og:type" content="website" />
       </Head>
       
-      <div className="container-fluid mw-1450 pt-5 project-showcase-container">
+      <div className="container-fluid pt-5 project-showcase-container">
           <motion.div className="row project-row justify-content-start pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-4"
           initial={{y: 0}}
           animate={{y: -20}}
