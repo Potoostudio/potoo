@@ -1,7 +1,16 @@
 {
   "/_app": "pages/_app.js",
+  "/about": "pages/about.html",
+  "/404": "pages/404.html",
+  "/api/ga": "pages/api/ga.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/projects/jaeger-aeration": "pages/projects/jaeger-aeration.js",
-  "/": "pages/index.js"
+  "/projects/au": "pages/projects/au.html",
+  "/projects/kish": "pages/projects/kish.html",
+  "/": "pages/index.html",
+  "/projects/jaeger-aeration": "pages/projects/jaeger-aeration.html",
+  "/work": "pages/work.html",
+  "/studio": "pages/studio.html",
+  "/projects/seedstock": "pages/projects/seedstock.html",
+  "/projects/potoo": "pages/projects/potoo.html"
 }
