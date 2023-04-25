@@ -34,7 +34,7 @@ export default function Projects() {
                       <li className="project-item project-year mt-4 mt-md-5 border-bottom text-left pb-1">
                           2022
                       </li>
-                      <li className="project-item project-title luxury-title pt-5 mt-5 text-left">
+                      <li className="project-item project-title text-uppercase pt-5 mt-5 text-left">
                           Abdulhamid-Gulf War
                       </li>
                       <li className="project-item project-info text-left">

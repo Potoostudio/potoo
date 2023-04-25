@@ -40,8 +40,8 @@ export default function NotFound() {
                   </h6>
                   <p className="404-p text-center pt-lg-5">
                       Go back to
-                      <Link href="/">
-                        <a  className="404-a"> Homepage</a>
+                      <Link href="/"className="404-a">
+                        Homepage
                       </Link>
                   </p>
               </div>

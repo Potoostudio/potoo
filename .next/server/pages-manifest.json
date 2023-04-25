@@ -1,15 +1,7 @@
 {
-  "/404": "pages/404.html",
-  "/_document": "pages/_document.js",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/api/ga": "pages/api/ga.js",
-  "/about": "pages/about.html",
-  "/": "pages/index.html",
-  "/projects/au": "pages/projects/au.html",
-  "/projects/kish": "pages/projects/kish.html",
-  "/projects/seedstock": "pages/projects/seedstock.html",
-  "/work": "pages/work.html",
-  "/projects/potoo": "pages/projects/potoo.html",
-  "/studio": "pages/studio.html"
+  "/_document": "pages/_document.js",
+  "/projects/jaeger-aeration": "pages/projects/jaeger-aeration.js",
+  "/": "pages/index.js"
 }
