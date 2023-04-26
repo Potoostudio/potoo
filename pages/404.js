@@ -29,14 +29,11 @@ export default function NotFound() {
       <div className="container error-container pl-lg-5 mb-lg-5">
           <div className="row justify-content-center">
               <div className="col-lg-10">
-                  <h1 className="404-h1 text-center">
-                      Ooooops..
-                  </h1>
                   <h5 className="404-h5 pt-lg-5 text-center">
                         This page cannot be found.
                   </h5>
                   <h6 className="404-h5 pt-lg-5 text-center">
-                        Hang on, we will redirect you to Homepage in {counter} s
+                        We will redirect you to Homepage in {counter} s
                   </h6>
                   <p className="404-p text-center pt-lg-5">
                       Go back to
