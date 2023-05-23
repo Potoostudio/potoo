@@ -133,7 +133,7 @@ export default function Projects() {
                 }}
                 initial={{opacity: 0.3}}>
                   <video className="video- p-5" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%">
-                        <source src="/Jaeger-voice.mp4" type="video/mp4"/>
+                        <source src="/Jaeger-Voice.mp4" type="video/mp4"/>
                     </video>
                 </motion.div>
             </div>
