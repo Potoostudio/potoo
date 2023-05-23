@@ -104,7 +104,7 @@ export default function Projects() {
                 }}
                 initial={{opacity: 0.3}}>
                     <Image
-                        src="/Jaeger-Logo.svg"
+                        src="/Jaeger-logo.svg"
                         layout="fill"
                         className="image"
                         alt= "Jaeger Aeration Logo"/>
