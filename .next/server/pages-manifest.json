@@ -2,6 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/projects/jaeger-aeration": "pages/projects/jaeger-aeration.js",
-  "/": "pages/index.js"
+  "/projects/jaeger-aeration": "pages/projects/jaeger-aeration.js"
 }

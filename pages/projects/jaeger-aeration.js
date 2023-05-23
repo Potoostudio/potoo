@@ -19,182 +19,265 @@ export default function Projects() {
         <meta property="og:url" content="https://potoo.studio/potoo-project" />
         <meta property="og:type" content="website" />
       </Head>
-      
-      
-      <div className="container-fluid pt-5 project-showcase-container">
-          <motion.div className="row project-row justify-content-start pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-4"
-          initial={{y: 0}}
-          animate={{y: -20}}
-          viewport={{ once: true }}
-          transition={{
-            y: { duration: 1, delay: 0.4},
-          }}>
-          <div className="col-md-4 col-10 project-col px-0">
-                  <ul className="project-list">
-                      <li className="project-item project-year mt-4 mt-md-5 border-bottom text-left pb-1">
-                          2023
-                      </li>
-                      <li className="project-item project-title text-uppercase text- pt-5 mt-5 text-left">
-                        Jaeger — Aeration
-                      </li>
-                      <li className="project-item project-info text-left">
-                        Brand | Web
-                      </li>
-                      <li className="project-item project-impression color-secondary pt-5 text-left">
-                        Impression <span className="float-right"><em className="impression-lines">- Stretched -</em></span>
-                      </li>
-                  </ul>
-              </div>
-          </motion.div>
-          <div className="row justify-content-between pt-5 mt-5 pb-5 mb-5 pt-md-5 mt-md-5 px-0 px-md-4">
-           <motion.div className="col-md-5 col-10"
+
+
+      <div className="container-fluid pt-5 mt-md-5">
+          <div className="row project-row justify-content-start pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5">
+            <motion.div className="col-md-4 col-10"
             whileInView= {{y: 0}}
             viewport={{ once: true }}
             transition={{
-            y: { duration: 0.8, repeat: 0, delay: 0.4},
+            y: { duration: 0.8, repeat: 0, delay: 0.2},
             }}
-            initial={{y: "15px"}}
-           >
-            <h1 className="normal-text">
-                Logo
-            </h1>
-           </motion.div>
-           <div className="col-md-5 col-12 pt-md-0 pt-3">
-            <motion.div className="image-container"
-            whileInView= {{opacity: 1}}
-            viewport={{ once: true }}
-            transition={{
-            opacity: { duration: 0.8, repeat: 0, delay: 0.4},
-            }}
-            initial={{opacity: 0}}
-            >
-            <p className="normal border-bottom pb-2">
-                The stretched <em>em dash</em> displays the coverage of the <span className="font-weight-bold">US</span> and <span className="font-weight-bold">Europe </span>
-                markets.
-            </p>
-            <Image
-                src="/Jaeger-logo.svg"
-                layout="fill"
-                className="image pt-4"
-                alt= "Jaeger Aeration Logo"
-            />
-            </motion.div>
-           </div>
-        </div>
-
-        <div className="row justify-content-between pt-5 mt-5 pb-5 mb-5 pt-md-5 mt-md-5 px-0 px-md-4">
-            <motion.div className="col-md-5 col-10 pt-md-5 mt-md-5"
-                whileInView= {{y: 0}}
-                viewport={{ once: true }}
-                transition={{
-                y: { duration: 0.8, repeat: 0, delay: 0.4},
-                }}
-                initial={{y: "15px"}}
-            >
-                <h1 className="normal-text">
-                    Voice
-                </h1>
-            </motion.div>
-            <div className="col-md-5 col-12 pt-md-5 mt-md-5 pt-3">
-                <motion.div className="image-container"
-                whileInView= {{opacity: 1}}
-                viewport={{ once: true }}
-                transition={{
-                opacity: { duration: 0.8, repeat: 0, delay: 0.4},
-                }}
-                initial={{opacity: 0}}
-                >
-                <p className="normal border-bottom pb-2">
-                <span className="font-weight-bold">Pioneer</span> to emphasize the 50 years in business <br/>
-                <span className="font-weight-bold">Fine-Bubble</span> describes the core of the business
-                </p>
-                <Image
-                    src="/Jaeger-logo-with-voice.svg"
-                    layout="fill"
-                    className="image pt-4"
-                    alt= "Jaeger Aeration Logo"
-                />
-                </motion.div>
-            </div>
-        </div>
-        <div className="row justify-content-between pt-5 mt-5 pb-5 mb-5 pt-md-5 mt-md-5 px-0 px-md-4">
-            <motion.div className="col-md-2 col-10 pt-md-5 mt-md-5"
-                whileInView= {{y: 0}}
-                viewport={{ once: true }}
-                transition={{
-                y: { duration: 0.8, repeat: 0, delay: 0.4},
-                }}
-                initial={{y: "15px"}}
-            >
-                <h1 className="normal-text">
-                    Brand Guidelines
-                </h1>
-            </motion.div>
-            <div className="col-md-8 col-12 pt-md-5 mt-md-5">
-                <motion.div className="image-container"
-                whileInView= {{opacity: 1}}
-                viewport={{ once: true }}
-                transition={{
-                opacity: { duration: 0.8, repeat: 0, delay: 0.4},
-                }}
-                initial={{opacity: 0}}
-                >
-                <Image
-                    src="/Jaeger-brand-identity.jpg"
-                    layout="fill"
-                    className="image pt-4"
-                    alt= "Jaeger Aeration  brand guidelines"
-                />
-                <div className="pt-3">
-                    <Link href="https://heyzine.com/flip-book/d906398ae0.html" target="_blank" className="text-light link-opacity-75 link-opacity-100-hover text-decoration-none">Brand Guidelines</Link>
+            initial={{y: "25px"}}>
+                <div className="image-container">
+                    <Image
+                        src="/Jaeger-Hard-Hat.png"
+                        layout="fill"
+                        className="image"
+                        alt= "Jaeger Aeration Logo"/>
                 </div>
-                </motion.div>
+            </motion.div>
+          </div>
+          <motion.div className="row project-row justify-content-md-end pb-md-5 pt-4 pt-md-0 mt-0 mt-md-5 pb-5 pb-md-0 px-md-5"
+          whileInView= {{y: 0}}
+          viewport={{ once: true }}
+          transition={{
+          y: { duration: 0.8, repeat: 0, delay: 0.2},
+          }}
+          initial={{y: "25px"}}>
+            <div className="col-md-2 col-10">
+               <p className="project-title">
+                   <span className="color-secondary">Client:</span> Jaeger Aeration
+               </p>
             </div>
-        </div>
-        <div className="row justify-content-between pt-5 mt-5 pb-5 mb-5 pt-md-5 mt-md-5 px-0 px-md-4">
-            <motion.div className="col-md-2 col-10 pt-md-5 mt-md-5"
-                whileInView= {{y: 0}}
+            <div className="col-md-2 col-10">
+               <p className="project-title">
+                   <span className="color-secondary">Type:</span> Branding and Web
+               </p>
+            </div>
+            <div className="col-md-3 col-10">
+               <p className="project-title">
+                   <span className="color-secondary">Components:</span> UI/UX, Stationary Design, Digital
+                           Design, Brand Identity, and Web
+               </p>
+            </div>
+          </motion.div>
+
+          <div className="row project-row justify-content-md-center pb-md-5 pt-6rem pt-lg-8rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+            <div className="col-md-2 col-11">
+                <motion.h3 className="luxury-title text-capitalize"
+                whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
-                y: { duration: 0.8, repeat: 0, delay: 0.4},
+                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                 }}
-                initial={{y: "15px"}}
-            >
-                <h1 className="normal-text">
-                    Visual Design
-                </h1>
-            </motion.div>
-            <div className="col-md-8 col-12 pt-md-5 mt-md-5">
+                initial={{opacity: 0.3}}>
+                    Jaeger Aeration
+                </motion.h3>
+            </div>
+            <div className="col-md-5 col-11 pt-2 pt-md-0">
+                <motion.p className="normal-text"
+                whileInView= {{opacity: 1}}
+                viewport={{ once: true }}
+                transition={{
+                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                }}
+                initial={{opacity: 0.25}}>
+                    Is a wastewater treatment company <strong>“Pioneer of Fine-Bubble” </strong>
+                    Jäger created the world’s first fine-bubble membrane
+                    diffuser in <em>1973</em> as a replacement for ceramic diffusers. <br/> <br/>
+
+                    We wanted to display the <em>50 years</em> in business with the
+                    new voice  “Pioneer of Fine-Bubble” and give <strong>Jaeger
+                    Aeration</strong> a look for the future.
+                </motion.p>
+            </div>
+          </div>
+          <div className="row project-row justify-content-center pb-md-5 pt-6rem pt-lg-8rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+            <div className="col-md-10 col-12">
                 <motion.div className="image-container"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
-                opacity: { duration: 0.8, repeat: 0, delay: 0.4},
+                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                 }}
-                initial={{opacity: 0}}
-                >
-                <Image
-                    src="/Jaeger-visual-design.jpg"
-                    layout="fill"
-                    className="image pt-4"
-                    alt= "Jaeger Aeration Visual Design"
-                />
+                initial={{opacity: 0.3}}>
+                    <Image
+                        src="/Jaeger-Logo.svg"
+                        layout="fill"
+                        className="image"
+                        alt= "Jaeger Aeration Logo"/>
                 </motion.div>
             </div>
-        </div>
-        <div className="row justify-content-md-end pt-6rem mt-5 pb5 mt-md-5 px-0 px-md-4">
-            <div className="col-12 col-md-4 mt-md-5 text-left pb-md-5 pt-md-5 pb-3 pt-lg-6rem">
-                <h4 className="">This project made under the influence of:</h4>
-            </div>
-            <div className="col-12 col-md-4 text-left pt-md-5 mt-md-5 pt-lg-6rem">
-            <motion.ul className="list pl-md-0 pl-3"
-                whileInView= {{y: 0}}
+            <div className="col-md-10 col-12">
+                <motion.h6 className="text-uppercase font-weight-bolder text-md-center"
+                whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
-                  y: { duration: 1.2, repeat: 0, delay: 0.4},
+                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                 }}
-                initial={{y: 30}}
-                >
+                initial={{opacity: 0.3}}>
+                    logo
+                </motion.h6>
+            </div>
+          </div>
+
+          <div className="row project-row justify-content-around pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+            <div className="col-md-5 col-11 bg-yellow">
+                <motion.div className=""
+                whileInView= {{opacity: 1}}
+                viewport={{ once: true }}
+                transition={{
+                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                }}
+                initial={{opacity: 0.3}}>
+                  <video className="video- p-5" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%">
+                        <source src="/Jaeger-voice.mp4" type="video/mp4"/>
+                    </video>
+                </motion.div>
+            </div>
+            <div className="col-md-5 col-12">
+
+                <h6 className="font-weight-bolder text-uppercase text-left pt-md-5 pt-3">
+                    Voice
+                </h6>
+                <motion.div className="image-container pt-md-5 pt-2"
+                whileInView= {{opacity: 1}}
+                viewport={{ once: true }}
+                transition={{
+                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                }}
+                initial={{opacity: 0.3}}>
+                    <Image
+                    src="/Jaeger-Voice.svg"
+                    layout="fill"
+                    className="image"
+                    alt= "Jaeger Aeration Logo"/>
+                </motion.div>
+            </div>
+          </div>
+
+          <div className="row project-row justify-content-center pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+            <motion.div className="col-md-5 col-11"
+                whileInView= {{opacity: 1}}
+                viewport={{ once: true }}
+                transition={{
+                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                }}
+                initial={{opacity: 0.3}}>
+                <h6 className="text-uppercase font-weight-bolder">
+                    Systems
+                </h6>
+                <p className="pt-4">
+                    We used <em>typography</em>, <em>photography</em>, and <em>design</em>
+                    to showcase the energy efficiency of <strong>Jaeger’s </strong>
+                    new systems designed and built for lagoons
+                    and basins.
+                </p>
+            </motion.div>
+          </div>
+
+          <div className="row project-row justify-content-around pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+            <div className="col-md-4 col-11 bg-light-purple">
+                  <motion.video className="video- p-5" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%"
+                    whileInView= {{opacity: 1}}
+                    viewport={{ once: true }}
+                    transition={{
+                    opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                   }}
+                   initial={{opacity: 0.3}}>
+                        <source src="/OxyLift&OxyPod.mp4" type="video/mp4"/>
+                    </motion.video>
+            </div>
+            <div className="col-md-4 col-11 bg-light-orange mt-4 mt-md-0">
+                <motion.div className="image-container"
+                    whileInView= {{opacity: 1}}
+                    viewport={{ once: true }}
+                    transition={{
+                    opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                }}
+                    initial={{opacity: 0.3}}>
+                    <Image
+                    src="/Jaeger-Products.svg"
+                    layout="fill"
+                    className="image p-5"
+                    alt= "Jaeger Aeration Products"/>
+                </motion.div>
+            </div>
+            <div className="col-md-3 col-12 pt-5">
+                <h6 className="text-uppercase font-weight-bolder">
+                    Products
+                </h6>
+                <motion.p className="pt-4"
+                    whileInView= {{opacity: 1}}
+                    viewport={{ once: true }}
+                    transition={{
+                    opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                }}
+                    initial={{opacity: 0.3}}>
+                    Each product has a vital role in
+                    making the systems and a unique
+                    identity. We aimed to highlight
+                    their diversity and importance
+                </motion.p>
+            </div>
+          </div>
+
+          <div className="row project-row justify-content-start pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+            <div className="col-md-12 col-12">
+                <h6 className="text-uppercase font-weight-bolder">
+                    Visuals
+                </h6>
+            </div>
+            <div className="col-md-12 col-12 pt-md-3">
+                    <motion.div className="image-container p-0"
+                        whileInView= {{opacity: 1}}
+                        viewport={{ once: true }}
+                        transition={{
+                        opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                    }}
+                        initial={{opacity: 0.3}}>
+                        <Image
+                        src="/Jaeger-Brand-Visuals.jpg"
+                        layout="fill"
+                        className="image p-0"
+                        alt= "Jaeger Aeration Visuals"/>
+                    </motion.div>
+                </div>
+          </div>
+
+          <div className="row project-row justify-content-start pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+            <div className="col-md-12 col-12 pt-md-3">
+                    <motion.div className="image-container p-0"
+                        whileInView= {{opacity: 1}}
+                        viewport={{ once: true }}
+                        transition={{
+                        opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                    }}
+                        initial={{opacity: 0.45}}>
+                        <Image
+                        src="/Jaeger-Web.jpg"
+                        layout="fill"
+                        className="image p-0"
+                        alt= "Jaeger Aeration Visuals"/>
+                    </motion.div>
+                </div>
+                <div className="col-md-12 col-12 pt-4 text-center">
+                    <h6 className="text-uppercase font-weight-bolder">
+                        Web
+                    </h6>
+                    <Link href="#" className="text-decoration-underline link-text">
+                        Website Link
+                    </Link>
+            </div>
+          </div>
+          <div className="row project-row justify-content-around pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+            <div className="col-md-4 col-12">
+                <h6 className="text-uppercase font-weight-bolder">
+                    This project made under the influence of:
+                </h6>
+                <ul className="list pl-3">
                     <li className="item">
                         Typography
                     </li>
@@ -204,9 +287,54 @@ export default function Projects() {
                     <li className="item">
                         Cappuccino
                     </li>
-                </motion.ul>
-            </div>
-        </div>
+                </ul>
+                </div>
+                <div className="col-md-2 col-5 bg-white px-0">
+                    <motion.div className="image-container"
+                            whileInView= {{opacity: 1}}
+                            viewport={{ once: true }}
+                            transition={{
+                            opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                        }}
+                            initial={{opacity: 0.45}}>
+                            <Image
+                            src="/Type.jpg"
+                            layout="fill"
+                            className="image p-md-3 p-2"
+                            alt= "Type"/>
+                    </motion.div>
+                </div>
+                <div className="col-md-2 col-5 bg-white px-0">
+                    <motion.div className="image-container"
+                            whileInView= {{opacity: 1}}
+                            viewport={{ once: true }}
+                            transition={{
+                            opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                        }}
+                            initial={{opacity: 0.45}}>
+                            <Image
+                            src="/Sunny-Days.jpg"
+                            layout="fill"
+                            className="image p-md-3 p-2"
+                            alt= "Sunny Days"/>
+                    </motion.div>
+                </div>
+                <div className="col-md-2 col-5 bg-white px-0 mt-3 mt-md-0">
+                    <motion.div className="image-container"
+                            whileInView= {{opacity: 1}}
+                            viewport={{ once: true }}
+                            transition={{
+                            opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                        }}
+                            initial={{opacity: 0.45}}>
+                            <Image
+                            src="/Cappuccino.jpg"
+                            layout="fill"
+                            className="image p-md-3 p-2"
+                            alt= "Cappuccino"/>
+                    </motion.div>
+                </div>
+          </div>
       </div>
 
     </>
