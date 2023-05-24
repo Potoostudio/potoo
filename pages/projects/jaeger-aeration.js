@@ -27,7 +27,7 @@ export default function Projects() {
             whileInView= {{y: 0}}
             viewport={{ once: true }}
             transition={{
-            y: { duration: 0.8, repeat: 0, delay: 0.2},
+            y: { duration: 0.8, repeat: 0, delay: 0.2, ease: "easeOut"},
             }}
             initial={{y: "25px"}}>
                 <div className="image-container">
@@ -35,7 +35,7 @@ export default function Projects() {
                         src="/Jaeger-Hard-Hat.png"
                         layout="fill"
                         className="image"
-                        alt= "Jaeger Aeration Logo"/>
+                        alt= "Jaeger Aeration Hard Hat"/>
                 </div>
             </motion.div>
           </div>
@@ -124,7 +124,7 @@ export default function Projects() {
           </div>
 
           <div className="row project-row justify-content-around pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
-            <div className="col-md-5 col-11 bg-yellow">
+            <div className="col-md-5 col-11 bg-yellow px-0">
                 <motion.div className=""
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
@@ -132,7 +132,7 @@ export default function Projects() {
                 opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                 }}
                 initial={{opacity: 0.3}}>
-                  <video className="video- p-5" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%">
+                  <video className="video- p-md-5 p-3" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%">
                         <source src="/Jaeger-Voice.mp4" type="video/mp4"/>
                     </video>
                 </motion.div>
@@ -153,13 +153,13 @@ export default function Projects() {
                     src="/Jaeger-Voice.svg"
                     layout="fill"
                     className="image"
-                    alt= "Jaeger Aeration Logo"/>
+                    alt= "Jaeger Aeration Voice"/>
                 </motion.div>
             </div>
           </div>
 
           <div className="row project-row justify-content-center pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
-            <motion.div className="col-md-5 col-11"
+            <motion.div className="col-md-5 col-12"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
@@ -170,7 +170,7 @@ export default function Projects() {
                     Systems
                 </h6>
                 <p className="pt-4">
-                    We used <em>typography</em>, <em>photography</em>, and <em>design</em>
+                    We used <em>typography</em>, <em>photography</em>, and <em>design </em>
                     to showcase the energy efficiency of <strong>Jaeger’s </strong>
                     new systems designed and built for lagoons
                     and basins.
@@ -179,8 +179,8 @@ export default function Projects() {
           </div>
 
           <div className="row project-row justify-content-around pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
-            <div className="col-md-4 col-11 bg-light-purple">
-                  <motion.video className="video- p-5" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%"
+            <div className="col-md-4 col-11 bg-light-purple px-0">
+                  <motion.video className="video- p-md-5 p-4" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%"
                     whileInView= {{opacity: 1}}
                     viewport={{ once: true }}
                     transition={{
@@ -190,7 +190,7 @@ export default function Projects() {
                         <source src="/OxyLift&OxyPod.mp4" type="video/mp4"/>
                     </motion.video>
             </div>
-            <div className="col-md-4 col-11 bg-light-orange mt-4 mt-md-0">
+            <div className="col-md-4 col-11 bg-light-orange mt-4 mt-md-0 px-0">
                 <motion.div className="image-container"
                     whileInView= {{opacity: 1}}
                     viewport={{ once: true }}
@@ -201,7 +201,7 @@ export default function Projects() {
                     <Image
                     src="/Jaeger-Products.svg"
                     layout="fill"
-                    className="image p-5"
+                    className="image p-md-5 p-4"
                     alt= "Jaeger Aeration Products"/>
                 </motion.div>
             </div>
@@ -253,14 +253,14 @@ export default function Projects() {
                         whileInView= {{opacity: 1}}
                         viewport={{ once: true }}
                         transition={{
-                        opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                        opacity: { duration: 0.8, repeat: 0, delay: 0.2, ease: "easeOut"},
                     }}
                         initial={{opacity: 0.45}}>
                         <Image
                         src="/Jaeger-Web.jpg"
                         layout="fill"
                         className="image p-0"
-                        alt= "Jaeger Aeration Visuals"/>
+                        alt= "Jaeger Aeration Website"/>
                     </motion.div>
                 </div>
                 <div className="col-md-12 col-12 pt-4 text-center">
@@ -272,12 +272,12 @@ export default function Projects() {
                     </Link>
             </div>
           </div>
-          <div className="row project-row justify-content-around pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+          <div className="row project-row justify-content-md-around justify-content-start pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
             <div className="col-md-4 col-12">
                 <h6 className="text-uppercase font-weight-bolder">
                     This project made under the influence of:
                 </h6>
-                <ul className="list pl-3">
+                <ul className="list pl-3 pt-md-3">
                     <li className="item">
                         Typography
                     </li>
@@ -289,7 +289,7 @@ export default function Projects() {
                     </li>
                 </ul>
                 </div>
-                <div className="col-md-2 col-5 bg-white px-0">
+                <div className="col-md-2 col-5 bg-white px-0 ml-3 ml-md-0">
                     <motion.div className="image-container"
                             whileInView= {{opacity: 1}}
                             viewport={{ once: true }}
@@ -301,10 +301,10 @@ export default function Projects() {
                             src="/Type.jpg"
                             layout="fill"
                             className="image p-md-3 p-2"
-                            alt= "Type"/>
+                            alt= "Typography"/>
                     </motion.div>
                 </div>
-                <div className="col-md-2 col-5 bg-white px-0">
+                <div className="col-md-2 col-5 bg-white px-0 ml-3 ml-md-0">
                     <motion.div className="image-container"
                             whileInView= {{opacity: 1}}
                             viewport={{ once: true }}
@@ -319,7 +319,7 @@ export default function Projects() {
                             alt= "Sunny Days"/>
                     </motion.div>
                 </div>
-                <div className="col-md-2 col-5 bg-white px-0 mt-3 mt-md-0">
+                <div className="col-md-2 col-5 bg-white px-0 mt-3 mt-md-0 ml-3 ml-md-0">
                     <motion.div className="image-container"
                             whileInView= {{opacity: 1}}
                             viewport={{ once: true }}
