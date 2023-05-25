@@ -36,7 +36,7 @@ export default class Footer extends Component {
                         <Image
                             src="/Potoo-logo-word-white.svg"
                             layout='fill'
-                            className="image mw-62p"
+                            className="image"
                             alt="Potoo Studio Logo Word"
                         />
                       </div>
