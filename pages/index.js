@@ -95,7 +95,7 @@ export default function Home() {
                   <Link href="/projects/jaeger-aeration" className="project-li-link">
                     <div className="image-container">
                       <Image
-                          src="/Jaeger-Project-Profile-Image.svg"
+                          src="/Jaeger-Building-Signage.jpg"
                           layout="fill"
                           className="image"
                           alt="Project Jaeger Aeration"
