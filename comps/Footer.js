@@ -30,7 +30,7 @@ export default class Footer extends Component {
             <>
           <div className="container-fluid footer-container pt-5 pb-md-0 pb-4">
               <div className="row justify-content-between pb-md-3 mx-md-5 pt-md-4">
-                  <div className="col-12 col-md-4 text-left pr-md-5 pb-md-0 pb-4">
+                  <div className="col-12 text-left pr-md-5 pb-md-0 pb-4">
                   <span className="footer-small-title">we are</span>
                       <div className="image-container">
                         <Image
@@ -41,7 +41,7 @@ export default class Footer extends Component {
                         />
                       </div>
                   </div>
-                  <div className="col-md-2 col-6 text-left pt-4 pt-md-0">
+                  <div className="col-md-2 col-6 text-left pt-4 pt-md-5">
                       <ul className="contact-list">
                           <span className="footer-small-title">contact info</span>
                           <li className="item">
@@ -58,7 +58,7 @@ export default class Footer extends Component {
                           </li>
                       </ul>
                     </div>
-                    <div className="col-md-2 col-4 pt-4 pt-md-0">
+                    <div className="col-md-2 col-4 pt-4 pt-md-5">
                         <ul className="media-list text-right text-md-left">
                         <span className="footer-small-title">social media</span>
                             <li className="item">
