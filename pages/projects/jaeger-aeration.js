@@ -13,10 +13,10 @@ export default function Projects() {
 	  	<title>POTOO STUDIO | Jaeger—Aeration </title>
         <link rel="icon" href="favicon.ico" />
         <link rel="manifest" href="/manifest.json"/>
-        <meta name="description" content="Potoo Project Jaeger—Aeration | Branding project, logo, website design & development, Visual Design"/>
+        <meta name="description" content="POTOO STUDIO Project Jaeger—Aeration | Branding project, logo, website design & development, Visual Design"/>
         <meta property="og:title" content="POTOO STUDIO | Projects, Denver" />
-        <meta property="og:description" content="Potoo Studio project | Branding project, logo, website design & development, Visual Design`"/>
-        <meta property="og:url" content="https://potoo.studio/potoo-project" />
+        <meta property="og:description" content="POTOO STUDIO project | Branding project, logo, website design & development, Visual Design`"/>
+        <meta property="og:url" content="https://potoo.studio/jaeger-aeration" />
         <meta property="og:type" content="website" />
       </Head>
 
@@ -66,7 +66,7 @@ export default function Projects() {
 
           <div className="row project-row justify-content-md-center pb-md-5 pt-6rem pt-lg-8rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
             <div className="col-md-2 col-11">
-                <motion.h3 className="luxury-title text-capitalize"
+                <motion.h3 className="luxury-title text-capitalize text-md-right"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
