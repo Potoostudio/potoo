@@ -1,1 +1,4 @@
-{}
+{
+  "/studio": "app/studio.js",
+  "/work": "app/work.js"
+}

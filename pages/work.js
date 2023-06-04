@@ -50,17 +50,32 @@ export default function Projects() {
           </div>
           <div className="col-md-12 px-0">
               <ul className="project-list-image-list pt-5 pt-md-5 mt-md-4">
-              <p className="project-title pt-md-4 mt-md-0 pt-5 mt-5 pb-3 mb-0 luxury-title">
+                <p className="project-title pt-md-4 mt-md-0 pt-5 mt-5 pb-3 mb-0 luxury-title">
                     JAEGER—AERATION<br/><span className="project-info text-normal pt-1 pt-md-0">Brand <span className="divider">|</span> Web</span>
                 </p>
                 <li className="item project-image-item full-item">
                   <Link href="/projects/jaeger-aeration" className="project-li-link">
                     <div className="image-container">
                       <Image
-                          src="/Jaeger-Project-Profile-Image.svg"
+                          src="/Jaeger-Building-Signage.jpg"
                           layout="fill"
                           className="image"
                           alt="Project Jaeger Aeration"
+                          />
+                    </div>
+                  </Link>
+                </li>
+                <p className="project-title pt-md-4 mt-md-0 pt-5 mt-5 pb-3 mb-0 luxury-title">
+                    36 Days of Type<br/><span className="project-info text-normal pt-1 pt-md-0">Design</span>
+                </p>
+                <li className="item project-image-item full-item">
+                  <Link href="/projects/36daysoftype-10" className="project-li-link">
+                    <div className="image-container">
+                      <Image
+                          src="/Type-Project-Img.jpg"
+                          layout="fill"
+                          className="image"
+                          alt="36 days of type"
                           />
                     </div>
                   </Link>

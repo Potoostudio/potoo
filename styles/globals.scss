@@ -358,7 +358,7 @@ a {
           display: grid;
           grid-template-columns: repeat(12, 1fr);
           row-gap: 0;
-          padding-bottom: 20%;
+          padding-bottom: 0;
 
           .full-item {
             grid-column-start: 1;
@@ -1865,8 +1865,8 @@ a {
             margin-left: 0;
             display: grid;
             grid-template-columns: repeat(12, 1fr);
-            row-gap: 15%;
-            padding-bottom: 30%;
+            row-gap: 12rem;
+            padding-bottom: 0;
 
             .full-item {
               grid-column-start: 6;

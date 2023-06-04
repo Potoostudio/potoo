@@ -22,8 +22,8 @@ export default function Projects() {
 
 
       <div className="container-fluid pt-5 mt-md-5">
-          <div className="row project-row justify-content-around pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5">
-            <motion.div className="col-md-10 col-10"
+          <div className="row project-row justify-content-md-start justify-content-center pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5">
+            <motion.div className="col-md-2 col-5"
             whileInView= {{y: 0}}
             viewport={{ once: true }}
             transition={{
@@ -32,10 +32,10 @@ export default function Projects() {
             initial={{y: "25px"}}>
                 <div className="image-container">
                     <Image
-                        src="/36daysoftype-z-8-3.svg"
+                        src="/36daysoftype-3.svg"
                         layout="fill"
                         className="image"
-                        alt= "36 days of type z"/>
+                        alt= "36 days of type 3"/>
                 </div>
             </motion.div>
             

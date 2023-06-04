@@ -99,6 +99,22 @@ export default function Home() {
                           layout="fill"
                           className="image"
                           alt="Project Jaeger Aeration"
+                          loading="lazy"
+                          />
+                    </div>
+                  </Link>
+                </li>
+                <p className="project-title pt-md-4 mt-md-0 pt-5 mt-5 pb-3 mb-0 luxury-title">
+                    36 Days of Type<br/><span className="project-info text-normal pt-1 pt-md-0">Design</span>
+                </p>
+                <li className="item project-image-item full-item">
+                  <Link href="/projects/36daysoftype-10" className="project-li-link">
+                    <div className="image-container">
+                      <Image
+                          src="/Type-Project-Img.jpg"
+                          layout="fill"
+                          className="image"
+                          alt="36 days of type"
                           />
                     </div>
                   </Link>
