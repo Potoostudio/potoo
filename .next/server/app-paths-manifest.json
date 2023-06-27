@@ -1,4 +1,3 @@
 {
-  "/studio": "app/studio.js",
-  "/work": "app/work.js"
+  "/studio": "app/studio.js"
 }
