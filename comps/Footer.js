@@ -41,7 +41,7 @@ export default class Footer extends Component {
                         />
                       </div>
                   </div>
-                  <div className="col-md-2 col-6 text-left pt-4 pt-md-5">
+                  <div className="col-md-2 col-6 text-left pt-4 pt-md-5 mt-md-4 mt-0">
                       <ul className="contact-list">
                           <span className="footer-small-title">contact info</span>
                           <li className="item">
@@ -58,7 +58,7 @@ export default class Footer extends Component {
                           </li>
                       </ul>
                     </div>
-                    <div className="col-md-2 col-4 pt-4 pt-md-5">
+                    <div className="col-md-2 col-4 pt-4 pt-md-5 mt-md-4 mt-0">
                         <ul className="media-list text-right text-md-left">
                         <span className="footer-small-title">social media</span>
                             <li className="item">
@@ -79,7 +79,7 @@ export default class Footer extends Component {
                         </ul>
                     </div>
               </div>
-              <div className="row justify-content-between pb-md-4 mx-md-5 pt-md-5 pt-4">
+              <div className="row justify-content-between pb-md-4 mx-md-5 pt-md-4 pt-4">
                   <div className="col-11 col-md-4 text-left">
                     <p className=" text-left mb-md-3 mb-0 footer-bottom-info color-secondary">
                         2000 S Colorado Blvd Tower 1 Suite 2000-511 Denver, CO 80222
