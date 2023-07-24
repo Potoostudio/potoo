@@ -22,7 +22,7 @@ function Studio() {
         <div className="container-fluid pt-5 mt-5">
             <div className="row pt-md-5 mt-5 py-md-5 px-4 px-md-5">
                 <div className="col-12 px-0 py-md-5 mt-5">
-                    <h1 className="luxury-title font-large font-weight-bolder text-md-center text-left text-capitalize">
+                    <h1 className="luxury-title font-large text-md-center text-left text-capitalize">
                         We are A branding studio based in Denver
                     </h1>
                 </div>
