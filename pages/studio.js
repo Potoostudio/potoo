@@ -41,7 +41,7 @@ function Studio() {
                     <h5 className="luxury-title text-center text-white line-before-after">we specialize in</h5>
                 </div>
                 <div className="col-md-5 col-12 pt-md-0 pt-4 px-0">
-                    <h3 className="text-white font-weight-bold">
+                    <h3 className="text-white luxury-title">
                         Brand strategy
                     </h3>
                 </div>
@@ -53,7 +53,7 @@ function Studio() {
                     </p>
                 </div>
                 <div className="col-md-5 col-12  pt-md-5 mt-4 pt-3 px-0 ">
-                    <h3 className="text-white font-weight-bold">
+                    <h3 className="text-white luxury-title">
                         Naming
                     </h3>
                 </div>
@@ -65,7 +65,7 @@ function Studio() {
                     </p>
                 </div>
                 <div className="col-md-5 col-12 pt-md-5 mt-5 pt-3 px-0">
-                    <h3 className="text-white font-weight-bold">
+                    <h3 className="text-white luxury-title">
                         Brand Identity
                     </h3>
                 </div>
@@ -77,7 +77,7 @@ function Studio() {
                     </p>
                 </div>
                 <div className="col-md-5 col-12 pt-md-5 mt-5 pt-3 px-0">
-                    <h3 className="text-white font-weight-bold">
+                    <h3 className="text-white luxury-title">
                         Design
                     </h3>
                 </div>
@@ -89,7 +89,7 @@ function Studio() {
                     </p>
                 </div>
                 <div className="col-md-5 col-12 pt-md-5 mt-5 pt-3 px-0">
-                    <h3 className="text-white font-weight-bold">
+                    <h3 className="text-white luxury-title">
                         Web Development
                     </h3>
                 </div>
