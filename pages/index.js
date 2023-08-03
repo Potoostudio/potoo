@@ -50,10 +50,10 @@ export default function Home() {
           y: { duration: 1, delay: 0.4},
         }}>
           <div className="col-md-5 px-0 col-12">
-            <h4 className="text-capitalize font-bolder">are A branding studio based in Denver.</h4>
+            <h5 className="text-capitalize font-bolder">are A branding studio based in Denver.</h5>
           </div>
           <div className="col-md-5 px-0 col-12 pt-5 pt-md-0 mt-md-0 mt-5">
-            <p className="text-normal color-secondary">With minimalist design as the core of our studio, <span className="luxury-title font-18px font-italic text-white">we specialize in</span></p>
+            <p className="text-normal">With minimalist design as the core of our studio, <span className="luxury-title font-18px font-italic text-white">we specialize in</span></p>
             <ul className="list specialize-list pt-md-5 pt-4">
               <li className="item font-weight-bolder">
                 Brand strategy
