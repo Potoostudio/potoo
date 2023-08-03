@@ -16,7 +16,7 @@ export default function NotFound() {
     useEffect(() => {
         setTimeout(() => {
             router.push('/')
-        }, 4000)
+        }, 5000)
     }, [])
 
 
@@ -30,7 +30,7 @@ export default function NotFound() {
           <div className="row justify-content-center">
               <div className="col-lg-10">
                   <h5 className="404-h5 pt-lg-5 text-center">
-                        This page cannot be found...
+                        Page not found
                   </h5>
                   <h6 className="404-h5 pt-lg-5 text-center">
                         We will redirect you to Homepage in {counter} s
