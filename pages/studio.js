@@ -42,7 +42,7 @@ function Studio() {
                 </div>
                 <div className="col-md-5 col-12 pt-md-0 pt-4 px-0">
                     <h3 className="text-white luxury-title">
-                        Brand strategy
+                        Brand Strategy
                     </h3>
                 </div>
                 <div className="col-md-5 col-12 text-left px-0">
