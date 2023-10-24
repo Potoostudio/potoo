@@ -52,7 +52,7 @@ function toggle() {
             className={`mobile-menu ${isActive ? `menu-active` : ''}`}
              aria-label="menu" onClick={toggle}>
               <div className={`menu-icon ${isActive ? 'activeNav' : ''}`}>
-                <p className={`menu ${isActive ? 'activeNav' : ''}`}>Menu</p>
+                <span className={`menu ${isActive ? 'activeNav' : ''}`}></span>
               </div>
             </div>
 

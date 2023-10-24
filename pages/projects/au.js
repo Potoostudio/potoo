@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-	  	<title>POTOO STUDIO | Seedstock</title>
+	  	<title>POTOO STUDIO | Abdulhamid Gulf War</title>
         <link rel="icon" href="favicon.ico" />
         <link rel="manifest" href="/manifest.json"/>
         <meta name="description" content="Potoo Project Seedstock | Branding project, logo, website design & development, marketing material"/>
@@ -21,30 +21,41 @@ export default function Projects() {
         <meta property="og:type" content="website" />
       </Head>
 
-      <div className="container-fluid pt-5 project-showcase-container">
-          <motion.div className="row project-row justify-content-start pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-4"
-          initial={{y: 0}}
-          animate={{y: -20}}
-          viewport={{ once: true }}
-          transition={{
-            y: { duration: 1, delay: 0.4},
-          }}>
-              <div className="col-md-4 col-10 project-col px-0">
-                  <ul className="project-list">
-                      <li className="project-item project-year mt-4 mt-md-5 border-bottom text-left pb-1">
-                          2022
-                      </li>
-                      <li className="project-item project-title text-uppercase pt-5 mt-5 text-left">
-                          Abdulhamid-Gulf War
-                      </li>
-                      <li className="project-item project-info text-left">
-                        Story <span className="divider">| </span>Web
-                      </li>
-                      <li className="project-item project-impression color-secondary pt-5 text-left">
-                        Impression <span className="float-right"><em className="impression-lines">- Loss -</em></span>
-                      </li>
-                  </ul>
-              </div>
+      <div className="container-fluid pt-5 project-showcase-container"><div className="row project-row justify-content-md-start justify-content-center pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5">
+            <motion.div className="col-md-4 col-5"
+            whileInView= {{y: 0}}
+            viewport={{ once: true }}
+            transition={{
+            y: { duration: 0.8, repeat: 0, delay: 0.2, ease: "easeOut"},
+            }}
+            initial={{y: "25px"}}>
+                <div className="image-container">
+                    <Image
+                        src="/Abdulhamid-Title.svg"
+                        layout="fill"
+                        className="image"
+                        alt= "Abdulhamid Gulf War"/>
+                </div>
+            </motion.div>
+            
+          </div>
+          <motion.div className="row project-row justify-content-md-end pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5"
+            whileInView= {{y: 0}}
+            viewport={{ once: true }}
+            transition={{
+            y: { duration: 0.8, repeat: 0, delay: 0.2, ease: "easeOut"},
+          }}
+          initial={{y: "25px"}}>
+            <div className="col-md-3 col-10">
+               <p className="project-title">
+                   <span className="color-secondary">Type:</span> Story & Web
+               </p>
+            </div>
+            <div className="col-md-3 col-10">
+               <p className="project-title">
+                   <span className="color-secondary">Components:</span> Story, Biography, and Web
+               </p>
+            </div>
           </motion.div>
           <div className="row full-h px-0 pt-5 mt-5 px-md-5 px-4 justify-content-end px-md-5 px-4">
               <div className="col-md-8 col-12 px-0 text-center px-0">

@@ -41,10 +41,10 @@ export default function Projects() {
             
           </div>
           <motion.div className="row project-row justify-content-md-end pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5"
-          whileInView= {{y: 0}}
-          viewport={{ once: true }}
-          transition={{
-          y: { duration: 0.8, repeat: 0, delay: 0.2},
+            whileInView= {{y: 0}}
+            viewport={{ once: true }}
+            transition={{
+            y: { duration: 0.8, repeat: 0, delay: 0.2},
           }}
           initial={{y: "25px"}}>
             <div className="col-md-3 col-10">

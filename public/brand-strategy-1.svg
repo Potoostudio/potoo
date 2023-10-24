@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126.683" height="126.683" viewBox="0 0 126.683 126.683">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="126.683" height="126.683" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_42" data-name="Group 42" transform="translate(-26.317 453.683) rotate(180)">
+    <g id="Group_30" data-name="Group 30" transform="translate(-153 327)" clip-path="url(#clip-path)">
+      <path id="Ellipse_27" data-name="Ellipse 27" d="M19.346,0A19.346,19.346,0,1,1,0,19.346,19.368,19.368,0,0,1,19.346,0Zm0,37.684A18.338,18.338,0,1,0,1.008,19.346,18.359,18.359,0,0,0,19.346,37.684Z" transform="matrix(1, -0.01, 0.01, 1, 12.132, 44.192)" fill="#fff"/>
+      <path id="Line_90" data-name="Line 90" d="M63.345-1.068H0V-1.5H63.345Z" transform="translate(0 64.626)" fill="#fff"/>
+      <path id="Line_91" data-name="Line 91" d="M-1.068,63.345H-1.5V0h.432Z" transform="translate(32.956 31.669)" fill="#fff"/>
+      <path id="Ellipse_28" data-name="Ellipse 28" d="M19.346,0A19.346,19.346,0,1,1,0,19.346,19.368,19.368,0,0,1,19.346,0Zm0,37.684A18.338,18.338,0,1,0,1.008,19.346,18.359,18.359,0,0,0,19.346,37.684Z" transform="translate(75.464 44.198) rotate(-0.597)" fill="#fff"/>
+      <path id="Line_92" data-name="Line 92" d="M63.345-1.068H0V-1.5H63.345Z" transform="translate(63.338 64.626)" fill="#fff"/>
+      <path id="Line_93" data-name="Line 93" d="M-1.068,63.345H-1.5V0h.432Z" transform="translate(96.294 31.669)" fill="#fff"/>
+      <path id="Ellipse_29" data-name="Ellipse 29" d="M19.346,0A19.346,19.346,0,1,1,0,19.346,19.368,19.368,0,0,1,19.346,0Zm0,37.684A18.338,18.338,0,1,0,1.008,19.346,18.359,18.359,0,0,0,19.346,37.684Z" transform="translate(43.803 12.521) rotate(-0.573)" fill="#fff"/>
+      <path id="Line_94" data-name="Line 94" d="M-1.068,63.345H-1.5V0h.432Z" transform="translate(64.625 0)" fill="#fff"/>
+      <path id="Line_95" data-name="Line 95" d="M63.77-1.068H0V-1.5H63.77Z" transform="translate(31.456 32.957)" fill="#fff"/>
+      <path id="Ellipse_30" data-name="Ellipse 30" d="M19.346,0A19.346,19.346,0,1,1,0,19.346,19.368,19.368,0,0,1,19.346,0Zm0,37.684A18.338,18.338,0,1,0,1.008,19.346,18.359,18.359,0,0,0,19.346,37.684Z" transform="translate(43.801 75.861) rotate(-0.58)" fill="#fff"/>
+      <path id="Line_96" data-name="Line 96" d="M-1.068,63.345H-1.5V0h.432Z" transform="translate(64.625 63.338)" fill="#fff"/>
+      <path id="Line_97" data-name="Line 97" d="M63.77-1.068H0V-1.5H63.77Z" transform="translate(31.456 96.295)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

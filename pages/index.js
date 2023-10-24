@@ -54,7 +54,7 @@ export default function Home() {
           </div>
           <div className="col-md-5 px-0 col-12 pt-5 pt-md-0 mt-md-0 mt-5">
             <p className="text-normal">With minimalist design as the core of our studio, <span className="luxury-title font-18px font-italic text-white">we specialize in</span></p>
-            <ul className="list specialize-list pt-md-5 pt-4">
+            <ul className="list specialize-list pt-md-4 pt-4">
               <li className="item font-weight-bolder">
                 Brand strategy
               </li>
@@ -75,83 +75,79 @@ export default function Home() {
         </motion.div>
       </div>
      <div className="container-fluid design-container">
-        <div className="row home-page-row-project-images mb-5 mb-md-1 pt-5 mt-md-5 justify-content-center px-4 px-md-5">
+        <div className="row home-page-row-project-images mb-5 mb-md-1 pt-5 mt-md-5 justify-content-between px-4 px-md-5">
            <div className="col-md-12 px-0">
-            <h3 className="luxury-title text-center line-before-after">Work</h3>
+              <h3 className="luxury-title text-center line-before-after">Work</h3>
           </div>
-          <div className="col-md-12 px-0">
-              <motion.ul className="project-list-image-list pt-5 pt-md-5 mt-md-4"
-              initial={{y: 0}}
-              whileInView={{y: -20}}
-              viewport={{ once: true }}
-              transition={{
-                y: { duration: 1, delay: 0.4},
-              }}
-              >
-                <p className="project-title pt-md-4 mt-md-0 pt-5 mt-5 pb-3 mb-0 luxury-title">
-                    JAEGER—AERATION<br/><span className="project-info text-normal pt-1 pt-md-0">Brand <span className="divider">|</span> Web</span>
-                </p>
-                <li className="item project-image-item full-item">
-                  <Link href="/projects/jaeger-aeration" className="project-li-link">
-                    <div className="image-container">
-                      <Image
-                          src="/Jaeger-Building-Signage.jpg"
-                          layout="fill"
-                          className="image"
-                          alt="Project Jaeger Aeration"
-                          loading="lazy"
-                          />
-                    </div>
-                  </Link>
-                </li>
-                <p className="project-title pt-md-4 mt-md-0 pt-5 mt-5 pb-3 mb-0 luxury-title">
-                    36 Days of Type<br/><span className="project-info text-normal pt-1 pt-md-0">Design</span>
-                </p>
-                <li className="item project-image-item full-item">
-                  <Link href="/projects/36daysoftype-10" className="project-li-link">
-                    <div className="image-container">
-                      <Image
-                          src="/Type-Project-Img.jpg"
-                          layout="fill"
-                          className="image"
-                          alt="36 days of type"
-                          />
-                    </div>
-                  </Link>
-                </li>
-                <p className="project-title pt-md-4 mt-md-0 pt-5 mt-5 pb-3 mb-0 luxury-title">
-                    Abdulhamid - Gulf War<br/><span className="project-info text-normal pt-1 pt-md-0">Story <span className="divider">|</span> Web <br/> Awards x4</span>
-                </p>
-                <li className="item project-image-item full-item">
-                  <Link href="/projects/au" className="project-li-link">
-                    <div className="image-container">
-                      <Image
-                          src="/project-hamid.jpg"
-                          layout="fill"
-                          className="image"
-                          alt="Project Hamid"
-                          />
-                    </div>
-                  </Link>
-
-                </li>
-                <p className="project-title pt-md-4 mt-md-0 pt-5 mt-5 pb-3 mb-0 luxury-title">
-                  Seedstock<br/><span className="project-info text-normal pt-1 pt-md-0">Digital Design</span>
-                </p>
-                <li className="item project-image-item full-item">
-                  <Link href="/projects/seedstock" className="project-li-link">
-                    <div className="image-container">
-                      <Image
-                        src="/project-seedstock.jpg"
-                        layout='fill'
-                        className="image"
-                        alt="Seedstock project image"
-                        />
-                    </div>
-                  </Link>
-                </li>
-              </motion.ul>
-            </div>
+          <motion.div
+           initial={{y: 0}}
+           whileInView={{y: -20}}
+           viewport={{ once: true }}
+           transition={{
+             y: { duration: 1, delay: 0.4},
+           }}
+          className="col-md-5 col-12 pt-lg-5rem px-0 pt-5">
+            <Link href="/projects/jaeger-aeration" className="project-li-link">
+                <div className="image-container">
+                  <Image
+                      src="/Project-Jaeger.jpg"
+                      layout="fill"
+                      className="image"
+                      alt="Project Jaeger Aeration"
+                      loading="lazy"
+                      />
+                </div>
+              </Link>
+            <p className="project-title pt-md-3 mt-md-0 pt-2 pb-3 mb-0 luxury-title">
+                JAEGER—AERATION<br/><span className="project-info text-normal pt-md-0 float-md-right">Brand <span className="divider">|</span> Web</span>
+            </p>
+          </motion.div>
+          <motion.div
+          initial={{y: 0}}
+          whileInView={{y: -20}}
+          viewport={{ once: true }}
+          transition={{
+            y: { duration: 1, delay: 0.4},
+          }}
+          className="col-md-5 col-12 pt-lg-8rem mt-5 px-0">
+            <Link href="/projects/36daysoftype-10" className="project-li-link">
+                <div className="image-container">
+                  <Image
+                      src="/Project-Type.jpg"
+                      layout="fill"
+                      className="image"
+                      alt="Project 36 Days of Type"
+                      loading="lazy"
+                      />
+                </div>
+              </Link>
+              <p className="project-title pt-md-3 mt-md-0 pt-2 pb-3 mb-0 luxury-title">
+                  36 Days of Type<br/><span className="project-info text-normal pt-1 pt-md-0">Design</span>
+              </p>
+          </motion.div>
+          <motion.div
+           initial={{y: 0}}
+           whileInView={{y: -20}}
+           viewport={{ once: true }}
+           transition={{
+             y: { duration: 1, delay: 0.4},
+           }}
+          className="col-md-5 col-12 pt-5 mt-5 px-0">
+            <Link href="/projects/au" className="project-li-link">
+                <div className="image-container">
+                  <Image
+                      src="/Project-Abdulhamid.jpg"
+                      layout="fill"
+                      className="image"
+                      alt="Project Abdulhamid Gulf-War"
+                      loading="lazy"
+                      />
+                </div>
+              </Link>
+            <p className="project-title pt-md-3 mt-md-0 pt-2 pb-3 mb-0 luxury-title">
+              Abdulhamid - Gulf War<br/><span className="project-info text-normal pt-1 pt-md-0">Story <span className="divider">|</span> Web</span>
+            </p>
+          </motion.div>
         </div>
      </div>
      <div className="container-fluid pt-md-0 pt-5 mt-md-0 mt-5">

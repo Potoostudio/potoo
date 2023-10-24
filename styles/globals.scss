@@ -38,19 +38,37 @@ a {
       display: grid;
 
       .menu {
-        border-top: 1px solid #fff;
-        border-bottom: 1px solid #fff;
-        padding: 10px 0;
-        font-size: 12px;
-        margin: 0;
-        letter-spacing: 0;
-        text-transform: uppercase;
-        line-height: 15px;
-        padding-right: 10px;
+        position: relative;
+        padding-right: 5px;
+        margin-right: 10px;
         transition: all 0.3s ease-in-out ;
+        width: 40px;
+        height: 12px;
 
+        &::before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 1.5px;
+          right: 0;
+          top: 0;
+          background-color: #fafafa;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          width: 60%;
+          height: 1.5px;
+          right: 0;
+          top: 100%;
+          background-color: #fafafa;
+          display: inline;
+          transition: all 0.3s ease-in-out ;
+        }
         &.activeNav {
-          padding-right: 15px;
+          &::after {
+            width: 100%;
+          }
         }
       }
     }
@@ -61,7 +79,7 @@ a {
   }
   .nav {
     margin: 0.5rem 1rem;
-    margin-top: 30px;
+    margin-top: 20px;
     align-items: left;
     text-align: left;
     padding: 0;
@@ -142,12 +160,22 @@ a {
                   text-transform: uppercase;
 
                   &::before {
-                    content: "I";
+                    content: "[";
                     position: absolute;
                     width: 20%;
                     height: 62px;
                     color: #fff;
                     left: 2%;
+                    top: 14%;
+                    font-family: inherit;
+                  }
+                  &::after {
+                    content: "]";
+                    position: absolute;
+                    width: 20%;
+                    height: 62px;
+                    color: #fff;
+                    right: 2%;
                     top: 14%;
                     font-family: inherit;
                   }
@@ -159,12 +187,22 @@ a {
                   text-transform: uppercase;
 
                   &::before {
-                    content: "II";
+                    content: "[";
                     position: absolute;
                     width: 20%;
                     height: 62px;
                     color: #fff;
                     left: 2%;
+                    top: 14%;
+                    font-family: inherit;
+                  }
+                  &::after {
+                    content: "]";
+                    position: absolute;
+                    width: 20%;
+                    height: 62px;
+                    color: #fff;
+                    right: 2%;
                     top: 14%;
                     font-family: inherit;
                   }
@@ -349,68 +387,39 @@ a {
       }
       .home-page-row-project-images {
         margin-bottom: 1rem;
-        margin-top: 7rem;
+        margin-top: 5rem;
 
-        .project-list-image-list {
-          list-style: none;
-          padding-left: 0;
-          margin-left: 0;
-          display: grid;
-          grid-template-columns: repeat(12, 1fr);
-          row-gap: 0;
-          padding-bottom: 0;
+        .project-title {
+          font-size: 16px;
+          letter-spacing: 0.45px;
+          font-weight: 400;
+          text-transform: capitalize;
+          color: #FAFAFA;
+          display: flex;
+          position: relative;
 
-          .full-item {
-            grid-column-start: 1;
-            grid-column-end: 14;
-            position: relative;
-
-          }
-          .project-title {
-            grid-column-start: 1;
-            grid-column-end: 14;
-            position: relative;
-            bottom: 0;
-            padding: 0;
-            display: inline-grid;
-            text-align: right;
-            font-size: 18px;
-            .project-info {
-              font-size: 12px;
-            }
-          }
-          .third-item {
-            grid-column-start: 1;
-            grid-column-end: 14;
-          }
-          .half-item {
-            grid-column-start: 1;
-            grid-column-end: 14;
-          }
-  
-          .project-image-item {
-
-            .project-title {
-              font-size: calc(1rem + 1vw);
-              font-weight: 400;
-              color: #FAFAFA;
-              text-align: left;
-              line-height: 22px;
-
-              .project-info {
-                font-size: calc(0.5rem + 1vw);
-              }
-            }
-            .project-li-link {
-              &:hover {
-                text-decoration: none;
-              }
-            }
+          .project-info {
+            font-size: 12px;
+            position: absolute;
+            right: 0;
           }
         }
       }
     }
-    
+    .what-we-do-list {
+      display: block;
+      margin-left: 0;
+      padding-left: 0;
+      width: 100%;
+      padding-top: 1rem;
+      justify-content: space-around;
+
+      .item {
+        list-style: none;
+        text-align: center;
+        opacity: 100%;
+      }
+    }  
   .design-page-container {
     padding-top: 4rem;
 
@@ -469,17 +478,18 @@ a {
         text-decoration: none;
         color: #FAFAFA;
         position: relative;
+        font-size: 0.9rem;
   
         &::after {
           content: '';
-            width: 1%;
+            width: 0%;
             height: 1px;
             background-color: #ccc;
             display: inline;
             position: absolute;
-            top: 20px;
+            top: 15px;
             left: 0;
-            transition: all .4s ease-in-out;
+            transition: all .2s ease-out;
         }
         &:hover::after {
           width: 100%;
@@ -491,6 +501,7 @@ a {
       list-style: none;
       padding-left: 0;
       color: #fafafa;
+      font-size: 0.9rem;
 
       .item {
         color: #fafafa;
@@ -513,6 +524,9 @@ a {
       font-family: Essonnes, serif!important;
       font-weight: 400;
       color: #b5b5b5;
+    }
+    .design-studio {
+      font-size: 0.8rem;
     }
   }
   // Service container styling
@@ -610,7 +624,6 @@ a {
       padding-top: 4rem;
       background-color: #6b827c7d;
       padding-bottom: 4rem;
-  
     }
     .accessibility {
       text-align: center;
@@ -665,6 +678,19 @@ a {
         font-size: 11pt;
         width: 100%;
       }
+    }
+  }
+  .we-specialize-list {
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+    padding-top: 1rem;
+    justify-content: center;
+
+    .item {
+      list-style: none;
+      text-align: center;
     }
   }
   .project-embeded {
@@ -929,8 +955,7 @@ a {
     height: 576px;
   }
   .design-container {
-    margin-top: 4rem;
-    padding-top: 7rem;
+    padding-top: 5rem;
     padding-bottom: 3rem;
 
     .homepage-design-col {
@@ -1025,7 +1050,7 @@ a {
       }
       .home-page-row-project-images {
         margin-bottom: 1rem;
-        margin-top: 7rem;
+        margin-top: 5rem;
   
         .work-p {
           text-align: left;
@@ -1126,7 +1151,7 @@ a {
           position: absolute;
           bottom: 0;
           left: 0;
-          transition: all .4s ease-in-out;
+          transition: all .2s ease-out;
       }
       &:hover::after {
         width: 100%;
@@ -1221,7 +1246,7 @@ a {
     text-align: left;
     position: relative;
     z-index: 1111111;
-    border-bottom: 1px solid #aeaeae;
+    // border-bottom: 1px solid #aeaeae;
 
     .item {
 
@@ -1235,9 +1260,26 @@ a {
         color: #fff;
         text-transform: capitalize;
         text-decoration: none;
+        position: relative;
+
+    &::after {
+      content: '';
+        width: 0%;
+        height: 1px;
+        background-color: #ccc;
+        display: inline;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        transition: all .2s ease-out;
+    }
+    &:hover::after {
+      width: 100%;
+    }
       }
     }
   }
+  
   .d-lg-only {
     display: inline;
   }
@@ -1634,7 +1676,6 @@ a {
       }
     }
     .design-container {
-    margin-top: 7rem!important;
     padding-top: 5rem!important;
     padding-bottom: 8rem;
     border-top: none;
@@ -1859,66 +1900,21 @@ a {
         .home-page-row-project-images {
           margin-bottom: 2rem;
 
-          .project-list-image-list {
-            list-style: none;
-            padding-left: 0;
-            margin-left: 0;
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            row-gap: 12rem;
-            padding-bottom: 0;
-
-            .full-item {
-              grid-column-start: 6;
-              grid-column-end: 14;
-              position: relative;
-            }
             .project-title {
-              grid-column-start: 3;
-              grid-column-end: 5;
+              font-size: 16px;
+              letter-spacing: 0.45px;
+              font-weight: 400;
+              text-transform: capitalize;
+              color: #FAFAFA;
+              display: flex;
               position: relative;
-              bottom: 0;
-              padding: 0;
-              display: inline-grid;
-              text-align: right;
-              font-size: 20px;
-              font-weight: 500;
+
               .project-info {
-                font-size: 16px;
-                font-weight: 400;
+                font-size: 12px;
+                position: absolute;
+                right: 0;
               }
             }
-            .third-item {
-              grid-column-start: 1;
-              grid-column-end: 7;
-            }
-            .half-item {
-              grid-column-start: 1;
-              grid-column-end: 3;
-            }
-    
-            .project-image-item {
-
-              .project-title {
-                font-size: 18px;
-                letter-spacing: 0.45px;
-                font-weight: 400;
-                text-transform: capitalize;
-                color: #FAFAFA;
-                text-align: left;
-                width: 100%;
-
-                .project-info {
-                  font-size: 12px;
-                }
-              }
-              .project-li-link {
-                &:hover {
-                  text-decoration: none;
-                }
-              }
-            }
-          }
         }
     }
     .code-container {
@@ -1980,7 +1976,7 @@ a {
             position: absolute;
             bottom: 0;
             left: 0;
-            transition: all .4s ease-in-out;
+            transition: all .2s ease-out;
         }
         &:hover::after {
           width: 100%;
@@ -2000,6 +1996,9 @@ a {
       }
       .mw-62p {
         max-width: 62%!important;
+      }
+      .design-studio {
+        font-size: 1rem;
       }
     }
     
@@ -2157,37 +2156,6 @@ a {
         .mx-1600 {
           max-width: 1600px;
         }
-        .projects-container {
-          .project-list-image-list {
-            list-style: none;
-            padding-left: 0;
-            margin-left: 0;
-            display: grid;
-            grid-template-columns: 37% 37%;
-            grid-template-rows: auto;
-            -webkit-justify-content: center;
-            justify-content: center;
-            grid-gap: 12%;
-
-            .project-image-item {
-
-              .project-title {
-                font-size: 1.5rem;
-                letter-spacing: 0.45px;
-                font-weight: 400;
-                color: #FAFAFA;
-                text-align: left;
-                padding: 1rem 0rem 1rem 0rem;
-
-              }
-              .project-li-link {
-                &:hover {
-                  text-decoration: none;
-                }
-              }
-            }
-          }
-        }
         .video-wrapper {
           align-items: center;
           display: flex;
@@ -2242,6 +2210,40 @@ a {
         }
         .normal-text {
           font-size: 20px;
+        }
+        .we-specialize-list {
+          display: inline-flex;
+          margin-left: 0;
+          padding-left: 0;
+          width: 100%;
+          padding-top: 1rem;
+          justify-content: center;
+
+          .item {
+            list-style: none;
+            width: 15%;
+            text-align: center;
+          }
+        }
+        .what-we-do-list {
+          display: inline-flex;
+          margin-left: 0;
+          padding-left: 0;
+          width: 100%;
+          padding-top: 1rem;
+          justify-content: space-around;
+
+          .item {
+            list-style: none;
+            width: 15%;
+            text-align: center;
+            opacity: 55%;
+            transition: all 0.4s ease-in-out ;
+
+            &.opacity-100 {
+              opacity: 100%;
+            }
+          }
         }
     }
     // end of 966px
@@ -2441,4 +2443,7 @@ a {
     text-decoration: underline;
      color: #eeeeee;
   }
+}
+.bg-darker {
+  background-color: #141515;
 }
