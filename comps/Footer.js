@@ -43,8 +43,8 @@ export default class Footer extends Component {
                   </div>
                   <div className="col-3 text-left pt-4 pt-md-5 mt-md-4 mt-0">
                       <div className="container p-0 mt-2">
-                          <h6 className="design-studio luxury-title text-uppercase">
-                              Design Studio
+                          <h6 className="design-studio luxury-title text-capitalize">
+                              A Branding <span className="text-normal font-weight-light">&</span> Design Studio
                           </h6>
                           <span className="say-list"></span>
                       </div>
