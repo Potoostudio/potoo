@@ -31,7 +31,7 @@ export default class Footer extends Component {
           <div className="container-fluid footer-container pt-5 pb-md-0 pb-4">
               <div className="row justify-content-between pb-md-3 mx-md-5 pt-md-4">
                   <div className="col-12 col-md-12 text-left pr-md-5 pb-md-0 pb-4">
-                  <span className="footer-small-title">Are are</span>
+                  <span className="footer-small-title">We are</span>
                       <div className="image-container">
                         <Image
                             src="/Potoo-logo-word-white.svg"
