@@ -257,7 +257,7 @@ export default function Projects() {
                     }}
                         initial={{opacity: 0.45}}>
                         <Image
-                        src="/Jaeger-Web.jpg"
+                        src="/Jaeger-Website-Screenshot.jpg"
                         layout="fill"
                         className="image p-0"
                         alt= "Jaeger Aeration Website"/>
@@ -265,11 +265,10 @@ export default function Projects() {
                 </div>
                 <div className="col-md-12 col-12 pt-4 text-center">
                     <h6 className="text-uppercase font-weight-bolder">
-                        Web
+                        <Link href="https://www.jaeger-aeration.com" target="_blank" className="color-white text-decoration-underline text-uppercase font-weight-bolder">
+                            website
+                        </Link>
                     </h6>
-                    <Link href="#" className="text-decoration-underline link-text">
-                        Website Link
-                    </Link>
             </div>
           </div>
           <div className="row project-row justify-content-md-around justify-content-start pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">

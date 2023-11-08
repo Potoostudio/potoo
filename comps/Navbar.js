@@ -2,6 +2,7 @@
 import React, {useState} from "react"
 import Image from 'next/image'
 import Link from 'next/link'
+import { motion} from "framer-motion"
 
 function Navbar() {
 
@@ -14,7 +15,8 @@ function toggle() {
 }
       return (
         <>
-        <div className="nav px-md-5 py-md-4">
+        <div
+        className="nav px-md-5 py-md-4">
           <div className="item pt-md-3 pt-3 d-lg-only">
             <Link href="/" className="potoo-logo-a d-flex">
                 <Image

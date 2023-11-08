@@ -41,7 +41,7 @@ export default class Footer extends Component {
                         />
                       </div>
                   </div>
-                  <div className="col-3 text-left pt-4 pt-md-5 mt-md-4 mt-0">
+                  <div className="col-3 col-md-4 text-left pt-4 pt-md-5 mt-md-4 mt-0">
                       <div className="container p-0 mt-2">
                           <h6 className="design-studio luxury-title text-capitalize">
                               A Branding <span className="text-normal font-weight-light">&</span> Design Studio
@@ -66,7 +66,7 @@ export default class Footer extends Component {
                           </li>
                       </ul>
                     </div>
-                    <div className="col-md-2 col-4 pt-4 pt-md-5 mt-md-4 mt-0">
+                    <div className="col-md-3 col-4 pt-4 pt-md-5 mt-md-4 mt-0">
                         <ul className="media-list text-right text-md-left">
                         <span className="footer-small-title">social media</span>
                             <li className="item">
@@ -98,7 +98,7 @@ export default class Footer extends Component {
                         Site Made In House
                     </p>
                   </div>
-                    <div className="col-md-2 col-6 pt-1 pt-md-0 text-right text-md-left">
+                    <div className="col-md-3 col-7 pt-1 pt-md-0 text-right text-md-left">
                         <time className="clock mb-3 footer-bottom-info color-secondary">It's<Clock className="digital-clock" format={'h:mm A'} ticking={true} timezone={'US/Mountain'}/>in the beautiful Rockies</time>
                     </div>
               </div>

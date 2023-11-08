@@ -4,15 +4,15 @@ import Image from 'next/image'
 import { motion} from "framer-motion"
 
 class Studio extends React.Component {
-    state = {
-        showBox: false,
-        showItem: false
-      };
-    handleBoxToggle = () => this.setState({ showBox: !this.state.showBox })
-    handleBoxToggleNaming = () => this.setState({ showItem: !this.state.showItem })
-    handleBoxToggleIdentity = () => this.setState({ showIdentity: !this.state.showIdentity })
-    handleBoxToggleDesign = () => this.setState({ showDesign: !this.state.showDesign })
-    handleBoxToggleWeb = () => this.setState({ showWeb: !this.state.showWeb })
+    // state = {
+    //     showBox: false,
+    //     showItem: false
+    //   };
+    // handleBoxToggle = () => this.setState({ showBox: !this.state.showBox })
+    // handleBoxToggleNaming = () => this.setState({ showItem: !this.state.showItem })
+    // handleBoxToggleIdentity = () => this.setState({ showIdentity: !this.state.showIdentity })
+    // handleBoxToggleDesign = () => this.setState({ showDesign: !this.state.showDesign })
+    // handleBoxToggleWeb = () => this.setState({ showWeb: !this.state.showWeb })
 
       render() {
 
@@ -33,12 +33,16 @@ class Studio extends React.Component {
               <div className="container-fluid pt-5 mt-5">
                   <div className="row pt-md-5 mt-5 py-md-5 px-4 px-md-5">
                       <div className="col-12 px-0 py-md-5 mt-5">
-                          <h1 className="luxury-title font-large text-center text-capitalize">
+                          <motion.h1
+                          initial={{letterSpacing: "30px"}}
+                          animate={{letterSpacing: "1px"}}
+                          transition={{ duration: 1, delay: 0.1}}
+                          className="luxury-title text-center text-uppercase">
                               Studio
-                          </h1>
+                          </motion.h1>
                       </div>
                   </div>
-                  <motion.div className="row justify-content-between pt-5 px-4 pb-md-5 mt-5"
+                  <motion.div className="row justify-content-between pt-4 px-4 pb-md-5 mt-5"
                   initial={{y: 0}}
                   animate={{y: -20}}
                   viewport={{ once: true }}
@@ -69,22 +73,19 @@ class Studio extends React.Component {
                           </ul>
                       </div>
                   </motion.div>
-                  <div className="row justify-content-around pt-5 px-5 mt-5 Strategy-row">
+                  <motion.div
+                   initial={{opacity: 0.6}}
+                   whileHover={{opacity: 1}}
+                   transition={{
+                     opacity: { duration: 0.4},
+                   }}
+                  className="row justify-content-around pt-5 px-5 mt-5 cursor-pointer">
                   <div className="col-md-3 col-12 pt-md-0 pt-4 px-0">
-                          <motion.h3
-                            onMouseEnter={this.handleBoxToggle}
-                            onMouseOut={this.handleBoxToggle}
-                            whileHover={{
-                                backgroundColor: '#000',
-                                transition: { duration: 0.4 },
-                              }}
-                          className="text-white luxury-title p-5 text-center bg-darker cursor-pointer">
-                              Brand Strategy
-                          </motion.h3>
+                          <h2 className="text-white luxury-title p-5 mt-md-3 pr-md-0 border-md-right text-md-left text-center">Brand Strategy</h2>
                       </div>
                       <div className="col-md-7 col-12 text-left px-0">
                            <ul className="list what-we-do-list">
-                               <li className={`item pt-4 pt-md-0${this.state.showBox ? " opacity-100" : ""}`}>
+                               <li className={`item pt-4 pt-md-0`}>
                                     <Image
                                         src="/brand-strategy-1.svg"
                                         width={125}
@@ -92,7 +93,7 @@ class Studio extends React.Component {
                                         className="image"
                                         alt= "Brand Strategy"/>
                                </li>
-                               <li className={`item pt-4 pt-md-0${this.state.showBox ? " opacity-100" : ""}`}>
+                               <li className={`item pt-4 pt-md-0`}>
                                     <Image
                                         src="/brand-strategy-2.svg"
                                         width={125}
@@ -100,7 +101,7 @@ class Studio extends React.Component {
                                         className="image"
                                         alt= "Brand Strategy"/>
                                </li>
-                               <li className={`item pt-4 pt-md-0${this.state.showBox ? " opacity-100" : ""}`}>
+                               <li className={`item pt-4 pt-md-0`}>
                                     <Image
                                         src="/brand-strategy-3.svg"
                                         width={125}
@@ -110,23 +111,20 @@ class Studio extends React.Component {
                                </li>
                            </ul>
                       </div>
-                  </div>
-                      <div className="row justify-content-around pt-5 px-5 mt-5 Naming-row">
+                  </motion.div>
+                      <motion.div
+                       initial={{opacity: 0.6}}
+                       whileHover={{opacity: 1}}
+                       transition={{
+                         opacity: { duration: 0.4},
+                       }}
+                      className="row justify-content-around pt-5 px-5 mt-5 cursor-pointer">
                           <div className="col-md-3 col-12 pt-md-0 pt-4 px-0">
-                              <motion.h3
-                                  onMouseEnter={this.handleBoxToggleNaming}
-                                  onMouseOut={this.handleBoxToggleNaming}
-                                  whileHover={{
-                                    backgroundColor: '#000',
-                                    transition: { duration: 0.4 },
-                                  }}
-                                  className="text-white luxury-title p-5 text-center bg-darker cursor-pointer">
-                                      Naming
-                              </motion.h3>
+                              <h2 className="text-white luxury-title p-5 mt-md-3 pr-md-0 border-md-right text-md-left text-center">Naming</h2>
                           </div>
                           <div className="col-md-7 col-12 text-left px-0">
                           <ul className="list what-we-do-list">
-                               <li className={`item pt-3 pt-md-0${this.state.showItem ? " opacity-100" : ""}`}>
+                               <li className={`item pt-3 pt-md-0`}>
                                     <Image
                                         src="/Naming-1.svg"
                                         width={115}
@@ -134,7 +132,7 @@ class Studio extends React.Component {
                                         className="image"
                                         alt= "Brand Naming"/>
                                </li>
-                               <li className={`item pt-3 pt-md-0${this.state.showItem ? " opacity-100" : ""}`}>
+                               <li className={`item pt-3 pt-md-0`}>
                                     <Image
                                         src="/Naming-2.svg"
                                         width={100}
@@ -142,7 +140,7 @@ class Studio extends React.Component {
                                         className="image"
                                         alt= "Brand Naming"/>
                                </li>
-                               <li className={`item pt-3 pt-md-0${this.state.showItem ? " opacity-100" : ""}`}>
+                               <li className={`item pt-3 pt-md-0`}>
                                     <Image
                                         src="/Naming-3.svg"
                                         width={100}
@@ -152,23 +150,20 @@ class Studio extends React.Component {
                                </li>
                            </ul>
                           </div>
-                      </div>
-                      <div className="row justify-content-around pt-5 px-5 mt-5 Naming-row">
+                      </motion.div>
+                      <motion.div
+                       initial={{opacity: 0.6}}
+                       whileHover={{opacity: 1}}
+                       transition={{
+                         opacity: { duration: 0.4},
+                       }}
+                      className="row justify-content-around pt-5 px-5 mt-5 cursor-pointer">
                           <div className="col-md-3 col-12 pt-md-0 pt-4 px-0">
-                              <motion.h3
-                              onMouseEnter={this.handleBoxToggleIdentity}
-                              onMouseOut={this.handleBoxToggleIdentity}
-                              whileHover={{
-                                backgroundColor: '#000',
-                                transition: { duration: 0.4 },
-                              }}
-                                  className="text-white luxury-title p-5 text-center bg-darker cursor-pointer">
-                                      Brand Identity
-                              </motion.h3>
+                              <h2 className="text-white luxury-title p-5 mt-md-3 pr-md-0 border-md-right text-md-left text-center">Brand Identity</h2>
                           </div>
                           <div className="col-md-7 col-12 text-left px-0">
                           <ul className="list what-we-do-list">
-                               <li className={`item pt-5 pt-md-0${this.state.showIdentity ? " opacity-100" : ""}`}>
+                               <li className={`item pt-5 pt-md-0`}>
                                     <Image
                                         src="/Brand-Identity-1.svg"
                                         width={100}
@@ -176,7 +171,7 @@ class Studio extends React.Component {
                                         className="image"
                                         alt= "Brand Naming"/>
                                </li>
-                               <li className={`item pt-5 pt-md-0${this.state.showIdentity ? " opacity-100" : ""}`}>
+                               <li className={`item pt-5 pt-md-0`}>
                                     <Image
                                         src="/Brand-Identity-2.svg"
                                         width={100}
@@ -184,7 +179,7 @@ class Studio extends React.Component {
                                         className="image"
                                         alt= "Brand Naming"/>
                                </li>
-                               <li className={`item pt-5 pt-md-0${this.state.showIdentity ? " opacity-100" : ""}`}>
+                               <li className={`item pt-5 pt-md-0`}>
                                     <Image
                                         src="/Brand-Identity-3.svg"
                                         width={100}
@@ -194,23 +189,20 @@ class Studio extends React.Component {
                                </li>
                            </ul>
                           </div>
-                      </div>
-                      <div className="row justify-content-around pt-5 px-5 mt-5 Naming-row">
+                      </motion.div>
+                      <motion.div
+                       initial={{opacity: 0.6}}
+                       whileHover={{opacity: 1}}
+                       transition={{
+                         opacity: { duration: 0.4},
+                       }}
+                      className="row justify-content-around pt-5 px-5 mt-5 cursor-pointer">
                           <div className="col-md-3 col-12 pt-md-0 pt-4 px-0">
-                              <motion.h3
-                                  onMouseEnter={this.handleBoxToggleDesign}
-                                  onMouseOut={this.handleBoxToggleDesign}
-                                  whileHover={{
-                                    backgroundColor: '#000',
-                                    transition: { duration: 0.4 },
-                                  }}
-                                  className="text-white luxury-title p-5 text-center bg-darker cursor-pointer">
-                                      Design
-                              </motion.h3>
+                              <h2 className="text-white luxury-title p-5 mt-md-3 pr-md-0 border-md-right text-md-left text-center">Design</h2>
                           </div>
                           <div className="col-md-7 col-12 text-left px-0">
                           <ul className="list what-we-do-list">
-                               <li className={`item pt-5 pt-md-0${this.state.showDesign ? " opacity-100" : ""}`}>
+                               <li className={`item pt-5 pt-md-0`}>
                                     <Image
                                         src="/Design-1.svg"
                                         width={125}
@@ -218,7 +210,7 @@ class Studio extends React.Component {
                                         className="image"
                                         alt= "Brand Naming"/>
                                </li>
-                               <li className={`item pt-5 pt-md-0${this.state.showDesign ? " opacity-100" : ""}`}>
+                               <li className={`item pt-5 pt-md-0`}>
                                     <Image
                                         src="/Design-2.svg"
                                         width={125}
@@ -226,7 +218,7 @@ class Studio extends React.Component {
                                         className="image"
                                         alt= "Brand Naming"/>
                                </li>
-                               <li className={`item pt-5 pt-md-0${this.state.showDesign ? " opacity-100" : ""}`}>
+                               <li className={`item pt-5 pt-md-0`}>
                                     <Image
                                         src="/Design-3.svg"
                                         width={125}
@@ -236,23 +228,20 @@ class Studio extends React.Component {
                                </li>
                            </ul>
                           </div>
-                      </div>
-                      <div className="row justify-content-around pt-5 px-5 mt-5 Naming-row">
+                      </motion.div>
+                      <motion.div
+                       initial={{opacity: 0.6}}
+                       whileHover={{opacity: 1}}
+                       transition={{
+                         opacity: { duration: 0.4},
+                       }}
+                      className="row justify-content-around pt-5 px-5 mt-5 cursor-pointer">
                           <div className="col-md-3 col-12 pt-md-0 pt-4 px-0">
-                              <motion.h3
-                                onMouseEnter={this.handleBoxToggleWeb}
-                                onMouseOut={this.handleBoxToggleWeb}
-                                whileHover={{
-                                  backgroundColor: '#000',
-                                  transition: { duration: 0.4 },
-                                }}
-                                  className="text-white luxury-title p-5 text-center bg-darker cursor-pointer">
-                                      Web Development
-                              </motion.h3>
+                              <h2 className="text-white luxury-title p-5 pr-md-0 border-md-right text-md-left text-center">Web Development</h2>
                           </div>
                           <div className="col-md-7 col-12 text-left px-0">
                           <ul className="list what-we-do-list">
-                               <li className={`item pt-0 pt-md-0${this.state.showWeb ? " opacity-100" : ""}`}>
+                               <li className={`item pt-0 pt-md-0`}>
                                     <Image
                                         src="/Development-1.svg"
                                         width={125}
@@ -260,7 +249,7 @@ class Studio extends React.Component {
                                         className="image"
                                         alt= "Brand Naming"/>
                                </li>
-                               <li className={`item pt-0 pt-md-0${this.state.showWeb ? " opacity-100" : ""}`}>
+                               <li className={`item pt-0 pt-md-0`}>
                                     <Image
                                         src="/Development-2.svg"
                                         width={125}
@@ -268,7 +257,7 @@ class Studio extends React.Component {
                                         className="image"
                                         alt= "Brand Naming"/>
                                </li>
-                               <li className={`item pt-0 pt-md-0${this.state.showWeb ? " opacity-100" : ""}`}>
+                               <li className={`item pt-0 pt-md-0`}>
                                     <Image
                                         src="/Development-3.svg"
                                         width={125}
@@ -277,6 +266,16 @@ class Studio extends React.Component {
                                         alt= "Brand Naming"/>
                                </li>
                            </ul>
+                          </div>
+                      </motion.div>
+                      <div className="row pt-md-5 mt-5 justify-content-center">
+                          <div className="col-md-5 col-11 mt-md-5 pt-md-5">
+                              <h5 className="everything-we-do">
+                                  Everything we design is exceptional and is
+                                  made to be part of something significant.
+                                  For each project, we have the freedom and
+                                  inspiration to design something extraordinary.
+                                </h5>
                           </div>
                       </div>
               </div>
