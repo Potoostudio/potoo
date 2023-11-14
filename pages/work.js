@@ -67,7 +67,7 @@ export default function Projects() {
                 JAEGER—AERATION<br/><span className="project-info text-normal pt-md-0 float-md-right">Brand <span className="divider">|</span> Web</span>
             </p>
           </div>
-          <div className="col-md-5 col-12 pt-lg-8rem mt-5 px-0">
+          <div className="col-md-5 col-12 pt-lg-8rem pt-5 mt-5 px-0">
             <Link href="/projects/36daysoftype-10" className="project-li-link">
                 <motion.div
                 whileHover={{

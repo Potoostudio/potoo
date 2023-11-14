@@ -81,7 +81,7 @@ class Studio extends React.Component {
                    }}
                   className="row justify-content-around pt-5 px-5 mt-5 cursor-pointer">
                   <div className="col-md-3 col-12 pt-md-0 pt-4 px-0">
-                          <h2 className="text-white luxury-title p-5 mt-md-3 pr-md-0 border-md-right text-md-left text-center">Brand Strategy</h2>
+                          <h2 className="text-white luxury-title p-md-5 p-4 border-sm-bottom mt-md-3 pr-md-0 border-md-right text-md-left text-center">Brand Strategy</h2>
                       </div>
                       <div className="col-md-7 col-12 text-left px-0">
                            <ul className="list what-we-do-list">
@@ -120,7 +120,7 @@ class Studio extends React.Component {
                        }}
                       className="row justify-content-around pt-5 px-5 mt-5 cursor-pointer">
                           <div className="col-md-3 col-12 pt-md-0 pt-4 px-0">
-                              <h2 className="text-white luxury-title p-5 mt-md-3 pr-md-0 border-md-right text-md-left text-center">Naming</h2>
+                              <h2 className="text-white luxury-title border-sm-bottom p-md-5 p-4 mt-md-3 pr-md-0 border-md-right text-md-left text-center">Naming</h2>
                           </div>
                           <div className="col-md-7 col-12 text-left px-0">
                           <ul className="list what-we-do-list">
@@ -159,11 +159,11 @@ class Studio extends React.Component {
                        }}
                       className="row justify-content-around pt-5 px-5 mt-5 cursor-pointer">
                           <div className="col-md-3 col-12 pt-md-0 pt-4 px-0">
-                              <h2 className="text-white luxury-title p-5 mt-md-3 pr-md-0 border-md-right text-md-left text-center">Brand Identity</h2>
+                              <h2 className="text-white luxury-title border-sm-bottom p-md-5 p-4 mt-md-3 pr-md-0 border-md-right text-md-left text-center">Brand Identity</h2>
                           </div>
                           <div className="col-md-7 col-12 text-left px-0">
                           <ul className="list what-we-do-list">
-                               <li className={`item pt-5 pt-md-0`}>
+                               <li className={`item pt-4 pt-md-0`}>
                                     <Image
                                         src="/Brand-Identity-1.svg"
                                         width={100}
@@ -198,7 +198,7 @@ class Studio extends React.Component {
                        }}
                       className="row justify-content-around pt-5 px-5 mt-5 cursor-pointer">
                           <div className="col-md-3 col-12 pt-md-0 pt-4 px-0">
-                              <h2 className="text-white luxury-title p-5 mt-md-3 pr-md-0 border-md-right text-md-left text-center">Design</h2>
+                              <h2 className="text-white luxury-title border-sm-bottom p-md-5 p-4 mt-md-3 pr-md-0 border-md-right text-md-left text-center">Design</h2>
                           </div>
                           <div className="col-md-7 col-12 text-left px-0">
                           <ul className="list what-we-do-list">
@@ -237,7 +237,7 @@ class Studio extends React.Component {
                        }}
                       className="row justify-content-around pt-5 px-5 mt-5 cursor-pointer">
                           <div className="col-md-3 col-12 pt-md-0 pt-4 px-0">
-                              <h2 className="text-white luxury-title p-5 pr-md-0 border-md-right text-md-left text-center">Web Development</h2>
+                              <h2 className="text-white luxury-title border-sm-bottom p-md-5 p-4 pr-md-0 border-md-right text-md-left text-center">Web Development</h2>
                           </div>
                           <div className="col-md-7 col-12 text-left px-0">
                           <ul className="list what-we-do-list">
@@ -268,8 +268,8 @@ class Studio extends React.Component {
                            </ul>
                           </div>
                       </motion.div>
-                      <div className="row pt-md-5 mt-5 justify-content-center">
-                          <div className="col-md-5 col-11 mt-md-5 pt-md-5">
+                      <div className="row mt-5 pt-5 justify-content-center">
+                          <div className="col-md-5 col-11 mt-5 pt-5">
                               <h5 className="everything-we-do">
                                   Everything we design is exceptional and is
                                   made to be part of something significant.
