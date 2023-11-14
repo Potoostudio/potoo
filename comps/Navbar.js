@@ -16,7 +16,7 @@ function toggle() {
       return (
         <>
         <div
-        className="nav px-md-5 py-md-4">
+        className="nav px-md-5 py-md-4 py-2">
           <div className="item pt-md-3 pt-3 d-lg-only">
             <Link href="/" className="potoo-logo-a d-flex">
                 <Image
@@ -34,7 +34,7 @@ function toggle() {
                     width="18"
                     height="48"
                     alt="Potoo logo"
-                    className="text-center"
+                    className="text-center bird-logo"
                     title="Potoo Bird. A quiue bird lives in Brazil"
                     />
             </Link>

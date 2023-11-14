@@ -29,7 +29,7 @@ a {
   .mobile-menu {
     width: fit-content;
     right: 0;
-    top: 35px;
+    top: 28px;
     z-index: 1111111;
     position: absolute;
     cursor: pointer;
@@ -40,10 +40,10 @@ a {
       .menu {
         position: relative;
         padding-right: 5px;
-        margin-right: 10px;
+        margin-right: 23px;
         transition: all 0.3s ease-in-out ;
-        width: 40px;
-        height: 12px;
+        width: 24px;
+        height: 10px;
 
         &::before {
           content: "";
@@ -63,7 +63,7 @@ a {
           top: 100%;
           background-color: #fafafa;
           display: inline;
-          transition: all 0.3s ease-in-out ;
+          transition: all 0.4s ease-in-out ;
         }
         &.activeNav {
           &::after {
@@ -78,15 +78,19 @@ a {
     display: none;
   }
   .nav {
-    margin: 0.5rem 1rem;
-    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     align-items: left;
     text-align: left;
     padding: 0;
     position: relative;
     z-index: 1111111;
+    border-bottom: 0.5px solid #fff;
 
     .item {
+      .bird-logo {
+        padding: 0.12rem;
+      }
 
 
       &.center {
@@ -119,7 +123,7 @@ a {
           height: 100vh;
           background-color: #020202;
           z-index: 111;
-          transition: all 0.4s ease-in-out 0s, visibility 0.3s linear 0.4s, z-index 0s linear 0.2s;
+          transition: ease-in-out 0.4s, visibility 0.4s, linear 0.4s, z-index 0s;
           visibility: hidden;
           opacity: 0;
           transform: translateY(-100%);
@@ -129,7 +133,7 @@ a {
             visibility: visible;
             opacity: 1;
             transform: translateY(0%);
-            transition-delay: 0s, 0s, 0.4s;
+            transition-delay: 0s, 0s, 0.45s;
             z-index: 11111;
           }
 
@@ -1227,8 +1231,12 @@ a {
     text-align: left;
     position: relative;
     z-index: 1111111;
+    border-bottom: none;
 
     .item {
+      .bird-logo {
+        padding: 0;
+      }
 
 
       &.center {

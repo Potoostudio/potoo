@@ -71,19 +71,19 @@ export default function Home() {
                  opacity: { duration: 1, delay: 0.4},
                }}
               className="list specialize-list pt-md-3 pt-4 we-specialize-list justify-content-center">
-                <li className="item font-weight-bolder">
+                <li className="item pt-3 font-weight-bolder">
                   Brand strategy
                 </li>
-                <li className="item pt-1 font-weight-bolder">
+                <li className="item pt-3 font-weight-bolder">
                   Naming
                 </li>
-                <li className="item pt-1 font-weight-bolder">
+                <li className="item pt-3 font-weight-bolder">
                   Brand Identity
                 </li>
-                <li className="item pt-1 font-weight-bolder">
+                <li className="item pt-3 font-weight-bolder">
                   Design
                 </li>
-                <li className="item pt-1 font-weight-bolder">
+                <li className="item pt-3 font-weight-bolder">
                   Web Development
                 </li>
               </motion.ul>
@@ -91,7 +91,7 @@ export default function Home() {
           </motion.div>
         </div>
        <div className="container-fluid design-container">
-          <div className="row home-page-row-project-images mb-5 mb-md-1 pt-5 mt-md-5 justify-content-between px-4 px-md-5">
+          <div className="row home-page-row-project-images mb-5 mb-md-1 mt-5 pt-5 justify-content-between px-4 px-md-5">
           <motion.div
             initial={{x: -100}}
             whileInView={{x: 0}}
@@ -153,7 +153,7 @@ export default function Home() {
             transition={{
               y: { duration: 1, delay: 0.4},
             }}
-            className="col-md-5 col-12 pt-lg-8rem mt-5 px-0">
+            className="col-md-5 col-12 pt-lg-8rem pt-5 mt-5 px-0">
               <Link href="/projects/36daysoftype-10" className="project-li-link">
                   <motion.div
                   whileHover={{
