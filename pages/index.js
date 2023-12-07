@@ -38,7 +38,7 @@ export default function Home() {
                  animate={{letterSpacing: "2px"}}
                  transition={{ duration: 1, delay: 0.1}}
                  className="studio-title letter-space-2px text-uppercase">
-                   Branding & Design Studio
+                   Design & Branding Studio
                  </motion.h5>
                   <motion.h5
                    initial={{opacity: 0, y: 30}}
