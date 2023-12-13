@@ -19,7 +19,7 @@ class Studio extends React.Component {
           return (
             <>
               <Head>
-                <title>POTOO STUDIO | Branding Studio</title>
+                <title>Studio</title>
                 <link rel="icon" href="favicon.ico" />
                 <link rel="manifest" href="/manifest.json"/>
                 <meta name="description" content="POTOO STUDIO | A Branding Studio Based In Denver"/>
