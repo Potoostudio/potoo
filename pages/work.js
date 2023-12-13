@@ -27,11 +27,11 @@ export default function Projects() {
   return (
     <>
       <Head>
-	  	<title>POTOO STUDIO | Work</title>
+	  	<title>Work</title>
         <link rel="icon" href="favicon.ico" />
         <link rel="manifest" href="/manifest.json"/>
         <meta name="description" content="POTOO STUDIO | We Are A Brand Studio Based In Denver"/>
-        <meta property="og:title" content="POTOO STUDIO | We Are A Brand Studio Based In Denver" />
+        <meta property="og:title" content="Work" />
         <meta property="og:description" content="POTOO STUDIO |  We Are A Brand Studio Based In Denver"/>
         <meta property="og:url" content="https://potoo.studio/work" />
         <meta property="og:type" content="website" />

@@ -11,11 +11,11 @@ export default function Projects() {
   return (
     <>
       <Head>
-	  	<title>POTOO STUDIO | Abdulhamid Gulf War</title>
+	  	<title>Abdulhamid Gulf War</title>
         <link rel="icon" href="favicon.ico" />
         <link rel="manifest" href="/manifest.json"/>
         <meta name="description" content="Potoo Project Seedstock | Branding project, logo, website design & development, marketing material"/>
-        <meta property="og:title" content="POTOO STUDIO | Projects, Denver" />
+        <meta property="og:title" content="Abdulhamid Gulf War" />
         <meta property="og:description" content="Potoo Studio project | Branding project, logo, website design & development, marketing material"/>
         <meta property="og:url" content="https://potoo.studio/potoo-project" />
         <meta property="og:type" content="website" />

@@ -10,11 +10,11 @@ export default function Projects() {
   return (
     <>
       <Head>
-	  	<title>POTOO STUDIO | Jaeger—Aeration </title>
+	  	<title>Jaeger—Aeration </title>
         <link rel="icon" href="favicon.ico" />
         <link rel="manifest" href="/manifest.json"/>
         <meta name="description" content="POTOO STUDIO Project Jaeger—Aeration | Branding project, logo, website design & development, Visual Design"/>
-        <meta property="og:title" content="POTOO STUDIO | Projects, Denver" />
+        <meta property="og:title" content="Jaeger Aeration" />
         <meta property="og:description" content="POTOO STUDIO project | Branding project, logo, website design & development, Visual Design`"/>
         <meta property="og:url" content="https://potoo.studio/jaeger-aeration" />
         <meta property="og:type" content="website" />

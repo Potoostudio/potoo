@@ -10,11 +10,11 @@ export default function Projects() {
   return (
     <>
       <Head>
-	  	<title>POTOO STUDIO | Seedstock</title>
+	  	<title>Seedstock</title>
         <link rel="icon" href="favicon.ico" />
         <link rel="manifest" href="/manifest.json"/>
         <meta name="description" content="Potoo Project Seedstock | Branding project, logo, website design & development, marketing material"/>
-        <meta property="og:title" content="POTOO STUDIO | Projects, Denver" />
+        <meta property="og:title" content="Seedstock" />
         <meta property="og:description" content="Potoo Studio project | Branding project, logo, website design & development, marketing material"/>
         <meta property="og:url" content="https://potoo.studio/potoo-project" />
         <meta property="og:type" content="website" />
