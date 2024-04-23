@@ -1,4 +1,4 @@
-@import url("https://use.typekit.net/rdz1lav.css");
+@import url("https://use.typekit.net/chl5clr.css");
 
 html,
 body {
@@ -22,7 +22,7 @@ a {
   box-sizing: border-box;
 }
 .luxury-title {
-  font-family: Essonnes, serif!important;
+  font-family: "minion-pro", serif!important;
 }
 
 @media only screen and (min-width: 280px) {
@@ -63,7 +63,7 @@ a {
           top: 100%;
           background-color: #fafafa;
           display: inline;
-          transition: all 0.4s ease-in-out ;
+          transition: all 0.2s ease-in-out ;
         }
         &.activeNav {
           &::after {
@@ -123,17 +123,14 @@ a {
           height: 100vh;
           background-color: #020202;
           z-index: 111;
-          transition: ease-in-out 0.4s, visibility 0.4s, linear 0.4s, z-index 0s;
-          visibility: hidden;
+          transition: all 0.6s;
           opacity: 0;
           transform: translateY(-100%);
 
 
           &.activeNav {
-            visibility: visible;
             opacity: 1;
             transform: translateY(0%);
-            transition-delay: 0s, 0s, 0.45s;
             z-index: 11111;
           }
 
@@ -154,7 +151,7 @@ a {
                 padding: 0.65rem;
                 font-size: 1.5rem;
                 color: #FAFAFA;
-                font-weight: 600;
+                font-weight: 400;
                 font-family:inherit;
                 width: 100%;
 
@@ -162,54 +159,12 @@ a {
                   position: relative;
                   display: inline-block;
                   text-transform: uppercase;
-
-                  &::before {
-                    content: "[";
-                    position: absolute;
-                    width: 20%;
-                    height: 62px;
-                    color: #fff;
-                    left: 2%;
-                    top: 14%;
-                    font-family: inherit;
-                  }
-                  &::after {
-                    content: "]";
-                    position: absolute;
-                    width: 20%;
-                    height: 62px;
-                    color: #fff;
-                    right: 2%;
-                    top: 14%;
-                    font-family: inherit;
-                  }
                 }
 
                 &.code-a {
                   position: relative;
                   display: inline-block;
                   text-transform: uppercase;
-
-                  &::before {
-                    content: "[";
-                    position: absolute;
-                    width: 20%;
-                    height: 62px;
-                    color: #fff;
-                    left: 2%;
-                    top: 14%;
-                    font-family: inherit;
-                  }
-                  &::after {
-                    content: "]";
-                    position: absolute;
-                    width: 20%;
-                    height: 62px;
-                    color: #fff;
-                    right: 2%;
-                    top: 14%;
-                    font-family: inherit;
-                  }
                 }
 
                 &:hover {
@@ -238,8 +193,7 @@ a {
       }
     }
     .home-page-container {
-      padding-top: 3.4rem;
-      margin-top: 8rem;
+
 
 
       .main-page-impression-text-box {
@@ -381,7 +335,6 @@ a {
       }
       .home-page-row-project-images {
         margin-bottom: 1rem;
-        margin-top: 1rem;
 
         .project-title {
           font-size: 16px;
@@ -789,8 +742,42 @@ a {
   .normal-text {
     font-size: 16px;
   }
-  .pt-6rem {
+  // Spacing
+  .pt-2x {
+    padding-top: 1rem!important;
+  }
+  .pt-4x {
+    padding-top: 2rem!important;
+  }
+  .pt-6x {
+    padding-top: 3rem!important;
+  }
+  .pt-8x {
+    padding-top: 4rem!important;
+  }
+  .pt-10x {
+    padding-top: 5rem!important;
+  }
+  .pt-12x {
     padding-top: 6rem!important;
+  }
+  .mt-2x {
+    margin-top: 1rem!important;
+  }
+  .mt-4x {
+    margin-top: 2rem!important;
+  }
+  .mt-6x {
+    margin-top: 3rem!important;
+  }
+  .mt-8x {
+    margin-top: 4rem!important;
+  }
+  .mt-10x {
+    margin-top: 5rem!important;
+  }
+  .mt-12x {
+    margin-top: 6rem!important;
   }
 }
 @media only screen and (min-width: 669px) {
@@ -1238,8 +1225,11 @@ a {
     position: relative;
     z-index: 1111111;
     border-bottom: none;
+    background-color: inherit;
+    border-bottom: 1px solid rgb(212, 209, 209);
 
     .item {
+      display: flex;
       .bird-logo {
         padding: 0;
       }
@@ -1260,7 +1250,7 @@ a {
       content: '';
         width: 0%;
         height: 1px;
-        background-color: #ccc;
+        background-color: rgb(255, 255, 255);
         display: inline;
         position: absolute;
         top: 20px;
@@ -1290,7 +1280,7 @@ a {
           height: 100vh;
           background-color: #020202;
           z-index: 111;
-          transition: all 0.7s ease-in-out 0s, visibility 0.3s linear 0.4s, z-index 0s linear 0.2s;
+          transition: all 0.1s ease-in-out 0s, visibility 0.1s linear 0.1s, z-index 0s linear 0.1s;
           visibility: hidden;
           opacity: 0;
           transform: translateY(-100%);
@@ -1300,7 +1290,7 @@ a {
             visibility: visible;
             opacity: 1;
             transform: translateY(0%);
-            transition-delay: 0s, 0s, 0.4s;
+            transition-delay: 0s, 0s, 0.1s;
             z-index: 11111;
           }
 
@@ -1407,9 +1397,8 @@ a {
     border-top: none;
     margin-top: 0;
 
-    .main-page-impression-text-box {
-     text-align: center;
-     height: 100vh;
+    .hight-80vh {
+     height: 85vh;
 
      .studio-title {
       position: absolute;
@@ -1417,10 +1406,11 @@ a {
       text-align: center;
       width: 100%;
       font-size: 1.30rem;
+      font-weight: 300;
      }
      .main-page-impression-title {
       position: sticky;
-      top: 60vh;
+      top: 40vh;
      }
 
       .main-page-impression-text-large {
@@ -1853,7 +1843,7 @@ a {
         }
         //Home page project list
         .home-page-row-project-images {
-          margin-bottom: 2rem;
+          margin-top: 4rem;
 
             .project-title {
               font-size: 18px;
@@ -2101,6 +2091,9 @@ a {
     .pt-lg-12rem {
       padding-top: 12rem!important;
     }
+    .mt-lg-12rem {
+      margin-top: 12rem!important;
+    }
       .project-embeded {
         width: 1220px;
         height: 1176px;
@@ -2180,6 +2173,43 @@ a {
         }
         .border-sm-bottom {
           border-bottom: none;
+        }
+        // Spacing
+        .pt-2x {
+          padding-top: 4rem!important;
+        }
+        .pt-4x {
+          padding-top: 6rem!important;
+        }
+        .pt-6x {
+          padding-top: 8rem!important;
+        }
+        .pt-8x {
+          padding-top: 10rem!important;
+        }
+        .pt-10x {
+          padding-top: 12rem!important;
+        }
+        .pt-12x {
+          padding-top: 14rem!important;
+        }
+        .mt-2x {
+          margin-top: 4rem!important;
+        }
+        .mt-4x {
+          margin-top: 6rem!important;
+        }
+        .mt-6x {
+          margin-top: 8rem!important;
+        }
+        .mt-8x {
+          margin-top: 10rem!important;
+        }
+        .mt-10x {
+          margin-top: 12rem!important;
+        }
+        .mt-12x {
+          margin-top: 14rem!important;
         }
     }
     // end of 966px
@@ -2389,3 +2419,10 @@ a {
 .letter-space-2px {
   letter-spacing: 2px;
 }
+.color-dark {
+  color: #000;
+}
+.border-silver {
+  border: solid 1px #848484
+}
+

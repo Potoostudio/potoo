@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Clock from 'react-live-clock'
 import Image from 'next/image'
 
-const impressionsList = ["charismatic", "memorable", "extraordinary", "inspirational", "luxurious"];
+const impressionsList = ["future", "product", "book", "shop", "brand", "business", "idea", "studio"];
 export default class Footer extends Component {
 
     constructor() {
@@ -30,26 +30,28 @@ export default class Footer extends Component {
             <>
           <div className="container-fluid footer-container pt-5 pb-md-0 pb-4">
               <div className="row justify-content-between pb-md-3 mx-md-5 pt-md-4">
-                  <div className="col-12 col-md-12 text-left pr-md-5 pb-md-0 pb-4">
-                  <span className="footer-small-title">We are</span>
+                  <div className="col-12 col-md-3 text-left pr-md-5 pb-md-0 pb-4">
+
                       <div className="image-container">
                         <Image
-                            src="/Potoo-logo-word-white.svg"
+                            src="/Potoo Word Logo.svg"
                             layout='fill'
                             className="image"
                             alt="Potoo Studio Logo Word"
                         />
                       </div>
                   </div>
-                  <div className="col-3 col-md-4 text-left pt-4 pt-md-5 mt-md-4 mt-0">
+                  <div className="col-12 col-md-4 text-left mt-0">
                       <div className="container p-0 mt-2">
-                          <h6 className="design-studio luxury-title text-capitalize">
-                              Design <span className="text-normal font-weight-light">&</span> Branding Studio
-                          </h6>
+                          <h5 className=" luxury-title">
+                            Potoo is a design studio focused on creating verbal and visual communication of your brilliant {impressionsChange}.
+                          </h5>
                           <span className="say-list"></span>
                       </div>
                   </div>
-                  <div className="col-md-2 col-5 text-left pt-4 pt-md-5 mt-md-4 mt-0">
+              </div>
+              <div className="row justify-content-md-end justify-content-between pb-md-4 mx-md-5 pt-md-4 pt-4">
+              <div className="col-md-2 col-5 text-left pt-4 pt-md-5 mt-md-4 mt-0">
                       <ul className="contact-list">
                           <span className="footer-small-title">contact info</span>
                           <li className="item">
@@ -66,7 +68,7 @@ export default class Footer extends Component {
                           </li>
                       </ul>
                     </div>
-                    <div className="col-md-3 col-4 pt-4 pt-md-5 mt-md-4 mt-0">
+                    <div className="col-md-2 col-4 pt-4 pt-md-5 mt-md-4 mt-0">
                         <ul className="media-list text-right text-md-left">
                         <span className="footer-small-title">social media</span>
                             <li className="item">
@@ -89,17 +91,17 @@ export default class Footer extends Component {
               </div>
               <div className="row justify-content-between pb-md-4 mx-md-5 pt-md-4 pt-4">
                   <div className="col-11 col-md-4 text-left">
-                    <p className=" text-left mb-md-3 mb-0 footer-bottom-info color-secondary">
+                    <p className=" text-left mb-md-3 mb-0 footer-bottom-info">
                         2000 S Colorado Blvd Tower 1 Suite 2000-511 Denver, CO 80222
                     </p>
                   </div>
                   <div className="col-md-2 col-4 text-left pt-2 pt-md-0">
-                    <p className="text-left footer-bottom-info mb-3 color-secondary">
+                    <p className="text-left footer-bottom-info mb-3">
                         Site Made In House
                     </p>
                   </div>
                     <div className="col-md-3 col-7 pt-1 pt-md-0 text-right text-md-left">
-                        <time className="clock mb-3 footer-bottom-info color-secondary">It's<Clock className="digital-clock" format={'h:mm A'} ticking={true} timezone={'US/Mountain'}/>in the beautiful Rockies</time>
+                        <time className="clock mb-3 footer-bottom-info">It's<Clock className="digital-clock" format={'h:mm A'} ticking={true} timezone={'US/Mountain'}/>in the beautiful Rockies</time>
                     </div>
               </div>
           </div>

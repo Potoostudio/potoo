@@ -16,35 +16,35 @@ function toggle() {
       return (
         <>
         <div
-        className="nav px-md-5 py-md-4 py-2">
-          <div className="item pt-md-3 pt-3 d-lg-only">
-            <Link href="/" className="potoo-logo-a d-flex">
+        className="nav px-md-5 py-md-4 py-2 mr-md-auto">
+          <div className="item d-lg-only">
+            <Link href="/" className="potoo-logo-a">
                 <Image
-                  src="/Potoo-word-logo.svg"
-                  width="137"
-                  height="13"
+                  src="/Potoo Word Logo.svg"
+                  width="80"
+                  height="16"
                   alt="Potoo logo"
                 />
               </Link>
           </div>
           <div className="item center">
-            <Link href="/" className="potoo-logo-a d-flex">
+            <Link href="/" className="potoo-logo-a d-flex d-lg-none">
               <Image
-                    src="/new-potoo-logo.svg"
-                    width="18"
-                    height="48"
+                    src="/Potoo Word Logo.svg"
+                    width="200"
+                    height="53"
                     alt="Potoo logo"
-                    className="text-center bird-logo"
+                    className="text-center bird-logo p-3 p-m-0"
                     title="Potoo Bird. A quiue bird lives in Brazil"
                     />
             </Link>
           </div>
-          <div className="item pt-md-2 pr-md-5 d-lg-only">
+          <div className="item pr-md-5 d-lg-only">
             <Link href="/work" className="nav-a">
               Work
             </Link>
           </div>
-          <div className="item pt-md-2 d-lg-only">
+          <div className="item d-lg-only pr-md-0">
             <Link href="/studio" className="nav-a">
               Studio
             </Link>

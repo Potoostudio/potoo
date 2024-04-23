@@ -9,11 +9,11 @@ export const lightTheme = {
 }
 
 export const darkTheme = {
-  body: '#040404',
+  body: '#020202',
   text: '#fff',
   a: '#fff',
   toggleBorder: '#6B8096',
-  background: '#999',
+  background: '#101415',
 }
 
 export const GlobalStyles = createGlobalStyle`
