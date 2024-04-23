@@ -331,7 +331,7 @@ export default function Home() {
             >
             <div className="image-container border">
               <Image
-                  src="/Xtraair-Logo-720.jpg"
+                  src="/xtraair-logo-720.jpg"
                   layout="fill"
                   className="image"
                   alt="Xtraair Logo"
@@ -352,7 +352,7 @@ export default function Home() {
                   src="/WNCS-logo-720.jpg"
                   layout="fill"
                   className="image"
-                  alt="WNCS Project"
+                  alt="WNCS Logo"
                   loading="lazy"
                   />
             </div>
@@ -367,10 +367,10 @@ export default function Home() {
             >
             <div className="image-container border">
               <Image
-                  src="/ADS-logo-720.jpg"
+                  src="/ADS-Logo-720.jpg"
                   layout="fill"
                   className="image"
-                  alt="Explico Logo"
+                  alt="ADS Logo"
                   loading="lazy"
                   />
             </div>
@@ -406,7 +406,7 @@ export default function Home() {
                   src="/TOk-Logo-720.jpg"
                   layout="fill"
                   className="image"
-                  alt="Explico Logo"
+                  alt="Tok Logo"
                   loading="lazy"
                   />
             </div>
@@ -424,7 +424,7 @@ export default function Home() {
                   src="/Farmer-logo-720.jpg"
                   layout="fill"
                   className="image"
-                  alt="Explico Logo"
+                  alt="Farmer Logo"
                   loading="lazy"
                   />
             </div>
