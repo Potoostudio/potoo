@@ -208,7 +208,7 @@ export default function Projects() {
                   }}
                   initial={{opacity: 0.3}}>
                     <Image
-                        src="/Potoo-Brand-Personality_Page_110.jpg"
+                        src="/Potoo-Brand-Personality_page_110.jpg"
                         layout="fill"
                         className="image"
                         alt= "Potoo Personality"/>
@@ -438,10 +438,7 @@ export default function Projects() {
                 </motion.div>
             </div>
           </div>
-
       </div>
-
-
     </>
   )
 }
