@@ -31,26 +31,23 @@ export default function Home() {
         </Head>
         <div className="container-fluid home-page-container mx-1600 pt-md-0 mt-md-0">
           <div className="row hight-80vh justify-content-end bg-white pb-4">
-            <div className="col-md-12 col-12 pl-lg-0 pr-lg-0 mr-lg-0 pt-5 mt-5">
-            <motion.h3
-                   initial={{opacity: 0, y: 30}}
-                   animate={{opacity: 1, y: 0}}
-                   transition={{ duration: 0.7, delay: 0.5}}
-                  className="main-page-impression-title text-md-center color-dark luxury-title font-weight-normal mt-5 pt-5">We create the verbal and visual communication of your brilliant future.</motion.h3>
+            <motion.div 
+            initial={{opacity: 0, y: 30}}
+            animate={{opacity: 1, y: 0}}
+            transition={{ duration: 0.7, delay: 0.5}}
+            className="col-md-12 col-12 pl-lg-0 pr-lg-0 mr-lg-0 pt-5 mt-5">
+            <h3 className="main-page-impression-title text-md-center color-dark luxury-title font-weight-normal mt-5 pt-5">We create the verbal and visual communication of your brilliant future.</h3>
                 {/* <motion.h1
                   initial={{opacity: 0, y: 30}}
                   animate={{opacity: 1, y: 0}}
                   transition={{ duration: 0.7, delay: 0.8}}
                 className="main-page-impression-text-large color-white luxury-title">{services[index % services.length]}</motion.h1> */}
-            </div>
+            </motion.div>
             <div className="col-md-6 col-12 pr-md-5 mr-md-5 pt-md-5 mt-5 mb-4 mb-md-0">
               <motion.h6
-                initial={{opacity: 0.5}}
-                whileInView={{opacity: 1}}
-                viewport={{ once: true }}
-                transition={{
-                  opacity: { duration: 1, delay: 0.4},
-                }}
+                initial={{opacity: 0, y: 30}}
+                animate={{opacity: 1, y: 0}}
+                transition={{ duration: 0.7, delay: 0.55}}
                 className="text-normal font-weight-normal text-dark pr-md-5 mr-md-5 w-75 pt-5 mt-md-5">We help clients create communication through brand stategy, brand identity, design, and web. </motion.h6>
             </div>
           </div>
@@ -173,10 +170,21 @@ export default function Home() {
          </div>
           <div className="col-md-3 border-white">
             <Link href="/projects/jaeger-aeration" className="project-li-link">
-              <video className="video- border-silver" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%">
-                          <source src="/Jaeger-Voice.mp4" type="video/mp4"/>
-                  </video>
-            </Link>
+                <motion.div
+                  whileHover={{
+                  opacity: 0.7,
+                  transition: { duration: 0.3, ease: "easeIn" },
+                }}
+                className="image-container">
+                  <Image
+                      src="/Jaeger-screen.jpg"
+                      layout="fill"
+                      className="image"
+                      alt="Jaeger aeration project"
+                      loading="lazy"
+                      />
+                </motion.div>
+              </Link>
           </div>
           <div className="col-md-6">
             <Link href="/projects/jaeger-aeration" className="project-li-link">
