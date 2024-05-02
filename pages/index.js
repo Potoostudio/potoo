@@ -30,13 +30,13 @@ export default function Home() {
           <meta property="og:type" content="website" />
         </Head>
         <div className="container-fluid home-page-container mx-1600 pt-md-0 mt-md-0">
-          <div className="row hight-80vh justify-content-end bg-white pb-4">
+          <div className="row hight-80vh justify-content-end pb-4">
             <motion.div 
             initial={{opacity: 0, y: 30}}
             animate={{opacity: 1, y: 0}}
             transition={{ duration: 0.7, delay: 0.5}}
             className="col-md-12 col-12 pl-lg-0 pr-lg-0 mr-lg-0 pt-5 mt-5">
-            <h3 className="main-page-impression-title text-md-center color-dark luxury-title font-weight-normal mt-5 pt-5">We create the verbal and visual communication of your brilliant future.</h3>
+            <h3 className="main-page-impression-title text-md-center luxury-title font-weight-normal mt-5 pt-5">We create the verbal and visual communication of your brilliant future.</h3>
                 {/* <motion.h1
                   initial={{opacity: 0, y: 30}}
                   animate={{opacity: 1, y: 0}}
@@ -48,7 +48,7 @@ export default function Home() {
                 initial={{opacity: 0, y: 30}}
                 animate={{opacity: 1, y: 0}}
                 transition={{ duration: 0.7, delay: 0.55}}
-                className="text-normal font-weight-normal text-dark pr-md-5 mr-md-5 w-75 pt-5 mt-md-5">We help clients create communication through brand stategy, brand identity, design, and web. </motion.h6>
+                className="text-normal font-weight-normal text-darker pr-md-5 mr-md-5 w-75 pt-5 mt-md-5">We help clients create communication through brand stategy, brand identity, design, and web. </motion.h6>
             </div>
           </div>
           <div className="row home-page-row-project-images mb-5 mb-md-1 justify-content-between px-md-5 pt-12x">
