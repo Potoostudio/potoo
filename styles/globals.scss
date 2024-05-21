@@ -460,8 +460,11 @@ a {
         text-transform: none;
 
         .social-media-a {
-          color: #fafafa;
           text-transform: none;
+          text-decoration: none;
+          color: #FAFAFA;
+          position: relative;
+          font-size: 0.9rem;
         }
       }
 
@@ -473,7 +476,6 @@ a {
       font-size: calc(0.3rem + 0.36rem);
       text-transform: uppercase;
       text-align: left;
-      font-family: Essonnes, serif!important;
       font-weight: 400;
       color: #b5b5b5;
     }
@@ -1878,7 +1880,6 @@ a {
   
     }
     .footer-container {
-      margin-top: 35%;
       border-top: 1px solid #aeaeae;
 
       .contact-list {
@@ -1936,7 +1937,6 @@ a {
         font-size: calc(0.3rem + 0.36rem);
         text-transform: uppercase;
         text-align: left;
-        font-family: Essonnes, serif!important;
         font-weight: 400;
         color: #dbdbdb;
       }
@@ -2137,9 +2137,6 @@ a {
         .left-line, .right-line {
           border-top: 1px solid #b5b5b5;
           margin-top: 14px;
-        }
-        .font-large {
-          font-size: calc(1.832rem + 2vw);
         }
         .normal-text {
           font-size: 20px;
@@ -2426,4 +2423,12 @@ a {
 .border-silver {
   border: solid 1px #848484
 }
-
+.line-height-normal {
+  line-height: 1.4;
+}
+.font-large {
+  font-size: calc(1.3rem + 1.2vw);
+}
+.font-medium {
+  font-size: calc(1.1rem + 0.8vw);
+}

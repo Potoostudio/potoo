@@ -81,7 +81,7 @@ export default function Projects() {
               </Link>
             </div>
             <div className="col-md-6 pt-2 pt-md-0">
-              <Link href="/projects/Potoo" className="project-li-link">
+              <Link href="/projects/potoo" className="project-li-link">
                 <motion.div
                   whileHover={{
                   opacity: 0.7,

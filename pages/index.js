@@ -29,14 +29,14 @@ export default function Home() {
           <meta property="og:url" content="https://potoo.studio" />
           <meta property="og:type" content="website" />
         </Head>
-        <div className="container-fluid home-page-container mx-1600 pt-md-0 mt-md-0">
+        <div className="container-fluid home-page-container pt-md-0 mt-md-0">
           <div className="row hight-80vh justify-content-end pb-4">
             <motion.div 
             initial={{opacity: 0, y: 30}}
             animate={{opacity: 1, y: 0}}
             transition={{ duration: 0.7, delay: 0.5}}
             className="col-md-12 col-12 pl-lg-0 pr-lg-0 mr-lg-0 pt-5 mt-5">
-            <h3 className="main-page-impression-title text-md-center luxury-title font-weight-normal mt-5 pt-5">We create the verbal and visual communication of your brilliant future.</h3>
+            <h3 className="main-page-impression-title font-large text-md-center luxury-title font-weight-normal mt-5 pt-5">We create the verbal and visual communication of your brilliant future.</h3>
                 {/* <motion.h1
                   initial={{opacity: 0, y: 30}}
                   animate={{opacity: 1, y: 0}}
@@ -48,19 +48,19 @@ export default function Home() {
                 initial={{opacity: 0, y: 30}}
                 animate={{opacity: 1, y: 0}}
                 transition={{ duration: 0.7, delay: 0.55}}
-                className="text-normal font-weight-normal text-darker pr-md-5 mr-md-5 w-75 pt-5 mt-md-5">We help clients create communication through brand stategy, brand identity, design, and web. </motion.h6>
+                className="text-normal line-height-normal font-weight-normal text-darker pr-md-5 mr-md-5 w-75 pt-5 mt-md-5">We help clients create communication through brand stategy, brand identity, design, and web. </motion.h6>
             </div>
           </div>
-          <div className="row home-page-row-project-images mb-5 mb-md-1 justify-content-between px-md-5 pt-12x">
-            <motion.div
+          <div className="row home-page-row-project-images mb-md-1 justify-content-between px-md-5 pt-12x">
+            {/* <motion.div
               initial={{x: -100}}
               whileInView={{x: 0}}
               viewport={{ once: true }}
               transition={{
                 x: { duration: 1, delay: 0.4},
               }}
-              className="col-5 left-line"></motion.div>
-                <div className="col-md-2 px-md-0">
+              className="col-5 left-line"></motion.div> */}
+                <div className="col-md-2">
                   <motion.h3
                   initial={{opacity: 0.5}}
                   whileInView={{opacity: 1}}
@@ -68,16 +68,16 @@ export default function Home() {
                   transition={{
                     opacity: { duration: 1, delay: 0.4},
                   }}
-                  className="luxury-title text-md-center line-before-after">Work</motion.h3>
+                  className="luxury-title line-before-after">Work</motion.h3>
               </div>
-              <motion.div
+              {/* <motion.div
               initial={{x: 100}}
               whileInView={{x: 0}}
               viewport={{ once: true }}
               transition={{
                 x: { duration: 1, delay: 0.4},
               }}
-              className="col-5 right-line"></motion.div>
+              className="col-5 right-line"></motion.div> */}
             </div>
         <div className="row project px-md-5">
           <div className="col-12 pb-md-1">
@@ -123,7 +123,7 @@ export default function Home() {
                 }}
                 className="image-container">
                   <Image
-                      src="/Potoo-Poster-visual-message.jpg"
+                      src="/Poster-visual-message-dark.jpg"
                       layout="fill"
                       className="image"
                       alt="Potoo Project"
@@ -292,15 +292,15 @@ export default function Home() {
           </Link>
           </div>
         </div>
-         <div className="row justify-content-between px-md-5 pt-5 mt-lg-12rem">
-         <motion.div
+         <div className="row justify-content-between px-md-5 pt-10x">
+         {/* <motion.div
           initial={{x: -100}}
           whileInView={{x: 0}}
           viewport={{ once: true }}
           transition={{
             x: { duration: 1, delay: 0.4},
           }}
-          className="col-md-5 col-12 left-line"></motion.div>
+          className="col-md-5 col-12 left-line"></motion.div> */}
           <div className="col-md-2 px-md-0 pb-4 pb-md-0">
             <motion.h3
             initial={{opacity: 0.7}}
@@ -309,16 +309,16 @@ export default function Home() {
             transition={{
               opacity: { duration: 1, delay: 0.4},
             }}
-            className="luxury-title text-md-center line-before-after">Design</motion.h3>
+            className="luxury-title pl-3 line-before-after">Design</motion.h3>
           </div>
-          <motion.div
+          {/* <motion.div
           initial={{x: 100}}
           whileInView={{x: 0}}
           viewport={{ once: true }}
           transition={{
             x: { duration: 1, delay: 0.4},
           }}
-          className="col-5 right-line"></motion.div>
+          className="col-5 right-line"></motion.div> */}
             <motion.div className="col-md-5 col-8 pt-md-5 pt-1 px-md-0"
             initial={{y: 0}}
             whileInView={{y: -20}}
@@ -328,7 +328,7 @@ export default function Home() {
             }}>
             </motion.div>
          </div>
-       <div className="row justify-content-between px-4 px-md-5">
+       <div className="row justify-content-between px-4 px-md-5 pb-5 mb-5">
             <motion.div className="col-md-4 col-6 pt-md-5 pt-3 px-md-4 pb-md-0 mb-md-0"
             initial={{y: 0}}
             whileInView={{y: -20}}

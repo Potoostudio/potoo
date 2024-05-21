@@ -30,9 +30,9 @@ export default class Footer extends Component {
             <>
           <div className="container-fluid footer-container pt-5 pb-md-0 pb-4">
               <div className="row justify-content-between pb-md-3 mx-md-5 pt-md-4">
-                  <div className="col-12 col-md-3 text-left pr-md-5 pb-md-0 pb-4">
+                  <div className="col-12 col-md-8 text-left pr-md-5 pb-md-0 pb-4">
 
-                      <div className="image-container">
+                      <div className="image-container w-25">
                         <Image
                             src="/Potoo Word Logo.svg"
                             layout='fill'
@@ -41,19 +41,9 @@ export default class Footer extends Component {
                         />
                       </div>
                   </div>
-                  <div className="col-12 col-md-4 text-left mt-0">
-                      <div className="container p-0 mt-2">
-                          <h5 className=" luxury-title">
-                            Potoo is a design studio focused on creating verbal and visual communication of your brilliant {impressionsChange}.
-                          </h5>
-                          <span className="say-list"></span>
-                      </div>
-                  </div>
-              </div>
-              <div className="row justify-content-md-end justify-content-between pb-md-4 mx-md-5 pt-md-4 pt-4">
-              <div className="col-md-2 col-5 text-left pt-4 pt-md-5 mt-md-4 mt-0">
+                  <div className="col-md-2 col-6 text-left pt-0 mt-md-0 mt-0">
                       <ul className="contact-list">
-                          <span className="footer-small-title">contact info</span>
+                          {/* <span className="footer-small-title">contact info</span> */}
                           <li className="item">
                             <Link href="mailto:ideas@potoo.studio" aria-label="email" className="say-hello-a">
                                 ideas@potoo.studio
@@ -68,26 +58,37 @@ export default class Footer extends Component {
                           </li>
                       </ul>
                     </div>
-                    <div className="col-md-2 col-4 pt-4 pt-md-5 mt-md-4 mt-0">
-                        <ul className="media-list text-right text-md-left">
-                        <span className="footer-small-title">social media</span>
-                            <li className="item">
+                    <div className="col-md-2 col-6 pt-0 mt-md-0 mt-0">
+                        <ul className="media-list text-left">
+                        {/* <span className="footer-small-title">social media</span> */}
+                            <li className="item footer-small-title">
                                 <Link href="https://www.instagram.com/potoostudio" aria-label="instagram" className="social-media-a say-hello-a">
                                     Instagram
                                 </Link>
                             </li>
-                            <li className="item pt-1">
+                            <li className="item pt-1 footer-small-title">
                                 <Link href="https://www.behance.net/potoostudio" aria-label="behance" className="social-media-a say-hello-a">
                                     Behance
                                 </Link>
                             </li>
-                            <li className="item pt-1">
+                            <li className="item pt-1 footer-small-title">
                                 <Link href="https://dribbble.com/potoostudio" aria-label="dribbble" className="social-media-a say-hello-a">
                                     Dribbble
                                 </Link>
                             </li>
                         </ul>
                     </div>
+                  
+              </div>
+              <div className="row justify-content-md-end justify-content-between pb-5 mx-md-5 pt-md-4 pt-4">
+                    <div className="col-12 col-md-4 text-left mt-0">
+                      <div className="container p-0 mt-2">
+                          <p className="">
+                            Potoo is a design studio focused on creating verbal and visual communication of your brilliant {impressionsChange}
+                          </p>
+                          <span className="say-list"></span>
+                      </div>
+                  </div>
               </div>
               <div className="row justify-content-between pb-md-4 mx-md-5 pt-md-4 pt-4">
                   <div className="col-11 col-md-4 text-left">
