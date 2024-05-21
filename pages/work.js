@@ -28,7 +28,7 @@ export default function Projects() {
     <>
       <Head>
 	  	<title>Work</title>
-        <link rel="icon" href="favicon.ico" />
+        <link rel="icon" href="favicon.png" />
         <link rel="manifest" href="/manifest.json"/>
         <meta name="description" content="POTOO STUDIO | We Are A Brand Studio Based In Denver"/>
         <meta property="og:title" content="Work" />

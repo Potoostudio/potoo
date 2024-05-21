@@ -11,7 +11,7 @@ export default function Projects() {
     <>
       <Head>
 	  	<title>Jaeger—Aeration </title>
-        <link rel="icon" href="favicon.ico" />
+        <link rel="icon" href="favicon.png" />
         <link rel="manifest" href="/manifest.json"/>
         <meta name="description" content="POTOO STUDIO Project Jaeger—Aeration | Branding project, logo, website design & development, Visual Design"/>
         <meta property="og:title" content="Jaeger Aeration" />

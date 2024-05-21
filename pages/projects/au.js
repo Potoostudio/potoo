@@ -12,7 +12,7 @@ export default function Projects() {
     <>
       <Head>
 	  	<title>Abdulhamid Gulf War</title>
-        <link rel="icon" href="favicon.ico" />
+        <link rel="icon" href="favicon.png" />
         <link rel="manifest" href="/manifest.json"/>
         <meta name="description" content="Potoo Project Seedstock | Branding project, logo, website design & development, marketing material"/>
         <meta property="og:title" content="Abdulhamid Gulf War" />

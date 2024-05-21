@@ -21,7 +21,7 @@ class Studio extends React.Component {
             <>
               <Head>
                 <title>POTOO | Branding Agency Denver</title>
-                <link rel="icon" href="favicon.ico" />
+                <link rel="icon" href="favicon.png" />
                 <link rel="manifest" href="/manifest.json"/>
                 <meta name="description" content="POTOO | A Branding Agency in Denver"/>
                 <meta property="og:title" content="POTOO | Branding Agency Denver" />

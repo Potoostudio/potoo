@@ -21,7 +21,7 @@ export default function Home() {
       <>
         <Head>
           <title>POTOO</title>
-          <link rel="icon" href="favicon.ico" />
+          <link rel="icon" href="favicon.png" />
           <link rel="manifest" href="/manifest.json"/>
           <meta name="description" content="POTOO | We Are A Brand Studio Based In Denver. We specialize in branding and we development"/>
           <meta property="og:title" content="POTOO" />
