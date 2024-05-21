@@ -87,67 +87,13 @@ export default function Projects() {
                 </motion.p>
             </div>
           </div>
-          <div className="row project-row justify-content-center pb-md-5 pt-6rem pt-lg-8rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
-          <div className="col-md-12 col-12">
-                <motion.h6 className="text-uppercase font-weight-bolder text-left"
-                whileInView= {{opacity: 1}}
-                viewport={{ once: true }}
-                transition={{
-                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                }}
-                initial={{opacity: 0.3}}>
-                    Personality
-                </motion.h6>
-            </div>
-            <div className="col-md-12 col-12 pt-md-3 pt-2">
-                <motion.div className="image-container"
-                  whileInView= {{opacity: 1}}
-                  viewport={{ once: true }}
-                  transition={{
-                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                  }}
-                  initial={{opacity: 0.3}}>
-                    <Image
-                        src="/Potoo-Brand-Personality_Page_005.jpg"
-                        layout="fill"
-                        className="image"
-                        alt= "Potoo Personality"/>
-                </motion.div>
-            </div>
-          </div>
-
           <div className="row project-row justify-content-around pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
-            <div className="col-md-12 col-12">
-              <h6 className="font-weight-bolder text-uppercase text-left pt-md-5 pt-3">
-                  Voice
-              </h6>
-            </div>
             <div className="col-12">
-              <ul className="list bg-white list-style-none color-dark luxury-title font-large d-flex justify-content-around py-5">
-                <li className="item">
-                  Creative
-                </li>
-                <li className="item">
-                  Clear
-                </li>
-                <li className="item">
-                  Uplifting
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="row project-row justify-content-around pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
-            <div className="col-md-12 col-12">
-              <h6 className="font-weight-bolder text-uppercase text-left pt-md-5 pt-3">
-                  Message
-              </h6>
-            </div>
-            <div className="col-12">
-              <h1 className="luxury-title p-5 text-center border-bottom">
+              <h1 className="luxury-title p-5 text-left px-md-0 border-bottom">
                 The verbal and visual communication of your brilliant future.
               </h1>
             </div>
-            <div className="col-12 pt-5 mt-5">
+            <div className="col-12 col-md-6 pt-5 mt-5">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -162,7 +108,7 @@ export default function Projects() {
                         alt= "Potoo Personality"/>
                 </motion.div>
             </div>
-            <div className="col-12 pt-5 mt-5">
+            <div className="col-12 col-md-6 pt-5 mt-5">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -180,7 +126,7 @@ export default function Projects() {
           </div>
           <div className="row project-row justify-content-around pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
             <div className="col-md-12 col-12">
-              <h6 className="font-weight-bolder text-uppercase text-left pt-md-5 pt-3">
+              <h6 className="color-secondary text-left pt-md-5 pt-3">
                   Logo
               </h6>
             </div>
@@ -224,7 +170,7 @@ export default function Projects() {
                 opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                 }}
                 initial={{opacity: 0.3}}>
-                <h6 className="text-uppercase font-weight-bolder">
+                <h6 className="color-secondary">
                     Colors & Typography
                 </h6>
             </motion.div>
@@ -258,7 +204,7 @@ export default function Projects() {
                         alt= "Potoo Personality"/>
                 </motion.div>
             </div>
-            <div className="col-12 pt-3">
+            <div className="col-12 col-md-6 pt-3">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -273,7 +219,7 @@ export default function Projects() {
                         alt= "Potoo Personality"/>
                 </motion.div>
             </div>
-            <div className="col-12 pt-3">
+            <div className="col-12 col-md-6 pt-3">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -283,21 +229,6 @@ export default function Projects() {
                   initial={{opacity: 0.3}}>
                     <Image
                         src="/Potoo-Brand-Personality_Page_057.jpg"
-                        layout="fill"
-                        className="image"
-                        alt= "Potoo Personality"/>
-                </motion.div>
-            </div>
-            <div className="col-12 pt-3">
-              <motion.div className="image-container"
-                  whileInView= {{opacity: 1}}
-                  viewport={{ once: true }}
-                  transition={{
-                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                  }}
-                  initial={{opacity: 0.3}}>
-                    <Image
-                        src="/Potoo-Brand-Personality_Page_082.jpg"
                         layout="fill"
                         className="image"
                         alt= "Potoo Personality"/>
@@ -327,8 +258,8 @@ export default function Projects() {
                 opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                 }}
                 initial={{opacity: 0.3}}>
-                <h6 className="text-uppercase font-weight-bolder">
-                    Visuals
+                <h6 className="color-secondary">
+                  Stationery & Visuals
                 </h6>
             </motion.div>
             <div className="col-4 pt-3">
