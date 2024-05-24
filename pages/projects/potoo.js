@@ -266,7 +266,7 @@ export default function Projects() {
                   Stationery
                 </h6>
             </motion.div>
-            <div className="col-4 pt-3">
+            <div className="col-md-4 col-12 pt-3">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -281,7 +281,7 @@ export default function Projects() {
                         alt= "Potoo Personality"/>
                 </motion.div>
             </div>
-            <div className="col-4 pt-3">
+            <div className="col-md-4 col-12 pt-3">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -296,7 +296,7 @@ export default function Projects() {
                         alt= "Potoo Personality"/>
                 </motion.div>
             </div>
-            <div className="col-4 pt-3">
+            <div className="col-md-4 col-12 pt-3">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -339,7 +339,7 @@ export default function Projects() {
                   Screen
                 </h6>
             </motion.div>
-            <div className="col-4 pt-3">
+            <div className="col-md-4 col-12 pt-3">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -354,7 +354,7 @@ export default function Projects() {
                         alt= "Potoo Personality"/>
                 </motion.div>
             </div>
-            <div className="col-4 pt-3">
+            <div className="col-md-4 col-12 pt-3">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -369,7 +369,7 @@ export default function Projects() {
                         alt= "Potoo Personality"/>
                 </motion.div>
             </div>
-            <div className="col-4 pt-3">
+            <div className="col-md-4 col-12 pt-3">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -397,7 +397,7 @@ export default function Projects() {
                   Visuals
                 </h6>
             </motion.div>
-            <div className="col-4 pt-3">
+            <div className="col-md-4 col-12 pt-3">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -412,7 +412,7 @@ export default function Projects() {
                         alt= "Potoo Personality"/>
                 </motion.div>
             </div>
-            <div className="col-4 pt-3">
+            <div className="col-md-4 col-12 pt-3">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -427,7 +427,7 @@ export default function Projects() {
                         alt= "Potoo Personality"/>
                 </motion.div>
             </div>
-            <div className="col-4 pt-3">
+            <div className="col-md-4 col-12 pt-3">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}

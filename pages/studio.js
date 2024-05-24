@@ -237,6 +237,151 @@ class Studio extends React.Component {
                       </div>
                     </motion.div>
               </div>
+              <div className="container-fluid bg-black pt-8x pb-5 mb-md-5">
+                <div className="row project px-md-5">
+                    <div className="col-12">
+                    <motion.h3
+                        initial={{opacity: 0.5}}
+                        whileInView={{opacity: 1}}
+                        viewport={{ once: true }}
+                        transition={{
+                            opacity: { duration: 1, delay: 0.4},
+                        }}
+                        className="luxury-title line-before-after pb-md-3">Work</motion.h3>
+                    </div>
+                <div className="col-12 pb-md-1">
+                    <ul className="list-style-none pl-0 color-secondary">
+                    <li className="item">
+                        Brand strategy
+                    </li>
+                    <li className="item">
+                        Brand identity
+                    </li>
+                    <li className="item">
+                        Verbal & Visual communication
+                    </li>
+                    <li className="item">
+                        Web
+                    </li>
+                    </ul>
+                    </div>
+                    <div className="col-md-3 border-white">
+                    <Link href="/projects/potoo" className="project-li-link">
+                    <motion.div
+                        whileHover={{
+                        opacity: 0.7,
+                        transition: { duration: 0.3, ease: "easeIn" },
+                        }}
+                        className="image-container">
+                        <Image
+                            src="/Potoo-Dark-Color-650.jpg"
+                            layout="fill"
+                            className="image"
+                            alt="Potoo project"
+                            loading="lazy"
+                            />
+                        </motion.div>
+                    </Link>
+                    </div>
+                    <div className="col-md-6 pt-2 pt-md-0">
+                    <Link href="/projects/potoo" className="project-li-link">
+                        <motion.div
+                        whileHover={{
+                        opacity: 0.7,
+                        transition: { duration: 0.3, ease: "easeIn" },
+                        }}
+                        className="image-container">
+                        <Image
+                            src="/Potoo-Poster-visual-message.jpg"
+                            layout="fill"
+                            className="image"
+                            alt="Potoo Project"
+                            loading="lazy"
+                            />
+                        </motion.div>
+                    </Link>
+                    </div>
+                    <div className="col-md-3 pt-2 pt-md-0">
+                    <Link href="/projects/potoo" className="project-li-link">
+                        <motion.div
+                        whileHover={{
+                        opacity: 0.7,
+                        transition: { duration: 0.3, ease: "easeIn" },
+                        }}
+                        className="image-container">
+                        <Image
+                            src="/Potoo-website-650.jpg"
+                            layout="fill"
+                            className="image"
+                            alt="Potoo project"
+                            loading="lazy"
+                            />
+                        </motion.div>
+                    </Link>
+                    </div>
+                </div>
+            <div className="row project px-md-5 pt-10x mt-5">
+                <div className="col-12 pb-md-1">
+                <ul className="list-style-none pl-0 color-secondary">
+                    <li className="item">
+                    Brand strategy
+                    </li>
+                    <li className="item">
+                    Brand identity
+                    </li>
+                    <li className="item">
+                    Design
+                    </li>
+                    <li className="item">
+                    Web
+                    </li>
+                </ul>
+                </div>
+                <div className="col-md-3 border-white">
+                    <Link href="/projects/jaeger-aeration" className="project-li-link">
+                    <video className="video- border-silver" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%">
+                                <source src="/Jaeger-Voice.mp4" type="video/mp4"/>
+                        </video>
+                    </Link>
+                </div>
+                <div className="col-md-6">
+                    <Link href="/projects/jaeger-aeration" className="project-li-link">
+                    <motion.div
+                        whileHover={{
+                        opacity: 0.7,
+                        transition: { duration: 0.3, ease: "easeIn" },
+                    }}
+                    className="image-container">
+                        <Image
+                            src="/Project-Jaeger.jpg"
+                            layout="fill"
+                            className="image"
+                            alt="Jaeger aeration project"
+                            loading="lazy"
+                            />
+                    </motion.div>
+                    </Link>
+                </div>
+                <div className="col-md-3 pt-2 pt-md-0">
+                    <Link href="/projects/au" className="project-li-link">
+                    <motion.div
+                        whileHover={{
+                        opacity: 0.7,
+                        transition: { duration: 0.3, ease: "easeIn" },
+                    }}
+                    className="image-container">
+                        <Image
+                            src="/Jaeger-Packaging-tape.jpg"
+                            layout="fill"
+                            className="image"
+                            alt="Jaeger Aeration project"
+                            loading="lazy"
+                            />
+                    </motion.div>
+                    </Link>
+                    </div>
+                </div>
+              </div>
             </>
           );
       }
