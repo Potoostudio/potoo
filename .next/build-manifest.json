@@ -18,6 +18,11 @@
     "static/chunks/main-app.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -28,10 +33,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/projects/potoo": [
+    "/work": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/projects/potoo.js"
+      "static/chunks/pages/work.js"
     ]
   },
   "ampFirstPages": []

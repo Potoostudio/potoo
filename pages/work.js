@@ -71,7 +71,7 @@ export default function Projects() {
                 }}
                 className="image-container">
                   <Image
-                      src="/Potoo-Poster-visual-colors.jpg"
+                      src="/Potoo-Dark-Color-650.jpg"
                       layout="fill"
                       className="image"
                       alt="Potoo project"
@@ -107,7 +107,7 @@ export default function Projects() {
                 }}
                 className="image-container">
                   <Image
-                      src="/Potoo-Poster-visual-three-colored-posters.jpg"
+                      src="/Potoo-website-650.jpg"
                       layout="fill"
                       className="image"
                       alt="Potoo project"
