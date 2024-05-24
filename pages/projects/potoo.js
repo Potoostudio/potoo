@@ -88,49 +88,12 @@ export default function Projects() {
             </div>
           </div>
           <div className="row project-row justify-content-around pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
-            <div className="col-12">
-              <h1 className="luxury-title p-5 text-left px-md-0 border-bottom">
-                The verbal and visual communication of your brilliant future.
-              </h1>
-            </div>
-            <div className="col-12 col-md-6 pt-5 mt-5">
-              <motion.div className="image-container"
-                  whileInView= {{opacity: 1}}
-                  viewport={{ once: true }}
-                  transition={{
-                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                  }}
-                  initial={{opacity: 0.3}}>
-                    <Image
-                        src="/Potoo-Brand-Personality_Page_020.jpg"
-                        layout="fill"
-                        className="image"
-                        alt= "Potoo Personality"/>
-                </motion.div>
-            </div>
-            <div className="col-12 col-md-6 pt-5 mt-5">
-              <motion.div className="image-container"
-                  whileInView= {{opacity: 1}}
-                  viewport={{ once: true }}
-                  transition={{
-                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                  }}
-                  initial={{opacity: 0.3}}>
-                    <Image
-                        src="/Potoo-Brand-Personality_Page_017.jpg"
-                        layout="fill"
-                        className="image"
-                        alt= "Potoo Personality"/>
-                </motion.div>
-            </div>
-          </div>
-          <div className="row project-row justify-content-around pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
             <div className="col-md-12 col-12">
               <h6 className="color-secondary text-left pt-md-5 pt-3">
                   Logo
               </h6>
             </div>
-            <div className="col-12 pt-3">
+            <div className="col-12 col-md-5 pt-3">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -145,7 +108,17 @@ export default function Projects() {
                         alt= "Potoo Personality"/>
                 </motion.div>
             </div>
-            <div className="col-12 pt-5 mt-5">
+          </div>
+          <div className="row project-row justify-content-around pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+          <div className="col-md-12 col-12">
+              <h6 className="color-secondary text-left pt-md-5 pt-3">
+                  Message: we create the 
+              </h6>
+            </div>
+            <div className="col-12 col-md-6 pt-4">
+              <p className="color-secondary">
+              verbal communication of your brilliant future.
+              </p>
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -154,7 +127,25 @@ export default function Projects() {
                   }}
                   initial={{opacity: 0.3}}>
                     <Image
-                        src="/Potoo-Brand-Personality_page_110.jpg"
+                        src="/Potoo-Message-verbal.jpg"
+                        layout="fill"
+                        className="image"
+                        alt= "Potoo Personality"/>
+                </motion.div>
+            </div>
+            <div className="col-12 col-md-6 pt-4">
+              <p className="color-secondary">
+                visual communication of your brilliant future.
+              </p>
+              <motion.div className="image-container"
+                  whileInView= {{opacity: 1}}
+                  viewport={{ once: true }}
+                  transition={{
+                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                  }}
+                  initial={{opacity: 0.3}}>
+                    <Image
+                        src="/Potoo-Message-Visual.jpg"
                         layout="fill"
                         className="image"
                         alt= "Potoo Personality"/>
@@ -171,10 +162,10 @@ export default function Projects() {
                 }}
                 initial={{opacity: 0.3}}>
                 <h6 className="color-secondary">
-                    Colors & Typography
+                    Colors
                 </h6>
             </motion.div>
-            <div className="col-12 pt-3">
+            <div className="col-12 col-md-6 pt-3">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -183,22 +174,7 @@ export default function Projects() {
                   }}
                   initial={{opacity: 0.3}}>
                     <Image
-                        src="/Potoo-Brand-Personality_Page_042.jpg"
-                        layout="fill"
-                        className="image"
-                        alt= "Potoo Personality"/>
-                </motion.div>
-            </div>
-            <div className="col-12 pt-3">
-              <motion.div className="image-container"
-                  whileInView= {{opacity: 1}}
-                  viewport={{ once: true }}
-                  transition={{
-                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                  }}
-                  initial={{opacity: 0.3}}>
-                    <Image
-                        src="/Potoo-Brand-Personality_Page_058.jpg"
+                        src="/Potoo-Dark-Color.jpg"
                         layout="fill"
                         className="image"
                         alt= "Potoo Personality"/>
@@ -213,37 +189,7 @@ export default function Projects() {
                   }}
                   initial={{opacity: 0.3}}>
                     <Image
-                        src="/Potoo-Brand-Personality_Page_081.jpg"
-                        layout="fill"
-                        className="image"
-                        alt= "Potoo Personality"/>
-                </motion.div>
-            </div>
-            <div className="col-12 col-md-6 pt-3">
-              <motion.div className="image-container"
-                  whileInView= {{opacity: 1}}
-                  viewport={{ once: true }}
-                  transition={{
-                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                  }}
-                  initial={{opacity: 0.3}}>
-                    <Image
-                        src="/Potoo-Brand-Personality_Page_057.jpg"
-                        layout="fill"
-                        className="image"
-                        alt= "Potoo Personality"/>
-                </motion.div>
-            </div>
-            <div className="col-12 pt-3">
-              <motion.div className="image-container"
-                  whileInView= {{opacity: 1}}
-                  viewport={{ once: true }}
-                  transition={{
-                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                  }}
-                  initial={{opacity: 0.3}}>
-                    <Image
-                        src="/Potoo-Brand-Personality_Page_059.jpg"
+                        src="/Potoo-Colors-Cards.jpg"
                         layout="fill"
                         className="image"
                         alt= "Potoo Personality"/>
@@ -259,7 +205,196 @@ export default function Projects() {
                 }}
                 initial={{opacity: 0.3}}>
                 <h6 className="color-secondary">
-                  Stationery & Visuals
+                    Typography
+                </h6>
+            </motion.div>
+            <div className="col-12 col-md-6 pt-3">
+              <motion.div className="image-container"
+                  whileInView= {{opacity: 1}}
+                  viewport={{ once: true }}
+                  transition={{
+                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                  }}
+                  initial={{opacity: 0.3}}>
+                    <Image
+                        src="/Potoo-Type-Poster.jpg"
+                        layout="fill"
+                        className="image"
+                        alt= "Potoo Personality"/>
+                </motion.div>
+            </div>
+            <div className="col-12 col-md-6 pt-3">
+              <motion.div className="image-container"
+                  whileInView= {{opacity: 1}}
+                  viewport={{ once: true }}
+                  transition={{
+                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                  }}
+                  initial={{opacity: 0.3}}>
+                    <Image
+                        src="/Potoo-P.jpg"
+                        layout="fill"
+                        className="image"
+                        alt= "Potoo Personality"/>
+                </motion.div>
+            </div>
+            <div className="col-12 pt-3">
+              <motion.div className="image-container"
+                  whileInView= {{opacity: 1}}
+                  viewport={{ once: true }}
+                  transition={{
+                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                  }}
+                  initial={{opacity: 0.3}}>
+                    <Image
+                        src="/Potoo-Brand-Info.jpg"
+                        layout="fill"
+                        className="image"
+                        alt= "Potoo Personality"/>
+                </motion.div>
+            </div>
+          </div>
+          <div className="row project-row justify-content-center pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+            <motion.div className="col-12"
+                whileInView= {{opacity: 1}}
+                viewport={{ once: true }}
+                transition={{
+                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                }}
+                initial={{opacity: 0.3}}>
+                <h6 className="color-secondary">
+                  Stationery
+                </h6>
+            </motion.div>
+            <div className="col-4 pt-3">
+              <motion.div className="image-container"
+                  whileInView= {{opacity: 1}}
+                  viewport={{ once: true }}
+                  transition={{
+                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                  }}
+                  initial={{opacity: 0.3}}>
+                    <Image
+                        src="/Potoo-Letterhead.jpg"
+                        layout="fill"
+                        className="image"
+                        alt= "Potoo Personality"/>
+                </motion.div>
+            </div>
+            <div className="col-4 pt-3">
+              <motion.div className="image-container"
+                  whileInView= {{opacity: 1}}
+                  viewport={{ once: true }}
+                  transition={{
+                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                  }}
+                  initial={{opacity: 0.3}}>
+                    <Image
+                        src="/Potoo-Logo-Box.jpg"
+                        layout="fill"
+                        className="image"
+                        alt= "Potoo Personality"/>
+                </motion.div>
+            </div>
+            <div className="col-4 pt-3">
+              <motion.div className="image-container"
+                  whileInView= {{opacity: 1}}
+                  viewport={{ once: true }}
+                  transition={{
+                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                  }}
+                  initial={{opacity: 0.3}}>
+                    <Image
+                        src="/Potoo-BusinessCards.jpg"
+                        layout="fill"
+                        className="image"
+                        alt= "Potoo Personality"/>
+                </motion.div>
+            </div>
+            <div className="col-12 pt-3">
+              <motion.div className="image-container"
+                  whileInView= {{opacity: 1}}
+                  viewport={{ once: true }}
+                  transition={{
+                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                  }}
+                  initial={{opacity: 0.3}}>
+                    <Image
+                        src="/Potoo-Brand-Mockup.jpg"
+                        layout="fill"
+                        className="image"
+                        alt= "Potoo Personality"/>
+                </motion.div>
+            </div>
+          </div>
+          <div className="row project-row justify-content-center pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+            <motion.div className="col-12"
+                whileInView= {{opacity: 1}}
+                viewport={{ once: true }}
+                transition={{
+                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                }}
+                initial={{opacity: 0.3}}>
+                <h6 className="color-secondary">
+                  Screen
+                </h6>
+            </motion.div>
+            <div className="col-4 pt-3">
+              <motion.div className="image-container"
+                  whileInView= {{opacity: 1}}
+                  viewport={{ once: true }}
+                  transition={{
+                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                  }}
+                  initial={{opacity: 0.3}}>
+                    <Image
+                        src="/Potoo-Screens.jpg"
+                        layout="fill"
+                        className="image"
+                        alt= "Potoo Personality"/>
+                </motion.div>
+            </div>
+            <div className="col-4 pt-3">
+              <motion.div className="image-container"
+                  whileInView= {{opacity: 1}}
+                  viewport={{ once: true }}
+                  transition={{
+                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                  }}
+                  initial={{opacity: 0.3}}>
+                    <Image
+                        src="/Potoo-Phone.jpg"
+                        layout="fill"
+                        className="image"
+                        alt= "Potoo Personality"/>
+                </motion.div>
+            </div>
+            <div className="col-4 pt-3">
+              <motion.div className="image-container"
+                  whileInView= {{opacity: 1}}
+                  viewport={{ once: true }}
+                  transition={{
+                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                  }}
+                  initial={{opacity: 0.3}}>
+                    <Image
+                        src="/Potoo-website.jpg"
+                        layout="fill"
+                        className="image"
+                        alt= "Potoo Personality"/>
+                </motion.div>
+            </div>
+          </div>
+          <div className="row project-row justify-content-center pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+            <motion.div className="col-12"
+                whileInView= {{opacity: 1}}
+                viewport={{ once: true }}
+                transition={{
+                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                }}
+                initial={{opacity: 0.3}}>
+                <h6 className="color-secondary">
+                  Visuals
                 </h6>
             </motion.div>
             <div className="col-4 pt-3">
@@ -333,21 +468,6 @@ export default function Projects() {
                   initial={{opacity: 0.3}}>
                     <Image
                         src="/Poster-visual-three-posters.jpg"
-                        layout="fill"
-                        className="image"
-                        alt= "Potoo Personality"/>
-                </motion.div>
-            </div>
-            <div className="col-12 pt-3">
-              <motion.div className="image-container"
-                  whileInView= {{opacity: 1}}
-                  viewport={{ once: true }}
-                  transition={{
-                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                  }}
-                  initial={{opacity: 0.3}}>
-                    <Image
-                        src="/Envelope.jpg"
                         layout="fill"
                         className="image"
                         alt= "Potoo Personality"/>
