@@ -781,6 +781,19 @@ a {
   .mt-12x {
     margin-top: 6rem!important;
   }
+  .journal-list {
+    width: fit-content;
+    justify-content: space-around;
+    display: block;
+    .item {
+      font-size: 9pt;
+      background-color: rgb(238, 238, 238);
+      width: fit-content;
+      padding: 10px 20px;
+      border-radius: 25px;
+      color: #000;
+    }
+  }
 }
 @media only screen and (min-width: 669px) {
 
@@ -1455,8 +1468,21 @@ a {
     display: grid;
     grid-template-columns: 32% 32%;
     grid-template-rows: auto;
-    justify-content: center;
+    justify-content: s;
     grid-gap: 5%;
+  }
+  .journal-list {
+    display: flex;
+    width: fit-content;
+    justify-content: space-around;
+    .item {
+      font-size: 10pt;
+      background-color: rgb(238, 238, 238);
+      width: fit-content;
+      padding: 10px 20px;
+      border-radius: 25px;
+      color: #000;
+    }
   }
   .nav-container {
     .row {
@@ -2209,6 +2235,42 @@ a {
         .mt-12x {
           margin-top: 14rem!important;
         }
+        .pb-2x {
+          paddingbottomp: 4rem!important;
+        }
+        .pb-4x {
+          paddingbottomp: 6rem!important;
+        }
+        .pb-6x {
+          paddingbottomp: 8rem!important;
+        }
+        .pb-8x {
+          paddingbottomp: 10rem!important;
+        }
+        .pb-10x {
+          paddingbottomp: 12rem!important;
+        }
+        .pb-12x {
+          paddingbottomp: 14rem!important;
+        }
+        .mb-2x {
+          margin-bottom: 4rem!important;
+        }
+        .mb-4x {
+          margin-bottom: 6rem!important;
+        }
+        .mb-6x {
+          margin-bottom: 8rem!important;
+        }
+        .mb-8x {
+          margin-bottom: 10rem!important;
+        }
+        .mb-10x {
+          margin-bottom: 12rem!important;
+        }
+        .mb-12x {
+          margin-bottom: 14rem!important;
+        }
     }
     // end of 966px
 
@@ -2426,9 +2488,15 @@ a {
 .line-height-normal {
   line-height: 1.4;
 }
+.font-x-large {
+  font-size: calc(2rem + 1.9vw);
+}
 .font-large {
   font-size: calc(1.3rem + 1.2vw);
 }
 .font-medium {
   font-size: calc(1.1rem + 0.8vw);
+}
+.color-darker {
+  color: rgb(41, 41, 41);
 }
