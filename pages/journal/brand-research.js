@@ -27,7 +27,7 @@ export default function Projects() {
             whileInView= {{y: 0}}
             viewport={{ once: true }}
             transition={{
-            y: { duration: 0.8, repeat: 0, delay: 0.2, ease: "easeOut"},
+            y: { duration: 0.8, repeat: 0, delay: 0.2},
             }}
             initial={{y: "25px"}}>
                 <h5 className="title luxury-title color-darker">
@@ -69,20 +69,27 @@ export default function Projects() {
           <div className="row project-row justify-content-md-center pb-md-5 pt-6rem pt-lg-8rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
             <div className="col-md-10 col-12">
                 <motion.p className="luxury-title text-left text-dark font-medium"
-                  whileInView= {{opacity: 1}}
-                  viewport={{ once: true }}
-                  transition={{
-                  opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                  }}
-                  initial={{opacity: 0.3}}>
+                 initial={{y: "25px"}}
+                 whileInView={{y: 0}}
+                 viewport={{ once: true }}
+                 transition={{
+                   y: { duration: 0.8, repeat: 0, delay: 0.2},
+                 }}>
                     Research is the core foundation upon which a successful visual identity is designed.<br/> <br/>
                     It’s the process of understanding the essentials, audience, and goal of a project to build the strategy and design decisions that follow.<br/> <br/>
                     It is our role to understand the problem we are solving with design, because by doing so, we create a visual identity that is not only pleasing but also functional.
                 </motion.p>
-                <h1 className="luxury-title text-dark font-x-large pt-5 mt-5 text-center">
+                <motion.h1
+                whileInView= {{opacity: 1}}
+                viewport={{ once: true }}
+                transition={{
+                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                }}
+                initial={{opacity: 0.3}}
+                className="luxury-title text-dark font-x-large pt-5 mt-5 text-center">
                   Design makes function visible.<br/>
                   <span className="font-18px color-darker text-left">-Jennifer Morla</span>
-                </h1>
+                </motion.h1>
                 <motion.p className="luxury-title text-left text-dark font-medium pt-5 mt-5"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
