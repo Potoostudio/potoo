@@ -21,7 +21,7 @@ export default function Projects() {
         <meta property="og:type" content="website" />
       </Head>
       
-      <div className="container-fluid mt-md-5 pt-8x bg-white">
+      <div className="container-fluid pt-8x bg-white">
           <div className="row project-row justify-content-start pb-md-0 pt-0 mt-0 mt-md-5 pb-0 px-md-5 px-3 color-dark">
             <motion.div className="col-12 col-10 px-0"
             whileInView= {{y: 0}}
