@@ -292,15 +292,42 @@ export default function Home() {
           </Link>
           </div>
         </div>
+        <motion.div
+        initial={{y: 0}}
+        whileInView={{y: -20}}
+        viewport={{ once: true }}
+        transition={{
+          y: { duration: 1, delay: 0.4},
+        }}
+        className="row justify-content-start px-md-5 pt-10x">
+          <div className="col-md-12 px-md-0 pb-0 pb-md-0 pt-5">
+              <motion.h3
+              initial={{opacity: 0.7}}
+              whileInView={{opacity: 1}}
+              viewport={{ once: true }}
+              transition={{
+                opacity: { duration: 1, delay: 0.4},
+              }}
+              className="luxury-title line-before-after">Journal</motion.h3>
+          </div>
+            <div className="col-md-4 col-12 pt-md-4 pt-3 px-md-0 pb-md-0 mb-md-0">
+            <Link href="/journal/brand-research" className="project-li-link">
+                <div className="image-container">
+                  <Image
+                      src="/Brand-history.jpg"
+                      layout="fill"
+                      className="image"
+                      alt="Xtraair Logo"
+                      loading="lazy"
+                      />
+                </div>
+                <h5 className="title pt-2 color-secondary luxury-title">
+                  Brand research <span className="float-right font-18px">5-Minute Read</span>
+                </h5>
+            </Link>
+            </div>
+        </motion.div>
          <div className="row justify-content-between px-md-5 pt-10x">
-         {/* <motion.div
-          initial={{x: -100}}
-          whileInView={{x: 0}}
-          viewport={{ once: true }}
-          transition={{
-            x: { duration: 1, delay: 0.4},
-          }}
-          className="col-md-5 col-12 left-line"></motion.div> */}
           <div className="col-md-2 px-md-0 pb-4 pb-md-0">
             <motion.h3
             initial={{opacity: 0.7}}
@@ -309,27 +336,11 @@ export default function Home() {
             transition={{
               opacity: { duration: 1, delay: 0.4},
             }}
-            className="luxury-title pl-3 line-before-after">Design</motion.h3>
+            className="luxury-title line-before-after">Design</motion.h3>
           </div>
-          {/* <motion.div
-          initial={{x: 100}}
-          whileInView={{x: 0}}
-          viewport={{ once: true }}
-          transition={{
-            x: { duration: 1, delay: 0.4},
-          }}
-          className="col-5 right-line"></motion.div> */}
-            <motion.div className="col-md-5 col-8 pt-md-5 pt-1 px-md-0"
-            initial={{y: 0}}
-            whileInView={{y: -20}}
-            viewport={{ once: true }}
-            transition={{
-              y: { duration: 1, delay: 0.4},
-            }}>
-            </motion.div>
          </div>
-       <div className="row justify-content-between px-4 px-md-5 pb-5 mb-5">
-            <motion.div className="col-md-4 col-6 pt-md-5 pt-3 px-md-4 pb-md-0 mb-md-0"
+       <div className="row justify-content-between px-md-5 pb-5 mb-5 px-3">
+            <motion.div className="col-md-4 col-6 pt-md-5 pt-3 px-md-4 py-md-0"
             initial={{y: 0}}
             whileInView={{y: -20}}
             viewport={{ once: true }}
