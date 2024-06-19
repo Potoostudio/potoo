@@ -46,7 +46,7 @@ export default function Projects() {
         y: { duration: 1, delay: 0.4},
       }}>
         <div className="col-md-4 col-12 col-6 pt-md-4 pt-3 px-md-3 pb-md-0 mb-md-0">
-            <Link href="/journal/brand-research" className="project-li-link">
+            <Link href="/journal/brand-research" className="project-li-link hover-none">
                 <div className="image-container">
                     <Image
                         src="/Brand-history.jpg"
@@ -56,9 +56,12 @@ export default function Projects() {
                         loading="lazy"
                         />
                 </div>
-                <h5 className="title pt-2 color-secondary luxury-title">
-                    Brand research <span className="float-right font-18px">5-Minute Read</span>
+                <h5 className="title pt-2 color-secondary luxury-title hover-none mb-0">
+                    Brand research <span className="float-right font-18px text-decoration-underline">5-Minute Read</span>
                 </h5>
+                <p className="article-info color-secondary luxury-title hover-none">
+                 Know your audience beyond the demographic information
+                </p>
             </Link>
         </div>
         </motion.div>

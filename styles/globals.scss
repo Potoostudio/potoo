@@ -2500,3 +2500,8 @@ a {
 .color-darker {
   color: rgb(41, 41, 41);
 }
+.hover-none{
+  &:hover {
+    text-decoration: none!important;
+  }
+}

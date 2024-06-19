@@ -75,11 +75,12 @@ export default function Projects() {
                  transition={{
                    y: { duration: 0.8, repeat: 0, delay: 0.2},
                  }}>
+                   
                     Research is the core foundation upon which a successful visual identity is designed.<br/> <br/>
                     It’s the process of understanding the essentials, audience, and goal of a project to build the strategy and design decisions that follow.<br/> <br/>
                     It is our role to understand the problem we are solving with design, because by doing so, we create a visual identity that is not only pleasing but also functional.
                 </motion.p>
-                <motion.h1
+                <motion.blockquote
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
@@ -87,9 +88,8 @@ export default function Projects() {
                 }}
                 initial={{opacity: 0.3}}
                 className="luxury-title text-dark font-x-large pt-5 mt-5 text-center">
-                  Design makes function visible.<br/>
-                  <span className="font-18px color-darker text-left">-Jennifer Morla</span>
-                </motion.h1>
+                  'Design makes function visible' — Jennifer Morla
+                </motion.blockquote>
                 <motion.p className="luxury-title text-left text-dark font-medium pt-5 mt-5"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
