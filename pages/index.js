@@ -223,7 +223,7 @@ export default function Home() {
             </Link>
             </div>
           </div>
-       <div className="row project px-md-5 pt-12x mt-5">
+       {/* <div className="row project px-md-5 pt-12x mt-5">
          <div className="col-12 pb-md-1">
           <ul className="list-style-none pl-0 color-secondary">
               <li className="item">
@@ -291,7 +291,7 @@ export default function Home() {
             </motion.div>
           </Link>
           </div>
-        </div>
+        </div> */}
         <motion.div
         initial={{y: 0}}
         whileInView={{y: -20}}

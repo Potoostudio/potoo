@@ -103,6 +103,7 @@ export default class Footer extends Component {
                   </div>
                     <div className="col-md-3 col-7 pt-1 pt-md-0 text-right text-md-left">
                         <time className="clock mb-3 footer-bottom-info">It's<Clock className="digital-clock" format={'h:mm A'} ticking={true} timezone={'US/Mountain'}/>in the beautiful Rockies</time>
+                        {/* <time className="clock mb-3 footer-bottom-info">It's<Clock className="digital-clock" format={'h:mm A'} ticking={true} timezone={'US/Mountain'}/>in the beautiful Rockies and <Clock className="digital-clock" format={'h:mm A'} ticking={true} timezone={'Asia/Baghdad'}/> in the glorious Baghdad </time> */}
                     </div>
               </div>
           </div>
