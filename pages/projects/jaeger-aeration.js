@@ -271,69 +271,7 @@ export default function Projects() {
                     </h6>
             </div>
           </div>
-          <div className="row project-row justify-content-md-around justify-content-start pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
-            <div className="col-md-4 col-12">
-                <h6 className="text-uppercase font-weight-bolder">
-                    This project made under the influence of:
-                </h6>
-                <ul className="list pl-3 pt-md-3">
-                    <li className="item">
-                        Typography
-                    </li>
-                    <li className="item">
-                        Sunny Days
-                    </li>
-                    <li className="item">
-                        Cappuccino
-                    </li>
-                </ul>
-                </div>
-                <div className="col-md-2 col-5 bg-white px-0 ml-3 ml-md-0">
-                    <motion.div className="image-container"
-                            whileInView= {{opacity: 1}}
-                            viewport={{ once: true }}
-                            transition={{
-                            opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                        }}
-                            initial={{opacity: 0.45}}>
-                            <Image
-                            src="/Type.jpg"
-                            layout="fill"
-                            className="image p-md-3 p-2"
-                            alt= "Typography"/>
-                    </motion.div>
-                </div>
-                <div className="col-md-2 col-5 bg-white px-0 ml-3 ml-md-0">
-                    <motion.div className="image-container"
-                            whileInView= {{opacity: 1}}
-                            viewport={{ once: true }}
-                            transition={{
-                            opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                        }}
-                            initial={{opacity: 0.45}}>
-                            <Image
-                            src="/Sunny-Days.jpg"
-                            layout="fill"
-                            className="image p-md-3 p-2"
-                            alt= "Sunny Days"/>
-                    </motion.div>
-                </div>
-                <div className="col-md-2 col-5 bg-white px-0 mt-3 mt-md-0 ml-3 ml-md-0">
-                    <motion.div className="image-container"
-                            whileInView= {{opacity: 1}}
-                            viewport={{ once: true }}
-                            transition={{
-                            opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                        }}
-                            initial={{opacity: 0.45}}>
-                            <Image
-                            src="/Cappuccino.jpg"
-                            layout="fill"
-                            className="image p-md-3 p-2"
-                            alt= "Cappuccino"/>
-                    </motion.div>
-                </div>
-          </div>
+          
       </div>
 
     </>
