@@ -48,9 +48,14 @@ function toggle() {
               Studio
             </Link>
           </div>
-          <div className="item d-lg-only pr-md-0">
+          <div className="item d-lg-only pr-md-4">
             <Link href="/journal" className="nav-a">
              Journal
+            </Link>
+          </div>
+          <div className="item d-lg-only pr-md-0">
+            <Link href="/art" className="nav-a">
+             Art
             </Link>
           </div>
         </div>
@@ -82,6 +87,12 @@ function toggle() {
                 onClick={toggle}>
                   <Link href="/journal" className="mobile-navBar-item code-a luxury-title">
                    Journal
+                  </Link>
+                </li>
+                <li className="item"
+                onClick={toggle}>
+                  <Link href="/art" className="mobile-navBar-item code-a luxury-title">
+                   Art
                   </Link>
                 </li>
               </ul>

@@ -247,7 +247,7 @@ export default function Projects() {
                 </div>
           </div>
 
-          <div className="row project-row justify-content-start pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+          <div className="row project-row justify-content-start pb-md-8 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
             <div className="col-md-12 col-12 pt-md-3">
                     <motion.div className="image-container p-0"
                         whileInView= {{opacity: 1}}

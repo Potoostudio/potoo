@@ -38,15 +38,25 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/projects/jaeger-aeration": [
+    "/art": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/projects/jaeger-aeration.js"
+      "static/chunks/pages/art.js"
     ],
-    "/work": [
+    "/art/36daysoftype-10": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/work.js"
+      "static/chunks/pages/art/36daysoftype-10.js"
+    ],
+    "/art/making-typography-move": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/art/making-typography-move.js"
+    ],
+    "/art/shapes": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/art/shapes.js"
     ]
   },
   "ampFirstPages": []

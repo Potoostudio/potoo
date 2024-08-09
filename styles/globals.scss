@@ -148,7 +148,6 @@ a {
               padding-bottom: 0.65rem;
 
               .mobile-navBar-item {
-                padding: 0.65rem;
                 font-size: 1.5rem;
                 color: #FAFAFA;
                 font-weight: 400;
@@ -158,13 +157,11 @@ a {
                 &.design-a {
                   position: relative;
                   display: inline-block;
-                  text-transform: uppercase;
                 }
 
                 &.code-a {
                   position: relative;
                   display: inline-block;
-                  text-transform: uppercase;
                 }
 
                 &:hover {
@@ -2236,22 +2233,22 @@ a {
           margin-top: 14rem!important;
         }
         .pb-2x {
-          paddingbottomp: 4rem!important;
+          padding-bottom: 4rem!important;
         }
         .pb-4x {
-          paddingbottomp: 6rem!important;
+          padding-bottom: 6rem!important;
         }
         .pb-6x {
-          paddingbottomp: 8rem!important;
+          padding-bottom: 8rem!important;
         }
         .pb-8x {
-          paddingbottomp: 10rem!important;
+          padding-bottom: 10rem!important;
         }
         .pb-10x {
-          paddingbottomp: 12rem!important;
+          padding-bottom: 12rem!important;
         }
         .pb-12x {
-          paddingbottomp: 14rem!important;
+          padding-bottom: 14rem!important;
         }
         .mb-2x {
           margin-bottom: 4rem!important;
@@ -2485,6 +2482,9 @@ a {
 .border-silver {
   border: solid 1px #848484
 }
+.border-dark {
+  border: solid 1px #000000
+}
 .line-height-normal {
   line-height: 1.4;
 }
@@ -2504,4 +2504,12 @@ a {
   &:hover {
     text-decoration: none!important;
   }
+}
+.tab-size-big {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.art-shadow {
+  box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
 }
