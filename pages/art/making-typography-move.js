@@ -21,54 +21,25 @@ export default function Projects() {
         <meta property="og:type" content="website" />
       </Head>
       
-      <div className="container-fluid pt-8x bg-white">
-          <div className="row project-row justify-content-start pb-md-0 pt-0 mt-0 mt-md-5 pb-0 px-md-5 px-3 color-dark">
-            <motion.div className="col-12 col-10 px-0"
-            whileInView= {{y: 0}}
-            viewport={{ once: true }}
-            transition={{
-            y: { duration: 0.8, repeat: 0, delay: 0.2},
-            }}
-            initial={{y: "25px"}}>
-                <h5 className="title luxury-title color-darker">
-                  ART
-                </h5>
-            </motion.div>
-          </div>
-          <motion.div className="row project-row justify-content-center pb-md-5 pt-4 pt-md-0 mt-2x pb-0 px-md-5"
+      <div className="container-fluid pt-4x bg-white">
+          <motion.div className="row project-row justify-content-center pb-md-5 pt-2 pt-md-0 mt-2x pb-0 px-md-0"
           whileInView= {{y: 0}}
           viewport={{ once: true }}
           transition={{
           y: { duration: 0.8, repeat: 0, delay: 0.2},
           }}
             initial={{y: "25px"}}>
-              <div className="col-md-10 col-12">
-                <h1 className="luxury-title font-x-large color-dark text-left">
+              <div className="col-md-12 col-12 bottom-line top-line py-4 px-0">
+                <h1 className="luxury-title font-x-large color-dark text-left px-md-4 pl-4 pl-md-0">
                  Making typography <span className={"tab-size-big"}></span> m<span className={"tab-size-big"}></span> o <span className={"tab-size-big"}></span> v <span className={"tab-size-big"}></span>e
                 </h1>
             </div>
+              <div className="col-md-12 col-12 bottom-line py-4 px-0">
+                <p className="luxury-title font-x-large color-dark line-height-normal text-left px-md-4 pl-4 pl-md-0">
+                Our mission is to use art to make life enjoyable. Typography in its simplest form can be empirically meaningful. We moved letters to display the motions of the words.
+                </p>
+            </div>
           </motion.div>
-          <div className="row justify-content-right px-md-5 border-bottom">
-            <div className="col-12 px-3">
-              <h6 className="title luxury-title color-darker text-right pb-4">
-                08.6.24
-              </h6>
-            </div>
-          </div>
-          <div className="row project-row justify-content-md-center justify-content-center pb-md-5 pt-6rem pt-lg-4rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
-            <div className="col-md-10 col-12">
-                <motion.p className="luxury-title text-left text-dark font-medium"
-                 initial={{y: "25px"}}
-                 whileInView={{y: 0}}
-                 viewport={{ once: true }}
-                 transition={{
-                   y: { duration: 0.8, repeat: 0, delay: 0.2},
-                 }}>
-                   
-                   Our mission is to use design to make life enjoyable. We want to make the day-to-day life playful. We love typography, and adding more meaning to it by making it move was a terrific project.
-                </motion.p>
-            </div>
-          </div>
           <div className="row project-row justify-content-md-around justify-content-center pb-md-5 pt-6rem pt-lg-2rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
             <div className="col-md-5 col-11 art-shadow px-0">
               <motion.div

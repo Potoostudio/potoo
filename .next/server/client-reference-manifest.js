@@ -1755,7 +1755,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "*",
         "chunks": [
-          "app/layout:app/layout"
+          "app/error:app/error"
         ],
         "async": false
       },
@@ -1763,7 +1763,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "",
         "chunks": [
-          "app/layout:app/layout"
+          "app/error:app/error"
         ],
         "async": false
       },
@@ -1771,7 +1771,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "default",
         "chunks": [
-          "app/layout:app/layout"
+          "app/error:app/error"
         ],
         "async": false
       }
@@ -2873,7 +2873,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "*",
         "chunks": [
-          "app/layout:app/layout"
+          "app/error:app/error"
         ],
         "async": false
       },
@@ -2881,12 +2881,272 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "",
         "chunks": [
-          "app/layout:app/layout"
+          "app/error:app/error"
         ],
         "async": false
       },
       "default": {
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
+        "name": "default",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./comps/Footer.js": {
+      "*": {
+        "id": "(sc_client)/./comps/Footer.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./comps/Footer.js",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./comps/Footer.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./comps/Navbar.js": {
+      "*": {
+        "id": "(sc_client)/./comps/Navbar.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./comps/Navbar.js",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./comps/Navbar.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/add-locale.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "*",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "default",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/get-domain-locale.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "*",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "default",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/has-base-path.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
+        "name": "*",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
+        "name": "",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
+        "name": "default",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/request-idle-callback.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "*",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "default",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/use-intersection.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "*",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "default",
+        "chunks": [
+          "app/error:app/error"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "default",
         "chunks": [
           "app/layout:app/layout"
@@ -2916,32 +3176,6 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/error:app/error"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/add-locale.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -2998,58 +3232,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/get-domain-locale.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/has-base-path.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/head-manager.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/head-manager.js",
@@ -3072,32 +3254,6 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/error:app/error"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -3150,32 +3306,6 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/error:app/error"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/request-idle-callback.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -3284,32 +3414,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/use-intersection.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/with-router.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/with-router.js",
@@ -3382,110 +3486,6 @@ self.__RSC_MANIFEST={
         "name": "matchesMiddleware",
         "chunks": [
           "app/error:app/error"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./comps/Footer.js": {
-      "*": {
-        "id": "(sc_client)/./comps/Footer.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./comps/Footer.js",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./comps/Footer.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./comps/Navbar.js": {
-      "*": {
-        "id": "(sc_client)/./comps/Navbar.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./comps/Navbar.js",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./comps/Navbar.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -7372,7 +7372,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -7380,7 +7380,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -7388,7 +7388,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -7396,7 +7396,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -7404,7 +7404,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -7412,7 +7412,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9484,7 +9484,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9492,7 +9492,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9500,7 +9500,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9508,7 +9508,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9516,7 +9516,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9524,7 +9524,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9596,7 +9596,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9604,7 +9604,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9612,7 +9612,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9620,7 +9620,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9628,7 +9628,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "__esModule",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9636,7 +9636,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "__esModule",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9644,7 +9644,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "addPathPrefix",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9652,7 +9652,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "addPathPrefix",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9868,7 +9868,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9876,7 +9876,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9884,7 +9884,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9892,7 +9892,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9900,7 +9900,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "__esModule",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9908,7 +9908,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "__esModule",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9916,7 +9916,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "parsePath",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9924,7 +9924,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "parsePath",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9932,7 +9932,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9940,7 +9940,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9948,7 +9948,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9956,7 +9956,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9964,7 +9964,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "__esModule",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9972,7 +9972,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "__esModule",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
@@ -9980,13 +9980,2221 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "removeTrailingSlash",
       "chunks": [
-        "app/layout:app/layout"
+        "app/error:app/error"
       ],
       "async": false
     },
     "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/remove-trailing-slash.js#removeTrailingSlash": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "removeTrailingSlash",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/comps/Footer.js": {
+      "id": "(app-client)/./comps/Footer.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/comps/Footer.js#": {
+      "id": "(app-client)/./comps/Footer.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/comps/Footer.js#default": {
+      "id": "(app-client)/./comps/Footer.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/comps/Navbar.js": {
+      "id": "(app-client)/./comps/Navbar.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/comps/Navbar.js#": {
+      "id": "(app-client)/./comps/Navbar.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/comps/Navbar.js#default": {
+      "id": "(app-client)/./comps/Navbar.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/add-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/add-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/add-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/add-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/add-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/add-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/get-domain-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/get-domain-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/get-domain-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/get-domain-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/get-domain-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/get-domain-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/has-base-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/has-base-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/has-base-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/has-base-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/has-base-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "default",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/has-base-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "default",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/request-idle-callback.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/request-idle-callback.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/request-idle-callback.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/request-idle-callback.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/request-idle-callback.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "default",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/request-idle-callback.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "default",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/use-intersection.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/use-intersection.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/use-intersection.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/use-intersection.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/use-intersection.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "default",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/use-intersection.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "default",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-context.js#AmpStateContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "AmpStateContext",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-context.js#AmpStateContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "AmpStateContext",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-mode.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-mode.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-mode.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-mode.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-mode.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-mode.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-mode.js#isInAmpMode": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "isInAmpMode",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-mode.js#isInAmpMode": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "isInAmpMode",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/escape-regexp.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/escape-regexp.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/escape-regexp.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/escape-regexp.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/escape-regexp.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/escape-regexp.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/escape-regexp.js#escapeStringRegexp": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "escapeStringRegexp",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/escape-regexp.js#escapeStringRegexp": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "escapeStringRegexp",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-blur-svg.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-blur-svg.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-blur-svg.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-blur-svg.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-blur-svg.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-blur-svg.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-blur-svg.js#getImageBlurSvg": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "getImageBlurSvg",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-blur-svg.js#getImageBlurSvg": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "getImageBlurSvg",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config-context.js#ImageConfigContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "ImageConfigContext",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config-context.js#ImageConfigContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "ImageConfigContext",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config.js#VALID_LOADERS": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "VALID_LOADERS",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config.js#VALID_LOADERS": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "VALID_LOADERS",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config.js#imageConfigDefault": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "imageConfigDefault",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config.js#imageConfigDefault": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "imageConfigDefault",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-loader.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-loader.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-loader.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-loader.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-loader.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-loader.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-loader.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-loader.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/match-remote-pattern.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/match-remote-pattern.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/match-remote-pattern.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/match-remote-pattern.js#hasMatch": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "hasMatch",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js#hasMatch": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "hasMatch",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/match-remote-pattern.js#matchRemotePattern": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "matchRemotePattern",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js#matchRemotePattern": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "matchRemotePattern",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router-context.js#RouterContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "RouterContext",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router-context.js#RouterContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "RouterContext",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/format-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/format-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/format-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/format-url.js#formatUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatUrl",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#formatUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatUrl",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/format-url.js#formatWithValidation": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatWithValidation",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#formatWithValidation": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatWithValidation",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/format-url.js#urlObjectKeys": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "urlObjectKeys",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#urlObjectKeys": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "urlObjectKeys",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#interpolateAs": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "interpolateAs",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#interpolateAs": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "interpolateAs",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#isDynamicRoute": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "isDynamicRoute",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#isDynamicRoute": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "isDynamicRoute",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-local-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#isLocalURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "isLocalURL",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#isLocalURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "isLocalURL",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/omit.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/omit.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/omit.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/omit.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/omit.js#omit": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "omit",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#omit": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "omit",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#pathHasPrefix": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "pathHasPrefix",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#pathHasPrefix": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "pathHasPrefix",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/querystring.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/querystring.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/querystring.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/querystring.js#assign": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "assign",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#assign": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "assign",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/querystring.js#searchParamsToUrlQuery": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "searchParamsToUrlQuery",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#searchParamsToUrlQuery": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "searchParamsToUrlQuery",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/querystring.js#urlQueryToSearchParams": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "urlQueryToSearchParams",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#urlQueryToSearchParams": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "urlQueryToSearchParams",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/resolve-href.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#resolveHref": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "resolveHref",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#resolveHref": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "resolveHref",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-matcher.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#getRouteMatcher": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "getRouteMatcher",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#getRouteMatcher": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "getRouteMatcher",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-regex.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-regex.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-regex.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getNamedMiddlewareRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedMiddlewareRegex",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getNamedMiddlewareRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedMiddlewareRegex",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getNamedRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedRouteRegex",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getNamedRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedRouteRegex",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getRouteRegex",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getRouteRegex",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/side-effect.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/side-effect.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/side-effect.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/side-effect.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/side-effect.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/side-effect.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/side-effect.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/side-effect.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "*",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#DecodeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "DecodeError",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#DecodeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "DecodeError",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#MiddlewareNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MiddlewareNotFoundError",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#MiddlewareNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MiddlewareNotFoundError",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#MissingStaticPage": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MissingStaticPage",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#MissingStaticPage": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MissingStaticPage",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#NormalizeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "NormalizeError",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#NormalizeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "NormalizeError",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#PageNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "PageNotFoundError",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#PageNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "PageNotFoundError",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#SP": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "SP",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#SP": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "SP",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#ST": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "ST",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#ST": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "ST",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#WEB_VITALS": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "WEB_VITALS",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#WEB_VITALS": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "WEB_VITALS",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#execOnce": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "execOnce",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#execOnce": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "execOnce",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#getDisplayName": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getDisplayName",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#getDisplayName": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getDisplayName",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#getLocationOrigin": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getLocationOrigin",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#getLocationOrigin": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getLocationOrigin",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#getURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getURL",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#getURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getURL",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#isAbsoluteUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isAbsoluteUrl",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#isAbsoluteUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isAbsoluteUrl",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#isResSent": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isResSent",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#isResSent": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isResSent",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#loadGetInitialProps": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "loadGetInitialProps",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#loadGetInitialProps": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "loadGetInitialProps",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#normalizeRepeatedSlashes": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "normalizeRepeatedSlashes",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#normalizeRepeatedSlashes": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "normalizeRepeatedSlashes",
+      "chunks": [
+        "app/error:app/error"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils/warn-once.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils/warn-once.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils/warn-once.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils/warn-once.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils/warn-once.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils/warn-once.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils/warn-once.js#warnOnce": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "warnOnce",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils/warn-once.js#warnOnce": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "warnOnce",
       "chunks": [
         "app/layout:app/layout"
       ],
@@ -10013,54 +12221,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/error:app/error"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/add-locale.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/add-locale.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/add-locale.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/add-locale.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/add-locale.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/add-locale.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -10160,102 +12320,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/get-domain-locale.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/get-domain-locale.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/get-domain-locale.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/get-domain-locale.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/get-domain-locale.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/get-domain-locale.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/has-base-path.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/has-base-path.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/has-base-path.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/has-base-path.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/has-base-path.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/has-base-path.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
     "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/head-manager.js": {
       "id": "(app-client)/./node_modules/next/dist/client/head-manager.js",
       "name": "*",
@@ -10301,54 +12365,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/error:app/error"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -10445,54 +12461,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/error:app/error"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/request-idle-callback.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/request-idle-callback.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/request-idle-callback.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/request-idle-callback.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/request-idle-callback.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/request-idle-callback.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -10685,54 +12653,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/error:app/error"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/use-intersection.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/use-intersection.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/use-intersection.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/use-intersection.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/use-intersection.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/use-intersection.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -11296,70 +13216,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/escape-regexp.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/escape-regexp.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/escape-regexp.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/escape-regexp.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/escape-regexp.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/escape-regexp.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/escape-regexp.js#escapeStringRegexp": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "escapeStringRegexp",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/escape-regexp.js#escapeStringRegexp": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "escapeStringRegexp",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
     "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/fnv1a.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/fnv1a.js",
       "name": "*",
@@ -11760,70 +13616,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router-context.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router-context.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router-context.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router-context.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router-context.js#RouterContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "RouterContext",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router-context.js#RouterContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "RouterContext",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router-context.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router-context.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
     "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/router.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/router.js",
       "name": "*",
@@ -12176,102 +13968,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/format-url.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/format-url.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/format-url.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/format-url.js#formatUrl": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "formatUrl",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#formatUrl": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "formatUrl",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/format-url.js#formatWithValidation": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "formatWithValidation",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#formatWithValidation": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "formatWithValidation",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/format-url.js#urlObjectKeys": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "urlObjectKeys",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#urlObjectKeys": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
-      "name": "urlObjectKeys",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
     "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/get-asset-path-from-route.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/get-asset-path-from-route.js",
       "name": "*",
@@ -12480,262 +14176,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#interpolateAs": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "interpolateAs",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#interpolateAs": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
-      "name": "interpolateAs",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#isDynamicRoute": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "isDynamicRoute",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#isDynamicRoute": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
-      "name": "isDynamicRoute",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-local-url.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#isLocalURL": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "isLocalURL",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#isLocalURL": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
-      "name": "isLocalURL",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/omit.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/omit.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/omit.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/omit.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/omit.js#omit": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "omit",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#omit": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
-      "name": "omit",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
     "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/parse-relative-url.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-relative-url.js",
       "name": "*",
@@ -12797,166 +14237,6 @@ self.__RSC_MANIFEST={
       "name": "parseRelativeUrl",
       "chunks": [
         "app/error:app/error"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#pathHasPrefix": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "pathHasPrefix",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#pathHasPrefix": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
-      "name": "pathHasPrefix",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/querystring.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/querystring.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/querystring.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/querystring.js#assign": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "assign",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#assign": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "assign",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/querystring.js#searchParamsToUrlQuery": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "searchParamsToUrlQuery",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#searchParamsToUrlQuery": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "searchParamsToUrlQuery",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/querystring.js#urlQueryToSearchParams": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "urlQueryToSearchParams",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#urlQueryToSearchParams": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
-      "name": "urlQueryToSearchParams",
-      "chunks": [
-        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -13024,230 +14304,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/resolve-href.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#resolveHref": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "resolveHref",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#resolveHref": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
-      "name": "resolveHref",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-matcher.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#getRouteMatcher": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "getRouteMatcher",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#getRouteMatcher": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
-      "name": "getRouteMatcher",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-regex.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-regex.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-regex.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getNamedMiddlewareRegex": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "getNamedMiddlewareRegex",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getNamedMiddlewareRegex": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "getNamedMiddlewareRegex",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getNamedRouteRegex": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "getNamedRouteRegex",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getNamedRouteRegex": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "getNamedRouteRegex",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getRouteRegex": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "getRouteRegex",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getRouteRegex": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
-      "name": "getRouteRegex",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
     "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/router/utils/sorted-routes.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/sorted-routes.js",
       "name": "*",
@@ -13309,1062 +14365,6 @@ self.__RSC_MANIFEST={
       "name": "getSortedRoutes",
       "chunks": [
         "app/error:app/error"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#DecodeError": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "DecodeError",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#DecodeError": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "DecodeError",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#MiddlewareNotFoundError": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "MiddlewareNotFoundError",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#MiddlewareNotFoundError": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "MiddlewareNotFoundError",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#MissingStaticPage": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "MissingStaticPage",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#MissingStaticPage": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "MissingStaticPage",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#NormalizeError": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "NormalizeError",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#NormalizeError": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "NormalizeError",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#PageNotFoundError": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "PageNotFoundError",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#PageNotFoundError": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "PageNotFoundError",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#SP": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "SP",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#SP": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "SP",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#ST": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "ST",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#ST": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "ST",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#WEB_VITALS": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "WEB_VITALS",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#WEB_VITALS": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "WEB_VITALS",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#execOnce": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "execOnce",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#execOnce": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "execOnce",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#getDisplayName": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "getDisplayName",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#getDisplayName": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "getDisplayName",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#getLocationOrigin": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "getLocationOrigin",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#getLocationOrigin": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "getLocationOrigin",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#getURL": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "getURL",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#getURL": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "getURL",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#isAbsoluteUrl": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "isAbsoluteUrl",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#isAbsoluteUrl": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "isAbsoluteUrl",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#isResSent": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "isResSent",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#isResSent": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "isResSent",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#loadGetInitialProps": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "loadGetInitialProps",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#loadGetInitialProps": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "loadGetInitialProps",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils.js#normalizeRepeatedSlashes": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "normalizeRepeatedSlashes",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils.js#normalizeRepeatedSlashes": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
-      "name": "normalizeRepeatedSlashes",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/comps/Footer.js": {
-      "id": "(app-client)/./comps/Footer.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/comps/Footer.js#": {
-      "id": "(app-client)/./comps/Footer.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/comps/Footer.js#default": {
-      "id": "(app-client)/./comps/Footer.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/comps/Navbar.js": {
-      "id": "(app-client)/./comps/Navbar.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/comps/Navbar.js#": {
-      "id": "(app-client)/./comps/Navbar.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/comps/Navbar.js#default": {
-      "id": "(app-client)/./comps/Navbar.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/client/image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/client/image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-context.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-context.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-context.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-context.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-context.js#AmpStateContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
-      "name": "AmpStateContext",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-context.js#AmpStateContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
-      "name": "AmpStateContext",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-context.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-context.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-mode.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-mode.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-mode.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-mode.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-mode.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-mode.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/amp-mode.js#isInAmpMode": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
-      "name": "isInAmpMode",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/amp-mode.js#isInAmpMode": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
-      "name": "isInAmpMode",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-blur-svg.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-blur-svg.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-blur-svg.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-blur-svg.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-blur-svg.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-blur-svg.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-blur-svg.js#getImageBlurSvg": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
-      "name": "getImageBlurSvg",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-blur-svg.js#getImageBlurSvg": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
-      "name": "getImageBlurSvg",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config-context.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config-context.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config-context.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config-context.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config-context.js#ImageConfigContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
-      "name": "ImageConfigContext",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config-context.js#ImageConfigContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
-      "name": "ImageConfigContext",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config-context.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config-context.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config.js#VALID_LOADERS": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
-      "name": "VALID_LOADERS",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config.js#VALID_LOADERS": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
-      "name": "VALID_LOADERS",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-config.js#imageConfigDefault": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
-      "name": "imageConfigDefault",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-config.js#imageConfigDefault": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
-      "name": "imageConfigDefault",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-loader.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-loader.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-loader.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-loader.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-loader.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-loader.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/image-loader.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/image-loader.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/match-remote-pattern.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/match-remote-pattern.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/match-remote-pattern.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/match-remote-pattern.js#hasMatch": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
-      "name": "hasMatch",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js#hasMatch": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
-      "name": "hasMatch",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/match-remote-pattern.js#matchRemotePattern": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
-      "name": "matchRemotePattern",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js#matchRemotePattern": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
-      "name": "matchRemotePattern",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/side-effect.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/side-effect.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/side-effect.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/side-effect.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/side-effect.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/side-effect.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/side-effect.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/side-effect.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils/warn-once.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils/warn-once.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils/warn-once.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils/warn-once.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils/warn-once.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils/warn-once.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/shared/lib/utils/warn-once.js#warnOnce": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "warnOnce",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "/Users/ahmed./Desktop/POTOO/Website/Potoo/node_modules/next/dist/esm/shared/lib/utils/warn-once.js#warnOnce": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "warnOnce",
-      "chunks": [
-        "app/layout:app/layout"
       ],
       "async": false
     }

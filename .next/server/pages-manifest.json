@@ -2,10 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/art/shapes": "pages/art/shapes.js",
-  "/art/making-typography-move": "pages/art/making-typography-move.js",
-  "/404": "pages/404.js",
-  "/": "pages/index.js",
   "/art/36daysoftype-10": "pages/art/36daysoftype-10.js",
-  "/art": "pages/art.js"
+  "/art": "pages/art.js",
+  "/art/shapes": "pages/art/shapes.js",
+  "/404": "pages/404.js"
 }

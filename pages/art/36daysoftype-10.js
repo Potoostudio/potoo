@@ -20,79 +20,28 @@ export default function Projects() {
       </Head>
 
 
-      <div className="container-fluid pt-5 mt-md-5">
-          <div className="row project-row justify-content-md-start justify-content-center pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5">
-            <motion.div className="col-md-2 col-5"
-            whileInView= {{y: 0}}
-            viewport={{ once: true }}
-            transition={{
-            y: { duration: 0.8, repeat: 0, delay: 0.2, ease: "easeOut"},
-            }}
-            initial={{y: "25px"}}>
-                <div className="image-container">
-                    <Image
-                        src="/36daysoftype-3.svg"
-                        layout="fill"
-                        className="image"
-                        alt= "36 days of type 3"/>
-                </div>
-            </motion.div>
-            
-          </div>
-          <motion.div className="row project-row justify-content-md-end pb-md-5 pt-5 pt-md-0 mt-5 mt-md-5 pb-5 pb-md-0 px-md-5"
+      <div className="container-fluid">
+        <motion.div className="row project-row justify-content-center bg-white pb-md-5 pt-4x pb-0 px-md-0"
             whileInView= {{y: 0}}
             viewport={{ once: true }}
             transition={{
             y: { duration: 0.8, repeat: 0, delay: 0.2},
-          }}
-          initial={{y: "25px"}}>
-            <div className="col-md-3 col-10">
-               <p className="project-title">
-                   <span className="color-secondary">Type:</span> Typography
-               </p>
-            </div>
-            <div className="col-md-3 col-10">
-               <p className="project-title">
-                   <span className="color-secondary">Components:</span> Digital Design
-               </p>
-            </div>
-          </motion.div>
-
-          <div className="row project-row justify-content-md-center pb-md-5 pt-6rem pt-lg-8rem mt-5 mt-md-5 pb-5 pb-md-5 px-md-5 px-0">
-            <div className="col-md-3 col-11">
-                <motion.h3 className="luxury-title text-capitalize text-md-right"
-                whileInView= {{opacity: 1}}
-                viewport={{ once: true }}
-                transition={{
-                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                }}
-                initial={{opacity: 0.3}}>
-                    36 Days of Type
-                </motion.h3>
-            </div>
-            <div className="col-md-5 col-11 pt-2 pt-md-0">
-                <motion.p className="normal-text"
-                whileInView= {{opacity: 1}}
-                viewport={{ once: true }}
-                transition={{
-                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                }}
-                initial={{opacity: 0.25}}>
-                    This 36 days of type challenge is inspired by the oldest
-                    system of writing first developed by the ancient <strong>Sumerians </strong>
-                    of <strong>Mesopotamia </strong>c. <em>3500 BCE</em> “<strong>Cuneiform</strong>” and the display
-                    serif font <strong>Chapman</strong>.
-                </motion.p>
-                
-                <div className="image-container pt-md-5 pt-4 w-25">
-                    <Image
-                        src="/Cuneiform-Chapman.svg"
-                        layout="fill"
-                        className="image"
-                        alt= "36 days of type z"/>
+            }}
+                initial={{y: "25px"}}>
+                <div className="col-md-12 col-12 bottom-line top-line py-4 px-0">
+                    <h1 className="luxury-title font-x-large color-dark text-left px-md-4 pl-4 pl-md-0">
+                        36 Days of Type
+                    </h1>
                 </div>
-            </div>
-          </div>
+                <div className="col-md-12 col-12 bottom-line py-4 px-0">
+                    <p className="luxury-title font-x-large color-dark line-height-normal text-left px-md-4 pl-4 pl-md-0">
+                        This 36 days of type challenge is inspired by the oldest
+                        system of writing first developed by the ancient <em>Sumerians </em>
+                        of <em>Mesopotamia </em>c. <em>3500 BCE</em> “<em>Cuneiform</em>” and the display
+                        serif font <em>Chapman</em>.
+                    </p>
+                </div>
+            </motion.div>
           <div className="row project-row justify-content-center pb-md-5 pt-6rem pt-lg-8rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
             <div className="col-md-3 col-12 pt-4 mt-2">
                 <motion.div className="image-container"

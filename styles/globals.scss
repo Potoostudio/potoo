@@ -2486,7 +2486,7 @@ a {
   border: solid 1px #000000
 }
 .line-height-normal {
-  line-height: 1.4;
+  line-height: 1.2;
 }
 .font-x-large {
   font-size: calc(2rem + 1.9vw);
@@ -2509,7 +2509,12 @@ a {
   display: inline-block;
   margin-left: 30px;
 }
-
 .art-shadow {
   box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+.bottom-line {
+  border-bottom: 1.5px solid #000!important;
+}
+.top-line {
+  border-top: 1.5px solid #000!important;
 }

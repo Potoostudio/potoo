@@ -21,40 +21,20 @@ export default function Projects() {
         <meta property="og:type" content="website" />
       </Head>
       
-      <div className="container-fluid pt-8x bg-white">
-          <div className="row project-row justify-content-start pb-md-0 pt-0 mt-0 mt-md-5 pb-0 px-md-5 px-3 color-dark">
-            <motion.div className="col-12 col-10 px-0"
+      <div className="container-fluid pt-6x bg-white">
+          <motion.div className="row project-row justify-content-center pb-md-5 pt-4 pt-md-0 mt-2x pb-0 px-md-0"
             whileInView= {{y: 0}}
             viewport={{ once: true }}
             transition={{
             y: { duration: 0.8, repeat: 0, delay: 0.2},
             }}
             initial={{y: "25px"}}>
-                <h5 className="title luxury-title color-darker">
-                  ART
-                </h5>
-            </motion.div>
-          </div>
-          <motion.div className="row project-row justify-content-center pb-md-5 pt-4 pt-md-0 mt-2x pb-0 px-md-5"
-          whileInView= {{y: 0}}
-          viewport={{ once: true }}
-          transition={{
-          y: { duration: 0.8, repeat: 0, delay: 0.2},
-          }}
-            initial={{y: "25px"}}>
-              <div className="col-md-10 col-12">
-                <h1 className="luxury-title font-x-large color-dark text-left">
+              <div className="col-md-12 col-12 px-md-4 font-x-large top-line bottom-line">
+                <h1 className="luxury-title font-x-large color-dark text-left py-4">
                   Minimalist shapes
                 </h1>
             </div>
           </motion.div>
-          <div className="row justify-content-right px-md-5 border-bottom">
-            <div className="col-12 px-3">
-              <h6 className="title luxury-title color-darker text-right pb-4">
-                06.6.24
-              </h6>
-            </div>
-          </div>
           <div className="row project-row justify-content-md-around justify-content-center pb-md-5 pt-6rem pt-lg-2rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
             <div className="col-md-5 col-11 art-shadow px-0 mt-4x">
               <div
