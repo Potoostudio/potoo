@@ -73,14 +73,14 @@ function toggle() {
               <ul className="list header-list pt-5 mt-4 pt-md-5 mt-md-0">
                 <li className="item"
                 onClick={toggle}>
-                  <Link href="/studio" className="mobile-navBar-item design-a luxury-title">
-                    Studio
+                  <Link href="/work" className="mobile-navBar-item code-a luxury-title">
+                      Work
                   </Link>
                 </li>
                 <li className="item"
                 onClick={toggle}>
-                  <Link href="/work" className="mobile-navBar-item code-a luxury-title">
-                      Work
+                  <Link href="/studio" className="mobile-navBar-item design-a luxury-title">
+                    Studio
                   </Link>
                 </li>
                 <li className="item"

@@ -38,17 +38,81 @@ export default function Projects() {
       </Head>
 
       <div className="container-fluid design-container pt-5 mt-6x">
-      <motion.div className="row home-page-row-project-images mb-5 mb-md-1 mt-md-2 justify-content-center px-4 px-md-5"
-      initial={{y: 0}}
-      animate={{y: -20}}
-      viewport={{ once: true }}
-      transition={{
-        y: { duration: 1, delay: 0.4},
-      }}>
         <div className="row project px-md-5">
+            <div className="col-12 pb-md-1">
+              <ul className="list-style-none pl-0 color-secondary">
+              <span className="text-decoration-underline">HENERY AGENCY</span>
+                <li className="item pt-2">
+                  Brand strategy
+                </li>
+                <li className="item">
+                  Brand identity
+                </li>
+                <li className="item">
+                  Design
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-3 border-white">
+              <Link href="/projects/henery-agency" className="project-li-link">
+              <motion.div
+                  whileHover={{
+                  opacity: 0.7,
+                  transition: { duration: 0.3, ease: "easeIn" },
+                }}
+                className="image-container">
+                  <Image
+                      src="/henery-agency-project-img-sm-left.jpg"
+                      layout="fill"
+                      className="image"
+                      alt="henery-agency-project-img-sm-left"
+                      loading="lazy"
+                      />
+                </motion.div>
+              </Link>
+            </div>
+            <div className="col-md-6 pt-2 pt-md-0">
+              <Link href="/projects/henery-agency" className="project-li-link">
+                <motion.div
+                  whileHover={{
+                  opacity: 0.7,
+                  transition: { duration: 0.3, ease: "easeIn" },
+                }}
+                className="image-container">
+                  <Image
+                      src="/henery-agency-project-img-lg.jpg"
+                      layout="fill"
+                      className="image"
+                      alt="henery-agency-project-img-lg"
+                      loading="lazy"
+                      />
+                </motion.div>
+              </Link>
+            </div>
+            <div className="col-md-3 pt-2 pt-md-0">
+              <Link href="/projects/henery-agency" className="project-li-link">
+                <motion.div
+                  whileHover={{
+                  opacity: 0.7,
+                  transition: { duration: 0.3, ease: "easeIn" },
+                }}
+                className="image-container">
+                  <Image
+                      src="/henery-agency-project-img-sm-right.jpg"
+                      layout="fill"
+                      className="image"
+                      alt="henery-agency-project-img-sm-right"
+                      loading="lazy"
+                      />
+                </motion.div>
+              </Link>
+              </div>
+          </div>
+        <div className="row project pt-12x">
           <div className="col-12 pb-md-1">
             <ul className="list-style-none pl-0 color-secondary">
-              <li className="item">
+              <span className="text-decoration-underline">POTOO</span>
+              <li className="item pt-2">
                 Brand strategy
               </li>
               <li className="item">
@@ -89,7 +153,7 @@ export default function Projects() {
                 }}
                 className="image-container">
                   <Image
-                      src="/Potoo-Poster-visual-message.jpg"
+                      src="/Poster-visual-message-dark.jpg"
                       layout="fill"
                       className="image"
                       alt="Potoo Project"
@@ -117,10 +181,11 @@ export default function Projects() {
               </Link>
               </div>
           </div>
-       <div className="row project px-md-5 pt-10x mt-5">
+       <div className="row project pt-12x mt-5">
          <div className="col-12 pb-md-1">
           <ul className="list-style-none pl-0 color-secondary">
-            <li className="item">
+          <span className="text-decoration-underline text-capitalize">JAEGER AERATION</span>
+            <li className="item pt-2">
               Brand strategy
             </li>
             <li className="item">
@@ -136,10 +201,21 @@ export default function Projects() {
          </div>
           <div className="col-md-3 border-white">
             <Link href="/projects/jaeger-aeration" className="project-li-link">
-              <video className="video- border-silver" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%">
-                          <source src="/Jaeger-Voice.mp4" type="video/mp4"/>
-                  </video>
-            </Link>
+                <motion.div
+                  whileHover={{
+                  opacity: 0.7,
+                  transition: { duration: 0.3, ease: "easeIn" },
+                }}
+                className="image-container">
+                  <Image
+                      src="/Jaeger-screen.jpg"
+                      layout="fill"
+                      className="image"
+                      alt="Jaeger aeration project"
+                      loading="lazy"
+                      />
+                </motion.div>
+              </Link>
           </div>
           <div className="col-md-6">
             <Link href="/projects/jaeger-aeration" className="project-li-link">
@@ -160,7 +236,7 @@ export default function Projects() {
             </Link>
           </div>
           <div className="col-md-3 pt-2 pt-md-0">
-            <Link href="/projects/au" className="project-li-link">
+            <Link href="/projects/jaeger-aeration" className="project-li-link">
               <motion.div
                 whileHover={{
                 opacity: 0.7,
@@ -178,7 +254,7 @@ export default function Projects() {
             </Link>
             </div>
           </div>
-       <div className="row project px-md-5 pt-10x mt-5">
+       <div className="row project pt-10x mt-5">
          <div className="col-12 pb-md-1">
           <ul className="list-style-none pl-0 color-secondary">
               <li className="item">
@@ -247,72 +323,6 @@ export default function Projects() {
           </Link>
           </div>
         </div>
-          {/* <div className="row home-page-row-project-images mb-5 mb-md-1 mt-md-5 justify-content-between px-4 px-md-5">
-          <div className="col-md-5 col-12 pt-lg-5rem px-0 pt-5">
-            <Link href="/projects/jaeger-aeration" className="project-li-link">
-                <motion.div
-                whileHover={{
-                  opacity: 0.7,
-                  transition: { duration: 0.3, ease: "easeIn" },
-                }}
-                className="image-container">
-                  <Image
-                      src="/Project-Jaeger.jpg"
-                      layout="fill"
-                      className="image"
-                      alt="Project Jaeger Aeration"
-                      loading="lazy"
-                      />
-                </motion.div>
-              </Link>
-            <p className="project-title pt-md-2 mt-md-0 pt-2 pb-3 mb-0 luxury-title">
-                JAEGER—AERATION<br/><span className="project-info text-normal pt-md-0 float-md-right">Brand <span className="divider">|</span> Web</span>
-            </p>
-          </div>
-          <div className="col-md-5 col-12 pt-lg-8rem pt-5 mt-5 px-0">
-            <Link href="/projects/36daysoftype-10" className="project-li-link">
-                <motion.div
-                whileHover={{
-                  opacity: 0.7,
-                  transition: { duration: 0.3, ease: "easeIn" },
-                }}
-                className="image-container">
-                  <Image
-                      src="/Project-Type.jpg"
-                      layout="fill"
-                      className="image"
-                      alt="Project 36 Days of Type"
-                      loading="lazy"
-                      />
-                </motion.div>
-              </Link>
-              <p className="project-title pt-md-2 mt-md-0 pt-2 pb-3 mb-0 luxury-title">
-                  36 Days of Type<br/><span className="project-info text-normal pt-1 pt-md-0">Design</span>
-              </p>
-          </div>
-          <div className="col-md-5 col-12 pt-5 mt-5 px-0">
-            <Link href="/projects/au" className="project-li-link">
-                <motion.div
-                whileHover={{
-                  opacity: 0.7,
-                  transition: { duration: 0.3, ease: "easeIn" },
-                }}
-                className="image-container">
-                  <Image
-                      src="/Project-Abdulhamid.jpg"
-                      layout="fill"
-                      className="image"
-                      alt="Project Abdulhamid Gulf-War"
-                      loading="lazy"
-                      />
-                </motion.div>
-              </Link>
-            <p className="project-title pt-md-2 mt-md-0 pt-2 pb-3 mb-0 luxury-title">
-              Abdulhamid - Gulf War<br/><span className="project-info text-normal pt-1 pt-md-0">Story <span className="divider">|</span> Web</span>
-            </p>
-          </div>
-        </div> */}
-        </motion.div>
      </div>
     </>
   )

@@ -36,12 +36,7 @@ export default function Home() {
             animate={{opacity: 1, y: 0}}
             transition={{ duration: 0.7, delay: 0.5}}
             className="col-md-12 col-12 pl-lg-0 pr-lg-0 mr-lg-0 pt-5 mt-5">
-            <h3 className="main-page-impression-title font-large text-md-center luxury-title font-weight-normal mt-5 pt-5">We create the verbal and visual communication of your brilliant future.</h3>
-                {/* <motion.h1
-                  initial={{opacity: 0, y: 30}}
-                  animate={{opacity: 1, y: 0}}
-                  transition={{ duration: 0.7, delay: 0.8}}
-                className="main-page-impression-text-large color-white luxury-title">{services[index % services.length]}</motion.h1> */}
+            <h3 className="main-page-impression-title font-large text-md-center luxury-title font-weight-normal mt-5 pt-5">We create the verbal and visual communication of your brilliant future.</h3>   
             </motion.div>
             <div className="col-md-6 col-12 pr-md-5 mr-md-5 pt-md-5 mt-5 mb-4 mb-md-0">
               <motion.h6
@@ -52,37 +47,92 @@ export default function Home() {
             </div>
           </div>
           <div className="row home-page-row-project-images mb-md-1 justify-content-between px-md-5 pt-12x">
-            {/* <motion.div
-              initial={{x: -100}}
-              whileInView={{x: 0}}
+            <div className="col-md-2">
+              <motion.h3
+              initial={{opacity: 0.5}}
+              whileInView={{opacity: 1}}
               viewport={{ once: true }}
               transition={{
-                x: { duration: 1, delay: 0.4},
+                opacity: { duration: 1, delay: 0.4},
               }}
-              className="col-5 left-line"></motion.div> */}
-                <div className="col-md-2">
-                  <motion.h3
-                  initial={{opacity: 0.5}}
-                  whileInView={{opacity: 1}}
-                  viewport={{ once: true }}
-                  transition={{
-                    opacity: { duration: 1, delay: 0.4},
-                  }}
-                  className="luxury-title line-before-after">Work</motion.h3>
-              </div>
-              {/* <motion.div
-              initial={{x: 100}}
-              whileInView={{x: 0}}
-              viewport={{ once: true }}
-              transition={{
-                x: { duration: 1, delay: 0.4},
-              }}
-              className="col-5 right-line"></motion.div> */}
+              className="luxury-title line-before-after">Work</motion.h3>
+          </div>
             </div>
-        <div className="row project px-md-5">
+          <div className="row project px-md-5">
+            <div className="col-12 pb-md-1">
+              <ul className="list-style-none pl-0 color-secondary">
+              <span className="text-decoration-underline">HENERY AGENCY</span>
+                <li className="item pt-2">
+                  Brand strategy
+                </li>
+                <li className="item">
+                  Brand identity
+                </li>
+                <li className="item">
+                  Design
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-3 border-white">
+              <Link href="/projects/henery-agency" className="project-li-link">
+              <motion.div
+                  whileHover={{
+                  opacity: 0.7,
+                  transition: { duration: 0.3, ease: "easeIn" },
+                }}
+                className="image-container">
+                  <Image
+                      src="/henery-agency-project-img-sm-left.jpg"
+                      layout="fill"
+                      className="image"
+                      alt="henery-agency-project-img-sm-left"
+                      loading="lazy"
+                      />
+                </motion.div>
+              </Link>
+            </div>
+            <div className="col-md-6 pt-2 pt-md-0">
+              <Link href="/projects/henery-agency" className="project-li-link">
+                <motion.div
+                  whileHover={{
+                  opacity: 0.7,
+                  transition: { duration: 0.3, ease: "easeIn" },
+                }}
+                className="image-container">
+                  <Image
+                      src="/henery-agency-project-img-lg.jpg"
+                      layout="fill"
+                      className="image"
+                      alt="henery-agency-project-img-lg"
+                      loading="lazy"
+                      />
+                </motion.div>
+              </Link>
+            </div>
+            <div className="col-md-3 pt-2 pt-md-0">
+              <Link href="/projects/henery-agency" className="project-li-link">
+                <motion.div
+                  whileHover={{
+                  opacity: 0.7,
+                  transition: { duration: 0.3, ease: "easeIn" },
+                }}
+                className="image-container">
+                  <Image
+                      src="/henery-agency-project-img-sm-right.jpg"
+                      layout="fill"
+                      className="image"
+                      alt="henery-agency-project-img-sm-right"
+                      loading="lazy"
+                      />
+                </motion.div>
+              </Link>
+              </div>
+          </div>
+        <div className="row project px-md-5 pt-12x">
           <div className="col-12 pb-md-1">
             <ul className="list-style-none pl-0 color-secondary">
-              <li className="item">
+              <span className="text-decoration-underline">POTOO</span>
+              <li className="item pt-2">
                 Brand strategy
               </li>
               <li className="item">
@@ -154,7 +204,8 @@ export default function Home() {
        <div className="row project px-md-5 pt-12x mt-5">
          <div className="col-12 pb-md-1">
           <ul className="list-style-none pl-0 color-secondary">
-            <li className="item">
+          <span className="text-decoration-underline text-capitalize">JAEGER AERATION</span>
+            <li className="item pt-2">
               Brand strategy
             </li>
             <li className="item">
@@ -223,75 +274,6 @@ export default function Home() {
             </Link>
             </div>
           </div>
-       {/* <div className="row project px-md-5 pt-12x mt-5">
-         <div className="col-12 pb-md-1">
-          <ul className="list-style-none pl-0 color-secondary">
-              <li className="item">
-                Story
-              </li>
-              <li className="item">
-                Biography
-              </li>
-              <li className="item">
-                Web
-              </li>
-            </ul>
-         </div>
-        <div className="col-md-3 border-white">
-          <Link href="/projects/au" className="project-li-link">
-            <motion.div
-              whileHover={{
-              opacity: 0.7,
-              transition: { duration: 0.3, ease: "easeIn" },
-            }}
-            className="image-container">
-              <Image
-                  src="/project-hamid-army-picture.jpg"
-                  layout="fill"
-                  className="image"
-                  alt="Abdulhamid Project"
-                  loading="lazy"
-                  />
-            </motion.div>
-          </Link>
-        </div>
-        <div className="col-md-6 pt-2 pt-md-0">
-          <Link href="/projects/au" className="project-li-link">
-            <motion.div
-              whileHover={{
-              opacity: 0.7,
-              transition: { duration: 0.3, ease: "easeIn" },
-            }}
-            className="image-container">
-              <Image
-                  src="/Project-Abdulhamid.jpg"
-                  layout="fill"
-                  className="image"
-                  alt="Abdulhamid Project"
-                  loading="lazy"
-                  />
-            </motion.div>
-          </Link>
-        </div>
-        <div className="col-md-3 pt-2 pt-md-0">
-          <Link href="/projects/au" className="project-li-link">
-            <motion.div
-              whileHover={{
-              opacity: 0.7,
-              transition: { duration: 0.3, ease: "easeIn" },
-            }}
-            className="image-container">
-              <Image
-                  src="/project-hamid-poster.jpg"
-                  layout="fill"
-                  className="image"
-                  alt="Jaeger Aeration project"
-                  loading="lazy"
-                  />
-            </motion.div>
-          </Link>
-          </div>
-        </div> */}
         <motion.div
         initial={{y: 0}}
         whileInView={{y: -20}}
@@ -339,119 +321,68 @@ export default function Home() {
             transition={{
               opacity: { duration: 1, delay: 0.4},
             }}
-            className="luxury-title line-before-after">Design</motion.h3>
+            className="luxury-title line-before-after">Art</motion.h3>
           </div>
          </div>
-       <div className="row justify-content-between px-md-5 pb-5 mb-5 px-3">
-            <motion.div className="col-md-4 col-6 pt-md-5 pt-3 px-md-4 py-md-0"
+         
+         {/* Art Section */}
+         <motion.div className="row home-page-row-project-images mt-md-2 justify-content-start px-4 px-md-5 mb-8x"
             initial={{y: 0}}
-            whileInView={{y: -20}}
+            animate={{y: -20}}
             viewport={{ once: true }}
             transition={{
               y: { duration: 1, delay: 0.4},
-            }}
-            >
-            <div className="image-container border">
-              <Image
-                  src="/xtraair-logo-720.jpg"
-                  layout="fill"
-                  className="image"
-                  alt="Xtraair Logo"
-                  loading="lazy"
-                  />
+            }}>
+            <div className="col-12 col-6 pt-md-4 pt-5 px-md-0 pb-md-0 mb-md-0">
+                <Link href="/art/making-typography-move" className="project-li-link hover-none">
+                    <div className="image-container">
+                        <Image
+                            src="/art-project-img.jpg"
+                            layout="fill"
+                            className="image"
+                            alt="introvert"
+                            loading="lazy"
+                            />
+                    </div>
+                    <h6 className="title pt-2 color-white luxury-title hover-none mb-0">
+                        Making typography move <span className="float-right">print</span>
+                    </h6>
+                </Link>
             </div>
-            </motion.div>
-            <motion.div className="col-md-4 col-6 pt-md-5 pt-3 px-md-4 pb-md-0 mb-md-0"
-            initial={{y: 0}}
-            whileInView={{y: -20}}
-            viewport={{ once: true }}
-            transition={{
-              y: { duration: 1, delay: 0.4},
-            }}
-            >
-            <div className="image-container border">
-              <Image
-                  src="/WNCS-logo-720.jpg"
-                  layout="fill"
-                  className="image"
-                  alt="WNCS Logo"
-                  loading="lazy"
-                  />
+            <div className="col-12 col-6 pt-md-4 mt-6x p-0 pb-md-0 mb-md-0">
+                <Link href="/art/shapes" className="project-li-link hover-none">
+                    <div className="image-container">
+                        <Image
+                            src="/shapes-project-img.jpg"
+                            layout="fill"
+                            className="image"
+                            alt="Shape"
+                            loading="lazy"
+                            />
+                    </div>
+                    <h6 className="title pt-2 color-white luxury-title hover-none mb-0">
+                        Minimalist shapes <span className="float-right">print</span>
+                    </h6>
+                </Link>
             </div>
-            </motion.div>
-            <motion.div className="col-md-4 col-6 pt-md-5 pt-3 px-md-4 pb-md-0 mb-md-0"
-            initial={{y: 0}}
-            whileInView={{y: -20}}
-            viewport={{ once: true }}
-            transition={{
-              y: { duration: 1, delay: 0.4},
-            }}
-            >
-            <div className="image-container border">
-              <Image
-                  src="/ADS-Logo-720.jpg"
-                  layout="fill"
-                  className="image"
-                  alt="ADS Logo"
-                  loading="lazy"
-                  />
+            <div className="col-12 col-6 pt-md-4 mt-6x px-md-0 pb-md-0 mb-md-0">
+                <Link href="/art/36daysoftype-10" className="project-li-link hover-none">
+                    <div className="image-container">
+                        <Image
+                            src="/typography-project-img.jpg"
+                            layout="fill"
+                            className="image"
+                            alt="Letter_L"
+                            loading="lazy"
+                            />
+                    </div>
+                    <h6 className="title pt-2 color-white luxury-title hover-none mb-0">
+                        36 days of type (10) <span className="float-right">design</span>
+                    </h6>
+                </Link>
             </div>
-            </motion.div>
-            <motion.div className="col-md-4 col-6 pt-md-5 pt-3 px-md-4 pb-md-0 mb-md-0"
-            initial={{y: 0}}
-            whileInView={{y: -20}}
-            viewport={{ once: true }}
-            transition={{
-              y: { duration: 1, delay: 0.4},
-            }}
-            >
-            <div className="image-container border">
-              <Image
-                  src="/Explico-logo-720.jpg"
-                  layout="fill"
-                  className="image"
-                  alt="Explico Logo"
-                  loading="lazy"
-                  />
-            </div>
-            </motion.div>
-            <motion.div className="col-md-4 col-6 pt-md-5 pt-3 px-md-4 pb-md-0 mb-md-0"
-            initial={{y: 0}}
-            whileInView={{y: -20}}
-            viewport={{ once: true }}
-            transition={{
-              y: { duration: 1, delay: 0.4},
-            }}
-            >
-            <div className="image-container border">
-              <Image
-                  src="/TOk-Logo-720.jpg"
-                  layout="fill"
-                  className="image"
-                  alt="Tok Logo"
-                  loading="lazy"
-                  />
-            </div>
-            </motion.div>
-            <motion.div className="col-md-4 col-6 pt-md-5 pt-3 px-md-4 pb-md-0 mb-md-0"
-            initial={{y: 0}}
-            whileInView={{y: -20}}
-            viewport={{ once: true }}
-            transition={{
-              y: { duration: 1, delay: 0.4},
-            }}
-            >
-            <div className="image-container border">
-              <Image
-                  src="/Farmer-logo-720.jpg"
-                  layout="fill"
-                  className="image"
-                  alt="Farmer Logo"
-                  loading="lazy"
-                  />
-            </div>
-            </motion.div>
-          </div>
+        </motion.div>
+        {/* End of art section */}
           </div>
       </>
     )

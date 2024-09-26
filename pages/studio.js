@@ -233,25 +233,85 @@ class Studio extends React.Component {
                         <div className="col-12 col-md-6 text-left px-0 pr-md-5">
                           <p className="color-dark pr-md-5">We are on a journey to create meaningful designs and relationships. This journey takes time and collaboration. We would love for you to be part of our journey. </p>
                           <p className="color-dark pr-md-5 pt-3">Work with us! <a className="text-dark text-decoration-underline" aria-label="email" href="mailto:ideas@potoo.studio?Subject=Work Collaboration">ideas@potoo.studio</a></p>
-                          
                       </div>
                     </motion.div>
               </div>
               <div className="container-fluid bg-black pt-8x pb-5 mb-md-5">
                 <div className="row project px-md-5">
-                    <div className="col-12">
-                    <motion.h3
-                        initial={{opacity: 0.5}}
-                        whileInView={{opacity: 1}}
-                        viewport={{ once: true }}
-                        transition={{
-                            opacity: { duration: 1, delay: 0.4},
-                        }}
-                        className="luxury-title line-before-after pb-md-3">Work</motion.h3>
+                    <div className="col-12 pb-md-1">
+                        <ul className="list-style-none pl-0 color-secondary">
+                        <span className="text-decoration-underline">HENERY AGENCY</span>
+                            <li className="item pt-2">
+                            Brand strategy
+                            </li>
+                            <li className="item">
+                            Brand identity
+                            </li>
+                            <li className="item">
+                            Design
+                            </li>
+                        </ul>
                     </div>
+                    <div className="col-md-3 border-white">
+                    <Link href="/projects/henery-agency" className="project-li-link">
+                    <motion.div
+                        whileHover={{
+                        opacity: 0.7,
+                        transition: { duration: 0.3, ease: "easeIn" },
+                        }}
+                        className="image-container">
+                        <Image
+                            src="/henery-agency-project-img-sm-left.jpg"
+                            layout="fill"
+                            className="image"
+                            alt="henery-agency-project-img-sm-left"
+                            loading="lazy"
+                            />
+                        </motion.div>
+                    </Link>
+                    </div>
+                    <div className="col-md-6 pt-2 pt-md-0">
+                    <Link href="/projects/henery-agency" className="project-li-link">
+                        <motion.div
+                        whileHover={{
+                        opacity: 0.7,
+                        transition: { duration: 0.3, ease: "easeIn" },
+                        }}
+                        className="image-container">
+                        <Image
+                            src="/henery-agency-project-img-lg.jpg"
+                            layout="fill"
+                            className="image"
+                            alt="henery-agency-project-img-lg"
+                            loading="lazy"
+                            />
+                        </motion.div>
+                    </Link>
+                    </div>
+                    <div className="col-md-3 pt-2 pt-md-0">
+                    <Link href="/projects/henery-agency" className="project-li-link">
+                        <motion.div
+                        whileHover={{
+                        opacity: 0.7,
+                        transition: { duration: 0.3, ease: "easeIn" },
+                        }}
+                        className="image-container">
+                        <Image
+                            src="/henery-agency-project-img-sm-right.jpg"
+                            layout="fill"
+                            className="image"
+                            alt="henery-agency-project-img-sm-right"
+                            loading="lazy"
+                            />
+                        </motion.div>
+                    </Link>
+                    </div>
+                </div>
+                <div className="row project pt-12x">
                 <div className="col-12 pb-md-1">
                     <ul className="list-style-none pl-0 color-secondary">
-                    <li className="item">
+                    <span className="text-decoration-underline">POTOO</span>
+                    <li className="item pt-2">
                         Brand strategy
                     </li>
                     <li className="item">
@@ -292,7 +352,7 @@ class Studio extends React.Component {
                         }}
                         className="image-container">
                         <Image
-                            src="/Potoo-Poster-visual-message.jpg"
+                            src="/Poster-visual-message-dark.jpg"
                             layout="fill"
                             className="image"
                             alt="Potoo Project"
@@ -320,10 +380,11 @@ class Studio extends React.Component {
                     </Link>
                     </div>
                 </div>
-            <div className="row project px-md-5 pt-10x mt-5">
+            <div className="row project pt-12x mt-5">
                 <div className="col-12 pb-md-1">
                 <ul className="list-style-none pl-0 color-secondary">
-                    <li className="item">
+                <span className="text-decoration-underline text-capitalize">JAEGER AERATION</span>
+                    <li className="item pt-2">
                     Brand strategy
                     </li>
                     <li className="item">
@@ -339,9 +400,20 @@ class Studio extends React.Component {
                 </div>
                 <div className="col-md-3 border-white">
                     <Link href="/projects/jaeger-aeration" className="project-li-link">
-                    <video className="video- border-silver" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%">
-                                <source src="/Jaeger-Voice.mp4" type="video/mp4"/>
-                        </video>
+                        <motion.div
+                        whileHover={{
+                        opacity: 0.7,
+                        transition: { duration: 0.3, ease: "easeIn" },
+                        }}
+                        className="image-container">
+                        <Image
+                            src="/Jaeger-screen.jpg"
+                            layout="fill"
+                            className="image"
+                            alt="Jaeger aeration project"
+                            loading="lazy"
+                            />
+                        </motion.div>
                     </Link>
                 </div>
                 <div className="col-md-6">
@@ -363,7 +435,7 @@ class Studio extends React.Component {
                     </Link>
                 </div>
                 <div className="col-md-3 pt-2 pt-md-0">
-                    <Link href="/projects/au" className="project-li-link">
+                    <Link href="/projects/jaeger-aeration" className="project-li-link">
                     <motion.div
                         whileHover={{
                         opacity: 0.7,

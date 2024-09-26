@@ -64,7 +64,7 @@ export default function Projects() {
           </motion.div>
 
           <div className="row project-row justify-content-md-center pb-md-5 pt-6rem pt-lg-8rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
-            <div className="col-md-2 col-11">
+            <div className="col-md-3 col-11">
                 <motion.h3 className="luxury-title text-capitalize text-md-right"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
@@ -103,7 +103,7 @@ export default function Projects() {
                         alt= "henery agency logo sketch"/>
                 </motion.div>
             </div>
-            <div className="col-12 col-md-6 p-0 pl-md-3 pt-md-5 pt-4">
+            <div className="col-12 col-md-6 p-md-0 pl-md-3 pt-md-5 pt-4">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -118,7 +118,7 @@ export default function Projects() {
                         alt= "henery agency logo details"/>
                 </motion.div>
             </div>
-            <div className="col-12 col-md-6 p-0 pr-md-3 pt-md-5 pt-1">
+            <div className="col-12 col-md-6 p-md-0 pr-md-3 pt-md-5 pt-1">
               <motion.div className="image-container"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
@@ -190,7 +190,7 @@ export default function Projects() {
                     opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                    }}
                    initial={{opacity: 0.3}}>
-                        <source src="/Uncommon animation.mp4" type="video/mp4"/>
+                        <source src="/Uncommon animation video.mp4" type="video/mp4"/>
                     </motion.video>
             </div>
           </div>
