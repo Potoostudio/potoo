@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-	  	<title>POTOO | Projects</title>
+	  	<title>POTOO | Projects POTOO</title>
         <link rel="icon" href="favicon.png" />
         <link rel="manifest" href="/manifest.json"/>
         <meta name="description" content="Potoo Project | Branding project, logo, website design & development, marketing material"/>
@@ -58,7 +58,7 @@ export default function Projects() {
             </div>
             <div className="col-md-3 col-10">
                <p className="project-title">
-                   <span className="color-secondary">Components:</span> Brand Stategy, Brand Identity, Verbal & Visual Communication, Design, and Web
+                   <span className="color-secondary">Components:</span> Brand Strategy, Brand Identity, Verbal & Visual Communication, Design, and Web
                </p>
             </div>
           </motion.div>

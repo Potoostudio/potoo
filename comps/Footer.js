@@ -52,7 +52,13 @@ export default class Footer extends Component {
                           </li>
                           <li className="item pt-md-2 pt-1">
                             <Link href="tel:3202604416" aria-label="phone" className="say-hello-a">
-                                320.260.4416
+                                +1 (320) 260.4416
+                                <span className="bottom-line"></span>
+                              </Link>
+                          </li>
+                          <li className="item pt-md-2 pt-1">
+                            <Link href="tel:009647809000956" aria-label="phone" className="say-hello-a">
+                                +964 7809000956
                                 <span className="bottom-line"></span>
                               </Link>
                           </li>
@@ -93,7 +99,8 @@ export default class Footer extends Component {
               <div className="row justify-content-between pb-md-4 mx-md-5 pt-md-4 pt-4">
                   <div className="col-11 col-md-4 text-left">
                     <p className=" text-left mb-md-3 mb-0 footer-bottom-info">
-                        2000 S Colorado Blvd Tower 1 Suite 2000-511 Denver, CO 80222
+                        2000 S Colorado Blvd Tower 1 Suite 2000-511 Denver, CO 80222 <br/>
+                        Baghdad's location coming soon
                     </p>
                   </div>
                   <div className="col-md-2 col-4 text-left pt-2 pt-md-0">
@@ -101,9 +108,8 @@ export default class Footer extends Component {
                         Site Made In House
                     </p>
                   </div>
-                    <div className="col-md-3 col-7 pt-1 pt-md-0 text-right text-md-left">
-                        <time className="clock mb-3 footer-bottom-info">It's<Clock className="digital-clock" format={'h:mm A'} ticking={true} timezone={'US/Mountain'}/>in the beautiful Rockies</time>
-                        {/* <time className="clock mb-3 footer-bottom-info">It's<Clock className="digital-clock" format={'h:mm A'} ticking={true} timezone={'US/Mountain'}/>in the beautiful Rockies and <Clock className="digital-clock" format={'h:mm A'} ticking={true} timezone={'Asia/Baghdad'}/> in the glorious Baghdad </time> */}
+                    <div className="col-md-3 line-height-normal col-7 pt-1 pt-md-0 text-right text-md-left">
+                        <time className="clock mb-3 footer-bottom-info">It's<Clock className="digital-clock" format={'h:mm A'} ticking={true} timezone={'US/Mountain'}/>in the beautiful Rockies and<Clock className="digital-clock" format={'h:mm A'} ticking={true} timezone={'Asia/Baghdad'}/>in the glorious Baghdad </time>
                     </div>
               </div>
           </div>

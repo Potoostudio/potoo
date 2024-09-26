@@ -18,11 +18,6 @@
     "static/chunks/main-app.js"
   ],
   "pages": {
-    "/404": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/404.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -33,20 +28,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/art": [
+    "/projects/henery-agency": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/art.js"
-    ],
-    "/art/36daysoftype-10": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/art/36daysoftype-10.js"
-    ],
-    "/art/shapes": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/art/shapes.js"
+      "static/chunks/pages/projects/henery-agency.js"
     ]
   },
   "ampFirstPages": []

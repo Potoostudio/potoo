@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/art/36daysoftype-10": "pages/art/36daysoftype-10.js",
-  "/art": "pages/art.js",
-  "/art/shapes": "pages/art/shapes.js",
-  "/404": "pages/404.js"
+  "/projects/henery-agency": "pages/projects/henery-agency.js"
 }
