@@ -337,7 +337,7 @@ export default function Home() {
                 <Link href="/art/making-typography-move" className="project-li-link hover-none">
                     <div className="image-container">
                         <Image
-                            src="/art-project-img.jpg"
+                            src="/Make-type-move-project-img.jpg"
                             layout="fill"
                             className="image"
                             alt="introvert"
