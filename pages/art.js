@@ -27,14 +27,12 @@ export default function Projects() {
   return (
     <>
       <Head>
-	  	<title>Art</title>
+	  	  <title>Art</title>
         <link rel="icon" href="favicon.png" />
         <link rel="manifest" href="/manifest.json"/>
-        <meta name="description" content="POTOO Art | Art"/>
-        <meta property="og:title" content="Work" />
-        <meta property="og:description" content="POTOO Art |  Art"/>
-        <meta property="og:url" content="https://potoo.studio/art" />
-        <meta property="og:type" content="website" />
+        <meta name="description" content="Branding Agency Based in Denver and Baghdad"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="branding agency in Denver, branding agency in Baghdad, creative agency in Baghdad, creative agency in Denver"/>
       </Head>
 
       <div className="container-fluid mb-10x bg-white pt-5">

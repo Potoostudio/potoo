@@ -30,11 +30,9 @@ export default function Projects() {
 	  	<title>Journal</title>
         <link rel="icon" href="favicon.png" />
         <link rel="manifest" href="/manifest.json"/>
-        <meta name="description" content="POTOO Journal | Journal"/>
-        <meta property="og:title" content="Work" />
-        <meta property="og:description" content="POTOO Journal |  Journal"/>
-        <meta property="og:url" content="https://potoo.studio/journal" />
-        <meta property="og:type" content="website" />
+        <meta name="description" content="journal about branding and creative work"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="keywords" content="branding in Denver, branding in Baghdad, what is branding, why is branding important"/>
       </Head>
 
       <div className="container-fluid pt-5 mt-6x mb-10x">

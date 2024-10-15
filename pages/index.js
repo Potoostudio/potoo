@@ -6,8 +6,6 @@ import { motion} from "framer-motion"
 
 export default function Home() {
 
-  const services = ["Brand Strategy", "Naming", "Product Design", "Brand Identity", "Design", "Web Development"];
-
 
   const [index, setIndex] = useState(0);
 
@@ -20,14 +18,12 @@ export default function Home() {
     return (
       <>
         <Head>
-          <title>POTOO</title>
+          <title>POTOO | Branding agency in Denver and Baghdad</title>
           <link rel="icon" href="favicon.png" />
           <link rel="manifest" href="/manifest.json"/>
-          <meta name="description" content="POTOO | We Are A Brand Studio Based In Denver. We specialize in branding and we development"/>
-          <meta property="og:title" content="POTOO" />
-          <meta property="og:description" content="POTOO| WE ARE A branding studio based in Denver. We specialize in branding and we development"/>
-          <meta property="og:url" content="https://potoo.studio" />
-          <meta property="og:type" content="website" />
+          <meta name="description" content="Branding Agency Based in Denver and Baghdad"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="keywords" content="branding agency in Denver, branding agency in Baghdad, creative agency in Baghdad, creative agency in Denver" />
         </Head>
         <div className="container-fluid home-page-container pt-md-0 mt-md-0">
           <div className="row hight-80vh justify-content-end pb-4">
@@ -36,7 +32,7 @@ export default function Home() {
             animate={{opacity: 1, y: 0}}
             transition={{ duration: 0.7, delay: 0.5}}
             className="col-md-12 col-12 pl-lg-0 pr-lg-0 mr-lg-0 pt-5 mt-5">
-            <h3 className="main-page-impression-title font-large text-md-center luxury-title font-weight-normal mt-5 pt-5">We create the verbal and visual communication of your brilliant future.</h3>   
+            <h3 className="main-page-impression-title font-large text-md-center luxury-title font-weight-normal mt-5 pt-5">We create the verbal and visual identity of your brilliant brand.</h3>
             </motion.div>
             <div className="col-md-6 col-12 pr-md-5 mr-md-5 pt-md-5 mt-5 mb-4 mb-md-0">
               <motion.h6

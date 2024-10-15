@@ -14,11 +14,9 @@ export default function Projects() {
 	  	<title>POTOO | Projects POTOO</title>
         <link rel="icon" href="favicon.png" />
         <link rel="manifest" href="/manifest.json"/>
-        <meta name="description" content="Potoo Project | Branding project, logo, website design & development, marketing material"/>
-        <meta property="og:title" content="POTOO STUDIO | Projects, Denver" />
-        <meta property="og:description" content="Potoo Studio project | Branding project, logo, website design & development, marketing material"/>
-        <meta property="og:url" content="https://potoo.studio/potoo-project" />
-        <meta property="og:type" content="website" />
+        <meta name="description" content="Branding Agency Based in Denver and Baghdad"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="branding agency in Denver, branding agency in Baghdad, creative agency in Baghdad, creative agency in Denver" />
       </Head>
       
       <div className="container-fluid mt-md-5 pt-8x">

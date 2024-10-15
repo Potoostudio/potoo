@@ -20,17 +20,13 @@ class Studio extends React.Component {
           return (
             <>
               <Head>
-                <title>POTOO | Branding Agency Denver</title>
+                <title>POTOO | Branding Agency Baghdad</title>
                 <link rel="icon" href="favicon.png" />
                 <link rel="manifest" href="/manifest.json"/>
-                <meta name="description" content="POTOO | A Branding Agency in Denver"/>
-                <meta property="og:title" content="POTOO | Branding Agency Denver"/>
-                <meta property="og:description" content="POTOO STUDIO | A Branding Agency in Denver"/>
-                <meta property="og:url" content="https://potoo.studio/studio-denver" />
-                <meta property="og:type" content="website" />
+                <meta name="description" content="Branding Agency Based in Baghdad"/>
+                <meta name="keywords" content="branding agency in baghdad, creative agency in baghdad, best marketing agency in baghdad, top marketing agency in baghdad, branding in baghdad, Top Advertising Agency in baghdad"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
               </Head>
-      
-      
               <div className="container-fluid pt-5 bg-white">
                   <div className="row pt-md-5 mt-5 py-md-5 px-4 px-md-5 pb-5 pb-md-0">
                       <div className="col-12 col-md-9 px-0 py-md-5 mt-5 color-dark">
@@ -39,8 +35,8 @@ class Studio extends React.Component {
                           animate={{opacity: 1, y: 0}}
                           transition={{ duration: 0.7, delay: 0.5}}
                           className=" text-left font-medium font-weight-normal line-height-normal">
-                            We are a branding agency based in Denver. We help clients
-                            creating the verbal and visual communication of their brands.
+                            We are a branding agency based in Bghadad. We help clients
+                            creating the verbal and visual identity of their brands.
                           </motion.h2>
                       </div>
                   </div>

@@ -30,8 +30,7 @@ export default class Footer extends Component {
             <>
           <div className="container-fluid footer-container pt-5 pb-md-0 pb-4">
               <div className="row justify-content-between pb-md-3 mx-md-5 pt-md-4">
-                  <div className="col-12 col-md-8 text-left pr-md-5 pb-md-0 pb-4">
-
+                  <div className="col-12 col-md-7 text-left pr-md-5 pb-md-0 pb-4">
                       <div className="image-container w-25">
                         <Image
                             src="/Potoo Word Logo.svg"
@@ -41,24 +40,24 @@ export default class Footer extends Component {
                         />
                       </div>
                   </div>
-                  <div className="col-md-2 col-6 text-left pt-0 mt-md-0 mt-0">
+                  <div className="col-md-3 col-6 text-left pt-0 mt-md-0 mt-0">
                       <ul className="contact-list">
                           {/* <span className="footer-small-title">contact info</span> */}
                           <li className="item">
                             <Link href="mailto:ideas@potoo.studio" aria-label="email" className="say-hello-a">
-                                ideas@potoo.studio
+                                Email: ideas@potoo.studio
                                 <span className="bottom-line"></span>
                             </Link>
                           </li>
-                          <li className="item pt-md-2 pt-1">
+                          <li className="item pt-1">
                             <Link href="tel:3202604416" aria-label="phone" className="say-hello-a">
-                                +1 (320) 260.4416
+                                Denver: +1 (320) 260.4416
                                 <span className="bottom-line"></span>
                               </Link>
                           </li>
-                          <li className="item pt-md-2 pt-1">
+                          <li className="item pt-1">
                             <Link href="tel:009647809000956" aria-label="phone" className="say-hello-a">
-                                +964 7809000956
+                                Baghdad: +964 7809 000956
                                 <span className="bottom-line"></span>
                               </Link>
                           </li>
@@ -86,13 +85,27 @@ export default class Footer extends Component {
                     </div>
                   
               </div>
-              <div className="row justify-content-md-end justify-content-between pb-5 mx-md-5 pt-md-4 pt-4">
+              <div className="row justify-content-between pb-5 mx-md-5 pt-md-4 pt-4">
                     <div className="col-12 col-md-4 text-left mt-0">
                       <div className="container p-0 mt-2">
                           <p className="">
-                            Potoo is a design studio focused on creating verbal and visual communication of your brilliant {impressionsChange}
+                            We are a design studio focused on creating verbal and visual identity of your brilliant {impressionsChange}
                           </p>
                           <span className="say-list"></span>
+                      </div>
+                  </div>
+                    <div className="col-12 col-md-5 text-left mt-0">
+                      <div className="container p-0 mt-0">
+                        <Link href="https://potoo.studio/branding-agency-denver" aria-label="dribbble" className="say-hello-a">
+                            Denver
+                        </Link>
+                          
+                      </div>
+                      <div className="container p-0 mt-0">
+                        <Link href="https://potoo.studio/branding-agency-baghdad" aria-label="dribbble" className="say-hello-a">
+                            Baghdad
+                        </Link>
+                          
                       </div>
                   </div>
               </div>

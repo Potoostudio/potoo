@@ -20,14 +20,12 @@ class Studio extends React.Component {
           return (
             <>
               <Head>
-                <title>POTOO | Branding Agency Denver</title>
+                <title>POTOO | Branding Agency based in Denver and Baghdad</title>
                 <link rel="icon" href="favicon.png" />
                 <link rel="manifest" href="/manifest.json"/>
-                <meta name="description" content="POTOO | A Branding Agency in Denver"/>
-                <meta property="og:title" content="POTOO | Branding Agency Denver" />
-                <meta property="og:description" content="POTOO STUDIO | A Branding Agency in Denver"/>
-                <meta property="og:url" content="https://potoo.studio/studio" />
-                <meta property="og:type" content="website" />
+                <meta name="description" content="A branding agency in denver and baghdad"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="keywords" content="branding agency in Denver, branding agency in Baghdad, creative agency in Baghdad, creative agency in Denver, marketing agency in baghdad, best marketing agency in baghdad, top marketing agency in baghdad"/>
               </Head>
       
       
@@ -39,8 +37,8 @@ class Studio extends React.Component {
                           animate={{opacity: 1, y: 0}}
                           transition={{ duration: 0.7, delay: 0.5}}
                           className=" text-left font-medium font-weight-normal line-height-normal">
-                            We are a branding agency based in Denver. We help clients
-                            creating the verbal and visual communication of their brands.
+                            We are a branding agency based in Denver and Baghdad. We help clients
+                            creating the verbal and visual identity of their brands.
                           </motion.h2>
                       </div>
                   </div>

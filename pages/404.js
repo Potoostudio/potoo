@@ -9,14 +9,14 @@ export default function NotFound() {
 
     setInterval(() => {
         setCounter(counter - 1);
-    }, 1000);
+    }, 2000);
 
     const router = useRouter();
 
     useEffect(() => {
         setTimeout(() => {
             router.push('/')
-        }, 5000)
+        }, 8000)
     }, [])
 
 
@@ -30,14 +30,14 @@ export default function NotFound() {
           <div className="row justify-content-center">
               <div className="col-lg-10">
                   <h5 className="404-h5 pt-lg-5 text-center">
-                        Page not found
+                        We don't have this page.
                   </h5>
                   <h6 className="404-h5 pt-lg-5 text-center">
-                        We will redirect you to Homepage in {counter} s
+                        We will redirect you to the right page in {counter} s
                   </h6>
                   <p className="404-p text-center pt-lg-5">
-                      Go back to
-                      <Link href="/"className="404-a">
+                      Go back to 
+                      <Link href="/"className="404-a color-off-white pl-2">
                         Homepage
                       </Link>
                   </p>
