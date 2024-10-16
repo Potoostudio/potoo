@@ -277,7 +277,7 @@ export default function Home() {
         transition={{
           y: { duration: 1, delay: 0.4},
         }}
-        className="row justify-content-start px-md-5 pt-10x">
+        className="row justify-content-start px-md-5 pt-10x pb-10x">
           <div className="col-md-12 px-md-0 pb-0 pb-md-0 pt-5">
               <motion.h3
               initial={{opacity: 0.7}}
@@ -308,7 +308,7 @@ export default function Home() {
             </Link>
             </div>
         </motion.div>
-         <div className="row justify-content-between px-md-5 pt-10x">
+         {/* <div className="row justify-content-between px-md-5 pt-10x">
           <div className="col-md-2 px-md-0 pb-4 pb-md-0">
             <motion.h3
             initial={{opacity: 0.7}}
@@ -319,10 +319,10 @@ export default function Home() {
             }}
             className="luxury-title line-before-after">Art</motion.h3>
           </div>
-         </div>
+         </div> */}
          
          {/* Art Section */}
-         <motion.div className="row home-page-row-project-images mt-md-2 justify-content-start px-4 px-md-5 mb-8x"
+         {/* <motion.div className="row home-page-row-project-images mt-md-2 justify-content-start px-4 px-md-5 mb-8x"
             initial={{y: 0}}
             animate={{y: -20}}
             viewport={{ once: true }}
@@ -377,7 +377,7 @@ export default function Home() {
                     </h6>
                 </Link>
             </div>
-        </motion.div>
+        </motion.div> */}
         {/* End of art section */}
           </div>
       </>
