@@ -2351,6 +2351,9 @@ a {
 }
 .digital-clock {
   padding: 0px 5px;
+  font-size: 10px;
+  font-weight: 600;
+  padding-left: 0;
 }
 
 
@@ -2522,4 +2525,7 @@ a {
   .w-half {
       width: 47%!important;
   }
+}
+.font-small {
+  font-size: calc(0.4rem + 0.5vw);
 }
