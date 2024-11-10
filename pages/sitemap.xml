@@ -42,4 +42,34 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
+    <url>
+        <loc>https://potoo.studio/art</loc>
+        <lastmod>2024-10-24</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://potoo.studio/journal</loc>
+        <lastmod>2024-10-24</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://potoo.studio/projects/henery-agency</loc>
+        <lastmod>2024-10-24</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://potoo.studio/branding-agency-denver</loc>
+        <lastmod>2024-10-24</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://potoo.studio/branding-agency-baghdad</loc>
+        <lastmod>2024-10-24</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
 </urlset>
