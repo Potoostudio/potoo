@@ -1409,8 +1409,8 @@ a {
     border-top: none;
     margin-top: 0;
 
-    .hight-80vh {
-     height: 85vh;
+    .hight-58vh {
+     height: 58vh;
 
      .studio-title {
       position: absolute;
@@ -1422,11 +1422,12 @@ a {
      }
      .main-page-impression-title {
       position: sticky;
-      top: 40vh;
+      top: 18vh;
+      line-height: 150%;
      }
 
       .main-page-impression-text-large {
-        font-size: calc(2.1rem + 2vw);
+        font-size: calc(2.1rem + 3vw);
         font-family: inherit;
         margin-left: auto;
         position: relative;
@@ -2495,7 +2496,7 @@ a {
   font-size: calc(2rem + 1.9vw);
 }
 .font-large {
-  font-size: calc(1.3rem + 1.2vw);
+  font-size: calc(1.3rem + 2vw);
 }
 .font-medium {
   font-size: calc(1.1rem + 0.8vw);

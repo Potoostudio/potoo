@@ -29,8 +29,8 @@ export default class Footer extends Component {
         return (
             <>
           <div className="container-fluid footer-container pt-5 pb-md-0 pb-4">
-              <div className="row justify-content-between pb-md-3 mx-md-5 pt-md-4">
-                  <div className="col-12 col-md-4 text-left pr-md-5 pb-md-0 pb-4">
+              <div className="row justify-content-between pb-md-3 mx-md-5 pt-md-4 border-bottom">
+                  <div className="col-12 col-md-2 text-left pr-md-5 pb-md-0 pb-4">
                       <div className="image-container">
                         <Image
                             src="/Potoo Word Logo.svg"
@@ -40,7 +40,7 @@ export default class Footer extends Component {
                         />
                       </div>
                   </div>
-                  <div className="col-12 col-md-4 text-left pb-md-0 pb-0 pt-3 mobile-display-none">
+                  <div className="col-12 col-md-4 text-left pb-md-0 pt-md-0 pb-0 pt-3 mobile-display-none font-small">
                         <p className="">
                             We are a design studio focused on creating verbal and visual identity of your brilliant {impressionsChange}
                         </p>

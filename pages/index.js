@@ -18,7 +18,7 @@ export default function Home() {
     return (
       <>
         <Head>
-          <title>POTOO | Branding agency in Denver and Baghdad</title>
+          <title>A Branding agency in Denver and Baghdad</title>
           <link rel="icon" href="favicon.png" />
           <link rel="manifest" href="/manifest.json"/>
           <meta name="description" content="Branding Agency Based in Denver and Baghdad"/>
@@ -26,34 +26,22 @@ export default function Home() {
           <meta name="keywords" content="branding agency in Denver, branding agency in Baghdad, creative agency in Baghdad, creative agency in Denver" />
         </Head>
         <div className="container-fluid home-page-container pt-md-0 mt-md-0">
-          <div className="row hight-80vh justify-content-end pb-4">
+          <div className="row hight-58vh justify-content-end pb-4">
             <motion.div 
             initial={{opacity: 0, y: 30}}
             animate={{opacity: 1, y: 0}}
             transition={{ duration: 0.7, delay: 0.5}}
             className="col-md-12 col-12 pl-lg-0 pr-lg-0 mr-lg-0 pt-5 mt-5">
-            <h3 className="main-page-impression-title font-large text-md-center luxury-title font-weight-normal mt-5 pt-5">We create the verbal and visual identity of your brilliant brand.</h3>
+            <h3 className="main-page-impression-title font-large text-md-center px-md-5 mx-md-5 luxury-title font-weight-normal mt-5 pt-5">A Branding agency in Denver and Baghdad, creating the verbal and visual identity of your brilliant brand.</h3>
             </motion.div>
-            <div className="col-md-6 col-12 pr-md-5 mr-md-5 pt-md-5 mt-5 mb-4 mb-md-0">
+            {/* <div className="col-md-6 col-12 pr-md-5 mr-md-5 pt-md-5 mt-5 mb-4 mb-md-0">
               <motion.h6
                 initial={{opacity: 0, y: 30}}
                 animate={{opacity: 1, y: 0}}
                 transition={{ duration: 0.7, delay: 0.55}}
                 className="text-normal line-height-normal font-weight-normal text-darker pr-md-5 mr-md-5 w-75 pt-5 mt-md-5">We help clients create communication through brand strategy, brand identity, design, and web. </motion.h6>
-            </div>
+            </div> */}
           </div>
-          <div className="row home-page-row-project-images mb-md-1 justify-content-between px-md-5 pt-12x">
-            <div className="col-md-2">
-              <motion.h3
-              initial={{opacity: 0.5}}
-              whileInView={{opacity: 1}}
-              viewport={{ once: true }}
-              transition={{
-                opacity: { duration: 1, delay: 0.4},
-              }}
-              className="luxury-title line-before-after">Work</motion.h3>
-          </div>
-            </div>
           <div className="row project px-md-5">
             <div className="col-12 pb-md-1">
               <ul className="list-style-none pl-0 color-secondary">
