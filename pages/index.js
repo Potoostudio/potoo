@@ -32,7 +32,7 @@ export default function Home() {
             animate={{opacity: 1, y: 0}}
             transition={{ duration: 0.7, delay: 0.5}}
             className="col-md-12 col-12 pl-lg-0 pr-lg-0 mr-lg-0 pt-5 mt-5">
-            <h3 className="main-page-impression-title font-large text-md-center px-md-5 mx-md-5 luxury-title font-weight-normal mt-5 pt-5">A Branding agency in Denver and Baghdad, creating the verbal and visual identity of your brilliant brand.</h3>
+            <h3 className="main-page-impression-title font-large text-md-center px-md-5 mx-md-5 luxury-title font-weight-normal mt-4 pt-5">A Branding agency in Denver and Baghdad, creating the verbal and visual identity of your brilliant brand.</h3>
             </motion.div>
             {/* <div className="col-md-6 col-12 pr-md-5 mr-md-5 pt-md-5 mt-5 mb-4 mb-md-0">
               <motion.h6
@@ -42,7 +42,7 @@ export default function Home() {
                 className="text-normal line-height-normal font-weight-normal text-darker pr-md-5 mr-md-5 w-75 pt-5 mt-md-5">We help clients create communication through brand strategy, brand identity, design, and web. </motion.h6>
             </div> */}
           </div>
-          <div className="row project px-md-5">
+          <div className="row project px-md-5 pt-md-0 pt-5">
             <div className="col-12 pb-md-1">
               <ul className="list-style-none pl-0 color-secondary">
               <span className="text-decoration-underline">HENERY AGENCY</span>
