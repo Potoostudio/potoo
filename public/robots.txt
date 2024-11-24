@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://potoo.studio
+Host: https://example.com
 
 # Sitemaps
-Sitemap: https://potoo.studio/sitemap.xml
+Sitemap: https://example.com/sitemap.xml

@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-	  	<title>POTOO | Projects POTOO</title>
+	  	<title>Projects POTOO</title>
         <link rel="icon" href="favicon.png" />
         <link rel="manifest" href="/manifest.json"/>
         <meta name="description" content="Branding Agency Based in Denver and Baghdad"/>

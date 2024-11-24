@@ -53,7 +53,7 @@ export default class Footer extends Component {
                         <div className="col-6 col-md-5">
                             <Clock className="digital-clock" format={'h:mm A'} ticking={true} timezone={'US/Mountain'}/>
                             <div className="container p-0 mt-0">
-                                <Link href="https://potoo.studio/branding-agency-denver" aria-label="dribbble" className="say-hello-a">
+                                <Link href="https://potoo.studio/branding-agency-in-denver" aria-label="dribbble" className="say-hello-a">
                                     Denver
                                 </Link>
                             </div>
@@ -73,7 +73,7 @@ export default class Footer extends Component {
                         <div className="col-6 col-md-5 text-left mt-0">
                         <Clock className="digital-clock" format={'h:mm A'} ticking={true} timezone={'Asia/Baghdad'}/>
                             <div className="container p-0 mt-0">
-                                <Link href="https://potoo.studio/branding-agency-baghdad" aria-label="dribbble" className="say-hello-a">
+                                <Link href="https://potoo.studio/branding-agency-in-baghdad" aria-label="dribbble" className="say-hello-a">
                                     Baghdad
                                 </Link>
                             </div>
