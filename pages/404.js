@@ -24,7 +24,7 @@ export default function NotFound() {
     <>
       <Head>
         <title>Not found</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="container error-container pl-lg-5 mb-lg-5">
           <div className="row justify-content-center">

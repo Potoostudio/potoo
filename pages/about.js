@@ -8,7 +8,7 @@ function Design() {
       <>
         <Head>
           <title>Design</title>
-          <link rel="icon" href="favicon.ico" />
+          <link rel="icon" href="favicon.png" />
           <link rel="manifest" href="/manifest.json"/>
           <meta name="description" content="POTOO STUDIO | We are a creative web studio in Denver Colorado"/>
           <meta property="og:title" content="Design" />

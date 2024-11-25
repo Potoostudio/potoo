@@ -9,7 +9,7 @@ export default function Projects() {
     <>
       <Head>
 	  	<title>Projects</title>
-        <link rel="icon" href="favicon.ico" />
+        <link rel="icon" href="favicon.png" />
         <link rel="manifest" href="/manifest.json"/>
         <meta name="description" content="POTOO Project | Branding project, logo and marketing material"/>
         <meta property="og:title" content="POTOO STUDIO | Projects, Denver" />
