@@ -276,25 +276,44 @@ export default function Home() {
               }}
               className="luxury-title line-before-after">Journal</motion.h3>
           </div>
-            <div className="col-md-4 col-12 pt-md-4 pt-3 px-md-0 pb-md-0 mb-md-0">
-            <Link href="/journal/brand-research" className="project-li-link hover-none">
+          <div className="col-md-4 col-12 col-6 pt-md-4 pt-3 px-md-3 pb-md-0 mb-md-0">
+        <Link href="/journal/unkerned-vs-hand-kerned" className="project-li-link hover-none">
                 <div className="image-container">
                   <Image
-                      src="/Brand-history.jpg"
+                      src="/baghdad-kerned-vs-unkerned.jpg"
                       layout="fill"
                       className="image"
-                      alt="Xtraair Logo"
+                      alt="baghdad-kerned-vs-unkerned"
                       loading="lazy"
                       />
                 </div>
-                <h5 className="title pt-4 color-secondary luxury-title hover-none mb-0">
-                  Brand research <span className="float-right font-18px text-decoration-underline">5-Minute Read</span>
-                </h5>
-                <p className="article-info color-secondary luxury-title hover-none">
-                 Know your audience beyond the demographic information
-                </p>
+                <h6 className="title pt-2 color-off-white luxury-title hover-none mb-0">
+                  Typography <span className="float-right text-decoration-underline">2-Minute Read</span>
+                </h6>
+                <h6 className="article-info pt-2 color-secondary luxury-title hover-none line-height-normal">
+                 What is the difference between an unkerend Bagdhad and a hand-kerned Baghdad
+                </h6>
             </Link>
-            </div>
+        </div>
+        <div className="col-md-4 col-12 col-6 pt-md-4 pt-3 px-md-3 pb-md-0 mb-md-0">
+            <Link href="/journal/brand-research" className="project-li-link hover-none">
+                <div className="image-container">
+                    <Image
+                        src="/Brand-history.jpg"
+                        layout="fill"
+                        className="image"
+                        alt="Xtraair Logo"
+                        loading="lazy"
+                        />
+                </div>
+                <h6 className="title pt-2 color-off-white luxury-title hover-none mb-0">
+                    Brand research <span className="float-right text-decoration-underline">5-Minute Read</span>
+                </h6>
+                <h6 className="article-info pt-2 color-secondary luxury-title hover-none">
+                 Know your audience beyond the demographic information
+                </h6>
+            </Link>
+        </div>
         </motion.div>
          {/* <div className="row justify-content-between px-md-5 pt-10x">
           <div className="col-md-2 px-md-0 pb-4 pb-md-0">

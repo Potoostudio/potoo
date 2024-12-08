@@ -118,22 +118,22 @@ export default class Footer extends Component {
                             <ul className="media-list text-left">
                             {/* <span className="footer-small-title">social media</span> */}
                                 <li className="item footer-small-title">
-                                    <Link href="https://potoo.studio/work" aria-label="instagram" className="social-media-a say-hello-a">
+                                    <Link href="/work" aria-label="instagram" className="social-media-a say-hello-a">
                                         Work
                                     </Link>
                                 </li>
                                 <li className="item pt-1 footer-small-title">
-                                    <Link href="https://potoo.studio/studio" aria-label="behance" className="social-media-a say-hello-a">
+                                    <Link href="/studio" aria-label="behance" className="social-media-a say-hello-a">
                                         Studio
                                     </Link>
                                 </li>
                                 <li className="item pt-1 footer-small-title">
-                                    <Link href="https://potoo.studio/journal" aria-label="behance" className="social-media-a say-hello-a">
+                                    <Link href="/journal" aria-label="behance" className="social-media-a say-hello-a">
                                         Journal
                                     </Link>
                                 </li>
                                 <li className="item pt-1 footer-small-title">
-                                    <Link href="https://potoo.studio/art" aria-label="behance" className="social-media-a say-hello-a">
+                                    <Link href="/art" aria-label="behance" className="social-media-a say-hello-a">
                                         Art
                                     </Link>
                                 </li>
