@@ -29,7 +29,7 @@ export default class Footer extends Component {
         return (
             <>
           <div className="container-fluid footer-container pt-5 pb-md-0 pb-4">
-              <div className="row justify-content-between pb-md-3 mx-md-5 pt-md-4 border-bottom">
+              <div className="row justify-content-between pb-md-3 mx-md-5 pt-md-4">
                   <div className="col-12 col-md-2 text-left pr-md-5 pb-md-0 pb-4">
                       <div className="image-container">
                         <Image
@@ -64,8 +64,8 @@ export default class Footer extends Component {
                                 </Link>
                             </div>
                             <div className="container p-0 mt-0">
-                            <Link href="tel:3202604416" aria-label="phone" className="say-hello-a font-small">
-                                +1 (320) 260.4416
+                            <Link href="tel:+13202604416" aria-label="phone" className="say-hello-a font-small">
+                                +1 320 260 4416
                                 <span className="bottom-line"></span>
                             </Link>
                             </div>
@@ -85,7 +85,7 @@ export default class Footer extends Component {
                             </div>
                             <div className="container p-0 mt-0">
                                 <Link href="tel:009647809000956" aria-label="phone" className="say-hello-a font-small">
-                                    +964 7809 000956
+                                    +964 7809 000 956
                                     <span className="bottom-line"></span>
                                 </Link>
                             </div>
