@@ -31,11 +31,11 @@ export default function Projects() {
             }}
             initial={{y: "25px"}}>
                 <h5 className="title luxury-title color-darker">
-                  READ
+                  Insight
                 </h5>
             </motion.div>
           </div>
-          <motion.div className="row project-row justify-content-center pb-md-5 pt-4 pt-md-0 mt-2x pb-0 px-md-5"
+          <motion.div className="row project-row justify-content-start pb-md-5 pt-4 pt-md-0 mt-2x pb-0 px-md-5"
           whileInView= {{y: 0}}
           viewport={{ once: true }}
           transition={{
@@ -43,17 +43,17 @@ export default function Projects() {
           }}
             initial={{y: "25px"}}>
               <div className="col-md-10 col-12">
-                <h1 className="luxury-title font-x-large color-dark text-left">
+                <h1 className="color-dark text-left">
                   Demographic and Psychographic research
                 </h1>
                 <ul className="list list-style-none pt-2 pt-md-0 px-0 journal-list pt-md-2">
-                  <li className="item color-darker ">
+                  <li className="item color-darker ps-0 ">
                     Brand Research
                   </li>
-                  <li className="item color-darker ml-md-4 mt-2 mt-md-0">
+                  <li className="item color-darker ml-md-4 mt-0 ps-2 ps-md-0">
                     Brand Research
                   </li>
-                  <li className="item color-darker ml-md-4 mt-2 mt-md-0">
+                  <li className="item color-darker ml-md-4 mt-0 ps-2 ps-md-0">
                     Brand Research
                   </li>
                 </ul>

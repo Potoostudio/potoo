@@ -29,15 +29,13 @@ export default function Projects() {
           y: { duration: 0.8, repeat: 0, delay: 0.2},
           }}
             initial={{y: "25px"}}>
-              <div className="col-md-12 col-12 bottom-line top-line py-4 px-0">
-                <h1 className="luxury-title font-x-large color-dark text-left px-md-4 pl-4 pl-md-0">
+              <div className="col-md-12 col-12 bottom-line py-4 px-0">
+                <h1 className="olor-dark text-left px-md-4 pl-4 pl-md-0">
                  Making typography <span className={"tab-size-big"}></span> m<span className={"tab-size-big"}></span> o <span className={"tab-size-big"}></span> v <span className={"tab-size-big"}></span>e
                 </h1>
-            </div>
-              <div className="col-md-12 col-12 bottom-line py-4 px-0">
-                <p className="luxury-title font-x-large color-dark line-height-normal text-left px-md-4 pl-4 pl-md-0">
+                <h4 className="color-dark line-height-normal text-left px-md-4 pl-4 pl-md-0 w-50 pt-md-5">
                 Our mission is to use art to make life enjoyable. Typography in its simplest form can be empirically meaningful. We moved letters to display the motions of the words.
-                </p>
+                </h4>
             </div>
           </motion.div>
           <div className="row project-row justify-content-md-around justify-content-center pb-md-5 pt-6rem pt-lg-2rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">

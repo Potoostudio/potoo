@@ -66,7 +66,7 @@ export default function Projects() {
 
           <div className="row project-row justify-content-md-center pb-md-5 pt-6rem pt-lg-8rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
             <div className="col-md-2 col-11">
-                <motion.h3 className="luxury-title text-capitalize text-md-right"
+                <motion.h4 className=" text-capitalize text-md-right"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
@@ -74,7 +74,7 @@ export default function Projects() {
                 }}
                 initial={{opacity: 0.3}}>
                     Jaeger Aeration
-                </motion.h3>
+                </motion.h4>
             </div>
             <div className="col-md-5 col-11 pt-2 pt-md-0">
                 <motion.p className="normal-text"
@@ -224,9 +224,9 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="row project-row justify-content-start pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
+          <div className="row project-row bg-darker justify-content-start pb-md-5 pt-6rem pt-lg-12rem mt-5 mt-md-5 pb-5 pb-md-0 px-md-5 px-0">
             <div className="col-md-12 col-12">
-                <h6 className="text-uppercase font-weight-bolder">
+                <h6 className="text-uppercase font-weight-bolder color-white">
                     Visuals
                 </h6>
             </div>

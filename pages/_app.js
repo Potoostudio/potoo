@@ -1,5 +1,5 @@
 import '../styles/globals.scss'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.css'
 import Layout from '../comps/Layout'
 import {ThemeProvider} from 'styled-components'
 import {useState} from 'react'
@@ -19,17 +19,17 @@ function MyApp({ Component, pageProps, router }) {
     setActive(!isActive);
 }
 
-  // const spring = {
-  //   type: "spring",
-  //   damping: 29,
-  //   stiffness: 90,
-  //   when: "afterChildren",
-  //   delay: 0.5
-  // };
+  const spring = {
+    type: "spring",
+    damping: 29,
+    stiffness: 90,
+    when: "afterChildren",
+    delay: 0.5
+  };
   return (
   <>
   <AnimatePresence exitBeforeEnter>
-      <ThemeProvider theme={theme =='dark' ? darkTheme : lightTheme}>
+      <ThemeProvider theme={theme =='light' ? darkTheme : lightTheme}>
         <GlobalStyles/>
         <motion.div
         key={router.pathname}

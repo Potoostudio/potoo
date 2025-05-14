@@ -35,7 +35,7 @@ export default function Projects() {
         <meta name="keywords" content="branding agency in Denver, branding agency in Baghdad, creative agency in Baghdad, creative agency in Denver"/>
       </Head>
 
-      <div className="container-fluid mb-10x bg-white pt-5">
+      <div className="container-fluid bg-white pt-5">
       <motion.div className="row home-page-row-project-images mb-5 mb-md-1 mt-md-2 justify-content-end px-0 px-md-0 pt-2x pb-2x"
         initial={{y: 0}}
         animate={{y: -20}}
@@ -43,31 +43,19 @@ export default function Projects() {
         transition={{
           y: { duration: 1, delay: 0.4},
         }}>
-        <div className="col-md-12 col-12 py-md-4 pt-0 px-md-0 pb-md-0 mb-md-0 bottom-line top-line">
-            <h1 className="pt-2 px-md-4 py-4 text-md-left font-x-large luxury-title hover-none mb-0 color-dark py-0">
+        <div className="col-md-7 col-12 py-md-4 pt-0 px-md-0 pb-md-0 mb-md-0">
+            <h1 className="pt-2 px-md-4 py-4 text-md-left hover-none mb-0 color-dark py-0">
                 Art is part of our identity
             </h1>
         </div>
-        <div className="col-md-6 col-12 px-0">
-          <h5 className="py-4 px-3 px-md-4 color-dark line-height-normal font-large font-weight-normal pt-md-5">
+        <div className="col-md-7 col-12 px-0">
+          <h5 className="py-4 px-3 px-md-4 color-dark line-height-normal font-weight-normal pt-md-5">
               We use art to express ourselves, add joy to day-to-day life, highlight subjects, tell stories, show appreciation, and attract attention.
           </h5>
         </div>
-        <div className="col-md-6 col-12 col-6 pt-md-4
-         pt-5 px-md-3 pb-md-0 mb-md-0 ">
-            <div className="image-container">
-                <Image
-                    src="/art-type-circle.jpg"
-                    layout="fill"
-                    className="image"
-                    alt="art"
-                    loading="lazy"
-                    />
-            </div>
-        </div>
         </motion.div>
      </div>
-      <div className="container-fluid pt-5 mt-6x mb-10x">
+      <div className="container-fluid pt-5 mb-10x">
         <motion.div className="row home-page-row-project-images mb-5 mb-md-1 mt-md-2 justify-content-left px-4 px-md-5"
         initial={{y: 0}}
         animate={{y: -20}}

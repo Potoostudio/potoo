@@ -54,8 +54,8 @@ export default function Projects() {
                       loading="lazy"
                       />
                 </div>
-                <h6 className="title pt-2 color-off-white luxury-title hover-none mb-0">
-                  Typography <span className="float-right text-decoration-underline">2-Minute Read</span>
+                <h6 className="title pt-2 color-dark luxury-title hover-none mb-0">
+                  Typography <span className="float-end text-decoration-underline">2-Minute Read</span>
                 </h6>
                 <h6 className="article-info pt-2 color-secondary luxury-title hover-none line-height-normal">
                  What is the difference between an unkerend Bagdhad and a hand-kerned Baghdad
@@ -73,8 +73,8 @@ export default function Projects() {
                         loading="lazy"
                         />
                 </div>
-                <h6 className="title pt-2 color-off-white luxury-title hover-none mb-0">
-                    Brand research <span className="float-right text-decoration-underline">5-Minute Read</span>
+                <h6 className="title pt-2 color-dark luxury-title hover-none mb-0">
+                    Brand research <span className="float-end text-decoration-underline">5-Minute Read</span>
                 </h6>
                 <h6 className="article-info pt-2 color-secondary luxury-title hover-none">
                  Know your audience beyond the demographic information

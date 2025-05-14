@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/studio": "pages/studio.js",
-  "/journal": "pages/journal.js",
-  "/art": "pages/art.js"
+  "/essentials/privacy": "pages/essentials/privacy.js",
+  "/": "pages/index.js"
 }

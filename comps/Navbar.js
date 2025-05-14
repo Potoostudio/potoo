@@ -19,9 +19,9 @@ function toggle() {
           <div className="item d-lg-only">
             <Link href="/" className="potoo-logo-a">
                 <Image
-                  src="/Potoo Word Logo.svg"
-                  width="80"
-                  height="16"
+                  src="/Potoo-word-header-logo.svg"
+                  width="102"
+                  height="20"
                   alt="Potoo logo"
                 />
               </Link>
@@ -29,7 +29,7 @@ function toggle() {
           <div className="item center">
             <Link href="/" className="potoo-logo-a d-flex d-lg-none">
               <Image
-                    src="/Potoo Word Logo.svg"
+                    src="/Potoo-word-header-logo.svg"
                     width="200"
                     height="53"
                     alt="Potoo logo"
@@ -38,24 +38,24 @@ function toggle() {
                     />
             </Link>
           </div>
-          <div className="item pr-md-4 d-lg-only">
+          <div className="item pe-4 d-lg-only">
             <Link href="/work" className="nav-a">
               Work
             </Link>
           </div>
-          <div className="item d-lg-only pr-md-4">
+          <div className="item d-lg-only pe-4">
             <Link href="/studio" className="nav-a">
-              Studio
+              About
             </Link>
           </div>
-          <div className="item d-lg-only pr-md-4">
-            <Link href="/journal" className="nav-a">
-             Journal
+          <div className="item d-lg-only pe-4">
+            <Link href="/iris" className="nav-a">
+            Innovations
             </Link>
           </div>
           <div className="item d-lg-only pr-md-0">
-            <Link href="/art" className="nav-a">
-             Art
+            <Link href="/contact" className="nav-a">
+              Contact
             </Link>
           </div>
         </div>
@@ -73,47 +73,50 @@ function toggle() {
               <ul className="list header-list pt-5 mt-4 pt-md-5 mt-md-0">
                 <li className="item"
                 onClick={toggle}>
-                  <Link href="/work" className="mobile-navBar-item code-a luxury-title">
+                  <Link href="/work" className="mobile-navBar-item code-a text-decoration-none">
                       Work
                   </Link>
                 </li>
                 <li className="item"
                 onClick={toggle}>
-                  <Link href="/studio" className="mobile-navBar-item design-a luxury-title">
-                    Studio
+                  <Link href="/studio" className="mobile-navBar-item design-a text-decoration-none">
+                    About
                   </Link>
                 </li>
                 <li className="item"
                 onClick={toggle}>
-                  <Link href="/journal" className="mobile-navBar-item code-a luxury-title">
-                   Journal
+                  <Link href="/iris" className="mobile-navBar-item code-a text-decoration-none">
+                  Innovations
                   </Link>
                 </li>
                 <li className="item"
                 onClick={toggle}>
-                  <Link href="/art" className="mobile-navBar-item code-a luxury-title">
-                   Art
+                  <Link href="/contact" className="mobile-navBar-item code-a text-decoration-none">
+                   Contact
                   </Link>
                 </li>
               </ul>
               <div className="phone-menu-footer footer-container container-fluid">
                 <div className="row justify-content-lg-around justify-content-md-center justify-content-center pb-3 pt-0 pt-lg-4 pb-lg-3 mb-lg-0 mt-lg-2 mt-0 phone-email-row">
-                    <div className="col-md-2 col-6 text-left pt-4 pt-md-0">
-                      <ul className="contact-list">
-                      <span className="footer-small-title">contact info</span>
-                          <li className="item">
-                            <Link href="mailto:ideas@potoo.studio" aria-label="email" className="say-hello-a pb-lg-2">
-                                ideas@potoo.studio
-                                <span className="bottom-line"></span>
+                    <div className="col-md-2 col-8 text-left pt-4 pt-md-0">
+                    <ul className="list-style-none ps-0 mb-0 mt-md-2 contact-list">
+                    <span className="footer-small-title">contact info</span>
+                      <li className="item pt-md-3 pt-0">
+                            <Link href="https://wa.me/009647809000956" className="say-hello-a">
+                                    WhatsApp: +964 780 900 0956
                             </Link>
-                          </li>
-                          <li className="item pt-md-2 pt-2">
-                            <Link href="tel:3202604416" aria-label="phone" className="say-hello-a pb-lg-2">
-                                +1 320.260.4416
-                                <span className="bottom-line"></span>
+                      </li>
+                      <li className="item pt-md-3 pt-1">
+                            <Link href="tel:+13202604416" className="say-hello-a">
+                                    Cell: +1 320 260 4416
                             </Link>
-                          </li>
-                      </ul>
+                      </li>
+                      <li className="item pt-md-3 pt-1">
+                            <Link href="mailto:ideas@potoo.studio" className="say-hello-a">
+                                    Email: ideas@potoo.studio
+                            </Link>
+                      </li>
+                  </ul>
                     </div>
                     <div className="col-md-2 col-4 pt-4 pt-md-0">
                         <ul className="media-list text-right text-md-left">

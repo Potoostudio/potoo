@@ -30,9 +30,9 @@ export default function Projects() {
             y: { duration: 0.8, repeat: 0, delay: 0.2},
             }}
             initial={{y: "25px"}}>
-                <h5 className="title luxury-title color-darker">
-                  READ
-                </h5>
+                <h6 className="title color-darker">
+                  Insight
+                </h6>
             </motion.div>
           </div>
           <motion.div className="row project-row justify-content-center pb-md-5 pt-4 pt-md-0 mt-2x pb-0 px-md-5"
@@ -43,17 +43,17 @@ export default function Projects() {
           }}
             initial={{y: "25px"}}>
               <div className="col-md-10 col-12">
-                <h1 className="luxury-title font-x-large color-dark text-left">
+                <h1 className=" color-dark text-left">
                  An unkerned Baghdad vs a hand-kerned Baghdad
                 </h1>
                 <ul className="list list-style-none pt-2 pt-md-0 px-0 journal-list pt-md-2">
                   <li className="item color-darker ">
                     Typography
                   </li>
-                  <li className="item color-darker ml-md-4 mt-2 mt-md-0">
+                  <li className="item color-darker ml-md-4 ps-2 ps-md-0">
                     Kerning
                   </li>
-                  <li className="item color-darker ml-md-4 mt-2 mt-md-0">
+                  <li className="item color-darker ml-md-4 ps-2 ps-md-0">
                     Logos
                   </li>
                 </ul>

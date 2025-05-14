@@ -1,10 +1,10 @@
-import React from "react"
+import React from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
 import { motion} from "framer-motion"
 import Link from 'next/link'
 
-class Studio extends React.Component {
+export default function Studio(){
     // state = {
     //     showBox: false,
     //     showItem: false
@@ -14,8 +14,6 @@ class Studio extends React.Component {
     // handleBoxToggleIdentity = () => this.setState({ showIdentity: !this.state.showIdentity })
     // handleBoxToggleDesign = () => this.setState({ showDesign: !this.state.showDesign })
     // handleBoxToggleWeb = () => this.setState({ showWeb: !this.state.showWeb })
-
-      render() {
 
           return (
             <>
@@ -381,7 +379,3 @@ class Studio extends React.Component {
             </>
           );
       }
-  }
-
-export default Studio;
-
