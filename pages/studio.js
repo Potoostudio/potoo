@@ -41,18 +41,24 @@ export default function Studio() {
                       </div>
                   </div>
                   <motion.div className="row justify-content-md-end border-top pt-5 pb-5  px-4 px-md-5"
-                  initial={{opacity: 0, y: 30}}
-                  animate={{opacity: 1, y: 0}}
-                  transition={{ duration: 0.7, delay: 0.55}}>
+                    initial={{opacity: 0, y: 0}}
+                    whileInView={{opacity: 1, y: -30}}
+                    viewport={{ once: true }}
+                    transition={{
+                      y: { duration: 0.8, delay: 0.4},
+                    }}>
                       <div className="col-12 col-md-6 text-left px-0 pt-md-5 pr-md-5 pb-md-5">
                           <p className="color-dark pr-md-5">In a rapid world, we exist to create meaningful solutions built around the fundamentals to help shape a brilliant future.</p>
                       </div>
                   </motion.div>
                   
                   <motion.div className="row justify-content-md-between border-top  pt-5 pb-5 px-4 px-md-5"
-                  initial={{opacity: 0, y: 30}}
-                  animate={{opacity: 1, y: 0}}
-                  transition={{ duration: 0.7, delay: 0.55}}>
+                    initial={{opacity: 0, y: 0}}
+                    whileInView={{opacity: 1, y: -30}}
+                    viewport={{ once: true }}
+                    transition={{
+                      y: { duration: 0.8, delay: 0.4},
+                    }}>
                       <div className="col-12 col-md-4 text-left px-0 pr-md-5 pt-5">
                           <h4 className="color-dark pr-md-5">Process</h4>
                       </div>
@@ -61,9 +67,12 @@ export default function Studio() {
                       </div>
                   </motion.div>
                   <motion.div
-                  initial={{opacity: 0, y: 30}}
-                  animate={{opacity: 1, y: 0}}
-                  transition={{ duration: 0.7, delay: 0.55}}
+                    initial={{opacity: 0, y: 0}}
+                    whileInView={{opacity: 1, y: -30}}
+                    viewport={{ once: true }}
+                    transition={{
+                      y: { duration: 0.8, delay: 0.4},
+                    }}
                   className="row justify-content-md-between pt-md-5 mt-md-5 pb-5 color-dark px-4 px-md-5">
                       <div className="col-12 col-md-4 px-0">
                           <h5 className="text-md-left">
@@ -120,9 +129,12 @@ export default function Studio() {
                   </motion.div>
                   <Services/>
                   <motion.div className="row justify-content-between border-top mt-6x pt-5 pb-5 px-4 px-md-5 text-dark"
-                    initial={{opacity: 0, y: 30}}
-                    animate={{opacity: 1, y: 0}}
-                    transition={{ duration: 0.7, delay: 0.55}}>
+                    initial={{opacity: 0, y: 0}}
+                    whileInView={{opacity: 1, y: -30}}
+                    viewport={{ once: true }}
+                    transition={{
+                      y: { duration: 0.8, delay: 0.4},
+                    }}>
                         <div className="col-12 col-md-4 text-left px-0 pr-md-5">
                             <h4 className="color-dark pr-md-5">Fundamentals</h4>
                         </div>
@@ -131,9 +143,12 @@ export default function Studio() {
                       </div>
                     </motion.div>
                   <motion.div className="row justify-content-between border-top mt-6x pt-5 px-4 px-md-5 text-dark"
-                    initial={{opacity: 0, y: 30}}
-                    animate={{opacity: 1, y: 0}}
-                    transition={{ duration: 0.7, delay: 0.55}}>
+                     initial={{opacity: 0, y: 0}}
+                     whileInView={{opacity: 1, y: -30}}
+                     viewport={{ once: true }}
+                     transition={{
+                       y: { duration: 0.8, delay: 0.4},
+                     }}>
                         <div className="col-12 col-md-4 text-left px-0 pr-md-5">
                             <h4 className="color-dark pr-md-5">Goal</h4>
                         </div>
@@ -143,9 +158,12 @@ export default function Studio() {
                       </div>
                     </motion.div>
                   <motion.div className="row justify-content-between border-top mt-6x pt-5 pb-5 px-4 px-md-5 text-dark"
-                    initial={{opacity: 0, y: 30}}
-                    animate={{opacity: 1, y: 0}}
-                    transition={{ duration: 0.7, delay: 0.55}}>
+                     initial={{opacity: 0, y: 0}}
+                     whileInView={{opacity: 1, y: -30}}
+                     viewport={{ once: true }}
+                     transition={{
+                       y: { duration: 0.8, delay: 0.4},
+                     }}>
                         <div className="col-12 col-md-4 text-left px-0 pr-md-5">
                             <h4 className="color-dark pr-md-5">Collaboration</h4>
                         </div>

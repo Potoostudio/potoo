@@ -6,14 +6,14 @@ export default function Projects() {
 
         return (
             <>
-                <div className="fluid-container">
-                <motion.div
-            initial={{y: 0}}
-            whileInView={{y: -20}}
-            viewport={{ once: true }}
-            transition={{
-              y: { duration: 1, delay: 0.4},
-            }}
+              <div className="fluid-container">
+              <motion.div
+              initial={{opacity: 0, y: 0}}
+              whileInView={{opacity: 1, y: -20}}
+              viewport={{ once: true }}
+              transition={{
+                y: { duration: 1, delay: 0.5},
+              }}
             className="row justify-content-between px-md-5 pt-12x pb-10x mt-12x bg-darker ">
               <div className="col-lg-3">
                 <motion.h4

@@ -379,7 +379,7 @@ export default function Iris() {
                       Customizable
                     </h5>
                     <p className="font-secondary pt-md-5 pt-3 pb-3 mb-md-5">
-                      Customize Iris to seamlessly integrate into your business.
+                    Customize Iris to seamlessly integrate with your business operations and workflows.
                     </p>
                     <div className="image-container w-25">
                       <Image

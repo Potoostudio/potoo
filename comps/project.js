@@ -10,7 +10,14 @@ export default function Projects() {
         return (
             <>
                 <div className="container-fluid">
-                    <div className="row project mt-10x px-md-5 pt-md-0 pt-md-5">
+                    <motion.div
+                     initial={{opacity: 0, y: 30}}
+                     whileInView={{opacity: 1, y: 0}}
+                     viewport={{ once: true }}
+                     transition={{
+                       y: { duration: 1, delay: 0.4},
+                     }}
+                    className="row project mt-10x px-md-5 pt-md-0 pt-md-5">
                     <div className="col-md-8">
                         <Link href="/iris" className="project-li-link">
                         <motion.div
@@ -46,8 +53,15 @@ export default function Projects() {
                         </ul>
                         </div>
                     </div>
-                </div>
-                <div className="row project mt-10x px-md-5 pt-md-0 pt-5">
+                </motion.div>
+                <motion.div
+                  initial={{opacity: 0, y: 30}}
+                  whileInView={{opacity: 1, y: 0}}
+                  viewport={{ once: true }}
+                  transition={{
+                    y: { duration: 1, delay: 0.4},
+                  }}
+                className="row project mt-10x px-md-5 pt-md-0 pt-5">
                     <div className="col-md-8">
                         <Link href="/projects/henery-agency" className="project-li-link">
                         <motion.div
@@ -88,8 +102,15 @@ export default function Projects() {
                         </ul>
                         </div>
                     </div>
-                </div>
-                <div className="row project mt-10x px-md-5 pt-md-0 pt-5">
+                </motion.div>
+                <motion.div
+                  initial={{opacity: 0, y: 30}}
+                  whileInView={{opacity: 1, y: 0}}
+                  viewport={{ once: true }}
+                  transition={{
+                    y: { duration: 1, delay: 0.4},
+                  }}
+                className="row project mt-10x px-md-5 pt-md-0 pt-5">
                     <div className="col-md-8">
                         <Link href="//projects/potoo" className="project-li-link">
                         <motion.div
@@ -133,8 +154,15 @@ export default function Projects() {
                         </ul>
                         </div>
                     </div>
-                </div>
-                <div className="row project mt-10x px-md-5 pt-md-0 pt-5">
+                </motion.div>
+                <motion.div
+                 initial={{opacity: 0, y: 30}}
+                 whileInView={{opacity: 1, y: 0}}
+                 viewport={{ once: true }}
+                 transition={{
+                   y: { duration: 1, delay: 0.4},
+                 }}
+                className="row project mt-10x px-md-5 pt-md-0 pt-5">
                     <div className="col-md-8">
                         <Link href="//projects/jaeger-aeration" className="project-li-link">
                         <motion.div
@@ -178,7 +206,7 @@ export default function Projects() {
                         </ul>
                         </div>
                     </div>
-                </div>
+                </motion.div>
                 </div>
         
           </>

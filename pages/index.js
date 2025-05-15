@@ -45,14 +45,14 @@ export default function Home() {
           </div>
           <div className="row justify-content-md-end  justify-content-start pb-4 mx-md-5">
             <motion.div 
-            initial={{opacity: 0, y: 30}}
+            initial={{opacity: 0, y: -30}}
             animate={{opacity: 1, y: 0}}
             transition={{ duration: 0.7, delay: 0.5}}
             className="col-md-3 col-10 pl-lg-0 pr-lg-0 mr-lg-5 mt-4">
               <h6 className="color-dark line-height-extra font-secondary">Our objective is to provide solutions designed to outlast today’s trends and stand relevant in the future.</h6>
             </motion.div>
             <motion.div 
-            initial={{opacity: 0, y: 30}}
+            initial={{opacity: 0, y: -30}}
             animate={{opacity: 1, y: 0}}
             transition={{ duration: 0.7, delay: 0.5}}
             className="col-md-3 col-10 pl-lg-0 pr-lg-0 mr-lg-5 mt-4">
@@ -71,22 +71,15 @@ export default function Home() {
           </div>
           <Services/>
         <motion.div
-        initial={{y: 0}}
-        whileInView={{y: -20}}
-        viewport={{ once: true }}
-        transition={{
-          y: { duration: 1, delay: 0.4},
-        }}
+          initial={{opacity: 0, y: 30}}
+          whileInView={{opacity: 1, y: 0}}
+          viewport={{ once: true }}
+          transition={{
+            y: { duration: 1, delay: 0.4},
+          }}
         className="row justify-content-start px-md-5 pt-12x pb-10x mt-4x">
           <div className="col-md-12 px-md-0 pb-0 pb-md-0 pt-5">
-              <motion.h4
-              initial={{opacity: 0.7}}
-              whileInView={{opacity: 1}}
-              viewport={{ once: true }}
-              transition={{
-                opacity: { duration: 1, delay: 0.4},
-              }}
-              className="line-before-after">Journal</motion.h4>
+              <h4 className="line-before-after">Journal</h4>
           </div>
           <div className="col-md-4 col-12 col-6 pt-md-4 pt-3 px-md-3 pb-md-0 mb-md-0">
         <Link href="/journal/unkerned-vs-hand-kerned" className="project-li-link hover-none">
