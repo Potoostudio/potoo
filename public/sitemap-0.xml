@@ -1,21 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://potoo.studio</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/about</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/art</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/art/36daysoftype-10</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/art/making-typography-move</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/art/shapes</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/branding-agency-in-baghdad</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/branding-agency-in-denver</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/journal</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/journal/brand-research</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/projects/au</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/projects/henery-agency</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/projects/jaeger-aeration</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/projects/kish</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/projects/potoo</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/projects/seedstock</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/studio</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://potoo.studio/work</loc><lastmod>2024-11-24T09:23:18.584Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url>
+  <loc>https://www.potoo.studio/</loc>
+  <lastmod>2025-05-14T15:28:08+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/work</loc>
+  <lastmod>2025-05-15T14:56:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/studio</loc>
+  <lastmod>2025-05-15T14:56:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/iris</loc>
+  <lastmod>2025-05-15T14:56:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/contact</loc>
+  <lastmod>2025-05-15T14:56:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/projects/henery-agency</loc>
+  <lastmod>2025-05-15T14:56:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/projects/potoo</loc>
+  <lastmod>2025-05-15T14:56:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/projects/jaeger-aeration</loc>
+  <lastmod>2025-05-15T14:56:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/journal/unkerned-vs-hand-kerned</loc>
+  <lastmod>2025-05-15T14:56:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/journal/brand-research</loc>
+  <lastmod>2025-05-15T14:56:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/art</loc>
+  <lastmod>2025-05-15T14:56:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/journal</loc>
+  <lastmod>2025-05-15T14:56:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/essentials/privacy</loc>
+  <lastmod>2025-05-15T14:56:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/art/making-typography-move</loc>
+  <lastmod>2025-05-15T14:56:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/art/shapes</loc>
+  <lastmod>2025-05-15T14:56:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.potoo.studio/art/36daysoftype-10</loc>
+  <lastmod>2025-05-15T14:56:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
 </urlset>
+
