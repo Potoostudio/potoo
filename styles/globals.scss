@@ -206,7 +206,7 @@ a {
     }
     .home-page-container {
 
-
+      overflow-y: hidden;
 
       .main-page-impression-text-box {
         text-align: center;
@@ -889,6 +889,7 @@ a {
   // }
   .home-page-container {
     overflow-x: hidden;
+    overflow-y: hidden;
 
     .main-page-impression-text-box {
       text-align: center;
@@ -1457,6 +1458,7 @@ a {
   .home-page-container {
     border-top: none;
     margin-top: 0;
+    overflow-y: hidden;
 
     .height-67vh {
      height: 67vh;
