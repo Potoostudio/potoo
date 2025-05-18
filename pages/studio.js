@@ -63,7 +63,7 @@ export default function Studio() {
                           <h4 className="color-dark pr-md-5">Process</h4>
                       </div>
                       <div className="col-12 col-md-6 text-left px-0 pr-md-5 pt-md-5">
-                          <p className="color-dark pr-md-5 font-secondary">Our process is focused on uncovering the fundamentals and letting them be the foundation of the design process. Our objective is to make work designed to outlast today’s trends and stand relevant in the future. The process is transparent, collaborative, and creative.</p>
+                          <p className="color-dark pr-md-5 font-secondary">Our process is focused on uncovering the fundamentals and letting them be the foundation of our Solution-Oriented process. Our objective is to create solutions designed to outlast today’s trends and stand relevant in the future. The process is transparent, collaborative, and creative.</p>
                       </div>
                   </motion.div>
                   <motion.div
