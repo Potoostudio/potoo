@@ -9,7 +9,7 @@ export default function Projects() {
               <div className="fluid-container">
               <motion.div
               initial={{opacity: 0, y: 0}}
-              whileInView={{opacity: 1, y: -20}}
+              whileInView={{opacity: 1, y: -30}}
               viewport={{ once: true }}
               transition={{
                 y: { duration: 1, delay: 0.5},

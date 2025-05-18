@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/studio": "pages/studio.js",
   "/": "pages/index.js",
-  "/contact": "pages/contact.js",
-  "/iris": "pages/iris.js"
+  "/iris": "pages/iris.js",
+  "/contact": "pages/contact.js"
 }

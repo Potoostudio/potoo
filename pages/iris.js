@@ -45,7 +45,7 @@ export default function Iris() {
           }}
           initial={{y: "25px"}}>
             <div className="col-md-8 col-10">
-               <h6 className="project-title">
+               <h6 className="project-title font-secondary">
                    AI empowers people and businesses.
                 </h6>
             </div>
@@ -71,7 +71,7 @@ export default function Iris() {
                     What is Iris?
                 </motion.h4>
 
-                <motion.p className="pt-3"
+                <motion.p className="pt-3 font-secondary"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
@@ -80,7 +80,7 @@ export default function Iris() {
                 initial={{opacity: 0.25}}>
                     Iris is an AI designed to empower individuals and businesses through information and practical tools. Initially focused on the Iraqi market, Iris also has the potential to expand across the MENA region.
                 </motion.p>
-                <motion.p className="pt-md-5 pt-2"
+                <motion.p className="pt-md-5 pt-2 font-secondary"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
@@ -140,7 +140,7 @@ export default function Iris() {
           </div>
           <div className="row project-row justify-content-md-between justify-content-start pb-md-4 mt-0 pb-4 mt-md-2 px-md-5 px-3 top-line pt-4">
             <div className="col-md-2 col-10 pt-1 px-0">
-             <motion.h6 className="fw-bolded mb-1"
+             <motion.h5 className="fw-bolded mb-1"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
@@ -148,7 +148,7 @@ export default function Iris() {
                 }}
                 initial={{opacity: 0.3}}>
                     Answer questions
-                </motion.h6>
+                </motion.h5>
             </div>
             <div className="col-md-3 col-11 pt-md-1 pt-0 px-0">
              <motion.p className="font-secondary mb-1"
@@ -175,7 +175,7 @@ export default function Iris() {
             </div>
           <div className="row project-row justify-content-md-between justify-content-start pb-md-4 pb-4 mt-0 mt-md-2 px-md-5 px-3 top-line pt-4">
             <div className="col-md-2 col-10 pt-1 px-0">
-             <motion.h6 className="fw-bolded mb-1"
+             <motion.h5 className="fw-bolded mb-1"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
@@ -183,7 +183,7 @@ export default function Iris() {
                 }}
                 initial={{opacity: 0.3}}>
                     Analyze pictures
-                </motion.h6>
+                </motion.h5>
             </div>
             <div className="col-md-3 col-11 pt-md-1 pt-0 px-0">
              <motion.p className="font-secondary mb-1"
@@ -210,7 +210,7 @@ export default function Iris() {
             </div>
           <div className="row project-row justify-content-md-between justify-content-start pb-md-4 mt-0 pb-4 mt-md-2 px-md-5 px-3 top-line pt-4">
               <div className="col-md-2 col-10 pt-1 px-0">
-              <motion.h6 className="fw-bolded mb-1"
+              <motion.h5 className="fw-bolded mb-1"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
                   transition={{
@@ -218,7 +218,7 @@ export default function Iris() {
                   }}
                   initial={{opacity: 0.3}}>
                       Answer voice notes
-                  </motion.h6>
+                  </motion.h5>
               </div>
               <div className="col-md-3 col-11 pt-md-1 pt-0 px-0 mb-0">
               <motion.p className="font-secondary mb-1"
@@ -245,7 +245,7 @@ export default function Iris() {
             </div>
           <div className="row project-row justify-content-md-between justify-content-start pb-md-4 mt-0 pb-4 mt-md-2 px-md-5 px-3 top-line pt-4 bottom-line">
               <div className="col-md-2 col-10 pt-1 px-0">
-              <motion.h6 className="fw-bolded mb-1"
+              <motion.h5 className="fw-bolded mb-1"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
                   transition={{
@@ -253,7 +253,7 @@ export default function Iris() {
                   }}
                   initial={{opacity: 0.3}}>
                       Book meetings
-                  </motion.h6>
+                  </motion.h5>
               </div>
               <div className="col-md-3 col-11 pt-md-1 pt-0 px-0">
               <motion.p className="font-secondary mb-1"
@@ -319,7 +319,7 @@ export default function Iris() {
                     Voice of your brand
                   </h5>
                   <p className="font-secondary pt-md-5 pt-3 pb-3 mb-md-5">
-                    Design Iris to reflect your brand’s voice and communicate its core values.
+                    Design Iris to reflects your brand’s voice and communicates its values to your clients.
                   </p>
                   <div className="image-container w-25">
                       <Image

@@ -48,7 +48,7 @@ export default function Studio() {
                       y: { duration: 0.8, delay: 0.4},
                     }}>
                       <div className="col-12 col-md-6 text-left px-0 pt-md-5 pr-md-5 pb-md-5">
-                          <p className="color-dark pr-md-5">In a rapid world, we exist to create meaningful solutions built around the fundamentals to help shape a brilliant future.</p>
+                          <p className="color-dark pr-md-5 font-secondary">In a rapid world, we exist to create meaningful solutions built around the fundamentals to help shape a brilliant future.</p>
                       </div>
                   </motion.div>
                   
@@ -63,7 +63,7 @@ export default function Studio() {
                           <h4 className="color-dark pr-md-5">Process</h4>
                       </div>
                       <div className="col-12 col-md-6 text-left px-0 pr-md-5 pt-md-5">
-                          <p className="color-dark pr-md-5">Our process is focused on uncovering the fundamentals and letting them be the foundation of the design process. Our objective is to make work designed to outlast today’s trends and stand relevant in the future. The process is transparent, collaborative, and creative.</p>
+                          <p className="color-dark pr-md-5 font-secondary">Our process is focused on uncovering the fundamentals and letting them be the foundation of the design process. Our objective is to make work designed to outlast today’s trends and stand relevant in the future. The process is transparent, collaborative, and creative.</p>
                       </div>
                   </motion.div>
                   <motion.div
@@ -139,7 +139,7 @@ export default function Studio() {
                             <h4 className="color-dark pr-md-5">Fundamentals</h4>
                         </div>
                         <div className="col-12 col-md-6 text-left px-0 pr-md-5">
-                          <p className="color-dark pr-md-5">Our work is built around truly understanding the fundamentals to present people’s ideas and values. We are responsible for creating meaningful designs to help shape a bright future.</p>
+                          <p className="color-dark pr-md-5 font-secondary">Our work is built around truly understanding the fundamentals to present people’s ideas and values. We are responsible for creating meaningful designs to help shape a bright future.</p>
                       </div>
                     </motion.div>
                   <motion.div className="row justify-content-between border-top mt-6x pt-5 px-4 px-md-5 text-dark"
@@ -153,8 +153,8 @@ export default function Studio() {
                             <h4 className="color-dark pr-md-5">Goal</h4>
                         </div>
                         <div className="col-12 col-md-6 text-left px-0 pr-md-5">
-                          <p className="color-dark pr-md-5">Our goal is to focus on the fundamentals and let them shape a straightforward and creative design process.</p>
-                          <p className="color-dark pr-md-5">Identify the problem? Could we improve rather than add? Could we simplify rather than complicate?</p>
+                          <p className="color-dark pr-md-5 font-secondary">Our goal is to focus on the fundamentals and let them shape a straightforward and creative design process.</p>
+                          <p className="color-dark pr-md-5 font-secondary">Identify the problem? Could we improve rather than add? Could we simplify rather than complicate?</p>
                       </div>
                     </motion.div>
                   <motion.div className="row justify-content-between border-top mt-6x pt-5 pb-5 px-4 px-md-5 text-dark"
@@ -168,8 +168,8 @@ export default function Studio() {
                             <h4 className="color-dark pr-md-5">Collaboration</h4>
                         </div>
                         <div className="col-12 col-md-6 text-left px-0 pr-md-5">
-                          <p className="color-dark pr-md-5">We are on a journey to create meaningful designs and relationships. This journey takes time and collaboration. We would love for you to be part of our journey. </p>
-                          <p className="color-dark pr-md-5 pt-3">Work with us! <a className="text-dark text-decoration-underline" aria-label="email" href="mailto:ideas@potoo.studio?Subject=Work Collaboration">ideas@potoo.studio</a></p>
+                          <p className="color-dark pr-md-5 font-secondary">We are on a journey to create meaningful designs and relationships. This journey takes time and collaboration. We would love for you to be part of our journey. </p>
+                          <p className="color-dark pr-md-5 pt-3 font-secondary">Work with us! <a className="text-dark text-decoration-underline" aria-label="email" href="mailto:ideas@potoo.studio?Subject=Work Collaboration">ideas@potoo.studio</a></p>
                       </div>
                     </motion.div>
               </div>

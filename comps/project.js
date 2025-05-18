@@ -39,7 +39,7 @@ export default function Projects() {
                     <div className="col-md-4 col-11 pb-md-1 flex-column justify-content-between d-flex">
                         <div className="flex-item">
                         <h5 className="project-title mt-md-5 pt-md-5 pt-2 fw-bolder">Iris</h5>
-                        <p className="project-tag-line">AI empowers people and business.</p>
+                        <p className="project-tag-line font-secondary">AI empowers people and business.</p>
                         </div>
                         <div className="flex-item">
                         <ul className="list-style-none ps-0 color-darker mt-md-5 pt-md-5 mb-0 mt-2">
@@ -85,7 +85,7 @@ export default function Projects() {
                         </div>
                         <div className="flex-item">
                         <h5 className="project-title mt-md-5 pt-md-5 pt-2 fw-bolder">Henery Agency</h5>
-                        <p className="project-tag-line fs-normal">In a world of common practices and resistance to change, Henery Agency shows the uncommon.</p>
+                        <p className="project-tag-line font-secondary">In a world of common practices and resistance to change, Henery Agency shows the uncommon.</p>
                         </div>
                         <div className="flex-item">
                         <ul className="list-style-none ps-0 mb-0 color-darker mt-md-5 pt-md-5 mt-2">
@@ -134,7 +134,7 @@ export default function Projects() {
                         </div>
                         <div className="flex-item">
                         <h5 className="project-title mt-md-5 pt-md-5 pt-2 fw-bolder">POTOO</h5>
-                        <p className="project-tag-line fs-normal">In a world of common practices and resistance to change, Henery Agency shows the uncommon.</p>
+                        <p className="project-tag-line font-secondary">In a world of common practices and resistance to change, Henery Agency shows the uncommon.</p>
                         </div>
                         <div className="flex-item">
                         <ul className="list-style-none ps-0 mb-0 color-darker mt-md-5 pt-md-5">

@@ -63,7 +63,7 @@ export default function Home() {
           <div className="row justify-content-md-end pt-12x mt-4x">
             <EmblaCarousel slides={SLIDES} options={OPTIONS} />
             <div className="col-md-6 col-11 mt-2x pb-md-5 pb-md-3 mt-5 pe-md-5">
-              <p className="info pb-md-3 line-height-extra">
+              <p className="info pb-md-3 line-height-extra font-secondary">
                 We are on a mission to use design and technology in their best form to tell stories, highlight the insufficient, celebrate the extraordinary, document history, honor the difference, and fulfill our purpose in life.
               </p>
               <Link href="/studio" className=" hover-none btn btn-outline-dark bg-black color-white mt-2 mt-md-0 py-md-2 px-md-4 font-secondary">Read More</Link>
