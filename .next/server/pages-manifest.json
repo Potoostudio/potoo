@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/dept/cybersecurity": "pages/dept/cybersecurity.js",
   "/dept/development": "pages/dept/development.js",
   "/dept/AI": "pages/dept/AI.js",
   "/dept/custom-apps": "pages/dept/custom-apps.js"

@@ -91,7 +91,7 @@ const handleShownClick = () => {
                 <li className="item color-white text-decoration-none pt-3 ">
                 <Link href="/dept/design" className="color-dark text-decoration-none">
                     <Image
-                        src="/design-icon.1.svg"
+                        src="/Design-icon.1.svg"
                         width="30"
                         height="30"
                         className="image"

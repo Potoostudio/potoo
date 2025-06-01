@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { motion} from "framer-motion"
 import Link from "next/link"
 import useMouse from "@react-hook/mouse-position";
+
 export default function Custom() {
 
     const [isActive, setIsActive] = useState(false);
@@ -342,7 +343,7 @@ export default function Custom() {
                         <div className={isToolShow ? 'col-12 col-md-8 d-flex animate-slow' : 'col-12 col-md-6  d-flex animate-slow'}>
                             <div className="image-container me-3">
                                 <Image
-                                    src="/custom-app-Tools.1.jpg"
+                                    src="/custom-app-tools.1.jpg"
                                     layout="fill"
                                     className="image"
                                     alt="AI-Powered Applications Icon"
@@ -351,7 +352,7 @@ export default function Custom() {
                             </div>
                             <div className="image-container">
                                 <Image
-                                    src="/custom-app-Tools.2.jpg"
+                                    src="/custom-app-tools.2.jpg"
                                     layout="fill"
                                     className="image"
                                     alt="AI-Powered Applications Icon"

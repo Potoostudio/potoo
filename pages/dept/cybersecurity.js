@@ -223,7 +223,7 @@ export default function Development(){
                         <Image
                             width= "50"
                             height="50"
-                            src="/Training-icon.svg"
+                            src="/training-icon.svg"
                             className="image ps-2"
                             alt="Consulting Icon"
                             loading="lazy"
@@ -268,7 +268,7 @@ export default function Development(){
                         <Image
                             width= "95"
                             height="50"
-                            src="/Tools-icon.svg"
+                            src="/tools-icon.svg"
                             className="image ps-2"
                             alt="data leak icon Icon"
                             loading="lazy"
@@ -316,7 +316,7 @@ export default function Development(){
                         <Image
                             width= "95"
                             height="50"
-                            src="/Consulting-icon.svg"
+                            src="/consulting-icon.svg"
                             className="image ps-2"
                             alt="consulting Icon"
                             loading="lazy"
