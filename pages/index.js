@@ -9,6 +9,15 @@ import Services from "../comps/services"
 
 export default function Home() {
 
+  const [isActive, setIsActive] = useState(false);
+  const [isShown, setIsShown] = useState(false);
+
+const handleClick = () => {
+  setIsActive(!isActive);
+};
+const handleShownClick = () => {
+  setIsShown(!isShown);
+};
 
   const OPTIONS = { slidesToScroll: 'auto' }
   const SLIDE_COUNT = 8
@@ -33,30 +42,114 @@ export default function Home() {
           <meta name="keywords" content="branding agency in Denver, branding agency in Baghdad, creative agency in Baghdad, creative agency in Denver, AI agency in baghdad, Development agency in baghdad, cyber security solutions in baghdad, AI solutions in Baghdad,"/>
         </Head>
         <div className="container-fluid home-page-container pt-md-0 mt-md-0 bg-white">
-          <div className="row height-67vh justify-content-start pb-4">
+          <div className="row justify-content-start pb-4 pb-md-0">
             <motion.div 
             initial={{opacity: 0, y: 30}}
             animate={{opacity: 1, y: 0}}
             transition={{ duration: 0.7, delay: 0.5}}
-            className="col-md-10 col-12 pl-lg-0 pr-lg-0 mr-lg-0 pt-5 mt-5">
+            className="col-md-9 col-12 pl-lg-0 pr-lg-0 mr-lg-0 pt-5 mt-5 pt-md-0">
             <h2 className="main-page-impression-title mx-md-5 mt-4 pt-5 color-dark font-medium">We are a creative studio, committed to creating meaningful
               solutions built around the fundamentals of design and technology.</h2>
             </motion.div>
           </div>
-          <div className="row justify-content-md-end  justify-content-start pb-4 mx-md-5">
+          <div className="row justify-content-md-start  justify-content-start pt-md-0 mt-md-0 pb-4 pb-md-0 mx-md-5">
             <motion.div 
             initial={{opacity: 0, y: -30}}
             animate={{opacity: 1, y: 0}}
             transition={{ duration: 0.7, delay: 0.5}}
-            className="col-md-3 col-10 pl-lg-0 pr-lg-0 mr-lg-5 mt-4">
+            className="col-md-6 col-10 ps-lg-0 pr-lg-0 ms-lg-0 mt-4">
               <h6 className="color-dark line-height-extra font-secondary">Our objective is to provide solutions designed to outlast today’s trends and stand relevant in the future.</h6>
             </motion.div>
-            <motion.div 
-            initial={{opacity: 0, y: -30}}
-            animate={{opacity: 1, y: 0}}
-            transition={{ duration: 0.7, delay: 0.5}}
-            className="col-md-3 col-10 pl-lg-0 pr-lg-0 mr-lg-5 mt-4">
-              <h6 className="color-dark line-height-extra font-secondary">Our process centers on uncovering the fundamentals and using them as the foundation to design solutions.</h6>
+          </div>
+          <div className="row pt-md-5 mt-5 pb-4 pb-md-0 mx-md-5 mx-1">
+            <div className="col-12">
+              <h3 className="text-uppercase">
+                what we do
+              </h3>
+            </div>
+
+            <motion.div
+            onClick={handleClick}
+            className={isActive ? 'col-12 animate-slow design-bg full-height cursor-pointer' : 'cursor-pointer col-12 animate-slow design-bg'}>
+              <h4 className={isActive ? 'design text-center pt-md-5 mt-md-3 pt-5 color-white text-uppercase hidden' : 'design text-center pt-md-5 mt-md-3 pt-5 color-white text-uppercase active'}>
+                Design
+              </h4>
+              <ul className={isActive ? 'list pe-0 mt-4x ms-4 list-style-none  animate-slow active' : 'list pe-0 ms-4 list-style-none  animate-slow hidden'}>
+                <li className="item color-white text-decoration-none">
+                <Link href="/dept/design" className="color-dark text-decoration-none">
+                    <Image
+                        src="/strategy-icon.1.svg"
+                        width="30"
+                        height="30"
+                        className="image"
+                        alt="Strategy Icon"
+                        loading="lazy"
+                        />
+                        <span className="font-normal-rm ps-3 mt-2 align-middle color-white">Strategy & Identity</span>
+                </Link>
+                </li>
+                <li className="item color-white text-decoration-none pt-3 ">
+                <Link href="/dept/design" className="color-dark text-decoration-none">
+                    <Image
+                        src="/design-icon.1.svg"
+                        width="30"
+                        height="30"
+                        className="image"
+                        alt="Design Icon"
+                        loading="lazy"
+                        />
+                        <span className="font-normal-rm ps-3 mt-2 align-middle color-white">Design</span>
+                </Link>
+                </li>
+              </ul>
+            </motion.div>
+            <motion.div
+            onClick={handleShownClick}
+            className={isShown ? 'col-12 mt-4 animate-slow Technology-bg full-height cursor-pointer' : 'cursor-pointer col-12 animate-slow mt-4 Technology-bg'}>
+              <h4 className={isShown ? 'design text-center pt-md-5 mt-md-3 pt-5 color-white text-uppercase hidden' : 'design text-center pt-md-5 mt-md-3 pt-5 color-white text-uppercase active'}>
+                Technology
+              </h4>
+              <ul className={isShown ? 'list pe-0 mt-4x ms-4 list-style-none  animate-slow active' : 'list pe-0 ms-4 list-style-none  animate-slow hidden'}>
+                <li className="item color-white text-decoration-none">
+                <Link href="/dept/cybersecurity" className="color-white text-decoration-none">
+                    <Image
+                        src="/cybersecurity-icon.svg"
+                        width="30"
+                        height="30"
+                        className="image"
+                        alt="Strategy Icon"
+                        loading="lazy"
+                        />
+                        <span className="font-normal-rm ps-3 mt-2 align-middle">Cyber Security Solutions</span>
+                </Link>
+                </li>
+                <li className="item color-white text-decoration-none pt-3">
+                <Link href="/dept/design" className="color-white text-decoration-none">
+                    <Image
+                        src="/AI-icon.svg"
+                        width="30"
+                        height="30"
+                        className="image"
+                        alt="Design Icon"
+                        loading="lazy"
+                        />
+                        <span className="font-normal-rm ps-3 mt-2 align-middle">AI-Powered Applications</span>
+                </Link>
+                </li>
+                <li className="item color-white text-decoration-none pt-3 ">
+                <Link href="/dept/custom-apps" className="color-dark text-decoration-none">
+                    <Image
+                        src="/Custom-app-icon.svg"
+                        width="30"
+                        height="30"
+                        className="image"
+                        alt="Design Icon"
+                        loading="lazy"
+                        />
+                        <span className="font-normal-rm ps-3 mt-2 align-middle color-white">Custom Applications</span>
+                </Link>
+                </li>
+              </ul>
             </motion.div>
           </div>
           <Projects/>

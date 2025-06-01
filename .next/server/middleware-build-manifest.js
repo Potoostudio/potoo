@@ -27,20 +27,25 @@ self.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/contact": [
+    "/dept/AI": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/contact.js"
+      "static/chunks/pages/dept/AI.js"
     ],
-    "/iris": [
+    "/dept/custom-apps": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/iris.js"
+      "static/chunks/pages/dept/custom-apps.js"
     ],
-    "/studio": [
+    "/dept/cybersecurity": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/studio.js"
+      "static/chunks/pages/dept/cybersecurity.js"
+    ],
+    "/dept/development": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/dept/development.js"
     ]
   },
   "ampFirstPages": []

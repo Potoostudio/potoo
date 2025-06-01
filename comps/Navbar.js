@@ -30,10 +30,10 @@ function toggle() {
             <Link href="/" className="potoo-logo-a d-flex d-lg-none">
               <Image
                     src="/Potoo-word-header-logo.svg"
-                    width="200"
+                    width="120"
                     height="53"
                     alt="Potoo logo"
-                    className="text-center bird-logo p-3 p-m-0"
+                    className="bird-logo p-3 p-m-0"
                     title="Potoo Bird. A quiue bird lives in Brazil"
                     />
             </Link>
@@ -44,13 +44,18 @@ function toggle() {
             </Link>
           </div>
           <div className="item d-lg-only pe-4">
-            <Link href="/studio" className="nav-a">
-              About
+            <Link href="/dept/design" className="nav-a">
+              Design
             </Link>
           </div>
           <div className="item d-lg-only pe-4">
-            <Link href="/iris" className="nav-a">
-            Innovations
+            <Link href="/dept/development" className="nav-a">
+              Development
+            </Link>
+          </div>
+          <div className="item d-lg-only pe-4">
+            <Link href="/studio" className="nav-a">
+              About
             </Link>
           </div>
           <div className="item d-lg-only pr-md-0">
@@ -79,14 +84,20 @@ function toggle() {
                 </li>
                 <li className="item"
                 onClick={toggle}>
-                  <Link href="/studio" className="mobile-navBar-item design-a text-decoration-none">
-                    About
+                  <Link href="/dept/design" className="mobile-navBar-item code-a text-decoration-none">
+                    Design
                   </Link>
                 </li>
                 <li className="item"
                 onClick={toggle}>
-                  <Link href="/iris" className="mobile-navBar-item code-a text-decoration-none">
-                  Innovations
+                  <Link href="/dept/development" className="mobile-navBar-item code-a text-decoration-none">
+                    Development
+                  </Link>
+                </li>
+                <li className="item"
+                onClick={toggle}>
+                  <Link href="/studio" className="mobile-navBar-item design-a text-decoration-none">
+                    About
                   </Link>
                 </li>
                 <li className="item"

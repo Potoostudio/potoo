@@ -61,7 +61,7 @@ export default function Footer() {
                   </div>
                 <div className="col-12 col-md-2 text-left mt-md-0 mt-5 ">
                     <h5 className="color-white border-sm-bottom pb-2 pb-md-0">
-                        Innovation
+                        Innovations
                     </h5>
                     <ul className="list-style-none ps-0 mb-0 mt-md-2 contact-list">
                     <li className="item pt-md-2 pt-0">

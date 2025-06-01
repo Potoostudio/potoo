@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44.429" height="19" viewBox="0 0 44.429 19">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_293" data-name="Rectangle 293" width="19" height="44.429" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_568" data-name="Group 568" transform="translate(44.429) rotate(90)">
+    <rect id="Rectangle_283" data-name="Rectangle 283" width="6.348" height="6.348" transform="translate(6.321 38.081)" fill="#231f20"/>
+    <rect id="Rectangle_284" data-name="Rectangle 284" width="6.348" height="6.348" transform="translate(6.321 12.709)" fill="#231f20"/>
+    <rect id="Rectangle_285" data-name="Rectangle 285" width="6.348" height="6.348" transform="translate(6.321)" fill="#231f20"/>
+    <rect id="Rectangle_286" data-name="Rectangle 286" width="6.348" height="6.348" transform="translate(6.321 25.387)" fill="#231f20"/>
+    <rect id="Rectangle_287" data-name="Rectangle 287" width="6.348" height="6.348" transform="translate(0 31.768)" fill="#231f20"/>
+    <rect id="Rectangle_288" data-name="Rectangle 288" width="6.348" height="6.348" transform="translate(0 6.381)" fill="#231f20"/>
+    <rect id="Rectangle_289" data-name="Rectangle 289" width="6.348" height="6.348" transform="translate(0 19.089)" fill="#231f20"/>
+    <rect id="Rectangle_290" data-name="Rectangle 290" width="6.348" height="6.348" transform="translate(12.652 31.768)" fill="#231f20"/>
+    <rect id="Rectangle_291" data-name="Rectangle 291" width="6.348" height="6.348" transform="translate(12.652 6.381)" fill="#231f20"/>
+    <rect id="Rectangle_292" data-name="Rectangle 292" width="6.348" height="6.348" transform="translate(12.652 19.089)" fill="#231f20"/>
+    <g id="Group_559" data-name="Group 559">
+      <g id="Group_558" data-name="Group 558" clip-path="url(#clip-path)">
+        <path id="Path_1164" data-name="Path 1164" d="M59.958,149.47a1.356,1.356,0,1,1-1.356-1.356,1.356,1.356,0,0,1,1.356,1.356" transform="translate(-49.134 -127.123)" fill="red"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -97,7 +97,7 @@ export default function Projects() {
                   <Image
                     src="/Person.jpg"
                     layout="fill"
-                    className="person"
+                    className="image"
                     alt="sleep"
                     loading="lazy"
                   />

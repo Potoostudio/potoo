@@ -106,7 +106,7 @@ a {
 
 
       &.center {
-        margin-left: auto;
+        margin-left: 0;
         margin-right: auto;
       }
       .nav-a {
@@ -772,13 +772,6 @@ a {
       }
     }
   }
-  // .embla {
-  //   max-width: 100rem;
-  //   margin: auto;
-  //   --slide-height: 19rem;
-  //   --slide-spacing: 1rem;
-  //   --slide-size: 50%;
-  // }
   .normal-text {
     font-size: 18px;
   }
@@ -827,6 +820,36 @@ a {
       font-size: 9pt;
       // background-color: rgb(238, 238, 238);
       color: #000;
+    }
+  }
+  .design-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/Potoo-P.jpg);
+    background-color: #cccccc;
+    height: 120px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-radius: 15px;
+    transition: all 0.9s ease-in-out;
+  
+    &.full-height {
+      height: 350px;
+
+    }
+  }
+  .Technology-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/iris-main-photo.jpg);
+    // background-image: url(../public/iris-main-photo.jpg);
+    background-color: #cccccc;
+    height: 120px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-radius: 15px;
+    transition: all 0.9s ease-in-out;
+  
+    &.full-height {
+      height: 350px;
     }
   }
 }
@@ -1459,40 +1482,8 @@ a {
     border-top: none;
     margin-top: 0;
     overflow-y: hidden;
-
-    .height-67vh {
-     height: 67vh;
-
-     .studio-title {
-      position: absolute;
-      top: 37vh;
-      text-align: center;
-      width: 100%;
-      font-size: 1.30rem;
-      font-weight: 300;
-     }
-     .main-page-impression-title {
-      position: sticky;
-      top: 30vh;
-      line-height: 150%;
-     }
-
-      .main-page-impression-text-large {
-        font-size: calc(2.1rem + 3vw);
-        font-family: inherit;
-        margin-left: auto;
-        position: relative;
-        font-weight: 400;
-        line-height: 1.7;
-        position: sticky;
-        top: 70vh;
-      }
-    }
-    .award-list {
-      list-style: none;
-      display: flex;
-      padding-left: 0;
-      justify-content: space-around;
+    .main-page-impression-title {
+      line-height: 130%;
     }
   }
   .service-container {
@@ -2320,6 +2311,37 @@ a {
         .mb-12x {
           margin-bottom: 14rem!important;
         }
+        .w-lg-50 {
+          width: 50%;
+        }
+        .design-bg {
+          background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/Potoo-P.jpg);
+          background-color: #cccccc;
+          height: 150px;
+          background-position: center; 
+          background-repeat: no-repeat; 
+          background-size: cover;
+          border-radius: 15px;
+          transition: all 0.9s ease-in-out;
+        
+          &.full-height {
+            height: 600px;
+          }
+        }
+        .Technology-bg {
+          background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/iris-main-photo.jpg);
+          background-color: #cccccc;
+          height: 150px;
+          background-position: center; 
+          background-repeat: no-repeat; 
+          background-size: cover;
+          border-radius: 15px;
+          transition: all 0.9s ease-in-out;
+        
+          &.full-height {
+            height: 600px;
+          }
+        }
     }
     // end of 966px
 
@@ -2724,4 +2746,92 @@ a {
 }
 .color-red {
   color: #FF0117;
+}
+.pointer:hover {
+  cursor:pointer!important;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.w-10 {
+  width: 10%;
+}
+.w-5 {
+  width: 3%;
+}
+.circle {
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  border-radius: 200px;
+  pointer-events: none;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+.cursorText {
+  flex: auto;
+  font-size: inherit;
+  pointer-events: none;
+  margin: auto;
+}
+.bg-AI-gradient {
+  background: #FF5C5C;
+  background: linear-gradient(90deg, rgba(255, 92, 92, 1) 1%, rgba(139, 56, 209, 1) 50%, rgba(26, 123, 253, 1) 100%);
+}
+
+
+.h {
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.9s ease-in-out;
+
+
+  &.active {
+    max-height: 500px;
+  }
+}
+.hidden {
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 0.9s ease-in-out;
+
+
+  &.active {
+    opacity: 1;
+  }
+}
+.web-h {
+  display: block;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-in-out;
+
+
+  &.active {
+    max-height: 500px;
+  }
+}
+
+.animate-slow {
+  transition: all 0.7s ease-in-out;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
