@@ -54,8 +54,8 @@ export default function Custom() {
    const variants = {
      default: {
        opacity: 0,
-       height: 10,
-       width: 10,
+       height: 0,
+       width: 0,
        fontSize: "16px",
        backgroundColor: "#000",
        x: mouseXPosition,
