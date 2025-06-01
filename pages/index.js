@@ -124,7 +124,7 @@ const handleShownClick = () => {
                 </Link>
                 </li>
                 <li className="item color-white text-decoration-none pt-3">
-                <Link href="/dept/design" className="color-white text-decoration-none">
+                <Link href="/dept/AI" className="color-white text-decoration-none">
                     <Image
                         src="/AI-icon.svg"
                         width="30"
