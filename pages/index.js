@@ -47,7 +47,7 @@ const handleShownClick = () => {
             initial={{opacity: 0, y: 30}}
             animate={{opacity: 1, y: 0}}
             transition={{ duration: 0.7, delay: 0.5}}
-            className="col-md-9 col-12 pl-lg-0 pr-lg-0 mr-lg-0 pt-4 mt-0 pt-md-0">
+            className="col-md-9 col-12 pl-lg-0 pr-lg-0 mr-lg-0 pt-4 mt-0 pt-md-5">
             <h2 className="main-page-impression-title mx-md-5 mt-4 pt-5 color-dark font-medium">We are a creative studio, committed to creating meaningful
               solutions built around the fundamentals of design and technology.</h2>
             </motion.div>
@@ -57,13 +57,13 @@ const handleShownClick = () => {
             initial={{opacity: 0, y: -30}}
             animate={{opacity: 1, y: 0}}
             transition={{ duration: 0.7, delay: 0.5}}
-            className="col-md-6 col-10 ps-lg-0 pr-lg-0 ms-lg-0 mt-0">
+            className="col-md-4 col-10 ps-lg-0 pr-lg-0 ms-lg-0 mt-0 mt-md-3">
               <h6 className="color-dark line-height-extra font-secondary">Our objective is to provide solutions designed to outlast today’s trends and stand relevant in the future.</h6>
             </motion.div>
           </div>
           <div className="row pt-md-5 mt-5 pb-4 pb-md-0 mx-md-5 mx-1">
-            <div className="col-12">
-              <h3 className="text-uppercase">
+            <div className="col-12 pb-md-4 pb-0">
+              <h3 className="text-uppercase text-center">
                 what we do
               </h3>
             </div>
