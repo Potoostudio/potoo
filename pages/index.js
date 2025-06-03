@@ -44,9 +44,9 @@ const handleShownClick = () => {
         <div className="container-fluid home-page-container pt-md-0 mt-md-0 bg-white">
           <div className="row justify-content-start pb-4 pb-md-0">
             <motion.div 
-            initial={{opacity: 0, y: 30}}
-            animate={{opacity: 1, y: 0}}
-            transition={{ duration: 0.7, delay: 0.5}}
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            transition={{ duration: 0.5}}
             className="col-md-9 col-12 pl-lg-0 pr-lg-0 mr-lg-0 pt-4 mt-0 pt-md-5">
             <h2 className="main-page-impression-title mx-md-5 mt-4 pt-5 color-dark font-medium">We are a creative studio, committed to creating meaningful
               solutions built around the fundamentals of design and technology.</h2>
@@ -54,9 +54,9 @@ const handleShownClick = () => {
           </div>
           <div className="row justify-content-md-start  justify-content-start pt-md-0 mt-md-0 pb-4 pb-md-0 mx-md-5">
             <motion.div 
-            initial={{opacity: 0, y: 30}}
-            animate={{opacity: 1, y: 0}}
-            transition={{ duration: 0.7, delay: 0.5}}
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            transition={{ duration: 0.5}}
             className="col-md-4 col-10 ps-lg-0 pr-lg-0 ms-lg-0 mt-0 mt-md-3">
               <h6 className="color-dark line-height-extra font-secondary">Our objective is to provide solutions designed to outlast today’s trends and stand relevant in the future.</h6>
             </motion.div>
