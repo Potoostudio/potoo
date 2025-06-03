@@ -8,7 +8,7 @@ export default function Footer() {
 
         return (
             <>
-          <div className="container-fluid footer-container pt-5 pb-md-0 pb-4 bg-darker">
+          <div className="container-fluid footer-container pb-md-0 pb-4 bg-darker">
               <div className="row justify-content-between pb-0 mx-md-5 pt-md-4 mt-5 pb-5">
                 <div className="col-12 col-md-4 text-left mt-0">
                     <h5 className="color-white border-sm-bottom pb-2 pb-md-0">

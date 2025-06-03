@@ -138,13 +138,8 @@ function toggle() {
                                 </Link>
                             </li>
                             <li className="item pt-1">
-                                <Link href="https://www.behance.net/potoostudio" aria-label="behance" className="social-media-a">
-                                    Behance
-                                </Link>
-                            </li>
-                            <li className="item pt-1">
-                                <Link href="https://dribbble.com/potoostudio" aria-label="dribbble" className="social-media-a">
-                                    Dribbble
+                                <Link href="https://www.linkedin.com/company/potoo-studio/" aria-label="behance" className="social-media-a">
+                                    LinkedIn
                                 </Link>
                             </li>
                         </ul>

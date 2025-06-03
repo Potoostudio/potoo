@@ -33,8 +33,8 @@ export default function Work() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="branding agency in Denver, branding agency in Baghdad, creative agency in Baghdad, creative agency in Denver" />
       </Head>
-
-      <div className="container-fluid design-container pt-5 mt-6x">
+      
+      <div className="container-fluid design-container pt-5 pt-md-2">
        <Projects/>
      </div>
     </>

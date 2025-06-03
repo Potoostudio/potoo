@@ -54,7 +54,7 @@ const handleShownClick = () => {
           </div>
           <div className="row justify-content-md-start  justify-content-start pt-md-0 mt-md-0 pb-4 pb-md-0 mx-md-5">
             <motion.div 
-            initial={{opacity: 0, y: -30}}
+            initial={{opacity: 0, y: 30}}
             animate={{opacity: 1, y: 0}}
             transition={{ duration: 0.7, delay: 0.5}}
             className="col-md-4 col-10 ps-lg-0 pr-lg-0 ms-lg-0 mt-0 mt-md-3">
