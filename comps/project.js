@@ -157,7 +157,7 @@ export default function Projects() {
                          onMouseLeave={projectLeave}
                         className="image-container">
                             <Image
-                                src="/henery-agency-project-img-lg.jpg"
+                                src="/henery-agency-main-project-img.jpg"
                                 layout="fill"
                                 className="image"
                                 alt="henery-agency-project"
@@ -204,7 +204,7 @@ export default function Projects() {
                           onMouseLeave={projectLeave}
                         className="image-container">
                             <Image
-                                src="/Potoo-Dark-Color-lg.jpg"
+                                src="/Potoo-project-img.jpg"
                                 layout="fill"
                                 className="image"
                                 alt="Potoo Project"
