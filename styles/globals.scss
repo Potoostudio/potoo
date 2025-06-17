@@ -20,6 +20,10 @@ a {
 .color-off-white {
   color: rgb(233, 233, 233)!important;
 }
+.color-bit-off-white {
+  color: rgb(213, 213, 213) !important
+}
+
 
 * {
   box-sizing: border-box;
@@ -727,6 +731,18 @@ a {
       font-size: 1.2rem;
     }
   }
+  .after-line-sm {
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      top: 67%;
+      right: 0%;
+      width: 89%;
+      height: 1px;
+      background-color: #000;
+    }
+  }
   .border-sm-bottom-white {
     border-bottom: 1px solid #fff;
   }
@@ -793,6 +809,24 @@ a {
   .pt-12x {
     padding-top: 6rem!important;
   }
+  .pb-2x {
+    padding-bottom: 1rem!important;
+  }
+  .pb-4x {
+    padding-bottom: 2rem!important;
+  }
+  .pb-6x {
+    padding-bottom: 3rem!important;
+  }
+  .pb-8x {
+    padding-bottom: 4rem!important;
+  }
+  .pb-10x {
+    padding-bottom: 5rem!important;
+  }
+  .pb-12x {
+    padding-bottom: 6rem!important;
+  }
   .mt-2x {
     margin-top: 1rem!important;
   }
@@ -850,6 +884,18 @@ a {
     &.full-height {
       height: 350px;
     }
+  }
+  .font-x-large {
+    font-size: calc(2.2rem + 2.1vw);
+  }
+  .font-large {
+    font-size: calc(1.4rem + 1.5vw);
+  }
+  .font-medium {
+    font-size: calc(1.2rem + 1.2vw);
+  }
+  .font-normal-rm {
+    font-size: calc(0.9rem + 0.8vw);
   }
 }
 @media only screen and (min-width: 669px) {
@@ -1004,6 +1050,18 @@ a {
         }
 
       }
+    }
+  }
+  .after-line-sm {
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      top: 67%;
+      right: 0%;
+      width: 0%;
+      height: 1px;
+      background-color: #000;
     }
   }
   .font-secondary {
@@ -2341,6 +2399,24 @@ a {
             height: 600px;
           }
         }
+        .font-x-large {
+          font-size: calc(2rem + 1.9vw);
+        }
+        .font-large {
+          font-size: calc(1.1rem + 1.2vw);
+        }
+        .font-medium {
+          font-size: calc(1rem + 1vw);
+        }
+        .font-normal-rm {
+          font-size: calc(0.7rem + 0.7vw);
+        }
+        .bottom-md-line {
+          border-bottom: 1px solid rgb(17, 17, 17)!important;
+        }
+        .top-md-line {
+          border-top: 1px solid rgb(17, 17, 17)!important;
+        }
     }
     // end of 966px
 
@@ -2567,18 +2643,7 @@ a {
 .line-height-extra {
   line-height: 1.5;
 }
-.font-x-large {
-  font-size: calc(2rem + 1.9vw);
-}
-.font-large {
-  font-size: calc(1.1rem + 1.2vw);
-}
-.font-medium {
-  font-size: calc(1rem + 1vw);
-}
-.font-normal-rm {
-  font-size: calc(0.7rem + 0.7vw);
-}
+
 .color-darker {
   color: rgb(41, 41, 41);
 }
@@ -2594,12 +2659,6 @@ a {
 }
 .art-shadow {
   box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
-}
-.bottom-line {
-  border-bottom: 1.5px solid #000!important;
-}
-.top-line {
-  border-top: 1.5px solid #000!important;
 }
 .image-container {
   .w-half {
@@ -2742,6 +2801,12 @@ a {
 .box-bg {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  background: linear-gradient(to top, #ee4593, #762a88);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 .color-red {
   color: #FF0117;
@@ -2833,4 +2898,22 @@ a {
 
 .cursor-pointer {
   cursor: pointer;
+}
+.gradient {
+  background: url('../public/bg-gradient.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.text-bg-gradient {
+  background: linear-gradient(to right, #ff00cc, #333399);
+      background-clip: text;
+      color: transparent;
+  // letter-spacing: 1px;
+}
+.box-200 {
+  height: 200px;
+  width: 200px;
 }

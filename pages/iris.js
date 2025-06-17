@@ -19,9 +19,9 @@ export default function Iris() {
         <meta name="keywords" content="AI in Iraq, AI in Baghgdad, Customer service AI in Baghdad, Customer service AI in Iraq, AI in Iraq" />
       </Head>
       
-      <div className="container-fluid mt-md-5 pt-8x">
-          <div className="row project-row justify-content-start pt-5 pt-md-0 pb-0 px-md-5 mt-6x">
-            <motion.div className="col-md-2 col-10 ps-0 mt-5 mt-md-0 pt-5 pt-md-0"
+      <div className="container-fluid gradient pt-8x">
+      <div className="row project-row justify-content-start pt-5 pt-md-0 pb-0 px-md-5 mt-6x">
+            <motion.div className="col-md-2 col-10 ps-0 mt-0 pt-5 pt-md-0"
             whileInView= {{y: 0}}
             viewport={{ once: true }}
             transition={{
@@ -37,69 +37,31 @@ export default function Iris() {
                 </div>
             </motion.div>
           </div>
-          <motion.div className="row project-row justify-content-start pb-md-5 pt-0 pb-5 pb-md-0 px-md-5"
+          <motion.div className="row project-row justify-content-between pb-md-5 pt-0 pb-5 pb-md-0 px-md-5"
           whileInView= {{y: 0}}
           viewport={{ once: true }}
           transition={{
           y: { duration: 0.8, repeat: 0, delay: 0.2, ease: "easeOut"},
           }}
           initial={{y: "25px"}}>
-            <div className="col-md-8 col-10">
-               <h6 className="project-title font-secondary">
+            <div className="col-md-4 col-10">
+               <h5 className="project-title pt-2 color-white">
                    AI empowers people and businesses.
-                </h6>
-            </div>
-            <div className="col-md-8 col-10 pt-12x mt-5 mt-md-0">
-               <p className="project-title mb-0 font-secondary pt-5 pt-md-0">
-                   Designed by our Design Dept.
-                </p>
-               <p className="project-title font-secondary">
-                   Developed by our Development Dept.
+                </h5>
+                <p className="pt-3 color-white pt-5">
+                    AI designed to empower individuals and businesses through information and practical tools. Build for the Iraqi market.
                 </p>
             </div>
-          </motion.div>
-
-          <div className="row project-row justify-content-md-between pb-md-5 pt-6rem pt-lg-8rem mt-5 mt-md-5 pb-3 pb-md-0 px-md-5 px-0">
-            <div className="col-md-6 col-11">
-                <motion.h4 className=""
-                whileInView= {{opacity: 1}}
-                viewport={{ once: true }}
-                transition={{
-                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                }}
-                initial={{opacity: 0.3}}>
-                    What is Iris?
-                </motion.h4>
-
-                <motion.p className="pt-3 font-secondary"
-                whileInView= {{opacity: 1}}
-                viewport={{ once: true }}
-                transition={{
-                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                }}
-                initial={{opacity: 0.25}}>
-                    Iris is an AI designed to empower individuals and businesses through information and practical tools. Initially focused on the Iraqi market, Iris also has the potential to expand across the MENA region.
-                </motion.p>
-                <motion.p className="pt-md-5 pt-2 font-secondary"
-                whileInView= {{opacity: 1}}
-                viewport={{ once: true }}
-                transition={{
-                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
-                }}
-                initial={{opacity: 0.25}}>
-                    Built to learn and evolve, and support growth and success.
-                </motion.p>
-            </div>
-            <div className="col-md-5 col-11 pt-5">
+            <div className="col-md-4 col-11 pt-5">
                 <motion.ul
-                className="list-style-none ps-0 color-secondary font-secondary mb-0"
+                className="list-style-none ps-0 color-white font-secondary mb-0"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
                 opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                 }}
                 initial={{opacity: 0.25}}>
-                  <span className=" text-uppercase">runs on</span>
+                  <span className=" text-uppercase color-bit-off-white">runs on</span>
                     <li className="item pt-2 font-secondary">
                      WhatsApp
                     </li>
@@ -110,6 +72,29 @@ export default function Iris() {
                      Websites
                     </li>
                   </motion.ul>
+            </div>
+            <div className="col-md-8 col-10 pt-6x mt-0">
+               <p className="project-title color-white mb-0 font-secondary pt-5 pt-md-0">
+                   Designed by our Design Dept.
+                </p>
+               <p className="project-title color-white font-secondary pt-1">
+                   Developed by our Development Dept.
+                </p>
+            </div>
+          </motion.div>
+      </div>
+      <div className="container-fluid">
+          <div className="row project-row justify-content-md-between pb-md-5 pt-10x pt-lg-8rem mt-5 mt-md-5 pb-3 pb-md-0 px-md-5 px-0">
+            <div className="col-12">
+                <motion.h6 className="pt-md-5 pt-2 text-center text-uppercase letter-space-2px"
+                whileInView= {{opacity: 1}}
+                viewport={{ once: true }}
+                transition={{
+                opacity: { duration: 0.8, repeat: 0, delay: 0.2},
+                }}
+                initial={{opacity: 0.25}}>
+                    Designed to support
+                </motion.h6>
             </div>
           </div>
           <div className="row project-row justify-content-around pb-md-5 mt-0 mt-md-2 pb-5 pb-md-0 px-md-5 px-0">
@@ -127,7 +112,7 @@ export default function Iris() {
           </div>
           <div className="row project-row justify-content-around pb-md-5 mt-3 mt-md-2 pb-2 pb-md-0 px-md-5 px-0 pt-6rem pt-lg-12rem">
             <div className="col-12 pt-5 pt-md-3 mt-5 mt-md-0">
-             <motion.h4 className=""
+             <motion.h2 className="text-md-start text-center"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
@@ -135,33 +120,31 @@ export default function Iris() {
                 }}
                 initial={{opacity: 0.3}}>
                     What does Iris do?
-                </motion.h4>
+                </motion.h2>
             </div>
           </div>
-          <div className="row project-row justify-content-md-between justify-content-start pb-md-4 mt-0 pb-4 mt-md-2 px-md-5 px-3 top-line pt-4">
-            <div className="col-md-2 col-10 pt-1 px-0">
-             <motion.h5 className="fw-bolded mb-1"
+          <div className="row project-row justify-content-md-between justify-content-start pb-md-4 pb-4 mt-md-2 mt-4 px-md-5 px-3 top-md-line pt-4">
+            <div className="col-md-4 col-12 pt-md-1 pt-3 px-0">
+             <motion.h1 className="fw-bolder mb-1 text-bg-gradient"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
                 opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                 }}
                 initial={{opacity: 0.3}}>
-                    Answer questions
-                </motion.h5>
-            </div>
-            <div className="col-md-3 col-11 pt-md-1 pt-0 px-0">
-             <motion.p className="font-secondary mb-1"
+                    Multilingual Support
+                </motion.h1>
+                <motion.h6 className=" line-height-extra pt-md-4 pt-2"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
                 opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                 }}
                 initial={{opacity: 0.3}}>
-                    Answer questions using English and Arabic/Iraqi dialect.
-                </motion.p>
+                     Iris can respond to text and voice inquiries in both English and Arabic, including the Iraqi dialect, facilitating effective communication with a diverse clientele.
+                </motion.h6>
             </div>
-              <div className="col-md-6 col-12 pt-md-1 pt-0 px-0">
+              <div className="col-md-6 col-12 pt-md-1 pt-2 px-0">
                   <motion.video className="video-" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%"
                       whileInView= {{opacity: 1}}
                       viewport={{ once: true }}
@@ -173,30 +156,28 @@ export default function Iris() {
                     </motion.video>
               </div>
             </div>
-          <div className="row project-row justify-content-md-between justify-content-start pb-md-4 pb-4 mt-0 mt-md-2 px-md-5 px-3 top-line pt-4">
-            <div className="col-md-2 col-10 pt-1 px-0">
-             <motion.h5 className="fw-bolded mb-1"
+          <div className="row project-row justify-content-md-between justify-content-start pb-md-4 pb-4 mt-5 mt-md-2 px-md-5 px-3 top-md-line pt-4">
+            <div className="col-md-4 col-12 pt-md-1 pt-5 px-0">
+             <motion.h1 className="fw-bolder mb-1 text-bg-gradient"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
                 opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                 }}
                 initial={{opacity: 0.3}}>
-                    Analyze pictures
-                </motion.h5>
-            </div>
-            <div className="col-md-3 col-11 pt-md-1 pt-0 px-0">
-             <motion.p className="font-secondary mb-1"
+                    Image and File Analysis
+                </motion.h1>
+                <motion.h6 className="line-height-extra pt-md-4 pt-2"
                 whileInView= {{opacity: 1}}
                 viewport={{ once: true }}
                 transition={{
                 opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                 }}
                 initial={{opacity: 0.3}}>
-                    Analyze pictures and files uploaded by users
-                </motion.p>
+                    Iris can process and analyze images and documents uploaded by users, providing relevant information or assistance based on the content.
+                </motion.h6>
             </div>
-              <div className="col-md-6 col-12 pt-md-1 pt-0 px-0">
+              <div className="col-md-6 col-12 pt-md-1 pt-2 px-0">
                   <motion.video className="video-" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%"
                       whileInView= {{opacity: 1}}
                       viewport={{ once: true }}
@@ -208,9 +189,9 @@ export default function Iris() {
                     </motion.video>
               </div>
             </div>
-          <div className="row project-row justify-content-md-between justify-content-start pb-md-4 mt-0 pb-4 mt-md-2 px-md-5 px-3 top-line pt-4">
-              <div className="col-md-2 col-10 pt-1 px-0">
-              <motion.h5 className="fw-bolded mb-1"
+          <div className="row project-row justify-content-md-between justify-content-start pb-md-4 mt-5 pb-4 mt-md-2 px-md-5 px-3 top-md-line pt-4">
+              <div className="col-md-4 col-12 pt-md-1 pt-5 px-0">
+              <motion.h1 className="fw-bolder mb-1 text-bg-gradient"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
                   transition={{
@@ -218,20 +199,18 @@ export default function Iris() {
                   }}
                   initial={{opacity: 0.3}}>
                       Answer voice notes
-                  </motion.h5>
-              </div>
-              <div className="col-md-3 col-11 pt-md-1 pt-0 px-0 mb-0">
-              <motion.p className="font-secondary mb-1"
+                  </motion.h1>
+                  <motion.h6 className="line-height-extra pt-md-4 pt-3"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
                   transition={{
                   opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                   }}
                   initial={{opacity: 0.3}}>
-                      Answer voice notes English and Arabic/Iraqi voice.
-                  </motion.p>
+                      Iris is capable of understanding and responding to voice messages, accommodating users who prefer audio communication.
+                  </motion.h6>
               </div>
-              <div className="col-md-6 col-12 pt-md-1 pt-0 px-0">
+              <div className="col-md-6 col-12 pt-md-1 pt-3 px-0">
                   <motion.video className="video-" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%"
                       whileInView= {{opacity: 1}}
                       viewport={{ once: true }}
@@ -243,30 +222,28 @@ export default function Iris() {
                     </motion.video>
               </div>
             </div>
-          <div className="row project-row justify-content-md-between justify-content-start pb-md-4 mt-0 pb-4 mt-md-2 px-md-5 px-3 top-line pt-4 bottom-line">
-              <div className="col-md-2 col-10 pt-1 px-0">
-              <motion.h5 className="fw-bolded mb-1"
+          <div className="row project-row justify-content-md-between justify-content-start pb-md-4 mt-5 pb-4 mt-md-2 px-md-5 px-3 top-md-line pt-4 bottom-md-line">
+              <div className="col-md-4 col-12 pt-md-1 pt-5 px-0">
+              <motion.h1 className="fw-bolder mb-1 text-bg-gradient"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
                   transition={{
                   opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                   }}
                   initial={{opacity: 0.3}}>
-                      Book meetings
-                  </motion.h5>
-              </div>
-              <div className="col-md-3 col-11 pt-md-1 pt-0 px-0">
-              <motion.p className="font-secondary mb-1"
+                      Appointment Scheduling
+                  </motion.h1>
+                  <motion.h6 className="mb-1 line-height-extra pt-md-4 pt-3"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
                   transition={{
                   opacity: { duration: 0.8, repeat: 0, delay: 0.2},
                   }}
                   initial={{opacity: 0.3}}>
-                      Checks calendar availability and books meetings for clients
-                  </motion.p>
+                      Iris can access your calendar to schedule meetings, ensuring efficient time management and coordination.
+                  </motion.h6>
               </div>
-              <div className="col-md-6 col-12 pt-md-1 pt-0 px-0">
+              <div className="col-md-6 col-12 pt-md-1 pt-3 px-0">
                   <motion.video className="video-" playsinline="" webkit-playsinline="" autoPlay loop muted width="100%" height="100%"
                       whileInView= {{opacity: 1}}
                       viewport={{ once: true }}
@@ -290,110 +267,40 @@ export default function Iris() {
                       What can Iris do for your company?
                   </motion.h4>
               </div>
-              <div className="col-md-4 col-12 pt-3 pt-1">
+              <div className="col-md-4 col-12 pt-3 pt-1 mt-md-0 mt-5">
                   <div className="box-bg p-4">
-                    <p className=" pt-md-3 color-red">
-                      CS
+                    <h1 className="fw-bold pt-md-3 color-white ">
+                      Multilingual Chatbot
+                    </h1>
+                    <p className="color-white  pt-12x font-normal-rm">
+                    Iris can respond to text and voice inquiries in both English and Arabic, including the Iraqi dialect, facilitating proper communication with diverse clients.
                     </p>
-                    <h5 className="fw-bold pt-md-3">
-                      Support customer service
-                    </h5>
-                    <p className="font-secondary pt-md-5 pt-3 pb-3 mb-md-5">
-                      Enhance your customer service by responding to client inquiries 24/7 in under 6 seconds.
-                    </p>
-                    <div className="image-container w-25">
-                      <Image
-                        src="/Iris-customer-support.svg"
-                        layout="fill"
-                        className="image w-25"
-                        alt= "Iris, icon of custmer support"/>
-                    </div>
                   </div>
                 </div>
-              <div className="col-md-4 col-12 pt-3 pt-1">
-                <div className="box-bg p-4">
-                  <p className="color-red pt-md-3">
-                    BV
-                  </p>
-                  <h5 className="fw-bold pt-md-3">
-                    Voice of your brand
-                  </h5>
-                  <p className="font-secondary pt-md-5 pt-3 pb-3 mb-md-5">
-                    Design Iris to reflects your brand’s voice and communicates its values to your clients.
-                  </p>
-                  <div className="image-container w-25">
-                      <Image
-                        src="/Iris-brand-voice.svg"
-                        layout="fill"
-                        className="image w-25"
-                        alt= "Iris voice of your brand icon"/>
-                    </div>
-                </div>
-                </div>
-              <div className="col-md-4 col-12 pt-3 pt-md-3">
+              <div className="col-md-4 col-12 pt-3 pt-1 mt-md-0 mt-5">
                   <div className="box-bg p-4">
-                    <p className="color-red pt-md-3">
-                      IC
+                    <h1 className="fw-bold pt-md-3 color-white">
+                      Customer Service Support
+                    </h1>
+                    <p className="color-white  pt-12x font-normal-rm">
+                      Iris delivers instant, 24/7 customer support in multiple languages, including English and Iraqi Arabic. It ensures fast, consistent responses to client inquiries.
                     </p>
-                    <h5 className=" fw-bold pt-md-3">
-                      Support internal communication
-                    </h5>
-                    <p className="font-secondary pt-md-5 pt-3 pb-3 mb-md-5">
-                      Use Iris to strengthen internal communication within your company and streamline workflow.
-                    </p>
-                    <div className="image-container w-25">
-                      <Image
-                        src="/Iris-internal-communication.svg"
-                        layout="fill"
-                        className="image w-25"
-                        alt= "Iris internal communication icon"/>
-                    </div>
                   </div>
                 </div>
-              <div className="col-md-4 col-12 pt-3 pt-1 mt-md-4">
+              <div className="col-md-4 col-12 pt-3 pt-1 mt-md-0 mt-5">
                   <div className="box-bg p-4">
-                    <p className="color-red pt-md-3">
-                      AB
+                    <h1 className="fw-bold pt-md-3 color-white">
+                      Customized Services
+                    </h1>
+                    <p className="color-white  pt-12x font-normal-rm">
+                    Customize Iris to seamlessly align with your business operations and workflows. It can schedule meetings, collect and process files to boost efficiency.
                     </p>
-                    <h5 className="fw-bold pt-md-3">
-                      API based
-                    </h5>
-                    <p className="font-secondary pt-md-5 pt-3 pb-3 mb-md-5">
-                      Iris can be embedded into WhatsApp, social media platforms, websites, and various types of applications.
-                    </p>
-                    <div className="image-container w-25">
-                      <Image
-                        src="/Iris-API.svg"
-                        layout="fill"
-                        className="image w-25"
-                        alt= "Iris API icon"/>
-                    </div>
-                  </div>
-                </div>
-              <div className="col-md-4 col-12 pt-3 pt-1 mt-md-4">
-                  <div className="box-bg p-4">
-                    <p className="color-red pt-md-3 ">
-                      C
-                    </p>
-                    <h5 className="fw-bold pt-md-3">
-                      Customizable
-                    </h5>
-                    <p className="font-secondary pt-md-5 pt-3 pb-3 mb-md-5">
-                    Customize Iris to seamlessly integrate with your business operations and workflows.
-                    </p>
-                    <div className="image-container w-25">
-                      <Image
-                        src="/Iris-customizable.svg"
-                        layout="fill"
-                        className="image w-25"
-                        alt= "Iris customizable icon"/>
-                    </div>
                   </div>
                 </div>
           </div>
-          <div className="row project-row justify-content-around pb-md-4 px-md-5 mt-6x pt-12x">
-              <div className="col-12 pt-1 px-md-0 mb-4">
-                <motion.h4 className="fw-bolded text-md-center me-md-5"
+          <div className="row project-row justify-content-start pb-md-4 px-md-5 mt-6x pt-12x">
+              <div className="col-12 pt-1 px-md-0 mb-5">
+                <motion.h4 className="fw-bolded me-md-5"
                   whileInView= {{opacity: 1}}
                   viewport={{ once: true }}
                   transition={{
@@ -403,69 +310,77 @@ export default function Iris() {
                       What makes Iris different?
                   </motion.h4>
               </div>
-              <div className="col-md-4 col-12 pt-3">
-                    <p className="color-red pt-md-3 text-md-end border-sm-bottom-dark">
+              <div className="col-md-3 col-12 pt-0">
+                    <h4 className="pt-md-1 pt-0 after-line-sm">
                       CU
-                    </p>
+                    </h4>
                 </div>
-                <div className="col-md-6 col-12 pt-md-3 pt-1">
-                    <h5 className="fw-bold pt-md-3">
+                <div className="col-md-7 col-12 pt-3 pt-md-0 pb-4 pb-md-0">
+                    <h2 className="fw-bold pt-md-0 text-bg-gradient">
                     Customizable/قابلة للتعريف
-                    </h5>
-                    <p className="">
-                      We customize Iris to speak your company’s voice, tell its message, and communicate its values and mission.
+                    </h2>
+                    <p className="font-normal-rm pt-md-0 pt-1">
+                    We customize Iris to understand your company’s workflows and users, training it to seamlessly become a part of your operation.
                     </p>
                 </div>
-              <div className="col-md-4 col-12 pt-3 pt-1">
-                    <p className="color-red pt-3 text-md-end border-sm-bottom-dark">
+                <div className="col-md-3 col-12 pt-5 mt-5 mt-md-0">
+                    <h4 className="pt-md-1 pt-0 after-line-sm">
+                      A
+                    </h4>
+                </div>
+                <div className="col-md-7 col-12 mt-md-5 mt-0">
+                    <h2 className="fw-bold pt-md-0 pt-3 text-bg-gradient">
+                    Affordable/سعر مناسب
+                    </h2>
+                    <ul className="ps-3 font-normal-rm pt-md-0 pt-1">
+                      <li className="item">
+                       Iris is entirely developed and hosted by our team, so there are no third-party fees per message or token.
+                      </li>
+                      <li className="item pt-2">
+                        We offer transparent pricing with no hidden fees.
+                      </li>
+                      <li className="item pt-2">
+                        You don’t need multiple tools, everything from voice replies and meeting scheduling to file analysis, and chatbot  is included in one solution.
+                      </li>
+                    </ul>
+                </div>
+              <div className="col-md-3 col-12 pt-5 mt-5 mt-md-0">
+                    <h4 className="pt-0 pt-md-1 after-line-sm">
                       SE
+                    </h4>
+                </div>
+                <div className="col-md-7 col-12 mt-md-5 mt-0">
+                    <h2 className="fw-bold pt-md-0 pt-3 text-bg-gradient">
+                      Secure/حصينة
+                    </h2>
+                    <p className="font-normal-rm pt-md-0 pt-1">
+                    Iris is developed by our Development Dept., hosted securely on our servers, and operates independently from other AI systems to guarantee fully encrypted communication between the AI and clients.
                     </p>
                 </div>
-                <div className="col-md-6 col-12 pt-md-3">
-                    <h5 className="fw-bold pt-md-3">
-                    Secure/حصينة
-                    </h5>
-                    <p className=" ">
-                    All communication between Iris and clients are fully encrypted.
-                    </p>
+              <div className="col-md-3 col-12 pt-5 mt-5 mt-md-0">
+                    <h4 className="pt-0 pt-md-1 after-line-sm">
+                    IQ
+                    </h4>
                 </div>
-              <div className="col-md-4 col-12 pt-3 pt-1">
-                    <p className="color-red pt-3 text-md-end border-sm-bottom-dark">
-                      IM
-                    </p>
-                </div>
-                <div className="col-md-6 col-12 pt-md-3">
-                    <h5 className="fw-bold pt-md-3">
+                <div className="col-md-7 col-12 mt-md-5 mt-0">
+                    <h2 className="fw-bold pt-md-0 pt-3 text-bg-gradient">
                       Focused on Iraqi market/التركيز على السوق العراقي
-                    </h5>
-                    <p className=" ">
-                      Initially focused on the Iraqi market, Iris also has the potential to expand across the MENA region.
+                    </h2>
+                    <p className="font-normal-rm pt-md-0 pt-1">
+                    Iris is uniquely built for the Iraqi market, providing accurate bilingual support and cultural relevance to help businesses connect effectively with local customers.
                     </p>
                 </div>
-              <div className="col-md-4 col-12 pt-3 pt-1">
-                    <p className="color-red pt-3 text-md-end border-sm-bottom-dark">
-                      IQ
-                    </p>
+              <div className="col-md-3 col-12 pt-5 mt-5 mt-md-0">
+                    <h4 className="pt-0 pt-md-1 after-line-sm">
+                      S
+                    </h4>
                 </div>
-                <div className="col-md-6 col-12 pt-md-3">
-                    <h5 className="fw-bold pt-md-3">
-                      Speaks Iraqi dialect/تتكلم عراقي
-                    </h5>
-                    <p className=" ">
-                      Fluent in the Iraqi dialect—because real connection starts with speaking your audience’s language.
-                    </p>
-                </div>
-              <div className="col-md-4 col-12 pt-3">
-                    <p className="color-red pt-3 text-md-end border-sm-bottom-dark">
-                      /
-                    </p>
-                </div>
-                <div className="col-md-6 col-12 pt-md-3">
-                    <h5 className="fw-bold pt-md-3">
-                     24/7
-                    </h5>
-                    <p className=" ">
-                      Iris is designed to answer any question at any time
+                <div className="col-md-7 col-12 pt-md-5">
+                    <h2 className="pt-md-0 pt-3 text-bg-gradient fw-bold">
+                      Scalable/قابلة للتوسع
+                    </h2>
+                    <p className="font-normal-rm pt-md-0 pt-1">
+                      Iris is built to scale alongside your business growth. As your operations expand, Iris can handle increased workloads, support more users, and integrate with additional platforms.
                     </p>
                 </div>
             </div>
@@ -526,7 +441,7 @@ export default function Iris() {
                 </ul>
               </div>
             </div>
-            <div className="row justify-content-md-end px-md-5 mt-4x pb-12x mb-10x">
+            <div className="row justify-content-md-end px-md-5 mt-4x pb-2x ">
               <div className="col-md-6 pt-5 pt-md-0">
                 <h4 className="title fw-bolder">
                   Contact us for a license
@@ -542,12 +457,16 @@ export default function Iris() {
                                     Email: ideas@potoo.studio
                             </Link>
                       </li>
-                      <li className="item pt-md-5 pt-4">
-                            <Link href="https://wa.me/009647809000956" className="color-dark">
-                                    Talk to Iris
-                            </Link>
-                      </li>
                   </ul>
+              </div>
+            </div>
+            <div className="row justify-content-center pt-4x">
+              <div className="col-md-12 gradient">
+                <Link href="https://wa.me/009647809000956" className="text-decoration-none">
+                  <h4 className="color-white fw-bolder pt-12x pb-12x text-center letter-space-2px text-uppercase text-stlye-none">
+                    Talk to Iris
+                  </h4>
+                </Link>
               </div>
             </div>
           </div>

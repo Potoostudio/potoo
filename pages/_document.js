@@ -15,7 +15,7 @@ export default function MyDocument(){
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-N2DXR4D');`}} />
 
-          {/* <!-- Google Tag Manager (noscript) --> */}
+          {/* <!-- Google Tag Manager (nogit script) --> */}
           <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2DXR4D"
           height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe></noscript>
       </Html>
