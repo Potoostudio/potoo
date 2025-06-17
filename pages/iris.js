@@ -20,7 +20,7 @@ export default function Iris() {
       </Head>
       
       <div className="container-fluid gradient pt-8x">
-      <div className="row project-row justify-content-start pt-5 pt-md-0 pb-0 px-md-5 mt-6x">
+      <div className="row project-row justify-content-start pt-0 pb-0 px-md-5 mt-6x">
             <motion.div className="col-md-2 col-10 ps-0 mt-0 pt-5 pt-md-0"
             whileInView= {{y: 0}}
             viewport={{ once: true }}
@@ -267,32 +267,32 @@ export default function Iris() {
                       What can Iris do for your company?
                   </motion.h4>
               </div>
-              <div className="col-md-4 col-12 pt-3 pt-1 mt-md-0 mt-5">
+              <div className="col-md-4 col-12 pt-3 pt-1 mt-md-0 mt-3">
                   <div className="box-bg p-4">
                     <h1 className="fw-bold pt-md-3 color-white ">
                       Multilingual Chatbot
                     </h1>
-                    <p className="color-white  pt-12x font-normal-rm">
+                    <p className="color-white  pt-12x font-normal-rm mt-5 mt-md-0">
                     Iris can respond to text and voice inquiries in both English and Arabic, including the Iraqi dialect, facilitating proper communication with diverse clients.
                     </p>
                   </div>
                 </div>
-              <div className="col-md-4 col-12 pt-3 pt-1 mt-md-0 mt-5">
+              <div className="col-md-4 col-12 pt-3 pt-1 mt-md-0 mt-3">
                   <div className="box-bg p-4">
                     <h1 className="fw-bold pt-md-3 color-white">
                       Customer Service Support
                     </h1>
-                    <p className="color-white  pt-12x font-normal-rm">
+                    <p className="color-white  pt-12x font-normal-rm mt-5 mt-md-0">
                       Iris delivers instant, 24/7 customer support in multiple languages, including English and Iraqi Arabic. It ensures fast, consistent responses to client inquiries.
                     </p>
                   </div>
                 </div>
-              <div className="col-md-4 col-12 pt-3 pt-1 mt-md-0 mt-5">
+              <div className="col-md-4 col-12 pt-3 pt-1 mt-md-0 mt-3">
                   <div className="box-bg p-4">
                     <h1 className="fw-bold pt-md-3 color-white">
                       Customized Services
                     </h1>
-                    <p className="color-white  pt-12x font-normal-rm">
+                    <p className="color-white  pt-12x font-normal-rm mt-5 mt-md-0">
                     Customize Iris to seamlessly align with your business operations and workflows. It can schedule meetings, collect and process files to boost efficiency.
                     </p>
                   </div>
